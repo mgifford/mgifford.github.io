@@ -131,6 +131,7 @@ Each repo record consumed by the frontend should include:
 - metadata: language, topics, description, homepage, hasPages
 - enrichment: readme summary and quality signal
 - curation overlay: theme, featured flag, optional screenshot, optional highlight
+- presentation overrides when curated: cardTitle, cardSummary, featuredNarrative, manualSortRank, visibility
 
 If this contract changes, update scripts and frontend together in the same change.
 

@@ -79,6 +79,22 @@ function validateSiteDataJson(data) {
   ensureString(data.owner, "siteData.owner");
   ensureArray(data.repos, "siteData.repos");
 
+  for (const [index, repo] of data.repos.entries()) {
+    ensureString(repo.name, `siteData.repos[${index}].name`);
+    ensureString(repo.summary, `siteData.repos[${index}].summary`);
+    ensureString(repo.cardTitle || repo.name, `siteData.repos[${index}].cardTitle`);
+    ensureString(repo.cardSummary || repo.summary, `siteData.repos[${index}].cardSummary`);
+    ensureString(repo.featuredNarrative || "", `siteData.repos[${index}].featuredNarrative`);
+
+    if (repo.manualSortRank !== null && repo.manualSortRank !== undefined) {
+      ensureNumber(repo.manualSortRank, `siteData.repos[${index}].manualSortRank`);
+    }
+
+    if (repo.visibility !== undefined && !["public", "hidden"].includes(repo.visibility)) {
+      fail(`Expected siteData.repos[${index}].visibility to be public or hidden`);
+    }
+  }
+
   const freshness = data.freshness || {};
   if (freshness.repoSnapshotGeneratedAt !== null && typeof freshness.repoSnapshotGeneratedAt !== "string") {
     fail("Expected siteData.freshness.repoSnapshotGeneratedAt to be string or null");

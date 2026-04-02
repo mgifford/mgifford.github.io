@@ -13,7 +13,7 @@ This repository is a curated catalog and maintenance dashboard for GitHub reposi
 | Metric | Status / Value |
 | :--- | :--- |
 | Open accessibility issues | View issues with accessibility label (create label if missing) |
-| Accessibility checks in CI | Manual checks plus scheduled maintenance workflows |
+| Accessibility checks in CI | Automated axe scans for desktop/mobile and light/dark, plus validation workflow |
 | Keyboard navigation status | Required for primary controls and filters |
 | Contrast review status | Review required for each UI refresh |
 | Last accessibility review date | 2026-04-02 |
@@ -56,6 +56,7 @@ Severity model:
 Current and planned checks for this repository:
 
 - HTML and content structure review during pull requests
+- Automated axe-core scans in CI for public pages across desktop/mobile and light/dark modes
 - Keyboard-only interaction pass for filter/search/sort controls
 - Contrast review for new visual styles
 - Link validation through scheduled workflows
@@ -82,7 +83,7 @@ Assistive technology spot-check targets (when available):
 ## 7. Known limitations
 
 - This is a static GitHub Pages site and cannot directly read your signed-in GitHub browser session.
-- Owner mode relies on a user-provided token in local browser storage.
+- Owner mode is disabled in the public site until GitHub OAuth or a server-side owner data pipeline is added.
 - Some repository metadata, descriptions, and screenshots come from automated scripts and may be incomplete.
 - External linked project pages may not meet the same accessibility level as this repository.
 
@@ -99,7 +100,6 @@ We will keep this file current as the project evolves.
 
 Planned improvements:
 
-- Add repeatable accessibility checks in CI for static pages
 - Add issue labeling conventions for accessibility defects
 - Track accessibility review dates and unresolved barriers
 - Improve screenshot and image text alternatives over time

@@ -39,7 +39,9 @@ The goal is to surface what matters most:
 
 ### Owner view
 
-Owner view is optional and token-based in the browser. It helps track:
+Owner view is currently disabled in the public GitHub Pages deployment until GitHub OAuth is added. The published site must not ask the owner to paste a PAT, and the repository secret cannot be used client-side in the browser.
+
+When OAuth is implemented, owner view should help track:
 
 - Open pull requests requesting review
 - Open PRs authored by the owner
@@ -47,7 +49,7 @@ Owner view is optional and token-based in the browser. It helps track:
 - Recent notifications
 - README files that likely need improvement
 
-Important: This is a static site, so it cannot automatically use your signed-in GitHub browser session. Owner mode uses a personal token stored in local browser storage and sent only to the GitHub API.
+Important: `MGIFFORD_TOKEN` is an Actions secret for scheduled and validation workflows. It is not available to client-side JavaScript on GitHub Pages.
 
 ## Curation model
 
@@ -66,6 +68,45 @@ Generated data lives in:
 - `data/generated/changes.json`
 - `data/generated/screenshots.json`
 - `data/site-data.json`
+
+### Curation controls in `data/curation.yml`
+
+You can manually control card content and visibility with per-repo overrides.
+
+Supported override fields:
+
+- `theme`: force a theme label.
+- `manualSortRank`: lower numbers appear first before normal sort order.
+- `cardTitle`: custom title shown on cards and featured row.
+- `cardSummary`: short card description text.
+- `featuredNarrative`: longer featured-row narrative text.
+- `visibility`: `public` or `hidden`.
+- `hidden`: legacy boolean flag (still supported); `visibility` takes precedence.
+- `screenshot`: custom screenshot path.
+
+Example:
+
+```yaml
+overrides:
+  mgifford.github.io:
+    theme: Web Platform
+    manualSortRank: 1
+    cardTitle: Repo Catalog and Maintenance Dashboard
+    cardSummary: Curated public catalog with actionable maintenance signals.
+    featuredNarrative: |
+      This project connects curated storytelling for visitors with practical
+      maintenance automation for repository stewardship.
+    visibility: public
+
+  archived-experiment:
+    visibility: hidden
+```
+
+After editing curation, rebuild data:
+
+```bash
+npm run build:data
+```
 
 ## Project structure
 
@@ -102,6 +143,12 @@ Run locally:
 
 ```bash
 npm run start
+```
+
+Run accessibility scans for the public page in desktop/mobile and light/dark modes:
+
+```bash
+npm run test:a11y
 ```
 
 Then open http://localhost:3000.

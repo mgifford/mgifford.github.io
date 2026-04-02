@@ -37,7 +37,7 @@
           A curated, living table of contents for active and noteworthy work across GitHub.
         </p>
         <div class="hero__actions">
-          <button id="enable-owner" class="btn btn--primary">Enable Owner Mode</button>
+          <button id="enable-owner" class="btn btn--primary" type="button" disabled aria-disabled="true">Owner Mode Requires OAuth</button>
           <button id="clear-owner" class="btn btn--ghost" hidden>Disable Owner Mode</button>
         </div>
         <p id="owner-badge" class="owner-badge" hidden>Owner mode active</p>
@@ -86,21 +86,22 @@
       <section id="owner-access" class="owner-access" aria-label="Owner access">
         <h2>Owner Access</h2>
         <p class="owner-access__hint">
-          Owner mode currently uses a personal access token stored only in your browser. OAuth is not enabled yet.
+          Owner mode is disabled in the public site until GitHub OAuth is wired up. The <strong>MGIFFORD_TOKEN</strong> repository secret is for Actions only and cannot be exposed to the browser.
         </p>
-        <div class="owner-access__controls">
-          <label>
-            GitHub token
-            <input id="owner-token" type="password" placeholder="Paste token with repo and notifications scopes" autocomplete="off" />
-          </label>
-          <button id="owner-connect" class="btn btn--primary" type="button">Connect Owner Mode</button>
-        </div>
+        <p class="owner-access__hint owner-access__hint--strong">
+          Acceptable paths:
+        </p>
+        <ul class="owner-access__list">
+          <li>GitHub OAuth with a server-side token exchange.</li>
+          <li>Build-time owner reporting inside GitHub Actions, without exposing private signals in the published site.</li>
+        </ul>
+        <button id="owner-connect" class="btn btn--primary" type="button" disabled aria-disabled="true">OAuth Not Configured</button>
       </section>
 
       <section id="owner-panel" class="owner" hidden>
         <h2>Owner Snapshot</h2>
         <p class="owner__hint">
-          Signals from GitHub API using your token. This section never appears in public mode.
+          Future owner-only GitHub signals will appear here after OAuth or a server-side owner data pipeline is added. This section never appears in public mode.
         </p>
         <section class="impact" aria-label="Today impact dashboard">
           <div class="impact__head">

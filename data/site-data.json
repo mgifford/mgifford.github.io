@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T11:00:28.832Z",
+  "generatedAt": "2026-04-02T13:54:38.573Z",
   "sourceGeneratedAt": "2026-04-02T09:55:07.491Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -367,8 +367,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "manual",
+      "manualSortRank": null,
       "theme": "Accessibility",
+      "cardTitle": "a11y-courses",
+      "cardSummary": "Courses offered in web accessibility (and other learning opportunities)",
       "summary": "Courses offered in web accessibility (and other learning opportunities)",
+      "featuredNarrative": "A high-signal course index for accessibility learning and practice.",
       "highlight": "A high-signal course index for accessibility learning and practice."
     },
     {
@@ -410,8 +414,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "manual",
+      "manualSortRank": null,
       "theme": "Civic Tech",
+      "cardTitle": "open-source-contracting",
+      "cardSummary": "Providing example language for contracts which work with open-source software and explicitly want to encourage it's growth and development.",
       "summary": "Providing example language for contracts which work with open-source software and explicitly want to encourage it's growth and development.",
+      "featuredNarrative": "Practical contract language to strengthen open source procurement.",
       "highlight": "Practical contract language to strengthen open source procurement."
     },
     {
@@ -457,8 +465,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-contracting",
+      "cardSummary": "Building Accessibility Best Practices into Contracting",
       "summary": "Building Accessibility Best Practices into Contracting",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -501,8 +513,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "manual",
+      "manualSortRank": null,
       "theme": "Accessibility",
+      "cardTitle": "ACCESSIBILITY.md",
+      "cardSummary": "ACCESSIBILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
       "summary": "ACCESSIBILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
+      "featuredNarrative": "Open guidance helping coding agents build accessibility in by default.",
       "highlight": "Open guidance helping coding agents build accessibility in by default."
     },
     {
@@ -538,8 +554,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "drupal-security",
+      "cardSummary": "A hub for our collection of security best practices for Drupal. - https://openconcept.ca/drupal-security-best-practices-practical-guide",
       "summary": "A hub for our collection of security best practices for Drupal. - https://openconcept.ca/drupal-security-best-practices-practical-guide",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -577,8 +597,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Personas",
+      "cardSummary": "A collectioin of Persona's ",
       "summary": "A collectioin of Persona's ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -614,8 +638,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Drupal-Accessibility-Quicksheet",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -651,8 +679,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "GitHub4All",
+      "cardSummary": "A public space for accessibility issues with GitHub, not managed by GitHub. ",
       "summary": "A public space for accessibility issues with GitHub, not managed by GitHub. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -697,8 +729,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "contrast-plus",
+      "cardSummary": "A color contrast checker that supports WCAG 2, APCA & Focus Colors",
       "summary": "A color contrast checker that supports WCAG 2, APCA & Focus Colors",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -738,8 +774,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "section508-to-wcag2aa",
+      "cardSummary": "Comparing Old Section 508 to WCAG 2.0 AA",
       "summary": "Comparing Old Section 508 to WCAG 2.0 AA",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -775,8 +815,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "non-disclosure-agreements",
+      "cardSummary": "Non-Disclosure Agreements in Legal Markdown Style",
       "summary": "Non-Disclosure Agreements in Legal Markdown Style",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -812,8 +856,12 @@
       "hidden": false,
       "featured": true,
       "featuredSource": "auto",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Digital-Accessibility-Bingo",
+      "cardSummary": "Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
       "summary": "Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -854,8 +902,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "content-first-wireframe",
+      "cardSummary": "Content-First Text-Based Wireframe",
       "summary": "Content-First Text-Based Wireframe",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -896,8 +948,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "pdf-crawler",
+      "cardSummary": "An implementation of simplA11yPDFCrawler in GitHub Pages / Actions",
       "summary": "An implementation of simplA11yPDFCrawler in GitHub Pages / Actions",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -933,8 +989,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "gh-summary",
+      "cardSummary": "Pull your GitHub Summaries for easier timekeeping",
       "summary": "Pull your GitHub Summaries for easier timekeeping",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -970,8 +1030,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-lists-of-lists",
+      "cardSummary": "Lists of lists of accessibility related issues",
       "summary": "Lists of lists of accessibility related issues",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1012,8 +1076,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "o-hat-scanner",
+      "cardSummary": "An effort to use GitHub Actions to run Oobee style tools",
       "summary": "An effort to use GitHub Actions to run Oobee style tools",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1055,8 +1123,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-scans",
+      "cardSummary": "Scan URLs with various open source accessibility scanners",
       "summary": "Scan URLs with various open source accessibility scanners",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1097,8 +1169,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "top-task-finder",
+      "cardSummary": "Find the most popular URLs for a given domain",
       "summary": "Find the most popular URLs for a given domain",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1142,8 +1218,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "sustainability-contracting",
+      "cardSummary": "Providing example language for contracts & RFPs to help encourage diversity & sustainable procurement practices",
       "summary": "Providing example language for contracts & RFPs to help encourage diversity & sustainable procurement practices",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1179,8 +1259,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Government-of-Canada-Drupal",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1223,8 +1307,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wcag-spine",
+      "cardSummary": "Visualization of WCAG 2.2 AA for automated and manual tests.",
       "summary": "Visualization of WCAG 2.2 AA for automated and manual tests.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1260,8 +1348,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-yaml-ld",
+      "cardSummary": "An attempt to put standards from W3C WAI into YAML LD files",
       "summary": "An attempt to put standards from W3C WAI into YAML LD files",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1303,8 +1395,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessible-buildings",
+      "cardSummary": "Linking websites to the built-environment. Helping people find if the buildings they go to have the accommodations they depend on.",
       "summary": "Linking websites to the built-environment. Helping people find if the buildings they go to have the accommodations they depend on.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1344,8 +1440,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Find-Overlays",
+      "cardSummary": "A script to find overlays from a list of domains",
       "summary": "A script to find overlays from a list of domains",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1373,8 +1473,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "openparlgc-docs",
+      "cardSummary": "We need better docs about the open data available in Canada's Parliament",
       "summary": "We need better docs about the open data available in Canada's Parliament",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1402,8 +1506,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessible-inline-svg",
+      "cardSummary": "Trying to create a simpler way to explain this...",
       "summary": "Trying to create a simpler way to explain this...",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1435,8 +1543,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-skills",
+      "cardSummary": "A collection of Claude Skill to mirror https://mgifford.github.io/ACCESSIBILITY.md",
       "summary": "A collection of Claude Skill to mirror https://mgifford.github.io/ACCESSIBILITY.md",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1464,8 +1576,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "sam_gov_md",
+      "cardSummary": "Sam.gov in Markdown",
       "summary": "Sam.gov in Markdown",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1499,8 +1615,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "airtime2",
+      "cardSummary": "Get insights from your transcripts on meeting participation",
       "summary": "Get insights from your transcripts on meeting participation",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1532,8 +1652,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-maps",
+      "cardSummary": "Some examples of maps with accessibility built in. ",
       "summary": "Some examples of maps with accessibility built in. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1566,8 +1690,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "timezone-helper",
+      "cardSummary": "A quick way to coordinate meetings for groups, especially if you work with GitHub",
       "summary": "A quick way to coordinate meetings for groups, especially if you work with GitHub",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1595,8 +1723,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "top-people-to-follow-in-web-accessibility",
+      "cardSummary": "A list of the top people to follow in web accessibility and web standards.",
       "summary": "A list of the top people to follow in web accessibility and web standards.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1624,8 +1756,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "inclusive-design-checklist",
+      "cardSummary": "Aims to be the biggest checklist of inclusive design considerations ever",
       "summary": "Aims to be the biggest checklist of inclusive design considerations ever",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1653,8 +1789,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "virtual-presentation-checklist",
+      "cardSummary": "Just wanting to have a short list of suggestions for better presentations. ",
       "summary": "Just wanting to have a short list of suggestions for better presentations. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1682,8 +1822,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-testing-tools",
+      "cardSummary": "A collection of useful tools for accessibility testing and debugging in the browser, online and desktop",
       "summary": "A collection of useful tools for accessibility testing and debugging in the browser, online and desktop",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1711,8 +1855,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "holmes",
+      "cardSummary": "Holmes is stand-alone diagnostic CSS stylesheet that can highlight potentially invalid or erroneous HTML(5) markup by adding one class",
       "summary": "Holmes is stand-alone diagnostic CSS stylesheet that can highlight potentially invalid or erroneous HTML(5) markup by adding one class",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1740,8 +1888,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "drupal-etherpad",
+      "cardSummary": "A Drupal module for pulling etherpads into Drupal pages",
       "summary": "A Drupal module for pulling etherpads into Drupal pages",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1776,8 +1928,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "apca-wcag2",
+      "cardSummary": "Doing a comparison of WCAG to APCA values for color contrast.",
       "summary": "Doing a comparison of WCAG to APCA values for color contrast.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1805,8 +1961,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "alfa",
+      "cardSummary": ":wheelchair: Suite of open and standards-based tools for performing reliable accessibility conformance testing at scale",
       "summary": ":wheelchair: Suite of open and standards-based tools for performing reliable accessibility conformance testing at scale",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1841,8 +2001,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "daily-dap",
+      "cardSummary": "Monitoring top US Federal Government websites for accessibility, performance, etc.",
       "summary": "Monitoring top US Federal Government websites for accessibility, performance, etc.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1876,8 +2040,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "whisper-slides",
+      "cardSummary": "HTML slide tool (based on W3C slides) with Whisper.cpp integration for captioning. ",
       "summary": "HTML slide tool (based on W3C slides) with Whisper.cpp integration for captioning. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1910,8 +2078,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wsg-mooc",
+      "cardSummary": "An experimental MOOC for Web Sustainability Awareness",
       "summary": "An experimental MOOC for Web Sustainability Awareness",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1944,8 +2116,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "inclusive-emergency-readiness",
+      "cardSummary": "Inclusive Emergency Readiness Guide for digital technology. Making sure everyone can be prepared.",
       "summary": "Inclusive Emergency Readiness Guide for digital technology. Making sure everyone can be prepared.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -1978,8 +2154,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "design-system-scan",
+      "cardSummary": "Find a design system and scan a site to see how well it is implemented. ",
       "summary": "Find a design system and scan a site to see how well it is implemented. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2011,8 +2191,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "w3c-tpac-template",
+      "cardSummary": "Unsure why this isn't in the W3C",
       "summary": "Unsure why this isn't in the W3C",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2045,8 +2229,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-svg",
+      "cardSummary": "Help build accessible SVGs.",
       "summary": "Help build accessible SVGs.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2081,8 +2269,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "risky-weather",
+      "cardSummary": "A weather site that tries to look at risk models and climate change.",
       "summary": "A weather site that tries to look at risk models and climate change.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2110,8 +2302,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "oobee",
+      "cardSummary": "Oobee (formerly known as Purple A11y) is a customisable, automated web accessibility testing tool that allows software development teams to find and fix accessibility problems to improve persons with disabilities (PWDs) access to digital services.",
       "summary": "Oobee (formerly known as Purple A11y) is a customisable, automated web accessibility testing tool that allows software development teams to find and fix accessibility problems to improve persons with disabilities (PWDs) access to digital services.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2139,8 +2335,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "github-scanner",
+      "cardSummary": "Scanner to pull out accessibility issues from GitHub",
       "summary": "Scanner to pull out accessibility issues from GitHub",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2168,8 +2368,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "oss-procurement",
+      "cardSummary": "Some OSS Procurement Guidance",
       "summary": "Some OSS Procurement Guidance",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2197,8 +2401,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "print-css-bookmarklet",
+      "cardSummary": "A bookmarklet to explore use of print CSS on a web page. ",
       "summary": "A bookmarklet to explore use of print CSS on a web page. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2226,8 +2434,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11ywatch",
+      "cardSummary": "The web accessibility tool built for scale",
       "summary": "The web accessibility tool built for scale",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2255,8 +2467,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-funding",
+      "cardSummary": "A guide for researching ways of funding open source projects.",
       "summary": "A guide for researching ways of funding open source projects.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2284,8 +2500,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility",
+      "cardSummary": "A repo to organize the guidelines and best practices for accessibility at 18f.",
       "summary": "A repo to organize the guidelines and best practices for accessibility at 18f.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2313,8 +2533,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "simplA11yPDFCrawler",
+      "cardSummary": "This tool crawls a list of websites and download all PDF and office documents. Then it analyses the PDF documents and tries to detect accessibility issues.",
       "summary": "This tool crawls a list of websites and download all PDF and office documents. Then it analyses the PDF documents and tries to detect accessibility issues.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2342,8 +2566,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "openpats",
+      "cardSummary": "Temporary account for development of OpenPats JSON Schema",
       "summary": "Temporary account for development of OpenPats JSON Schema",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2371,8 +2599,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "uxchecklist.github.io",
+      "cardSummary": "ux project checklist",
       "summary": "ux project checklist",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2400,8 +2632,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Accessibility-Statement",
+      "cardSummary": "A template & resources for creating good accessibility templates for your website & apps.",
       "summary": "A template & resources for creating good accessibility templates for your website & apps.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2429,8 +2665,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y.reviews",
+      "cardSummary": "Community reviews on the accessibility of tools and services.",
       "summary": "Community reviews on the accessibility of tools and services.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2458,8 +2698,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-style-guide",
+      "cardSummary": "A11Y Style Guide",
       "summary": "A11Y Style Guide",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2487,8 +2731,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "cupper",
+      "cardSummary": "Example site for an inclusive pattern library theme",
       "summary": "Example site for an inclusive pattern library theme",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2516,8 +2764,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "axe-core",
+      "cardSummary": "Accessibility engine for automated Web UI testing",
       "summary": "Accessibility engine for automated Web UI testing",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2545,8 +2797,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "openlayers",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2574,8 +2830,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "osm-rohingya-crisis",
+      "cardSummary": "Mapping the rohingya crisis with Open Street Map",
       "summary": "Mapping the rohingya crisis with Open Street Map",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2603,8 +2863,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wet-boew-wordpress",
+      "cardSummary": "WordPress variant for the Web Experience Toolkit (WET)",
       "summary": "WordPress variant for the Web Experience Toolkit (WET)",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2632,8 +2896,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "aegisdemo",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2661,8 +2929,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "GoC-IT-Plan",
+      "cardSummary": "Government of Canada Information Technology Strategic Plan 2016-2020 - Comunity Remix",
       "summary": "Government of Canada Information Technology Strategic Plan 2016-2020 - Comunity Remix",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2690,8 +2962,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Drupal-CLF-2.0-Theme",
+      "cardSummary": "A Drupal theme geared for the Government of Canada's Common Look & Feel",
       "summary": "A Drupal theme geared for the Government of Canada's Common Look & Feel",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2719,8 +2995,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "html5demos",
+      "cardSummary": "Collection of hacks and demos showing capability of HTML5 apps",
       "summary": "Collection of hacks and demos showing capability of HTML5 apps",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2748,8 +3028,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-source-alternatives",
+      "cardSummary": "A collaborative list of open-source alternatives to typical government and enterprise software needs  ",
       "summary": "A collaborative list of open-source alternatives to typical government and enterprise software needs  ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2777,8 +3061,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wet-boew",
+      "cardSummary": "Main repository of the Web Experience Toolkit (WET)",
       "summary": "Main repository of the Web Experience Toolkit (WET)",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2806,8 +3094,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Site-Inspector",
+      "cardSummary": "PHP Class to provide information about a given domain. ",
       "summary": "PHP Class to provide information about a given domain. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2835,8 +3127,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wet-boew-drupal",
+      "cardSummary": "Drupal variant of the Web Experience Toolkit (WET)",
       "summary": "Drupal variant of the Web Experience Toolkit (WET)",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2871,8 +3167,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "daily-cap",
+      "cardSummary": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
       "summary": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2903,8 +3203,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ox.ca",
+      "cardSummary": "My personal site — Mike Gifford",
       "summary": "My personal site — Mike Gifford",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2932,9 +3236,13 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": 1,
       "theme": "Web Platform",
+      "cardTitle": "Repo Catalog and Maintenance Dashboard",
+      "cardSummary": "Curated table of contents and maintenance dashboard for repositories.",
       "summary": "Curated table of contents and maintenance dashboard for repositories.",
-      "highlight": ""
+      "featuredNarrative": "Brings together public storytelling and actionable repository maintenance signals.",
+      "highlight": "Brings together public storytelling and actionable repository maintenance signals."
     },
     {
       "id": 1154569960,
@@ -2961,8 +3269,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "find-publiccode.yml",
+      "cardSummary": "How do we find and validate publiccode.yml files?",
       "summary": "How do we find and validate publiccode.yml files?",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -2990,8 +3302,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "EchoLocate",
+      "cardSummary": "A multi-person speech to text tool. Help to locate different speakers in the room.",
       "summary": "A multi-person speech to text tool. Help to locate different speakers in the room.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3023,8 +3339,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "w3c-a11y-maturity-model",
+      "cardSummary": "A draft tool for the W3C's Accessibility Maturity Model",
       "summary": "A draft tool for the W3C's Accessibility Maturity Model",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3059,8 +3379,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ui-palette-generator",
+      "cardSummary": "A tool to automate the generation of accessible enterprise UI color palettes.",
       "summary": "A tool to automate the generation of accessible enterprise UI color palettes.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3088,8 +3412,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "html2sign-language",
+      "cardSummary": "Failed attempt to have HTML to Sign Language",
       "summary": "Failed attempt to have HTML to Sign Language",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3121,8 +3449,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "eu-plus-government-scans",
+      "cardSummary": "Scanning government websites for for accessibility statements, accessibility, social media, etc.",
       "summary": "Scanning government websites for for accessibility statements, accessibility, social media, etc.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3150,8 +3482,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "4Ds",
+      "cardSummary": "A guide to running AI-facilitated asynchronous assemblies that help groups reach genuine consensus on complex topics.",
       "summary": "A guide to running AI-facilitated asynchronous assemblies that help groups reach genuine consensus on complex topics.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3184,8 +3520,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "gh-open-dash",
+      "cardSummary": "GitHub Open Dashboard",
       "summary": "GitHub Open Dashboard",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3218,8 +3558,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "python-acr",
+      "cardSummary": "Create an OpenACR from a project link. Mostly Drupal. This is very draft. It also hits GitHub projects.",
       "summary": "Create an OpenACR from a project link. Mostly Drupal. This is very draft. It also hits GitHub projects.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3247,8 +3591,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "federal-contracting-skills",
+      "cardSummary": "Free Claude Skills for federal contracting: IGCE builders (FFP, T&M, cost-reimbursement), SOW/PWS generator, market research reports, and live API tools for USASpending, GSA CALC+, BLS OEWS, Per Diem, Federal Register, eCFR, Regulations.gov. Built for GS-1102 contract specialists and government contractors.",
       "summary": "Free Claude Skills for federal contracting: IGCE builders (FFP, T&M, cost-reimbursement), SOW/PWS generator, market research reports, and live API tools for USASpending, GSA CALC+, BLS OEWS, Per Diem, Federal Register, eCFR, Regulations.gov. Built for GS-1102 contract specialists and government contractors.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3282,8 +3630,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ParaCharts",
+      "cardSummary": "The open-source, truly accessible ParaCharts charting software",
       "summary": "The open-source, truly accessible ParaCharts charting software",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3316,8 +3668,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "alt-text-scan",
+      "cardSummary": "Are the alt text for images useful? Most aren't. Most testing tools only look for absence of description, not if it is any good.",
       "summary": "Are the alt text for images useful? Most aren't. Most testing tools only look for absence of description, not if it is any good.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3345,8 +3701,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "drupal-core",
+      "cardSummary": "Drupal core fork — accessibility work and AI tooling",
       "summary": "Drupal core fork — accessibility work and AI tooling",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3374,8 +3734,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "overlayfactsheet",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3409,8 +3773,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "STYLES.md",
+      "cardSummary": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
       "summary": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3444,8 +3812,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-site-review",
+      "cardSummary": "Review if HTML/CSS/JS should be updated because it is too old or too new",
       "summary": "Review if HTML/CSS/JS should be updated because it is too old or too new",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3478,8 +3850,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-susty-scans",
+      "cardSummary": "Automated scans for common sustainability challenges",
       "summary": "Automated scans for common sustainability challenges",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3510,8 +3886,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "openapi-reference",
+      "cardSummary": "A possible alternative to Swagger UI",
       "summary": "A possible alternative to Swagger UI",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3545,8 +3925,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "SUSTAINABILITY.md",
+      "cardSummary": "SUSTAINABILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents",
       "summary": "SUSTAINABILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3578,8 +3962,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "AirScript",
+      "cardSummary": "A tool for speech to caption to phone. Making it easier for people to watch captions as they see fit.",
       "summary": "A tool for speech to caption to phone. Making it easier for people to watch captions as they see fit.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3607,8 +3995,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-meta-skills",
+      "cardSummary": "Accessibility planner-critic skill pair for Claude Code — WCAG implementation planning + ARIA/focus/semantic review",
       "summary": "Accessibility planner-critic skill pair for Claude Code — WCAG implementation planning + ARIA/focus/semantic review",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3640,8 +4032,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Drupal-docs",
+      "cardSummary": "Attempt to modernize Drupal's documentation with AI",
       "summary": "Attempt to modernize Drupal's documentation with AI",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3674,8 +4070,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "CKEditor5-A11yFirst",
+      "cardSummary": "Development repository of A11yFirst CKEditor plugins",
       "summary": "Development repository of A11yFirst CKEditor plugins",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3709,8 +4109,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-mermaid-studio",
+      "cardSummary": "Make accessible SVGs from files MermaidJS",
       "summary": "Make accessible SVGs from files MermaidJS",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3742,8 +4146,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ai-browser-test",
+      "cardSummary": "Does your browser support AI? If so what features?",
       "summary": "Does your browser support AI? If so what features?",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3776,8 +4184,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "tune-my-repos",
+      "cardSummary": "Monitor your open source repos to follow best practices",
       "summary": "Monitor your open source repos to follow best practices",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3809,8 +4221,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "markdown-slides-editor",
+      "cardSummary": "Edit your slides, live, in Markdown.",
       "summary": "Edit your slides, live, in Markdown.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3840,8 +4256,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "drupal-open-dash",
+      "cardSummary": "An attempt to learn more about our stats on d.o - Work in Progress",
       "summary": "An attempt to learn more about our stats on d.o - Work in Progress",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3869,8 +4289,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "uswds",
+      "cardSummary": "The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites.",
       "summary": "The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3898,8 +4322,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wagtail",
+      "cardSummary": "A Django content management system focused on flexibility and user experience",
       "summary": "A Django content management system focused on flexibility and user experience",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3927,8 +4355,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "design-system",
+      "cardSummary": "State of California Design System",
       "summary": "State of California Design System",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3956,8 +4388,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "strapi",
+      "cardSummary": "🚀 Open source Node.js Headless CMS to easily build customisable APIs",
       "summary": "🚀 Open source Node.js Headless CMS to easily build customisable APIs",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -3985,8 +4421,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-1",
+      "cardSummary": "CivicActions Accessbility Clone",
       "summary": "CivicActions Accessbility Clone",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4014,8 +4454,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "primero",
+      "cardSummary": "Primero is an application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence.  Please carefully read our LICENSE. If you would like access to the CPIMS+ and GBVIMS+ configurations, please contact: childprotectioninnovation@gmail.com ",
       "summary": "Primero is an application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence.  Please carefully read our LICENSE. If you would like access to the CPIMS+ and GBVIMS+ configurations, please contact: childprotectioninnovation@gmail.com ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4043,8 +4487,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ckeditor5",
+      "cardSummary": "Powerful rich text editor framework with a modular architecture, modern integrations, and features like collaborative editing.",
       "summary": "Powerful rich text editor framework with a modular architecture, modern integrations, and features like collaborative editing.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4072,8 +4520,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "uswds-site",
+      "cardSummary": "USWDS website and documentation",
       "summary": "USWDS website and documentation",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4101,8 +4553,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "iv-cbv-payroll",
+      "cardSummary": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
       "summary": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4130,8 +4586,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "OpenWealth",
+      "cardSummary": "A Privacy-1st-Investment-Dashboard. This is not financial advice. ",
       "summary": "A Privacy-1st-Investment-Dashboard. This is not financial advice. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4164,8 +4624,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "smart-cookbook",
+      "cardSummary": "Building a smart cookbook for the recipes we like and want to be able to share. ",
       "summary": "Building a smart cookbook for the recipes we like and want to be able to share. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4193,8 +4657,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "mermaid-graphs",
+      "cardSummary": "Simple graph experiments",
       "summary": "Simple graph experiments",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4224,8 +4692,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "perception",
+      "cardSummary": "An educational piece about perception",
       "summary": "An educational piece about perception",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4253,8 +4725,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "procurement-ld",
+      "cardSummary": "Linked procurement documentation.",
       "summary": "Linked procurement documentation.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4282,8 +4758,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-linkedobjects",
+      "cardSummary": "An effort to link related accessibility resources using https://linkedobjects.org/",
       "summary": "An effort to link related accessibility resources using https://linkedobjects.org/",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4311,8 +4791,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "cwac",
+      "cardSummary": "Automatically scan for accessibility issues across many websites.",
       "summary": "Automatically scan for accessibility issues across many websites.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4340,8 +4824,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "public-sans",
+      "cardSummary": "A strong, neutral, principles-driven, open source typeface for text or display",
       "summary": "A strong, neutral, principles-driven, open source typeface for text or display",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4371,8 +4859,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "domain-scan",
+      "cardSummary": "A lightweight pipeline, locally or in Lambda, for scanning things like HTTPS, third party service use, and web accessibility.",
       "summary": "A lightweight pipeline, locally or in Lambda, for scanning things like HTTPS, third party service use, and web accessibility.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4400,8 +4892,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ditap-1-pager",
+      "cardSummary": "Draft concept",
       "summary": "Draft concept",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4429,8 +4925,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-data-keywords",
+      "cardSummary": "This is a compiled list of keywords to use when data-mining customer feedback to get the voice of your customers with a disability",
       "summary": "This is a compiled list of keywords to use when data-mining customer feedback to get the voice of your customers with a disability",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4458,8 +4958,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "website",
+      "cardSummary": "FOSDEM website",
       "summary": "FOSDEM website",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4490,8 +4994,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "learn-github-game",
+      "cardSummary": "An interactive game to introduce folks to GitHub",
       "summary": "An interactive game to introduce folks to GitHub",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4522,8 +5030,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "show-suggester",
+      "cardSummary": "We should be able to host our own TV/Movie suggestion engine",
       "summary": "We should be able to host our own TV/Movie suggestion engine",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4554,8 +5066,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "SOO-Wizard",
+      "cardSummary": "Help will the generation of a Statement of Objectives (SOO)",
       "summary": "Help will the generation of a Statement of Objectives (SOO)",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4586,8 +5102,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wayback-extractor",
+      "cardSummary": "If you ever wanted to extract a domain from Archive.org",
       "summary": "If you ever wanted to extract a domain from Archive.org",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4621,8 +5141,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "o-hat-standalone",
+      "cardSummary": "Standalone scanner for a single directory and sub-directories.",
       "summary": "Standalone scanner for a single directory and sub-directories.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4656,8 +5180,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "We4Authors",
+      "cardSummary": "A refresh of the We4Authors site and conversion to a living document.",
       "summary": "A refresh of the We4Authors site and conversion to a living document.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4685,8 +5213,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-ai-training",
+      "cardSummary": "Files for creating an internal AI knowledge base with open source content.",
       "summary": "Files for creating an internal AI knowledge base with open source content.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4714,8 +5246,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "civicactions-a11ysite",
+      "cardSummary": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and Digital Transformation.",
       "summary": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and Digital Transformation.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4743,8 +5279,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ACRT",
+      "cardSummary": "This repository stores files for Accessibility Conformance Reporting Tool (ACRT) tool. This tool is standalone browser based application and  is used to track accessibility test results. ",
       "summary": "This repository stores files for Accessibility Conformance Reporting Tool (ACRT) tool. This tool is standalone browser based application and  is used to track accessibility test results. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4772,8 +5312,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "foss4gov",
+      "cardSummary": "DRAFT for Idea",
       "summary": "DRAFT for Idea",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4801,8 +5345,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "purple-a11y-fork",
+      "cardSummary": "Archive of old fork. ",
       "summary": "Archive of old fork. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4830,8 +5378,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "opendesign.guide",
+      "cardSummary": "Open Design Guide",
       "summary": "Open Design Guide",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4859,8 +5411,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "w3c-tpac-arrm-breakout",
+      "cardSummary": "A brief slide about ARRM for the W3C",
       "summary": "A brief slide about ARRM for the W3C",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4888,8 +5444,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "w3c-tpac-susty-breakout",
+      "cardSummary": "Sustainability breakout slides for the W3C.",
       "summary": "Sustainability breakout slides for the W3C.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4917,8 +5477,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Food-W3C-Kobe",
+      "cardSummary": "A community-curated list of food, drinks, and hangout spots near Kobe for TPAC attendees.",
       "summary": "A community-curated list of food, drinks, and hangout spots near Kobe for TPAC attendees.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4946,8 +5510,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Food-FWD50-Ottawa",
+      "cardSummary": "A community-curated list of food, drinks, and hangout spots near Ottawa's Rogers Centre for FWD50 attendees.",
       "summary": "A community-curated list of food, drinks, and hangout spots near Ottawa's Rogers Centre for FWD50 attendees.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -4975,8 +5543,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "digitalbuyingguide.org",
+      "cardSummary": "Archive of digitalbuyingguide.org",
       "summary": "Archive of digitalbuyingguide.org",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5004,8 +5576,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "mere-medical",
+      "cardSummary": "An offline-first, self-hosted web app to aggregate and sync all of your medical records from your patient portals in one place.",
       "summary": "An offline-first, self-hosted web app to aggregate and sync all of your medical records from your patient portals in one place.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5033,8 +5609,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wcag-as-json",
+      "cardSummary": "The WCAG Standard in a JSON format.",
       "summary": "The WCAG Standard in a JSON format.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5062,8 +5642,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "EHRCON25-Barcelona",
+      "cardSummary": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contemporània de Barcelona for EHRCON25 attendees.",
       "summary": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contemporània de Barcelona for EHRCON25 attendees.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5091,8 +5675,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "dpg-resources",
+      "cardSummary": "Resources for Digital Public Goods",
       "summary": "Resources for Digital Public Goods",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5120,8 +5708,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "latest-news",
+      "cardSummary": "Just some audio for today's news.",
       "summary": "Just some audio for today's news.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5149,8 +5741,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "captchaCrawler",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5178,8 +5774,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Opquast",
+      "cardSummary": "A view starting from Opquast",
       "summary": "A view starting from Opquast",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5207,8 +5807,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "User-Interface-Options-UIO-Bookmarklet",
+      "cardSummary": "An effort to clone UIO+ as a Bookmarklet",
       "summary": "An effort to clone UIO+ as a Bookmarklet",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5236,8 +5840,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "kj-liatest",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5265,8 +5873,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "oss-campaign",
+      "cardSummary": "Draft OSS Campaign",
       "summary": "Draft OSS Campaign",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5294,8 +5906,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "arrm-checklist",
+      "cardSummary": "An ARRM Style Checklist",
       "summary": "An ARRM Style Checklist",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5323,8 +5939,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "badging",
+      "cardSummary": "Home for DEI CHAOSS Badging",
       "summary": "Home for DEI CHAOSS Badging",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5352,8 +5972,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "caart",
+      "cardSummary": "This is both a \"clone\" and a \"hope\" for the GSA's ART",
       "summary": "This is both a \"clone\" and a \"hope\" for the GSA's ART",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5381,8 +6005,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wsg-priority",
+      "cardSummary": "Web Sustainability Guidelines - Design Priority Tool",
       "summary": "Web Sustainability Guidelines - Design Priority Tool",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5410,8 +6038,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wappalyzer",
+      "cardSummary": "HTTP Archive fork of Wappalyzer",
       "summary": "HTTP Archive fork of Wappalyzer",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5439,8 +6071,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "openpracticelibrary",
+      "cardSummary": "Practices and ideas that empower teams to collaborate and deliver iteratively",
       "summary": "Practices and ideas that empower teams to collaborate and deliver iteratively",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5468,8 +6104,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-website-data",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5497,8 +6137,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "playbook-boston-ottawa",
+      "cardSummary": "The City of Ottawa's \"Smarty City\" Playbook (Forked from Boston)",
       "summary": "The City of Ottawa's \"Smarty City\" Playbook (Forked from Boston)",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5526,8 +6170,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "techfar-hub",
+      "cardSummary": "TechFAR Hub",
       "summary": "TechFAR Hub",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5555,8 +6203,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "handbook",
+      "cardSummary": "The home of policies and guidelines that make up TTS.",
       "summary": "The home of policies and guidelines that make up TTS.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5584,8 +6236,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "DSCovery",
+      "cardSummary": "Tool to find civic tech jobs with Digital Services Coalition firms. ",
       "summary": "Tool to find civic tech jobs with Digital Services Coalition firms. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5613,8 +6269,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "aar",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5642,8 +6302,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ditap-curriculum-update",
+      "cardSummary": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be “an open-source learning model that makes DITAP scalable, adaptable, and future-proof.”",
       "summary": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be “an open-source learning model that makes DITAP scalable, adaptable, and future-proof.”",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5671,8 +6335,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "publicgoods-website",
+      "cardSummary": "Static version of the Digital Public Goods website",
       "summary": "Static version of the Digital Public Goods website",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5700,8 +6368,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "xgov-opensource-repo-scraper",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5729,8 +6401,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "custom-metrics",
+      "cardSummary": "Custom metrics to use with WebPageTest agents",
       "summary": "Custom metrics to use with WebPageTest agents",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5758,8 +6434,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "testaro",
+      "cardSummary": "A thousand web accessibility tests performed by 10 tools",
       "summary": "A thousand web accessibility tests performed by 10 tools",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5787,8 +6467,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "standard",
+      "cardSummary": "The Standard for Public Code - a model for public organizations to build their own open source solutions to enable successful future reuse by and collaboration with similar public organizations in other places.",
       "summary": "The Standard for Public Code - a model for public organizations to build their own open source solutions to enable successful future reuse by and collaboration with similar public organizations in other places.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5816,8 +6500,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "baselinealignment",
+      "cardSummary": "This repository contains code and references to pages intended to help validate test rules contained in the ICT Testing Basline.",
       "summary": "This repository contains code and references to pages intended to help validate test rules contained in the ICT Testing Basline.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5845,8 +6533,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "uswds-proposals",
+      "cardSummary": "Proposals for USWDS components",
       "summary": "Proposals for USWDS components",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5874,8 +6566,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "crest",
+      "cardSummary": "Crest machine learning based automated accessibility tests",
       "summary": "Crest machine learning based automated accessibility tests",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5903,8 +6599,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-gsa-redesign",
+      "cardSummary": "A fresh start for open.gsa.gov.",
       "summary": "A fresh start for open.gsa.gov.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5932,8 +6632,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "digitalservicescoalition.org",
+      "cardSummary": "Public facing website for the Digital Services Coalition. A merge to master deploys.",
       "summary": "Public facing website for the Digital Services Coalition. A merge to master deploys.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5961,8 +6665,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "astro",
+      "cardSummary": "The all-in-one web framework designed for speed. ⭐️ Star to support our work!",
       "summary": "The all-in-one web framework designed for speed. ⭐️ Star to support our work!",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -5990,8 +6698,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-arrm",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6019,8 +6731,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wpds-ui-kit",
+      "cardSummary": "WPDS's UiKit coded in React using Stitches, Radix UI and more! Also home to our docs site",
       "summary": "WPDS's UiKit coded in React using Stitches, Radix UI and more! Also home to our docs site",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6048,8 +6764,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "chef-phpmyadmin",
+      "cardSummary": "Chef Cookbook for installing and configuring phpMyAdmin",
       "summary": "Chef Cookbook for installing and configuring phpMyAdmin",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6077,8 +6797,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Accessibility-Procurement-Pilot",
+      "cardSummary": "Initial Letter of Requrest with (Challenge 1) - Appendix 3",
       "summary": "Initial Letter of Requrest with (Challenge 1) - Appendix 3",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6106,8 +6830,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-authoring-tools-list",
+      "cardSummary": "List of Authoring Tools",
       "summary": "List of Authoring Tools",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6135,8 +6863,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "research-ops-hackpack",
+      "cardSummary": "Template repo for bootstrapping a researchOps practice using github. ",
       "summary": "Template repo for bootstrapping a researchOps practice using github. ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6164,8 +6896,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "civictech.club",
+      "cardSummary": "A directory of Fediverse users working to make government and democracy better.",
       "summary": "A directory of Fediverse users working to make government and democracy better.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6193,8 +6929,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ckan",
+      "cardSummary": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
       "summary": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6222,8 +6962,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "va.gov-team",
+      "cardSummary": "Public resources for building on and in support of VA.gov. Visit complete Knowledge Hub:",
       "summary": "Public resources for building on and in support of VA.gov. Visit complete Knowledge Hub:",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6251,8 +6995,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "thisiswcag-beta",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6280,8 +7028,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "skipto-landmarks-headings.github.io",
+      "cardSummary": "SkipTo Documentation",
       "summary": "SkipTo Documentation",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6309,8 +7061,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "content-guide",
+      "cardSummary": "18F Content Guide",
       "summary": "18F Content Guide",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6338,8 +7094,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "gc-digital-talent",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6367,8 +7127,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Section508.gov",
+      "cardSummary": "This repository will serve temporarily as a placeholder and test ground for evaluation of GitHub and Federalist as the platform for the Section508.gov website and its content.",
       "summary": "This repository will serve temporarily as a placeholder and test ground for evaluation of GitHub and Federalist as the platform for the Section508.gov website and its content.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6396,8 +7160,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-wcag-em-report-tool",
+      "cardSummary": "2021 redesign of the WCAG-EM Report Tool",
       "summary": "2021 redesign of the WCAG-EM Report Tool",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6425,8 +7193,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "web.dev",
+      "cardSummary": "The frontend, backend, and content source code for web.dev",
       "summary": "The frontend, backend, and content source code for web.dev",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6454,8 +7226,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-eval-tools",
+      "cardSummary": "WAI Accessibility Evaluation Tools",
       "summary": "WAI Accessibility Evaluation Tools",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6483,8 +7259,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "minima",
+      "cardSummary": "Minima is a one-size-fits-all Jekyll theme for writers.",
       "summary": "Minima is a one-size-fits-all Jekyll theme for writers.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6512,8 +7292,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "simplA11yGenReport",
+      "cardSummary": "simplA11yGenReport is a tool enabling the generation of reports for the simplified accessibility monitoring method in Luxembourg.",
       "summary": "simplA11yGenReport is a tool enabling the generation of reports for the simplified accessibility monitoring method in Luxembourg.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6541,8 +7325,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "simplA11yMonit",
+      "cardSummary": "simplA11yMonit is a tool supporting the simplified accessibility monitoring method in Luxembourg.",
       "summary": "simplA11yMonit is a tool supporting the simplified accessibility monitoring method in Luxembourg.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6570,8 +7358,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "greenspeed",
+      "cardSummary": "A repo designed to be forked, as an experiment in running github actions to git-scrape sites for record how well they perform in terms of accessibility, performance, and carbon emissions from data transfer",
       "summary": "A repo designed to be forked, as an experiment in running github actions to git-scrape sites for record how well they perform in terms of accessibility, performance, and carbon emissions from data transfer",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6599,8 +7391,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "disaster-relief",
+      "cardSummary": "A lightweight and accessible tool for coordinating resources in crises.",
       "summary": "A lightweight and accessible tool for coordinating resources in crises.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6628,8 +7424,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-awesome-list",
+      "cardSummary": "A curated list of awesome tools, resources and materials on the world of accessibility",
       "summary": "A curated list of awesome tools, resources and materials on the world of accessibility",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6657,8 +7457,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-resources-2",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6686,8 +7490,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Accessibility-Resources-1",
+      "cardSummary": "A list of accessibility resources for software developers",
       "summary": "A list of accessibility resources for software developers",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6715,8 +7523,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-2",
+      "cardSummary": "a11y resources and guild work",
       "summary": "a11y resources and guild work",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6744,8 +7556,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "awesome-a11y",
+      "cardSummary": "A curate list about A11Y :wheelchair:",
       "summary": "A curate list about A11Y :wheelchair:",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6773,8 +7589,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-resources",
+      "cardSummary": "Resources for A11y",
       "summary": "Resources for A11y",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6802,8 +7622,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y",
+      "cardSummary": "A collection of accessibility resources for developers building GOV.UK",
       "summary": "A collection of accessibility resources for developers building GOV.UK",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6831,8 +7655,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-resources",
+      "cardSummary": ":book: Accessibility resources - Ressources accessibilité",
       "summary": ":book: Accessibility resources - Ressources accessibilité",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6860,8 +7688,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11y-voting",
+      "cardSummary": "Support for accessible voting.",
       "summary": "Support for accessible voting.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6889,8 +7721,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "RespTechWork-website",
+      "cardSummary": "Practical tools for more responsible product development in the tech industry.",
       "summary": "Practical tools for more responsible product development in the tech industry.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6918,8 +7754,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "docs-inclusive-learning",
+      "cardSummary": "Documentation website for the Inclusive Learning Design Handbook",
       "summary": "Documentation website for the Inclusive Learning Design Handbook",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6947,8 +7787,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "a11yproject.com",
+      "cardSummary": "The A11Y Project is a community-driven effort to make digital accessibility easier.",
       "summary": "The A11Y Project is a community-driven effort to make digital accessibility easier.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -6976,8 +7820,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "silver",
+      "cardSummary": "Accessibility Guidelines \"Silver\"",
       "summary": "Accessibility Guidelines \"Silver\"",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7005,8 +7853,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "civicactions-homesite",
+      "cardSummary": "CivicActions Homesite redesign ",
       "summary": "CivicActions Homesite redesign ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7034,8 +7886,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "reader-mode-testing",
+      "cardSummary": "Testing readermode",
       "summary": "Testing readermode",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7063,8 +7919,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "record-a-goose-sighting",
+      "cardSummary": "This is a website with lots of accessibility issues in it, that can be used for workshops and training purposes. See the README for more information.",
       "summary": "This is a website with lots of accessibility issues in it, that can be used for workshops and training purposes. See the README for more information.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7092,8 +7952,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-manual",
+      "cardSummary": "The DWP Accessibility Manual is a community led effort to put guidance and best practices all in one place for anybody looking to meet the Public Sector Bodies Accessibility Regulations 2018.",
       "summary": "The DWP Accessibility Manual is a community led effort to put guidance and best practices all in one place for anybody looking to meet the Public Sector Bodies Accessibility Regulations 2018.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7121,8 +7985,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "empathy-prompts",
+      "cardSummary": "💡 Ideas to help consider Inclusive Design principles when making things for others to use.",
       "summary": "💡 Ideas to help consider Inclusive Design principles when making things for others to use.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7150,8 +8018,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "A11YPortal",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7179,8 +8051,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "awesome-climate-tech",
+      "cardSummary": "A collection of awesome things regarding the Climate tech ecosystem.",
       "summary": "A collection of awesome things regarding the Climate tech ecosystem.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7208,8 +8084,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "python-gsheets",
+      "cardSummary": "Python Google Sheets Domain Processing",
       "summary": "Python Google Sheets Domain Processing",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7237,8 +8117,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "octicons",
+      "cardSummary": "A scalable set of icons handcrafted with <3 by GitHub",
       "summary": "A scalable set of icons handcrafted with <3 by GitHub",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7266,8 +8150,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "govuk-accessibility-reports",
+      "cardSummary": "Project containing numerous report generators to monitor accessibility on GOV.UK.",
       "summary": "Project containing numerous report generators to monitor accessibility on GOV.UK.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7295,8 +8183,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "DomainAccessibilityAudit",
+      "cardSummary": "Web application to create domain and subdomain accessibility audits, with violation statistics.",
       "summary": "Web application to create domain and subdomain accessibility audits, with violation statistics.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7324,8 +8216,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-wcag-quickref",
+      "cardSummary": "How to Meet WCAG (Quick Reference)",
       "summary": "How to Meet WCAG (Quick Reference)",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7353,8 +8249,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "digitalgov.gov",
+      "cardSummary": "Digital.gov — Helping the government community deliver better digital services.",
       "summary": "Digital.gov — Helping the government community deliver better digital services.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7382,8 +8282,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "pdfwam",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7411,8 +8315,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "tanaguru2020-engine",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7440,8 +8348,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "filescan",
+      "cardSummary": "Moodle block to display accessibility of course files",
       "summary": "Moodle block to display accessibility of course files",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7469,8 +8381,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-checker",
+      "cardSummary": "Tools to check the accessibility of course material and provide suggestions for improving it.",
       "summary": "Tools to check the accessibility of course material and provide suggestions for improving it.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7498,8 +8414,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "filescan-server",
+      "cardSummary": "API for scanning files for accessibility.  Submit files and get back an accessibility report.",
       "summary": "API for scanning files for accessibility.  Submit files and get back an accessibility report.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7527,8 +8447,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "T-ENTacle",
+      "cardSummary": "Extracting structured information from PDFs - and later, diagrams!!",
       "summary": "Extracting structured information from PDFs - and later, diagrams!!",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7556,8 +8480,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "node-wcag-pdf",
+      "cardSummary": "Check the Accessibility of a PDF Document using eiii",
       "summary": "Check the Accessibility of a PDF Document using eiii",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7585,8 +8513,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "sa11y",
+      "cardSummary": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
       "summary": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7614,8 +8546,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "pappet",
+      "cardSummary": "A command-line tool to crawl websites using puppeteer.",
       "summary": "A command-line tool to crawl websites using puppeteer.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7643,8 +8579,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "crawl-and-download",
+      "cardSummary": "Recursively crawl a website and download every file with the selected extension in the href tag (Example: pdf) ",
       "summary": "Recursively crawl a website and download every file with the selected extension in the href tag (Example: pdf) ",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7672,8 +8612,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "lightcrawler",
+      "cardSummary": "Crawl a website and run it through Google lighthouse",
       "summary": "Crawl a website and run it through Google lighthouse",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7701,8 +8645,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "TheA11yMachine",
+      "cardSummary": "The A11y Machine is an automated accessibility testing tool which crawls and tests pages of any web application to produce detailed reports.",
       "summary": "The A11y Machine is an automated accessibility testing tool which crawls and tests pages of any web application to produce detailed reports.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7730,8 +8678,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "bbc-a11y",
+      "cardSummary": "BBC Accessibility Guidelines Checker",
       "summary": "BBC Accessibility Guidelines Checker",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7759,8 +8711,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "gov-tech-reading-list",
+      "cardSummary": "Recommended readings for folks interested in the intersection of government and technology",
       "summary": "Recommended readings for folks interested in the intersection of government and technology",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7788,8 +8744,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "eiii_crawler",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7817,8 +8777,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "checker-suite",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7846,8 +8810,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "mongo",
+      "cardSummary": "The MongoDB Database",
       "summary": "The MongoDB Database",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7875,8 +8843,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "vpat",
+      "cardSummary": "Contains VPAT document for Buffer",
       "summary": "Contains VPAT document for Buffer",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7904,8 +8876,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "government.github.com",
+      "cardSummary": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations",
       "summary": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7933,8 +8909,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "jekyll-accessibility-template",
+      "cardSummary": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
       "summary": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7962,8 +8942,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "methods",
+      "cardSummary": "The methods 18F uses to practice human-centered design.",
       "summary": "The methods 18F uses to practice human-centered design.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -7991,8 +8975,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "rfcs",
+      "cardSummary": "RFCs for Strapi future changes",
       "summary": "RFCs for Strapi future changes",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8020,8 +9008,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "sitemap-generator",
+      "cardSummary": "Easily create XML sitemaps for your website.",
       "summary": "Easily create XML sitemaps for your website.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8049,8 +9041,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wai-policies-prototype",
+      "cardSummary": "Prototype for the new WAI Policies Page",
       "summary": "Prototype for the new WAI Policies Page",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8078,8 +9074,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Elementary",
+      "cardSummary": "Minimal Jekyll theme optimized for performance, accessibility, usability and readability",
       "summary": "Minimal Jekyll theme optimized for performance, accessibility, usability and readability",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8107,8 +9107,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "digital-canada-ca",
+      "cardSummary": "Website for the Canadian Digital Service / Site Web du Service numérique canadien",
       "summary": "Website for the Canadian Digital Service / Site Web du Service numérique canadien",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8136,8 +9140,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "gifsack-or-wolford",
+      "cardSummary": "Mike & Rebecca's Wedding - Archive",
       "summary": "Mike & Rebecca's Wedding - Archive",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8165,8 +9173,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "18f.gsa.gov",
+      "cardSummary": "This repository contains 18F's website.",
       "summary": "This repository contains 18F's website.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8194,8 +9206,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-for-teams",
+      "cardSummary": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow",
       "summary": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8223,8 +9239,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "accessibility-handbook",
+      "cardSummary": "CDS Accessibility Handbook :wheelchair:",
       "summary": "CDS Accessibility Handbook :wheelchair:",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8252,8 +9272,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "ore-ero",
+      "cardSummary": "Open Resource Exchange - Échange de ressources ouvert",
       "summary": "Open Resource Exchange - Échange de ressources ouvert",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8281,8 +9305,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "helm-drupalwxt",
+      "cardSummary": "Drupal WxT helm chart for Kubernetes.",
       "summary": "Drupal WxT helm chart for Kubernetes.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8310,8 +9338,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-source-contribution-logiciel-libre",
+      "cardSummary": "Draft requirements on open source contributions. / Brouillon des besoins liés à la contribution aux logiciels libres.",
       "summary": "Draft requirements on open source contributions. / Brouillon des besoins liés à la contribution aux logiciels libres.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8339,8 +9371,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "digital-playbook-guide-numerique",
+      "cardSummary": "Government of Canada Digital Playbook / Guide numérique du gouvernement du Canada",
       "summary": "Government of Canada Digital Playbook / Guide numérique du gouvernement du Canada",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8368,8 +9404,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "goteo",
+      "cardSummary": "Goteo Version 3, the Open Source Crowdfunding Platform",
       "summary": "Goteo Version 3, the Open Source Crowdfunding Platform",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8397,8 +9437,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "OS-Advisory_Conseil-SO",
+      "cardSummary": "Open Source Advisory Board - Conseil consultatif du logiciel libre",
       "summary": "Open Source Advisory Board - Conseil consultatif du logiciel libre",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8426,8 +9470,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "DRAFT-Open_First_Whitepaper",
+      "cardSummary": "This whitepaper captures our efforts to make the Government of Canada processes and services more transparent and accessible to our citizens with open standards, open source software, open government (code), open procurement and open culture.",
       "summary": "This whitepaper captures our efforts to make the Government of Canada processes and services more transparent and accessible to our citizens with open standards, open source software, open government (code), open procurement and open culture.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8455,8 +9503,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "wolford-or-gifsack",
+      "cardSummary": "Old Public Wedding site for Mike & Rebecca - https://mgifford.github.io/wolford-or-gifsack/",
       "summary": "Old Public Wedding site for Mike & Rebecca - https://mgifford.github.io/wolford-or-gifsack/",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8484,8 +9536,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Ottawa-Business-Waste-Reduction",
+      "cardSummary": "A structured approach to reduce waste and increase composting and recycling.",
       "summary": "A structured approach to reduce waste and increase composting and recycling.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8513,8 +9569,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Digital-Service-Standard-1",
+      "cardSummary": "No summary available yet.",
       "summary": "No summary available yet.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8542,8 +9602,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Thursday-Ted-Talk-Tapas",
+      "cardSummary": "Thursday Ted Talk & Tapas - a way to dig deeper about ideas that matter.",
       "summary": "Thursday Ted Talk & Tapas - a way to dig deeper about ideas that matter.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8571,8 +9635,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "recycling",
+      "cardSummary": "Collecting ideas to encourage recycling",
       "summary": "Collecting ideas to encourage recycling",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8600,8 +9668,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "d5-charter",
+      "cardSummary": "Just a text description of the charter vs the nasty PDF that was published",
       "summary": "Just a text description of the charter vs the nasty PDF that was published",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8629,8 +9701,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "READi",
+      "cardSummary": "READi for Inclusion",
       "summary": "READi for Inclusion",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8658,8 +9734,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "slate",
+      "cardSummary": "Slate is a Jekyll theme for GitHub Pages",
       "summary": "Slate is a Jekyll theme for GitHub Pages",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8687,8 +9767,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "minimal",
+      "cardSummary": "Minimal is a Jekyll theme for GitHub Pages",
       "summary": "Minimal is a Jekyll theme for GitHub Pages",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8716,8 +9800,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "open-source-policy",
+      "cardSummary": "This repository contains the official Open Source Policy of 18F",
       "summary": "This repository contains the official Open Source Policy of 18F",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8745,8 +9833,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "orderforms-standard_cart",
+      "cardSummary": "WHMCS Standard Cart Order Form Template",
       "summary": "WHMCS Standard Cart Order Form Template",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8774,8 +9866,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "templates-six",
+      "cardSummary": "WHMCS Six Client Area Template Theme",
       "summary": "WHMCS Six Client Area Template Theme",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8803,8 +9899,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "connect",
+      "cardSummary": "A Python/Django communication platform built for organizers",
       "summary": "A Python/Django communication platform built for organizers",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8832,8 +9932,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "Digital-Service-Standard",
+      "cardSummary": "The Digital Service Standard establishes the criteria that Australian Government digital services must meet to ensure our services are simpler, faster and easier to use. Meeting the criteria means we can consistently provide high quality services and satisfy our users' needs.",
       "summary": "The Digital Service Standard establishes the criteria that Australian Government digital services must meet to ensure our services are simpler, faster and easier to use. Meeting the criteria means we can consistently provide high quality services and satisfy our users' needs.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8861,8 +9965,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "project-open-data.github.io",
+      "cardSummary": "Open Data Policy — Managing Information as an Asset",
       "summary": "Open Data Policy — Managing Information as an Asset",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8890,8 +9998,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "meanMenu",
+      "cardSummary": "A responsive menu plugin",
       "summary": "A responsive menu plugin",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8919,8 +10031,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "select2",
+      "cardSummary": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
       "summary": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8948,8 +10064,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "vagrant-chef-dlamp",
+      "cardSummary": "A Chef/Vagrant setup for simple Drupal multisite hosting.",
       "summary": "A Chef/Vagrant setup for simple Drupal multisite hosting.",
+      "featuredNarrative": "",
       "highlight": ""
     },
     {
@@ -8977,8 +10097,12 @@
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
+      "manualSortRank": null,
       "theme": "General",
+      "cardTitle": "devops-base",
+      "cardSummary": "Initial work on Chef",
       "summary": "Initial work on Chef",
+      "featuredNarrative": "",
       "highlight": ""
     }
   ]

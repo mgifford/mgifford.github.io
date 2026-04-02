@@ -39,4 +39,8 @@ themes:
 overrides:
   mgifford.github.io:
     theme: Web Platform
-    summary: Curated table of contents and maintenance dashboard for repositories.
+    manualSortRank: 1
+    cardTitle: Repo Catalog and Maintenance Dashboard
+    cardSummary: Curated table of contents and maintenance dashboard for repositories.
+    featuredNarrative: Brings together public storytelling and actionable repository maintenance signals.
+    visibility: public

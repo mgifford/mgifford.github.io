@@ -53,16 +53,30 @@ export function applyCuration(repo, curation, autoFeaturedNames = new Set()) {
   const featured = manualFeatured || (autoFeatured ? { repo: repo.name } : null);
 
   const theme = override.theme || featured?.theme || "General";
-  const summary = override.summary || repo.readme?.summary || repo.description || "No summary available yet.";
+  const cardSummary =
+    override.cardSummary ||
+    override.summary ||
+    repo.readme?.summary ||
+    repo.description ||
+    "No summary available yet.";
+  const featuredNarrative = override.featuredNarrative || featured?.highlight || "";
+  const manualSortRank = Number.isFinite(override.manualSortRank) ? Number(override.manualSortRank) : null;
+  const visibility = override.visibility === "hidden" ? "hidden" : "public";
+  const hidden = visibility === "hidden" ? true : Boolean(override.hidden);
 
   return {
     ...repo,
-    hidden: Boolean(override.hidden),
+    hidden,
+    visibility,
     featured: Boolean(featured),
     featuredSource: manualFeatured ? "manual" : autoFeatured ? "auto" : "none",
+    manualSortRank,
     theme,
-    summary,
-    highlight: featured?.highlight || "",
+    cardTitle: override.cardTitle || repo.name,
+    cardSummary,
+    summary: cardSummary,
+    featuredNarrative,
+    highlight: featuredNarrative,
     screenshot: override.screenshot || repo.screenshot || ""
   };
 }

@@ -34,7 +34,11 @@ test("applyCuration uses featured and override values", () => {
     overrides: {
       "repo-one": {
         theme: "Web Platform",
-        summary: "Override summary",
+        cardSummary: "Override card summary",
+        featuredNarrative: "Longer featured story",
+        cardTitle: "Custom repo card title",
+        manualSortRank: 2,
+        visibility: "public",
         screenshot: "src/assets/screenshots/override.png"
       }
     }
@@ -44,8 +48,13 @@ test("applyCuration uses featured and override values", () => {
 
   assert.equal(out.featured, true);
   assert.equal(out.theme, "Web Platform");
-  assert.equal(out.summary, "Override summary");
-  assert.equal(out.highlight, "High impact");
+  assert.equal(out.cardTitle, "Custom repo card title");
+  assert.equal(out.cardSummary, "Override card summary");
+  assert.equal(out.summary, "Override card summary");
+  assert.equal(out.featuredNarrative, "Longer featured story");
+  assert.equal(out.highlight, "Longer featured story");
+  assert.equal(out.manualSortRank, 2);
+  assert.equal(out.visibility, "public");
   assert.equal(out.screenshot, "src/assets/screenshots/override.png");
 });
 
@@ -61,7 +70,12 @@ test("applyCuration falls back to general defaults", () => {
 
   assert.equal(out.featured, false);
   assert.equal(out.theme, "General");
+  assert.equal(out.cardSummary, "Repo description");
   assert.equal(out.summary, "Repo description");
+  assert.equal(out.cardTitle, "repo-two");
+  assert.equal(out.featuredNarrative, "");
+  assert.equal(out.manualSortRank, null);
+  assert.equal(out.visibility, "public");
   assert.equal(out.hidden, false);
 });
 
@@ -97,4 +111,26 @@ test("applyCuration marks auto featured source", () => {
 
   assert.equal(out.featured, true);
   assert.equal(out.featuredSource, "auto");
+});
+
+test("applyCuration supports forced hidden visibility", () => {
+  const repo = {
+    name: "repo-hidden",
+    description: "Hidden repo",
+    readme: null,
+    screenshot: ""
+  };
+
+  const curation = {
+    overrides: {
+      "repo-hidden": {
+        visibility: "hidden"
+      }
+    }
+  };
+
+  const out = applyCuration(repo, curation);
+
+  assert.equal(out.visibility, "hidden");
+  assert.equal(out.hidden, true);
 });

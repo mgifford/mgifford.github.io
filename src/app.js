@@ -1,5 +1,4 @@
 const DATA_PATH = "data/site-data.json";
-const TOKEN_KEY = "mgiffordRepoCatalogToken";
 const OWNER_ACTION_PREFS_KEY = "mgiffordRepoCatalogOwnerActionPrefs";
 const DEFAULT_SNOOZE_DAYS = 7;
 const THEME_KEY = "mgiffordRepoCatalogTheme";
@@ -9,7 +8,6 @@ const els = {
   featuredRow: document.querySelector("#featured-row"),
   freshness: document.querySelector("#freshness"),
   ownerAccess: document.querySelector("#owner-access"),
-  ownerToken: document.querySelector("#owner-token"),
   ownerConnect: document.querySelector("#owner-connect"),
   ownerBadge: document.querySelector("#owner-badge"),
   themeToggle: document.querySelector("#theme-toggle"),
@@ -37,7 +35,7 @@ const els = {
 
 const state = {
   data: null,
-  token: window.localStorage.getItem(TOKEN_KEY) || "",
+  ownerAuthToken: "",
   filters: {
     search: "",
     theme: "all",
@@ -57,7 +55,7 @@ const state = {
 };
 
 function isOwnerMode() {
-  return Boolean(state.token) && !els.ownerPanel.hidden;
+  return !els.ownerPanel.hidden;
 }
 
 function getCurrentTheme() {
@@ -178,10 +176,17 @@ function visibleOwnerActions() {
   return state.ownerActions.items.filter((item) => !isActionDismissed(item.url) && !isActionSnoozed(item.url));
 }
 
+function manualRankValue(repo) {
+  return Number.isFinite(repo.manualSortRank) ? repo.manualSortRank : Number.POSITIVE_INFINITY;
+}
+
 function sortRepos(repos, mode) {
   const sorted = [...repos];
 
   sorted.sort((a, b) => {
+    const rankDelta = manualRankValue(a) - manualRankValue(b);
+    if (rankDelta !== 0) return rankDelta;
+
     if (mode === "name") return a.name.localeCompare(b.name);
     if (mode === "updated") return new Date(b.updatedAt) - new Date(a.updatedAt);
     if (mode === "watchers") return (b.watchers || 0) - (a.watchers || 0);
@@ -254,7 +259,13 @@ function renderSummary(visibleCount, totalFiltered) {
 }
 
 function shortImpactText(repo) {
-  const source = repo.highlight || repo.summary || repo.description || "No impact statement available yet.";
+  const source =
+    repo.featuredNarrative ||
+    repo.highlight ||
+    repo.cardSummary ||
+    repo.summary ||
+    repo.description ||
+    "No impact statement available yet.";
   const compact = source.replace(/\s+/g, " ").trim();
   if (compact.length <= 120) return compact;
   return `${compact.slice(0, 117).trimEnd()}...`;
@@ -264,7 +275,11 @@ function topNarrativeRepos() {
   const repos = state.data.repos || [];
   const featured = repos
     .filter((repo) => repo.featured && !repo.archived)
-    .sort((a, b) => (b.stars || 0) - (a.stars || 0));
+    .sort((a, b) => {
+      const rankDelta = manualRankValue(a) - manualRankValue(b);
+      if (rankDelta !== 0) return rankDelta;
+      return (b.stars || 0) - (a.stars || 0);
+    });
 
   const chosen = [...featured.slice(0, 3)];
   if (chosen.length < 3) {
@@ -295,7 +310,7 @@ function renderFeaturedNarrativeRow() {
       (repo) => `
         <article class="featured-row__item">
           <p class="featured-row__label">Featured</p>
-          <h2 class="featured-row__title"><a href="${repo.url}" target="_blank" rel="noreferrer noopener">${repo.name}</a></h2>
+          <h2 class="featured-row__title"><a href="${repo.url}" target="_blank" rel="noreferrer noopener">${repo.cardTitle || repo.name}</a></h2>
           <p class="featured-row__impact">${shortImpactText(repo)}</p>
         </article>
       `
@@ -347,10 +362,10 @@ function renderRepos() {
     image.alt = `Preview of ${repo.name}`;
 
     titleLink.href = repo.url;
-    titleLink.textContent = repo.name;
+    titleLink.textContent = repo.cardTitle || repo.name;
     titleLink.setAttribute("aria-label", `Open repository for ${repo.name}`);
 
-    desc.textContent = repo.summary;
+    desc.textContent = repo.cardSummary || repo.summary;
     meta.textContent = `${repo.language} · ${repo.theme} · ${repo.stars} stars · ${repo.watchers} watchers`;
 
     const badge = [];
@@ -668,9 +683,13 @@ function openCurrentImpactPage() {
 }
 
 async function loadOwnerDashboard() {
+  if (!state.ownerAuthToken) {
+    throw new Error("Owner mode requires GitHub OAuth or a server-side owner data pipeline.");
+  }
+
   const [metrics, actions] = await Promise.all([
-    fetchOwnerSignals(state.token, state.data.owner),
-    fetchOwnerActionItems(state.token, state.data.owner)
+    fetchOwnerSignals(state.ownerAuthToken, state.data.owner),
+    fetchOwnerActionItems(state.ownerAuthToken, state.data.owner)
   ]);
 
   renderOwnerMetrics(metrics);
@@ -679,52 +698,17 @@ async function loadOwnerDashboard() {
   renderImpactDashboard();
 }
 
-async function enableOwnerMode() {
-  const token = (els.ownerToken?.value || state.token || "").trim();
-  if (!token) {
-    window.alert("Add a GitHub token in Owner Access first.");
-    return;
-  }
-
-  state.token = token;
-  window.localStorage.setItem(TOKEN_KEY, state.token);
-
-  try {
-    await loadOwnerDashboard();
-    els.ownerPanel.hidden = false;
-    els.ownerAccess.hidden = true;
-    els.archivedWrap.hidden = false;
-    els.publicScopeWrap.hidden = true;
-    els.clearOwner.hidden = false;
-    renderOwnerBadge();
-    renderRepos();
-  } catch (error) {
-    window.alert(error.message);
-  }
+function enableOwnerMode() {
+  els.ownerAccess.hidden = false;
+  els.ownerAccess.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-async function restoreOwnerMode() {
-  if (!state.token) return;
-
-  try {
-    await loadOwnerDashboard();
-    els.ownerPanel.hidden = false;
-    els.ownerAccess.hidden = true;
-    els.archivedWrap.hidden = false;
-    els.publicScopeWrap.hidden = true;
-    els.clearOwner.hidden = false;
-    renderOwnerBadge();
-  } catch {
-    disableOwnerMode();
-  }
+function restoreOwnerMode() {
+  disableOwnerMode();
 }
 
 function disableOwnerMode() {
-  window.localStorage.removeItem(TOKEN_KEY);
-  state.token = "";
-  if (els.ownerToken) {
-    els.ownerToken.value = "";
-  }
+  state.ownerAuthToken = "";
   state.ownerActions.items = [];
   state.ownerActions.page = 0;
   state.filters.archivedMode = "hide";
@@ -786,7 +770,10 @@ async function init() {
   renderFeaturedNarrativeRow();
   renderFreshnessFooter();
 
-  const bind = (el, event, fn) => el.addEventListener(event, fn);
+  const bind = (el, event, fn) => {
+    if (!el) return;
+    el.addEventListener(event, fn);
+  };
 
   bind(els.search, "input", (event) => {
     state.filters.search = event.target.value;
@@ -827,7 +814,7 @@ async function init() {
     renderImpactDashboard();
   });
   bind(els.impactRefresh, "click", async () => {
-    if (!state.token) return;
+    if (!state.ownerAuthToken) return;
     els.impactRefresh.disabled = true;
     try {
       await loadOwnerDashboard();
@@ -856,7 +843,7 @@ async function init() {
     }
   });
 
-  await restoreOwnerMode();
+  restoreOwnerMode();
   if (!isOwnerMode()) {
     els.ownerAccess.hidden = false;
     els.publicScopeWrap.hidden = false;

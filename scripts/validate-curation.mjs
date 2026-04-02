@@ -41,6 +41,36 @@ async function main() {
     fail(parts.join(" | "));
   }
 
+  const overrideErrors = [];
+  const allowedVisibility = new Set(["public", "hidden"]);
+
+  for (const [name, override] of Object.entries(curation.overrides || {})) {
+    if (!override || typeof override !== "object") continue;
+
+    if (override.visibility !== undefined && !allowedVisibility.has(override.visibility)) {
+      overrideErrors.push(`${name}: visibility must be one of public|hidden`);
+    }
+
+    if (override.manualSortRank !== undefined && !Number.isFinite(override.manualSortRank)) {
+      overrideErrors.push(`${name}: manualSortRank must be a finite number`);
+    }
+
+    const stringFields = ["theme", "summary", "cardTitle", "cardSummary", "featuredNarrative", "screenshot"];
+    for (const field of stringFields) {
+      if (override[field] !== undefined && typeof override[field] !== "string") {
+        overrideErrors.push(`${name}: ${field} must be a string`);
+      }
+    }
+
+    if (override.hidden !== undefined && typeof override.hidden !== "boolean") {
+      overrideErrors.push(`${name}: hidden must be a boolean`);
+    }
+  }
+
+  if (overrideErrors.length) {
+    fail(`Invalid curation overrides: ${overrideErrors.join(" | ")}`);
+  }
+
   console.log("Curation validation passed.");
 }
 
