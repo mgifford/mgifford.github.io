@@ -98,15 +98,17 @@
 
     <template id="repo-card-template">
       <article class="card">
-        <a class="card__link" target="_blank" rel="noreferrer noopener"></a>
         <div class="card__image-wrap">
-          <img class="card__image" alt="Project preview" loading="lazy" />
+          <a class="card__image-link" target="_blank" rel="noreferrer noopener">
+            <img class="card__image" alt="Project preview" loading="lazy" />
+          </a>
         </div>
         <div class="card__body">
-          <h3 class="card__title"></h3>
+          <h3 class="card__title"><a class="card__title-link" target="_blank" rel="noreferrer noopener"></a></h3>
           <p class="card__desc"></p>
           <p class="card__meta"></p>
           <p class="card__flags"></p>
+          <p class="card__links"></p>
         </div>
       </article>
     </template>

@@ -354,6 +354,11 @@ select {
   height: 150px;
 }
 
+.card__image-link {
+  display: block;
+  height: 100%;
+}
+
 .card__image {
   width: 100%;
   height: 100%;
@@ -371,6 +376,16 @@ select {
   font-size: 1.18rem;
 }
 
+.card__title-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.card__title-link:hover,
+.card__title-link:focus-visible {
+  text-decoration: underline;
+}
+
 .card__desc {
   color: #33433f;
   min-height: 3.2rem;
@@ -385,6 +400,16 @@ select {
 
 .card__flags {
   color: #305f58;
+}
+
+.card__links {
+  margin: 0.55rem 0 0;
+  font-size: 0.86rem;
+}
+
+.card__links a {
+  color: #124e49;
+  font-weight: 700;
 }
 
 @keyframes rise {

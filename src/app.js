@@ -245,20 +245,28 @@ function renderRepos() {
   for (const repo of visibleRepos) {
     const fragment = els.template.content.cloneNode(true);
     const card = fragment.querySelector(".card");
-    const link = fragment.querySelector(".card__link");
+    const imageLink = fragment.querySelector(".card__image-link");
     const image = fragment.querySelector(".card__image");
-    const title = fragment.querySelector(".card__title");
+    const titleLink = fragment.querySelector(".card__title-link");
     const desc = fragment.querySelector(".card__desc");
     const meta = fragment.querySelector(".card__meta");
     const flags = fragment.querySelector(".card__flags");
+    const links = fragment.querySelector(".card__links");
 
-    link.href = repo.url;
-    link.setAttribute("aria-label", `Open ${repo.name}`);
+    const pagesUrl = repo.hasPages ? `https://${state.data.owner}.github.io/${repo.name}/` : "";
+    const liveUrl = repo.homepage && /^https?:\/\//.test(repo.homepage) ? repo.homepage : pagesUrl;
+    const imageTarget = liveUrl || repo.url;
+
+    imageLink.href = imageTarget;
+    imageLink.setAttribute("aria-label", liveUrl ? `Open live site for ${repo.name}` : `Open repository for ${repo.name}`);
 
     image.src = repo.screenshot || "src/assets/placeholder.svg";
     image.alt = `Preview of ${repo.name}`;
 
-    title.textContent = repo.name;
+    titleLink.href = repo.url;
+    titleLink.textContent = repo.name;
+    titleLink.setAttribute("aria-label", `Open repository for ${repo.name}`);
+
     desc.textContent = repo.summary;
     meta.textContent = `${repo.language} · ${repo.theme} · ${repo.stars} stars · ${repo.watchers} watchers`;
 
@@ -267,6 +275,12 @@ function renderRepos() {
     if (repo.archived) badge.push("Archived");
     if (repo.readme?.needsAttention) badge.push("README needs update");
     flags.textContent = badge.join(" · ");
+
+    const linkParts = [`<a href="${repo.url}" target="_blank" rel="noreferrer noopener">Repository</a>`];
+    if (liveUrl && liveUrl !== repo.url) {
+      linkParts.unshift(`<a href="${liveUrl}" target="_blank" rel="noreferrer noopener">Live Site</a>`);
+    }
+    links.innerHTML = linkParts.join(" · ");
 
     card.style.animationDelay = `${Math.min(200, els.grid.childElementCount * 18)}ms`;
     els.grid.appendChild(fragment);
