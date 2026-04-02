@@ -10,6 +10,7 @@ const els = {
   ownerAccess: document.querySelector("#owner-access"),
   ownerToken: document.querySelector("#owner-token"),
   ownerConnect: document.querySelector("#owner-connect"),
+  ownerBadge: document.querySelector("#owner-badge"),
   publicScopeWrap: document.querySelector("#public-scope-wrap"),
   publicScope: document.querySelector("#public-scope"),
   search: document.querySelector("#search"),
@@ -55,6 +56,10 @@ const state = {
 
 function isOwnerMode() {
   return Boolean(state.token) && !els.ownerPanel.hidden;
+}
+
+function renderOwnerBadge() {
+  els.ownerBadge.hidden = !isOwnerMode();
 }
 
 function parseFiltersFromUrl() {
@@ -653,6 +658,7 @@ async function enableOwnerMode() {
     els.archivedWrap.hidden = false;
     els.publicScopeWrap.hidden = true;
     els.clearOwner.hidden = false;
+    renderOwnerBadge();
     renderRepos();
   } catch (error) {
     window.alert(error.message);
@@ -669,6 +675,7 @@ async function restoreOwnerMode() {
     els.archivedWrap.hidden = false;
     els.publicScopeWrap.hidden = true;
     els.clearOwner.hidden = false;
+    renderOwnerBadge();
   } catch {
     disableOwnerMode();
   }
@@ -689,6 +696,7 @@ function disableOwnerMode() {
   els.archivedWrap.hidden = true;
   els.publicScopeWrap.hidden = false;
   els.clearOwner.hidden = true;
+  renderOwnerBadge();
   renderRepos();
 }
 
@@ -814,6 +822,8 @@ async function init() {
     els.ownerAccess.hidden = false;
     els.publicScopeWrap.hidden = false;
   }
+
+  renderOwnerBadge();
 
   renderRepos();
 }
