@@ -276,7 +276,11 @@ function renderRepos() {
     if (repo.readme?.needsAttention) badge.push("README needs update");
     flags.textContent = badge.join(" · ");
 
-    const linkParts = [`<a href="${repo.url}" target="_blank" rel="noreferrer noopener">Repository</a>`];
+    const readmeUrl = `${repo.url}/blob/${repo.defaultBranch || "main"}/README.md`;
+    const linkParts = [
+      `<a href="${repo.url}" target="_blank" rel="noreferrer noopener">Repository</a>`,
+      `<a href="${readmeUrl}" target="_blank" rel="noreferrer noopener">README</a>`
+    ];
     if (liveUrl && liveUrl !== repo.url) {
       linkParts.unshift(`<a href="${liveUrl}" target="_blank" rel="noreferrer noopener">Live Site</a>`);
     }
