@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mike Gifford Repo Catalog</title>
     <meta name="description" content="Curated repository catalog for Mike Gifford" />
+    <script>
+      (function () {
+        const storageKey = "mgiffordRepoCatalogTheme";
+        const savedTheme = window.localStorage.getItem(storageKey);
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = savedTheme || (prefersDark ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero__glow"></div>
       <div class="hero__inner">
+        <div class="hero__topbar">
+          <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle light and dark mode">
+            <svg aria-hidden="true" class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20">
+              <circle cx="12" cy="12" r="4.25" fill="currentColor"></circle>
+              <path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+            </svg>
+            <svg aria-hidden="true" class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20">
+              <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"></path>
+            </svg>
+          </button>
+        </div>
         <p class="eyebrow">Repository Atlas</p>
         <h1>Mike Gifford Projects</h1>
         <p class="lede">

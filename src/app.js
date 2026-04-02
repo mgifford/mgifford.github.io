@@ -2,6 +2,7 @@ const DATA_PATH = "data/site-data.json";
 const TOKEN_KEY = "mgiffordRepoCatalogToken";
 const OWNER_ACTION_PREFS_KEY = "mgiffordRepoCatalogOwnerActionPrefs";
 const DEFAULT_SNOOZE_DAYS = 7;
+const THEME_KEY = "mgiffordRepoCatalogTheme";
 
 const els = {
   storyStats: document.querySelector("#story-stats"),
@@ -11,6 +12,7 @@ const els = {
   ownerToken: document.querySelector("#owner-token"),
   ownerConnect: document.querySelector("#owner-connect"),
   ownerBadge: document.querySelector("#owner-badge"),
+  themeToggle: document.querySelector("#theme-toggle"),
   publicScopeWrap: document.querySelector("#public-scope-wrap"),
   publicScope: document.querySelector("#public-scope"),
   search: document.querySelector("#search"),
@@ -56,6 +58,42 @@ const state = {
 
 function isOwnerMode() {
   return Boolean(state.token) && !els.ownerPanel.hidden;
+}
+
+function getCurrentTheme() {
+  const theme = document.documentElement.getAttribute("data-theme");
+  return theme === "dark" ? "dark" : "light";
+}
+
+function applyTheme(theme, persist = true) {
+  document.documentElement.setAttribute("data-theme", theme);
+
+  if (persist) {
+    window.localStorage.setItem(THEME_KEY, theme);
+  }
+
+  const nextAction = theme === "dark" ? "light" : "dark";
+  els.themeToggle.setAttribute("aria-label", `Switch to ${nextAction} mode`);
+  els.themeToggle.setAttribute("title", `Switch to ${nextAction} mode`);
+  els.themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
+}
+
+function initTheme() {
+  const savedTheme = window.localStorage.getItem(THEME_KEY);
+  const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+  applyTheme(savedTheme || (mediaQuery.matches ? "dark" : "light"), false);
+
+  mediaQuery.addEventListener("change", (event) => {
+    const override = window.localStorage.getItem(THEME_KEY);
+    if (override) return;
+    applyTheme(event.matches ? "dark" : "light", false);
+  });
+}
+
+function toggleTheme() {
+  const nextTheme = getCurrentTheme() === "dark" ? "light" : "dark";
+  applyTheme(nextTheme, true);
 }
 
 function renderOwnerBadge() {
@@ -778,6 +816,7 @@ async function init() {
   bind(els.enableOwner, "click", enableOwnerMode);
   bind(els.ownerConnect, "click", enableOwnerMode);
   bind(els.clearOwner, "click", disableOwnerMode);
+  bind(els.themeToggle, "click", toggleTheme);
   bind(els.impactOpenTop, "click", openCurrentImpactPage);
   bind(els.impactPrev, "click", () => {
     state.ownerActions.page = Math.max(0, state.ownerActions.page - 1);
@@ -824,6 +863,7 @@ async function init() {
   }
 
   renderOwnerBadge();
+  initTheme();
 
   renderRepos();
 }
