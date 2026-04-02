@@ -1,0 +1,38 @@
+owner: mgifford
+sortingDefaults:
+  public: stars
+  owner: updated
+
+displayDefaults:
+  publicScope: curated
+  publicCuratedMax: 60
+
+featured:
+  - repo: openplus
+    theme: Accessibility
+    highlight: Accessibility-focused civic tech work.
+  - repo: a11yance
+    theme: Accessibility
+    highlight: Advocacy and open source accessibility collaboration.
+  - repo: gpii
+    theme: Personalization
+    highlight: Inclusive personalization and adaptive technology.
+
+themes:
+  Accessibility:
+    description: Digital accessibility, inclusion, and standards.
+  Civic Tech:
+    description: Open government and public interest technology.
+  AI and Automation:
+    description: AI-assisted workflows, automation, and tooling.
+  Web Platform:
+    description: Websites, publishing, and frontend infrastructure.
+  Data and Research:
+    description: Analytics, reporting, and evidence-driven projects.
+  Personalization:
+    description: User preference systems and adaptive interfaces.
+
+overrides:
+  mgifford.github.io:
+    theme: Web Platform
+    summary: Curated table of contents and maintenance dashboard for repositories.
