@@ -95,7 +95,9 @@ function toggleTheme() {
 }
 
 function renderOwnerBadge() {
-  els.ownerBadge.hidden = !isOwnerMode();
+  const active = isOwnerMode();
+  els.ownerBadge.hidden = !active;
+  els.enableOwner.hidden = active;
 }
 
 function parseFiltersFromUrl() {
