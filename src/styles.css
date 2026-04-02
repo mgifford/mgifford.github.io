@@ -156,6 +156,37 @@ select {
   border-color: #5a6863;
 }
 
+.owner-access {
+  margin-top: 1rem;
+  border: 1px solid #c9d4cf;
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: #ffffff;
+}
+
+.owner-access h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.owner-access__hint {
+  margin: 0.4rem 0 0.7rem;
+  color: #4f615b;
+  font-size: 0.9rem;
+}
+
+.owner-access__controls {
+  display: flex;
+  gap: 0.6rem;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.owner-access__controls label {
+  min-width: min(420px, 100%);
+  flex: 1;
+}
+
 .owner {
   margin-top: 1rem;
   border: 1px dashed #51706b;

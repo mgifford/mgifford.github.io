@@ -62,6 +62,20 @@
         </label>
       </section>
 
+      <section id="owner-access" class="owner-access" aria-label="Owner access">
+        <h2>Owner Access</h2>
+        <p class="owner-access__hint">
+          Owner mode currently uses a personal access token stored only in your browser. OAuth is not enabled yet.
+        </p>
+        <div class="owner-access__controls">
+          <label>
+            GitHub token
+            <input id="owner-token" type="password" placeholder="Paste token with repo and notifications scopes" autocomplete="off" />
+          </label>
+          <button id="owner-connect" class="btn btn--primary" type="button">Connect Owner Mode</button>
+        </div>
+      </section>
+
       <section id="owner-panel" class="owner" hidden>
         <h2>Owner Snapshot</h2>
         <p class="owner__hint">

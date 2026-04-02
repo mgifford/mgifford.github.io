@@ -7,6 +7,9 @@ const els = {
   storyStats: document.querySelector("#story-stats"),
   featuredRow: document.querySelector("#featured-row"),
   freshness: document.querySelector("#freshness"),
+  ownerAccess: document.querySelector("#owner-access"),
+  ownerToken: document.querySelector("#owner-token"),
+  ownerConnect: document.querySelector("#owner-connect"),
   publicScopeWrap: document.querySelector("#public-scope-wrap"),
   publicScope: document.querySelector("#public-scope"),
   search: document.querySelector("#search"),
@@ -181,7 +184,6 @@ function renderStoryStats() {
   const total = state.data.summary?.total || state.data.repos.length;
   const featured = state.data.summary?.featured || 0;
   const themes = (state.data.themes || []).length;
-  const readmeNeedsAttention = state.data.summary?.readmeNeedsAttention || 0;
 
   els.storyStats.innerHTML = `
     <article class="story__card">
@@ -195,10 +197,6 @@ function renderStoryStats() {
     <article class="story__card">
       <strong>${themes}</strong>
       <span>Curated themes</span>
-    </article>
-    <article class="story__card">
-      <strong>${readmeNeedsAttention}</strong>
-      <span>READMEs to improve</span>
     </article>
   `;
 }
@@ -561,6 +559,12 @@ function metricLabel(metric) {
 function renderOwnerMetrics(metrics) {
   els.ownerMetrics.innerHTML = "";
 
+  const readmeNeedsAttention = state.data.summary?.readmeNeedsAttention || 0;
+  const backlog = document.createElement("div");
+  backlog.className = "owner__metric";
+  backlog.innerHTML = `<strong>READMEs to improve:</strong> ${readmeNeedsAttention}`;
+  els.ownerMetrics.appendChild(backlog);
+
   for (const metric of metrics) {
     const div = document.createElement("div");
     div.className = "owner__metric";
@@ -633,16 +637,19 @@ async function loadOwnerDashboard() {
 }
 
 async function enableOwnerMode() {
-  const existing = state.token;
-  const token = window.prompt("Enter a GitHub token for owner mode", existing || "");
-  if (!token) return;
+  const token = (els.ownerToken?.value || state.token || "").trim();
+  if (!token) {
+    window.alert("Add a GitHub token in Owner Access first.");
+    return;
+  }
 
-  state.token = token.trim();
+  state.token = token;
   window.localStorage.setItem(TOKEN_KEY, state.token);
 
   try {
     await loadOwnerDashboard();
     els.ownerPanel.hidden = false;
+    els.ownerAccess.hidden = true;
     els.archivedWrap.hidden = false;
     els.publicScopeWrap.hidden = true;
     els.clearOwner.hidden = false;
@@ -658,6 +665,7 @@ async function restoreOwnerMode() {
   try {
     await loadOwnerDashboard();
     els.ownerPanel.hidden = false;
+    els.ownerAccess.hidden = true;
     els.archivedWrap.hidden = false;
     els.publicScopeWrap.hidden = true;
     els.clearOwner.hidden = false;
@@ -669,11 +677,15 @@ async function restoreOwnerMode() {
 function disableOwnerMode() {
   window.localStorage.removeItem(TOKEN_KEY);
   state.token = "";
+  if (els.ownerToken) {
+    els.ownerToken.value = "";
+  }
   state.ownerActions.items = [];
   state.ownerActions.page = 0;
   state.filters.archivedMode = "hide";
   els.archivedMode.value = "hide";
   els.ownerPanel.hidden = true;
+  els.ownerAccess.hidden = false;
   els.archivedWrap.hidden = true;
   els.publicScopeWrap.hidden = false;
   els.clearOwner.hidden = true;
@@ -756,6 +768,7 @@ async function init() {
   });
 
   bind(els.enableOwner, "click", enableOwnerMode);
+  bind(els.ownerConnect, "click", enableOwnerMode);
   bind(els.clearOwner, "click", disableOwnerMode);
   bind(els.impactOpenTop, "click", openCurrentImpactPage);
   bind(els.impactPrev, "click", () => {
@@ -798,6 +811,7 @@ async function init() {
 
   await restoreOwnerMode();
   if (!isOwnerMode()) {
+    els.ownerAccess.hidden = false;
     els.publicScopeWrap.hidden = false;
   }
 
