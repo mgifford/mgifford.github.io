@@ -5,14 +5,14 @@ import { dirname } from "node:path";
 const API_BASE = "https://api.github.com";
 const OWNER = process.env.GH_OWNER || "mgifford";
 const TOKEN = process.env.GH_TOKEN || "";
-const README_SCAN_LIMIT = Number.parseInt(process.env.README_SCAN_LIMIT || (TOKEN ? "350" : "25"), 10);
+const README_SCAN_LIMIT_RAW = (process.env.README_SCAN_LIMIT || "all").toLowerCase();
 const NOW = new Date().toISOString();
 
 const OUTPUT_REPOS = "data/generated/repos.json";
 const OUTPUT_CHANGES = "data/generated/changes.json";
 const OUTPUT_REPORT = "reports/changes-latest.md";
 
-function parseLinkHeader(value) {
+export function parseLinkHeader(value) {
   if (!value) return {};
   return value.split(",").reduce((acc, chunk) => {
     const [urlPart, relPart] = chunk.split(";").map((part) => part.trim());
@@ -48,6 +48,34 @@ async function fetchJson(url, accept = "application/vnd.github+json") {
   };
 }
 
+async function fetchText(url, accept = "application/vnd.github.raw") {
+  const headers = {
+    Accept: accept,
+    "User-Agent": "mgifford-repo-catalog-sync"
+  };
+
+  if (TOKEN) {
+    headers.Authorization = `Bearer ${TOKEN}`;
+  }
+
+  const response = await fetch(url, { headers });
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`GitHub API error (${response.status}) for ${url}: ${body.slice(0, 500)}`);
+  }
+
+  return response.text();
+}
+
+function resolveReadmeLimit(totalRepos) {
+  if (README_SCAN_LIMIT_RAW === "all") return totalRepos;
+
+  const parsed = Number.parseInt(README_SCAN_LIMIT_RAW, 10);
+  if (!Number.isFinite(parsed) || parsed <= 0) return totalRepos;
+
+  return Math.min(parsed, totalRepos);
+}
+
 async function fetchAllRepos(owner) {
   let nextUrl = `${API_BASE}/users/${owner}/repos?per_page=100&type=owner&sort=updated`;
   const repos = [];
@@ -61,7 +89,7 @@ async function fetchAllRepos(owner) {
   return repos;
 }
 
-function readmeHeuristic(markdown) {
+export function readmeHeuristic(markdown) {
   if (!markdown || typeof markdown !== "string") {
     return {
       summary: "",
@@ -112,8 +140,8 @@ async function fetchReadme(owner, repoName) {
   const url = `${API_BASE}/repos/${owner}/${repoName}/readme`;
 
   try {
-    const { data } = await fetchJson(url, "application/vnd.github.raw+json");
-    return readmeHeuristic(data);
+    const markdown = await fetchText(url, "application/vnd.github.raw");
+    return readmeHeuristic(markdown);
   } catch {
     return {
       summary: "",
@@ -140,7 +168,7 @@ async function withConcurrency(items, limit, worker) {
   return results;
 }
 
-function mapRepo(repo, readme) {
+export function mapRepo(repo, readme) {
   return {
     id: repo.id,
     name: repo.name,
@@ -155,6 +183,7 @@ function mapRepo(repo, readme) {
     fork: Boolean(repo.fork),
     visibility: repo.visibility || "public",
     stars: repo.stargazers_count || 0,
+    forksCount: repo.forks_count || 0,
     watchers: repo.watchers_count || 0,
     openIssues: repo.open_issues_count || 0,
     createdAt: repo.created_at,
@@ -165,7 +194,7 @@ function mapRepo(repo, readme) {
   };
 }
 
-function buildChanges(previousRepos, currentRepos) {
+export function buildChanges(previousRepos, currentRepos) {
   const prevMap = new Map(previousRepos.map((repo) => [repo.fullName, repo]));
   const currentMap = new Map(currentRepos.map((repo) => [repo.fullName, repo]));
 
@@ -226,7 +255,7 @@ async function writeJson(path, value) {
   await writeFile(path, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-async function writeMarkdownReport(changes) {
+export async function writeMarkdownReport(changes) {
   const lines = [
     "# Repository Sync Report",
     "",
@@ -264,15 +293,16 @@ async function writeMarkdownReport(changes) {
   await writeFile(OUTPUT_REPORT, lines.join("\n"), "utf8");
 }
 
-async function main() {
+export async function main() {
   console.log(`Syncing repositories for ${OWNER}...`);
   const previousRepos = await loadPreviousRepos();
   const repos = await fetchAllRepos(OWNER);
 
   const sortedRepos = repos.sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0));
-  const readmeTargets = sortedRepos.slice(0, Math.min(README_SCAN_LIMIT, sortedRepos.length));
+  const readmeScanLimit = resolveReadmeLimit(sortedRepos.length);
+  const readmeTargets = sortedRepos.slice(0, readmeScanLimit);
 
-  console.log(`Scanning README quality for ${readmeTargets.length} repos (limit ${README_SCAN_LIMIT})...`);
+  console.log(`Scanning README quality for ${readmeTargets.length} repos (limit ${readmeScanLimit})...`);
   const readmeByName = new Map();
 
   await withConcurrency(readmeTargets, 8, async (repo) => {
@@ -290,7 +320,7 @@ async function main() {
     generatedAt: NOW,
     owner: OWNER,
     repoCount: currentRepos.length,
-    readmeScanLimit: README_SCAN_LIMIT,
+    readmeScanLimit: readmeScanLimit,
     repos: currentRepos
   });
 
@@ -300,7 +330,9 @@ async function main() {
   console.log(`Done. Repositories synced: ${currentRepos.length}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

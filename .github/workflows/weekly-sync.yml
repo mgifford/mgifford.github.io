@@ -28,7 +28,6 @@ jobs:
         env:
           GH_OWNER: mgifford
           GH_TOKEN: ${{ secrets.MGIFFORD_TOKEN || secrets.GITHUB_TOKEN }}
-          README_SCAN_LIMIT: "400"
         run: npm run sync:all
 
       - name: Install browser dependencies (changed/new screenshots)
@@ -42,14 +41,25 @@ jobs:
       - name: Rebuild site data after screenshots
         run: npm run build:data
 
+      - name: Validate generated data and curation
+        run: |
+          npm run validate:data
+          npm run validate:curation
+
       - name: Commit updates
         run: |
-          if [[ -n "$(git status --porcelain)" ]]; then
+          meaningful_changes=$(node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync('data/generated/changes.json','utf8')).counts;process.stdout.write(String((c.added+c.deleted+c.archivedNow+c.unarchivedNow)>0));")
+          screenshots_changed=false
+          if ! git diff --quiet -- data/generated/screenshots.json src/assets/screenshots; then
+            screenshots_changed=true
+          fi
+
+          if [[ "$meaningful_changes" == "true" || "$screenshots_changed" == "true" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/generated data/site-data.json reports/changes-latest.md src/assets/screenshots
             git commit -m "chore: weekly repo sync"
             git push
           else
-            echo "No changes to commit"
+            echo "No meaningful changes to commit"
           fi

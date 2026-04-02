@@ -8,9 +8,12 @@
   "scripts": {
     "sync:repos": "node scripts/sync-repos.mjs",
     "build:data": "node scripts/build-site-data.mjs",
+    "validate:data": "node scripts/validate-generated-data.mjs",
+    "validate:curation": "node scripts/validate-curation.mjs",
     "sync:all": "npm run sync:repos && npm run build:data",
     "screenshot:pages": "node scripts/capture-pages-screenshots.mjs",
-    "start": "npx serve ."
+    "start": "npx serve .",
+    "test": "node --test"
   },
   "engines": {
     "node": ">=20"

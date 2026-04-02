@@ -1,8 +1,12 @@
 const DATA_PATH = "data/site-data.json";
 const TOKEN_KEY = "mgiffordRepoCatalogToken";
+const OWNER_ACTION_PREFS_KEY = "mgiffordRepoCatalogOwnerActionPrefs";
+const DEFAULT_SNOOZE_DAYS = 7;
 
 const els = {
   storyStats: document.querySelector("#story-stats"),
+  featuredRow: document.querySelector("#featured-row"),
+  freshness: document.querySelector("#freshness"),
   publicScopeWrap: document.querySelector("#public-scope-wrap"),
   publicScope: document.querySelector("#public-scope"),
   search: document.querySelector("#search"),
@@ -42,11 +46,48 @@ const state = {
     items: [],
     page: 0,
     pageSize: 10
-  }
+  },
+  ownerActionPrefs: JSON.parse(window.localStorage.getItem(OWNER_ACTION_PREFS_KEY) || "{}")
 };
 
 function isOwnerMode() {
   return Boolean(state.token) && !els.ownerPanel.hidden;
+}
+
+function persistOwnerActionPrefs() {
+  window.localStorage.setItem(OWNER_ACTION_PREFS_KEY, JSON.stringify(state.ownerActionPrefs));
+}
+
+function isActionDismissed(url) {
+  return Boolean(state.ownerActionPrefs[url]?.dismissed);
+}
+
+function isActionSnoozed(url) {
+  const snoozeUntil = state.ownerActionPrefs[url]?.snoozeUntil;
+  if (!snoozeUntil) return false;
+  return Date.now() < snoozeUntil;
+}
+
+function dismissOwnerAction(url) {
+  state.ownerActionPrefs[url] = {
+    ...(state.ownerActionPrefs[url] || {}),
+    dismissed: true
+  };
+  persistOwnerActionPrefs();
+  renderImpactDashboard();
+}
+
+function snoozeOwnerAction(url, days = DEFAULT_SNOOZE_DAYS) {
+  state.ownerActionPrefs[url] = {
+    ...(state.ownerActionPrefs[url] || {}),
+    snoozeUntil: Date.now() + days * 24 * 60 * 60 * 1000
+  };
+  persistOwnerActionPrefs();
+  renderImpactDashboard();
+}
+
+function visibleOwnerActions() {
+  return state.ownerActions.items.filter((item) => !isActionDismissed(item.url) && !isActionSnoozed(item.url));
 }
 
 function sortRepos(repos, mode) {
@@ -127,6 +168,71 @@ function renderSummary(visibleCount, totalFiltered) {
   const scopeText = !isOwnerMode() && state.filters.publicScope === "curated" ? " · curated view" : "";
 
   els.summary.textContent = `${visibleCount} shown of ${totalFiltered} filtered · ${total} total repos · ${featured} featured · ${archived} archived${scopeText}`;
+}
+
+function shortImpactText(repo) {
+  const source = repo.highlight || repo.summary || repo.description || "No impact statement available yet.";
+  const compact = source.replace(/\s+/g, " ").trim();
+  if (compact.length <= 120) return compact;
+  return `${compact.slice(0, 117).trimEnd()}...`;
+}
+
+function topNarrativeRepos() {
+  const repos = state.data.repos || [];
+  const featured = repos
+    .filter((repo) => repo.featured && !repo.archived)
+    .sort((a, b) => (b.stars || 0) - (a.stars || 0));
+
+  const chosen = [...featured.slice(0, 3)];
+  if (chosen.length < 3) {
+    const selected = new Set(chosen.map((repo) => repo.name));
+    const fallback = repos
+      .filter((repo) => !repo.archived && !selected.has(repo.name))
+      .sort((a, b) => (b.stars || 0) - (a.stars || 0))
+      .slice(0, 3 - chosen.length);
+
+    chosen.push(...fallback);
+  }
+
+  return chosen;
+}
+
+function renderFeaturedNarrativeRow() {
+  const top = topNarrativeRepos();
+
+  if (!top.length) {
+    els.featuredRow.hidden = true;
+    els.featuredRow.innerHTML = "";
+    return;
+  }
+
+  els.featuredRow.hidden = false;
+  els.featuredRow.innerHTML = top
+    .map(
+      (repo) => `
+        <article class="featured-row__item">
+          <p class="featured-row__label">Featured</p>
+          <h2 class="featured-row__title"><a href="${repo.url}" target="_blank" rel="noreferrer noopener">${repo.name}</a></h2>
+          <p class="featured-row__impact">${shortImpactText(repo)}</p>
+        </article>
+      `
+    )
+    .join("");
+}
+
+function formatTimestamp(value) {
+  if (!value) return "n/a";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "n/a";
+  return date.toLocaleString();
+}
+
+function renderFreshnessFooter() {
+  const freshness = state.data.freshness || {};
+  const delta = freshness.repoCountDelta || 0;
+  const deltaText = delta > 0 ? `+${delta}` : `${delta}`;
+
+  els.freshness.textContent = `Data freshness: repo snapshot ${formatTimestamp(freshness.repoSnapshotGeneratedAt || state.data.sourceGeneratedAt)} · screenshots ${formatTimestamp(freshness.screenshotsGeneratedAt)} · repo delta ${deltaText}`;
 }
 
 function renderRepos() {
@@ -253,6 +359,10 @@ function dedupeByUrl(items) {
   return deduped;
 }
 
+function isRoutinePackageUpdateTitle(title) {
+  return /(dependabot|bump\s+[^\s]+\s+from|chore\(deps\)|update\s+dependencies|npm|yarn|pnpm)/i.test(title || "");
+}
+
 async function fetchOwnerActionItems(token, owner) {
   const staleDate = new Date(Date.now() - 1000 * 60 * 60 * 24 * 120).toISOString().slice(0, 10);
 
@@ -282,13 +392,18 @@ async function fetchOwnerActionItems(token, owner) {
       score: 100,
       updatedAt: item.updated_at
     })),
-    ...notifications.map((item) => ({
-      title: `${item.subject.type}: ${item.subject.title}`,
+    ...notifications.map((item) => {
+      const reason = item.reason || "subscribed";
+      const securityNotice = reason === "security_alert";
+
+      return {
+      title: `${securityNotice ? "Security" : item.subject.type}: ${item.subject.title}`,
       url: toWebUrlFromApiUrl(item.subject.url),
-      reason: `Unread notification (${item.reason})`,
-      score: item.reason === "review_requested" ? 95 : 82,
+      reason: securityNotice ? "Security notice" : `Unread notification (${reason})`,
+      score: securityNotice ? 110 : reason === "review_requested" ? 95 : 82,
       updatedAt: item.updated_at
-    })),
+    };
+    }),
     ...newIssues.map((item) => ({
       title: `New issue: ${item.title}`,
       url: item.html_url,
@@ -314,6 +429,7 @@ async function fetchOwnerActionItems(token, owner) {
 
   return dedupeByUrl(items)
     .filter((item) => item.url)
+    .filter((item) => item.reason === "Security notice" || !isRoutinePackageUpdateTitle(item.title))
     .sort((a, b) => {
       if (b.score !== a.score) return b.score - a.score;
       return new Date(b.updatedAt) - new Date(a.updatedAt);
@@ -355,6 +471,12 @@ async function fetchOwnerSignals(token, owner) {
     note: approxPages > 1 ? "(latest 100 items shown)" : ""
   });
 
+  metrics.push({
+    key: "securityAlerts",
+    total: notifications.filter((item) => item.reason === "security_alert").length,
+    note: "(from notifications)"
+  });
+
   return metrics;
 }
 
@@ -368,6 +490,8 @@ function metricLabel(metric) {
       return "Open issues";
     case "staleIssues":
       return "Stale issues (120+ days)";
+    case "securityAlerts":
+      return "Security notices";
     default:
       return "Unread notifications";
   }
@@ -385,20 +509,25 @@ function renderOwnerMetrics(metrics) {
 }
 
 function impactPageCount() {
-  const { items, pageSize } = state.ownerActions;
+  const items = visibleOwnerActions();
+  const { pageSize } = state.ownerActions;
   return Math.max(1, Math.ceil(items.length / pageSize));
 }
 
 function currentImpactItems() {
-  const { items, page, pageSize } = state.ownerActions;
+  const items = visibleOwnerActions();
+  const { page, pageSize } = state.ownerActions;
   const start = page * pageSize;
   return items.slice(start, start + pageSize);
 }
 
 function renderImpactDashboard() {
-  const pageItems = currentImpactItems();
-  const total = state.ownerActions.items.length;
+  const total = visibleOwnerActions().length;
   const pages = impactPageCount();
+  if (state.ownerActions.page >= pages) {
+    state.ownerActions.page = Math.max(0, pages - 1);
+  }
+  const pageItems = currentImpactItems();
   const pageNumber = state.ownerActions.page + 1;
 
   els.impactList.innerHTML = "";
@@ -409,7 +538,7 @@ function renderImpactDashboard() {
     for (const [index, item] of pageItems.entries()) {
       const div = document.createElement("div");
       div.className = "impact__item";
-      div.innerHTML = `<strong>${state.ownerActions.page * state.ownerActions.pageSize + index + 1}.</strong> <a href="${item.url}" target="_blank" rel="noreferrer noopener">${item.title}</a><div class="impact__meta">${item.reason}</div>`;
+      div.innerHTML = `<strong>${state.ownerActions.page * state.ownerActions.pageSize + index + 1}.</strong> <a href="${item.url}" target="_blank" rel="noreferrer noopener">${item.title}</a><div class="impact__meta">${item.reason}</div><div class="impact__item-actions"><button type="button" class="btn btn--ghost impact__action" data-action="snooze" data-url="${item.url}">Snooze 7d</button><button type="button" class="btn btn--ghost impact__action" data-action="dismiss" data-url="${item.url}">Dismiss</button></div>`;
       els.impactList.append(div);
     }
   }
@@ -505,6 +634,8 @@ async function init() {
 
   populateThemeFilters(state.data.themes || []);
   renderStoryStats();
+  renderFeaturedNarrativeRow();
+  renderFreshnessFooter();
 
   const bind = (el, event, fn) => el.addEventListener(event, fn);
 
@@ -553,6 +684,24 @@ async function init() {
       window.alert(error.message);
     } finally {
       els.impactRefresh.disabled = false;
+    }
+  });
+
+  bind(els.impactList, "click", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLButtonElement)) return;
+
+    const action = target.dataset.action;
+    const url = target.dataset.url;
+    if (!action || !url) return;
+
+    if (action === "snooze") {
+      snoozeOwnerAction(url);
+      return;
+    }
+
+    if (action === "dismiss") {
+      dismissOwnerAction(url);
     }
   });
 

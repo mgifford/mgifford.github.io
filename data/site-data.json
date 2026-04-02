@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T10:20:35.776Z",
+  "generatedAt": "2026-04-02T11:00:28.832Z",
   "sourceGeneratedAt": "2026-04-02T09:55:07.491Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -11,14 +11,22 @@
     "publicCuratedMax": 60
   },
   "themes": [
+    "Accessibility",
+    "Civic Tech",
     "General",
     "Web Platform"
   ],
   "summary": {
     "total": 281,
     "archived": 14,
-    "featured": 0,
+    "featured": 12,
     "readmeNeedsAttention": 25
+  },
+  "freshness": {
+    "repoSnapshotGeneratedAt": "2026-04-02T09:55:07.491Z",
+    "changesGeneratedAt": "2026-04-02T09:55:07.491Z",
+    "screenshotsGeneratedAt": null,
+    "repoCountDelta": 281
   },
   "changes": {
     "generatedAt": "2026-04-02T09:55:07.491Z",
@@ -357,10 +365,11 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
-      "theme": "General",
+      "featured": true,
+      "featuredSource": "manual",
+      "theme": "Accessibility",
       "summary": "Courses offered in web accessibility (and other learning opportunities)",
-      "highlight": ""
+      "highlight": "A high-signal course index for accessibility learning and practice."
     },
     {
       "id": 83059128,
@@ -399,10 +408,11 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
-      "theme": "General",
+      "featured": true,
+      "featuredSource": "manual",
+      "theme": "Civic Tech",
       "summary": "Providing example language for contracts which work with open-source software and explicitly want to encourage it's growth and development.",
-      "highlight": ""
+      "highlight": "Practical contract language to strengthen open source procurement."
     },
     {
       "id": 85870974,
@@ -445,7 +455,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "Building Accessibility Best Practices into Contracting",
       "highlight": ""
@@ -488,10 +499,11 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
-      "theme": "General",
+      "featured": true,
+      "featuredSource": "manual",
+      "theme": "Accessibility",
       "summary": "ACCESSIBILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
-      "highlight": ""
+      "highlight": "Open guidance helping coding agents build accessibility in by default."
     },
     {
       "id": 14415010,
@@ -524,7 +536,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "A hub for our collection of security best practices for Drupal. - https://openconcept.ca/drupal-security-best-practices-practical-guide",
       "highlight": ""
@@ -562,7 +575,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "A collectioin of Persona's ",
       "highlight": ""
@@ -598,7 +612,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -634,7 +649,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "A public space for accessibility issues with GitHub, not managed by GitHub. ",
       "highlight": ""
@@ -679,7 +695,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "A color contrast checker that supports WCAG 2, APCA & Focus Colors",
       "highlight": ""
@@ -719,7 +736,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "Comparing Old Section 508 to WCAG 2.0 AA",
       "highlight": ""
@@ -755,7 +773,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "Non-Disclosure Agreements in Legal Markdown Style",
       "highlight": ""
@@ -791,7 +810,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
+      "featured": true,
+      "featuredSource": "auto",
       "theme": "General",
       "summary": "Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
       "highlight": ""
@@ -833,6 +853,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Content-First Text-Based Wireframe",
       "highlight": ""
@@ -874,6 +895,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An implementation of simplA11yPDFCrawler in GitHub Pages / Actions",
       "highlight": ""
@@ -910,6 +932,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Pull your GitHub Summaries for easier timekeeping",
       "highlight": ""
@@ -946,6 +969,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Lists of lists of accessibility related issues",
       "highlight": ""
@@ -987,6 +1011,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An effort to use GitHub Actions to run Oobee style tools",
       "highlight": ""
@@ -1029,6 +1054,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Scan URLs with various open source accessibility scanners",
       "highlight": ""
@@ -1070,6 +1096,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Find the most popular URLs for a given domain",
       "highlight": ""
@@ -1114,6 +1141,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Providing example language for contracts & RFPs to help encourage diversity & sustainable procurement practices",
       "highlight": ""
@@ -1150,6 +1178,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -1193,6 +1222,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Visualization of WCAG 2.2 AA for automated and manual tests.",
       "highlight": ""
@@ -1229,6 +1259,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An attempt to put standards from W3C WAI into YAML LD files",
       "highlight": ""
@@ -1271,6 +1302,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Linking websites to the built-environment. Helping people find if the buildings they go to have the accommodations they depend on.",
       "highlight": ""
@@ -1311,6 +1343,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A script to find overlays from a list of domains",
       "highlight": ""
@@ -1339,6 +1372,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "We need better docs about the open data available in Canada's Parliament",
       "highlight": ""
@@ -1367,6 +1401,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Trying to create a simpler way to explain this...",
       "highlight": ""
@@ -1399,6 +1434,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A collection of Claude Skill to mirror https://mgifford.github.io/ACCESSIBILITY.md",
       "highlight": ""
@@ -1427,6 +1463,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Sam.gov in Markdown",
       "highlight": ""
@@ -1461,6 +1498,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Get insights from your transcripts on meeting participation",
       "highlight": ""
@@ -1493,6 +1531,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Some examples of maps with accessibility built in. ",
       "highlight": ""
@@ -1526,6 +1565,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A quick way to coordinate meetings for groups, especially if you work with GitHub",
       "highlight": ""
@@ -1554,6 +1594,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A list of the top people to follow in web accessibility and web standards.",
       "highlight": ""
@@ -1582,6 +1623,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Aims to be the biggest checklist of inclusive design considerations ever",
       "highlight": ""
@@ -1610,6 +1652,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Just wanting to have a short list of suggestions for better presentations. ",
       "highlight": ""
@@ -1638,6 +1681,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A collection of useful tools for accessibility testing and debugging in the browser, online and desktop",
       "highlight": ""
@@ -1666,6 +1710,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Holmes is stand-alone diagnostic CSS stylesheet that can highlight potentially invalid or erroneous HTML(5) markup by adding one class",
       "highlight": ""
@@ -1694,6 +1739,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A Drupal module for pulling etherpads into Drupal pages",
       "highlight": ""
@@ -1729,6 +1775,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Doing a comparison of WCAG to APCA values for color contrast.",
       "highlight": ""
@@ -1757,6 +1804,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": ":wheelchair: Suite of open and standards-based tools for performing reliable accessibility conformance testing at scale",
       "highlight": ""
@@ -1792,6 +1840,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Monitoring top US Federal Government websites for accessibility, performance, etc.",
       "highlight": ""
@@ -1826,6 +1875,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "HTML slide tool (based on W3C slides) with Whisper.cpp integration for captioning. ",
       "highlight": ""
@@ -1859,6 +1909,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An experimental MOOC for Web Sustainability Awareness",
       "highlight": ""
@@ -1892,6 +1943,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Inclusive Emergency Readiness Guide for digital technology. Making sure everyone can be prepared.",
       "highlight": ""
@@ -1925,6 +1977,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Find a design system and scan a site to see how well it is implemented. ",
       "highlight": ""
@@ -1957,6 +2010,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Unsure why this isn't in the W3C",
       "highlight": ""
@@ -1990,6 +2044,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Help build accessible SVGs.",
       "highlight": ""
@@ -2025,6 +2080,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A weather site that tries to look at risk models and climate change.",
       "highlight": ""
@@ -2053,6 +2109,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Oobee (formerly known as Purple A11y) is a customisable, automated web accessibility testing tool that allows software development teams to find and fix accessibility problems to improve persons with disabilities (PWDs) access to digital services.",
       "highlight": ""
@@ -2081,6 +2138,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Scanner to pull out accessibility issues from GitHub",
       "highlight": ""
@@ -2109,6 +2167,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Some OSS Procurement Guidance",
       "highlight": ""
@@ -2137,6 +2196,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A bookmarklet to explore use of print CSS on a web page. ",
       "highlight": ""
@@ -2165,6 +2225,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The web accessibility tool built for scale",
       "highlight": ""
@@ -2193,6 +2254,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A guide for researching ways of funding open source projects.",
       "highlight": ""
@@ -2221,6 +2283,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A repo to organize the guidelines and best practices for accessibility at 18f.",
       "highlight": ""
@@ -2249,6 +2312,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This tool crawls a list of websites and download all PDF and office documents. Then it analyses the PDF documents and tries to detect accessibility issues.",
       "highlight": ""
@@ -2277,6 +2341,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Temporary account for development of OpenPats JSON Schema",
       "highlight": ""
@@ -2305,6 +2370,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "ux project checklist",
       "highlight": ""
@@ -2333,6 +2399,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A template & resources for creating good accessibility templates for your website & apps.",
       "highlight": ""
@@ -2361,6 +2428,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Community reviews on the accessibility of tools and services.",
       "highlight": ""
@@ -2389,6 +2457,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A11Y Style Guide",
       "highlight": ""
@@ -2417,6 +2486,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Example site for an inclusive pattern library theme",
       "highlight": ""
@@ -2445,6 +2515,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Accessibility engine for automated Web UI testing",
       "highlight": ""
@@ -2473,6 +2544,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -2501,6 +2573,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Mapping the rohingya crisis with Open Street Map",
       "highlight": ""
@@ -2529,6 +2602,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "WordPress variant for the Web Experience Toolkit (WET)",
       "highlight": ""
@@ -2557,6 +2631,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -2585,6 +2660,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Government of Canada Information Technology Strategic Plan 2016-2020 - Comunity Remix",
       "highlight": ""
@@ -2613,6 +2689,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A Drupal theme geared for the Government of Canada's Common Look & Feel",
       "highlight": ""
@@ -2641,6 +2718,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Collection of hacks and demos showing capability of HTML5 apps",
       "highlight": ""
@@ -2669,6 +2747,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A collaborative list of open-source alternatives to typical government and enterprise software needs  ",
       "highlight": ""
@@ -2697,6 +2776,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Main repository of the Web Experience Toolkit (WET)",
       "highlight": ""
@@ -2725,6 +2805,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "PHP Class to provide information about a given domain. ",
       "highlight": ""
@@ -2753,6 +2834,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Drupal variant of the Web Experience Toolkit (WET)",
       "highlight": ""
@@ -2788,6 +2870,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
       "highlight": ""
@@ -2819,6 +2902,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "My personal site — Mike Gifford",
       "highlight": ""
@@ -2847,6 +2931,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "Web Platform",
       "summary": "Curated table of contents and maintenance dashboard for repositories.",
       "highlight": ""
@@ -2875,6 +2960,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "How do we find and validate publiccode.yml files?",
       "highlight": ""
@@ -2903,6 +2989,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A multi-person speech to text tool. Help to locate different speakers in the room.",
       "highlight": ""
@@ -2935,6 +3022,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A draft tool for the W3C's Accessibility Maturity Model",
       "highlight": ""
@@ -2970,6 +3058,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A tool to automate the generation of accessible enterprise UI color palettes.",
       "highlight": ""
@@ -2998,6 +3087,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Failed attempt to have HTML to Sign Language",
       "highlight": ""
@@ -3030,6 +3120,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Scanning government websites for for accessibility statements, accessibility, social media, etc.",
       "highlight": ""
@@ -3058,6 +3149,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A guide to running AI-facilitated asynchronous assemblies that help groups reach genuine consensus on complex topics.",
       "highlight": ""
@@ -3091,6 +3183,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "GitHub Open Dashboard",
       "highlight": ""
@@ -3124,6 +3217,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Create an OpenACR from a project link. Mostly Drupal. This is very draft. It also hits GitHub projects.",
       "highlight": ""
@@ -3152,6 +3246,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Free Claude Skills for federal contracting: IGCE builders (FFP, T&M, cost-reimbursement), SOW/PWS generator, market research reports, and live API tools for USASpending, GSA CALC+, BLS OEWS, Per Diem, Federal Register, eCFR, Regulations.gov. Built for GS-1102 contract specialists and government contractors.",
       "highlight": ""
@@ -3186,6 +3281,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The open-source, truly accessible ParaCharts charting software",
       "highlight": ""
@@ -3219,6 +3315,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Are the alt text for images useful? Most aren't. Most testing tools only look for absence of description, not if it is any good.",
       "highlight": ""
@@ -3247,6 +3344,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Drupal core fork — accessibility work and AI tooling",
       "highlight": ""
@@ -3275,6 +3373,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -3309,6 +3408,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
       "highlight": ""
@@ -3343,6 +3443,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Review if HTML/CSS/JS should be updated because it is too old or too new",
       "highlight": ""
@@ -3376,6 +3477,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Automated scans for common sustainability challenges",
       "highlight": ""
@@ -3407,6 +3509,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A possible alternative to Swagger UI",
       "highlight": ""
@@ -3441,6 +3544,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "SUSTAINABILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents",
       "highlight": ""
@@ -3473,6 +3577,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A tool for speech to caption to phone. Making it easier for people to watch captions as they see fit.",
       "highlight": ""
@@ -3501,6 +3606,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Accessibility planner-critic skill pair for Claude Code — WCAG implementation planning + ARIA/focus/semantic review",
       "highlight": ""
@@ -3533,6 +3639,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Attempt to modernize Drupal's documentation with AI",
       "highlight": ""
@@ -3566,6 +3673,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Development repository of A11yFirst CKEditor plugins",
       "highlight": ""
@@ -3600,6 +3708,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Make accessible SVGs from files MermaidJS",
       "highlight": ""
@@ -3632,6 +3741,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Does your browser support AI? If so what features?",
       "highlight": ""
@@ -3665,6 +3775,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Monitor your open source repos to follow best practices",
       "highlight": ""
@@ -3697,6 +3808,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Edit your slides, live, in Markdown.",
       "highlight": ""
@@ -3727,6 +3839,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An attempt to learn more about our stats on d.o - Work in Progress",
       "highlight": ""
@@ -3755,6 +3868,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The U.S. Web Design System helps the federal government build fast, accessible, mobile-friendly websites.",
       "highlight": ""
@@ -3783,6 +3897,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A Django content management system focused on flexibility and user experience",
       "highlight": ""
@@ -3811,6 +3926,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "State of California Design System",
       "highlight": ""
@@ -3839,6 +3955,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "🚀 Open source Node.js Headless CMS to easily build customisable APIs",
       "highlight": ""
@@ -3867,6 +3984,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "CivicActions Accessbility Clone",
       "highlight": ""
@@ -3895,6 +4013,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Primero is an application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence.  Please carefully read our LICENSE. If you would like access to the CPIMS+ and GBVIMS+ configurations, please contact: childprotectioninnovation@gmail.com ",
       "highlight": ""
@@ -3923,6 +4042,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Powerful rich text editor framework with a modular architecture, modern integrations, and features like collaborative editing.",
       "highlight": ""
@@ -3951,6 +4071,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "USWDS website and documentation",
       "highlight": ""
@@ -3979,6 +4100,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
       "highlight": ""
@@ -4007,6 +4129,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A Privacy-1st-Investment-Dashboard. This is not financial advice. ",
       "highlight": ""
@@ -4040,6 +4163,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Building a smart cookbook for the recipes we like and want to be able to share. ",
       "highlight": ""
@@ -4068,6 +4192,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Simple graph experiments",
       "highlight": ""
@@ -4098,6 +4223,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An educational piece about perception",
       "highlight": ""
@@ -4126,6 +4252,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Linked procurement documentation.",
       "highlight": ""
@@ -4154,6 +4281,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An effort to link related accessibility resources using https://linkedobjects.org/",
       "highlight": ""
@@ -4182,6 +4310,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Automatically scan for accessibility issues across many websites.",
       "highlight": ""
@@ -4210,6 +4339,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A strong, neutral, principles-driven, open source typeface for text or display",
       "highlight": ""
@@ -4240,6 +4370,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A lightweight pipeline, locally or in Lambda, for scanning things like HTTPS, third party service use, and web accessibility.",
       "highlight": ""
@@ -4268,6 +4399,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Draft concept",
       "highlight": ""
@@ -4296,6 +4428,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This is a compiled list of keywords to use when data-mining customer feedback to get the voice of your customers with a disability",
       "highlight": ""
@@ -4324,6 +4457,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "FOSDEM website",
       "highlight": ""
@@ -4355,6 +4489,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An interactive game to introduce folks to GitHub",
       "highlight": ""
@@ -4386,6 +4521,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "We should be able to host our own TV/Movie suggestion engine",
       "highlight": ""
@@ -4417,6 +4553,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Help will the generation of a Statement of Objectives (SOO)",
       "highlight": ""
@@ -4448,6 +4585,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "If you ever wanted to extract a domain from Archive.org",
       "highlight": ""
@@ -4482,6 +4620,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Standalone scanner for a single directory and sub-directories.",
       "highlight": ""
@@ -4516,6 +4655,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A refresh of the We4Authors site and conversion to a living document.",
       "highlight": ""
@@ -4544,6 +4684,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Files for creating an internal AI knowledge base with open source content.",
       "highlight": ""
@@ -4572,6 +4713,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and Digital Transformation.",
       "highlight": ""
@@ -4600,6 +4742,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This repository stores files for Accessibility Conformance Reporting Tool (ACRT) tool. This tool is standalone browser based application and  is used to track accessibility test results. ",
       "highlight": ""
@@ -4628,6 +4771,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "DRAFT for Idea",
       "highlight": ""
@@ -4656,6 +4800,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Archive of old fork. ",
       "highlight": ""
@@ -4684,6 +4829,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Open Design Guide",
       "highlight": ""
@@ -4712,6 +4858,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A brief slide about ARRM for the W3C",
       "highlight": ""
@@ -4740,6 +4887,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Sustainability breakout slides for the W3C.",
       "highlight": ""
@@ -4768,6 +4916,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A community-curated list of food, drinks, and hangout spots near Kobe for TPAC attendees.",
       "highlight": ""
@@ -4796,6 +4945,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A community-curated list of food, drinks, and hangout spots near Ottawa's Rogers Centre for FWD50 attendees.",
       "highlight": ""
@@ -4824,6 +4974,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Archive of digitalbuyingguide.org",
       "highlight": ""
@@ -4852,6 +5003,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An offline-first, self-hosted web app to aggregate and sync all of your medical records from your patient portals in one place.",
       "highlight": ""
@@ -4880,6 +5032,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The WCAG Standard in a JSON format.",
       "highlight": ""
@@ -4908,6 +5061,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contemporània de Barcelona for EHRCON25 attendees.",
       "highlight": ""
@@ -4936,6 +5090,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Resources for Digital Public Goods",
       "highlight": ""
@@ -4964,6 +5119,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Just some audio for today's news.",
       "highlight": ""
@@ -4992,6 +5148,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -5020,6 +5177,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A view starting from Opquast",
       "highlight": ""
@@ -5048,6 +5206,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An effort to clone UIO+ as a Bookmarklet",
       "highlight": ""
@@ -5076,6 +5235,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -5104,6 +5264,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Draft OSS Campaign",
       "highlight": ""
@@ -5132,6 +5293,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "An ARRM Style Checklist",
       "highlight": ""
@@ -5160,6 +5322,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Home for DEI CHAOSS Badging",
       "highlight": ""
@@ -5188,6 +5351,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This is both a \"clone\" and a \"hope\" for the GSA's ART",
       "highlight": ""
@@ -5216,6 +5380,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Web Sustainability Guidelines - Design Priority Tool",
       "highlight": ""
@@ -5244,6 +5409,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "HTTP Archive fork of Wappalyzer",
       "highlight": ""
@@ -5272,6 +5438,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Practices and ideas that empower teams to collaborate and deliver iteratively",
       "highlight": ""
@@ -5300,6 +5467,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -5328,6 +5496,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The City of Ottawa's \"Smarty City\" Playbook (Forked from Boston)",
       "highlight": ""
@@ -5356,6 +5525,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "TechFAR Hub",
       "highlight": ""
@@ -5384,6 +5554,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The home of policies and guidelines that make up TTS.",
       "highlight": ""
@@ -5412,6 +5583,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Tool to find civic tech jobs with Digital Services Coalition firms. ",
       "highlight": ""
@@ -5440,6 +5612,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -5468,6 +5641,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be “an open-source learning model that makes DITAP scalable, adaptable, and future-proof.”",
       "highlight": ""
@@ -5496,6 +5670,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Static version of the Digital Public Goods website",
       "highlight": ""
@@ -5524,6 +5699,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -5552,6 +5728,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Custom metrics to use with WebPageTest agents",
       "highlight": ""
@@ -5580,6 +5757,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A thousand web accessibility tests performed by 10 tools",
       "highlight": ""
@@ -5608,6 +5786,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The Standard for Public Code - a model for public organizations to build their own open source solutions to enable successful future reuse by and collaboration with similar public organizations in other places.",
       "highlight": ""
@@ -5636,6 +5815,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This repository contains code and references to pages intended to help validate test rules contained in the ICT Testing Basline.",
       "highlight": ""
@@ -5664,6 +5844,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Proposals for USWDS components",
       "highlight": ""
@@ -5692,6 +5873,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Crest machine learning based automated accessibility tests",
       "highlight": ""
@@ -5720,6 +5902,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A fresh start for open.gsa.gov.",
       "highlight": ""
@@ -5748,6 +5931,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Public facing website for the Digital Services Coalition. A merge to master deploys.",
       "highlight": ""
@@ -5776,6 +5960,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The all-in-one web framework designed for speed. ⭐️ Star to support our work!",
       "highlight": ""
@@ -5804,6 +5989,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -5832,6 +6018,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "WPDS's UiKit coded in React using Stitches, Radix UI and more! Also home to our docs site",
       "highlight": ""
@@ -5860,6 +6047,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Chef Cookbook for installing and configuring phpMyAdmin",
       "highlight": ""
@@ -5888,6 +6076,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Initial Letter of Requrest with (Challenge 1) - Appendix 3",
       "highlight": ""
@@ -5916,6 +6105,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "List of Authoring Tools",
       "highlight": ""
@@ -5944,6 +6134,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Template repo for bootstrapping a researchOps practice using github. ",
       "highlight": ""
@@ -5972,6 +6163,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A directory of Fediverse users working to make government and democracy better.",
       "highlight": ""
@@ -6000,6 +6192,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
       "highlight": ""
@@ -6028,6 +6221,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Public resources for building on and in support of VA.gov. Visit complete Knowledge Hub:",
       "highlight": ""
@@ -6056,6 +6250,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -6084,6 +6279,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "SkipTo Documentation",
       "highlight": ""
@@ -6112,6 +6308,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "18F Content Guide",
       "highlight": ""
@@ -6140,6 +6337,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -6168,6 +6366,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This repository will serve temporarily as a placeholder and test ground for evaluation of GitHub and Federalist as the platform for the Section508.gov website and its content.",
       "highlight": ""
@@ -6196,6 +6395,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "2021 redesign of the WCAG-EM Report Tool",
       "highlight": ""
@@ -6224,6 +6424,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The frontend, backend, and content source code for web.dev",
       "highlight": ""
@@ -6252,6 +6453,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "WAI Accessibility Evaluation Tools",
       "highlight": ""
@@ -6280,6 +6482,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Minima is a one-size-fits-all Jekyll theme for writers.",
       "highlight": ""
@@ -6308,6 +6511,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "simplA11yGenReport is a tool enabling the generation of reports for the simplified accessibility monitoring method in Luxembourg.",
       "highlight": ""
@@ -6336,6 +6540,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "simplA11yMonit is a tool supporting the simplified accessibility monitoring method in Luxembourg.",
       "highlight": ""
@@ -6364,6 +6569,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A repo designed to be forked, as an experiment in running github actions to git-scrape sites for record how well they perform in terms of accessibility, performance, and carbon emissions from data transfer",
       "highlight": ""
@@ -6392,6 +6598,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A lightweight and accessible tool for coordinating resources in crises.",
       "highlight": ""
@@ -6420,6 +6627,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A curated list of awesome tools, resources and materials on the world of accessibility",
       "highlight": ""
@@ -6448,6 +6656,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -6476,6 +6685,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A list of accessibility resources for software developers",
       "highlight": ""
@@ -6504,6 +6714,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "a11y resources and guild work",
       "highlight": ""
@@ -6532,6 +6743,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A curate list about A11Y :wheelchair:",
       "highlight": ""
@@ -6560,6 +6772,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Resources for A11y",
       "highlight": ""
@@ -6588,6 +6801,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A collection of accessibility resources for developers building GOV.UK",
       "highlight": ""
@@ -6616,6 +6830,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": ":book: Accessibility resources - Ressources accessibilité",
       "highlight": ""
@@ -6644,6 +6859,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Support for accessible voting.",
       "highlight": ""
@@ -6672,6 +6888,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Practical tools for more responsible product development in the tech industry.",
       "highlight": ""
@@ -6700,6 +6917,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Documentation website for the Inclusive Learning Design Handbook",
       "highlight": ""
@@ -6728,6 +6946,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The A11Y Project is a community-driven effort to make digital accessibility easier.",
       "highlight": ""
@@ -6756,6 +6975,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Accessibility Guidelines \"Silver\"",
       "highlight": ""
@@ -6784,6 +7004,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "CivicActions Homesite redesign ",
       "highlight": ""
@@ -6812,6 +7033,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Testing readermode",
       "highlight": ""
@@ -6840,6 +7062,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This is a website with lots of accessibility issues in it, that can be used for workshops and training purposes. See the README for more information.",
       "highlight": ""
@@ -6868,6 +7091,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The DWP Accessibility Manual is a community led effort to put guidance and best practices all in one place for anybody looking to meet the Public Sector Bodies Accessibility Regulations 2018.",
       "highlight": ""
@@ -6896,6 +7120,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "💡 Ideas to help consider Inclusive Design principles when making things for others to use.",
       "highlight": ""
@@ -6924,6 +7149,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -6952,6 +7178,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A collection of awesome things regarding the Climate tech ecosystem.",
       "highlight": ""
@@ -6980,6 +7207,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Python Google Sheets Domain Processing",
       "highlight": ""
@@ -7008,6 +7236,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A scalable set of icons handcrafted with <3 by GitHub",
       "highlight": ""
@@ -7036,6 +7265,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Project containing numerous report generators to monitor accessibility on GOV.UK.",
       "highlight": ""
@@ -7064,6 +7294,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Web application to create domain and subdomain accessibility audits, with violation statistics.",
       "highlight": ""
@@ -7092,6 +7323,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "How to Meet WCAG (Quick Reference)",
       "highlight": ""
@@ -7120,6 +7352,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Digital.gov — Helping the government community deliver better digital services.",
       "highlight": ""
@@ -7148,6 +7381,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -7176,6 +7410,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -7204,6 +7439,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Moodle block to display accessibility of course files",
       "highlight": ""
@@ -7232,6 +7468,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Tools to check the accessibility of course material and provide suggestions for improving it.",
       "highlight": ""
@@ -7260,6 +7497,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "API for scanning files for accessibility.  Submit files and get back an accessibility report.",
       "highlight": ""
@@ -7288,6 +7526,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Extracting structured information from PDFs - and later, diagrams!!",
       "highlight": ""
@@ -7316,6 +7555,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Check the Accessibility of a PDF Document using eiii",
       "highlight": ""
@@ -7344,6 +7584,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
       "highlight": ""
@@ -7372,6 +7613,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A command-line tool to crawl websites using puppeteer.",
       "highlight": ""
@@ -7400,6 +7642,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Recursively crawl a website and download every file with the selected extension in the href tag (Example: pdf) ",
       "highlight": ""
@@ -7428,6 +7671,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Crawl a website and run it through Google lighthouse",
       "highlight": ""
@@ -7456,6 +7700,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The A11y Machine is an automated accessibility testing tool which crawls and tests pages of any web application to produce detailed reports.",
       "highlight": ""
@@ -7484,6 +7729,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "BBC Accessibility Guidelines Checker",
       "highlight": ""
@@ -7512,6 +7758,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Recommended readings for folks interested in the intersection of government and technology",
       "highlight": ""
@@ -7540,6 +7787,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -7568,6 +7816,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -7596,6 +7845,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The MongoDB Database",
       "highlight": ""
@@ -7624,6 +7874,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Contains VPAT document for Buffer",
       "highlight": ""
@@ -7652,6 +7903,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations",
       "highlight": ""
@@ -7680,6 +7932,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
       "highlight": ""
@@ -7708,6 +7961,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The methods 18F uses to practice human-centered design.",
       "highlight": ""
@@ -7736,6 +7990,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "RFCs for Strapi future changes",
       "highlight": ""
@@ -7764,6 +8019,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Easily create XML sitemaps for your website.",
       "highlight": ""
@@ -7792,6 +8048,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Prototype for the new WAI Policies Page",
       "highlight": ""
@@ -7820,6 +8077,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Minimal Jekyll theme optimized for performance, accessibility, usability and readability",
       "highlight": ""
@@ -7848,6 +8106,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Website for the Canadian Digital Service / Site Web du Service numérique canadien",
       "highlight": ""
@@ -7876,6 +8135,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Mike & Rebecca's Wedding - Archive",
       "highlight": ""
@@ -7904,6 +8164,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This repository contains 18F's website.",
       "highlight": ""
@@ -7932,6 +8193,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow",
       "highlight": ""
@@ -7960,6 +8222,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "CDS Accessibility Handbook :wheelchair:",
       "highlight": ""
@@ -7988,6 +8251,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Open Resource Exchange - Échange de ressources ouvert",
       "highlight": ""
@@ -8016,6 +8280,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Drupal WxT helm chart for Kubernetes.",
       "highlight": ""
@@ -8044,6 +8309,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Draft requirements on open source contributions. / Brouillon des besoins liés à la contribution aux logiciels libres.",
       "highlight": ""
@@ -8072,6 +8338,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Government of Canada Digital Playbook / Guide numérique du gouvernement du Canada",
       "highlight": ""
@@ -8100,6 +8367,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Goteo Version 3, the Open Source Crowdfunding Platform",
       "highlight": ""
@@ -8128,6 +8396,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Open Source Advisory Board - Conseil consultatif du logiciel libre",
       "highlight": ""
@@ -8156,6 +8425,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This whitepaper captures our efforts to make the Government of Canada processes and services more transparent and accessible to our citizens with open standards, open source software, open government (code), open procurement and open culture.",
       "highlight": ""
@@ -8184,6 +8454,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Old Public Wedding site for Mike & Rebecca - https://mgifford.github.io/wolford-or-gifsack/",
       "highlight": ""
@@ -8212,6 +8483,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A structured approach to reduce waste and increase composting and recycling.",
       "highlight": ""
@@ -8240,6 +8512,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "No summary available yet.",
       "highlight": ""
@@ -8268,6 +8541,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Thursday Ted Talk & Tapas - a way to dig deeper about ideas that matter.",
       "highlight": ""
@@ -8296,6 +8570,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Collecting ideas to encourage recycling",
       "highlight": ""
@@ -8324,6 +8599,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Just a text description of the charter vs the nasty PDF that was published",
       "highlight": ""
@@ -8352,6 +8628,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "READi for Inclusion",
       "highlight": ""
@@ -8380,6 +8657,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Slate is a Jekyll theme for GitHub Pages",
       "highlight": ""
@@ -8408,6 +8686,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Minimal is a Jekyll theme for GitHub Pages",
       "highlight": ""
@@ -8436,6 +8715,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "This repository contains the official Open Source Policy of 18F",
       "highlight": ""
@@ -8464,6 +8744,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "WHMCS Standard Cart Order Form Template",
       "highlight": ""
@@ -8492,6 +8773,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "WHMCS Six Client Area Template Theme",
       "highlight": ""
@@ -8520,6 +8802,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A Python/Django communication platform built for organizers",
       "highlight": ""
@@ -8548,6 +8831,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "The Digital Service Standard establishes the criteria that Australian Government digital services must meet to ensure our services are simpler, faster and easier to use. Meeting the criteria means we can consistently provide high quality services and satisfy our users' needs.",
       "highlight": ""
@@ -8576,6 +8860,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Open Data Policy — Managing Information as an Asset",
       "highlight": ""
@@ -8604,6 +8889,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A responsive menu plugin",
       "highlight": ""
@@ -8632,6 +8918,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
       "highlight": ""
@@ -8660,6 +8947,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "A Chef/Vagrant setup for simple Drupal multisite hosting.",
       "highlight": ""
@@ -8688,6 +8976,7 @@
       "screenshot": "",
       "hidden": false,
       "featured": false,
+      "featuredSource": "none",
       "theme": "General",
       "summary": "Initial work on Chef",
       "highlight": ""

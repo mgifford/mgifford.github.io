@@ -8,15 +8,19 @@ displayDefaults:
   publicCuratedMax: 60
 
 featured:
-  - repo: openplus
+  - repo: ACCESSIBILITY.md
     theme: Accessibility
-    highlight: Accessibility-focused civic tech work.
-  - repo: a11yance
+    highlight: Open guidance helping coding agents build accessibility in by default.
+  - repo: a11y-courses
     theme: Accessibility
-    highlight: Advocacy and open source accessibility collaboration.
-  - repo: gpii
-    theme: Personalization
-    highlight: Inclusive personalization and adaptive technology.
+    highlight: A high-signal course index for accessibility learning and practice.
+  - repo: open-source-contracting
+    theme: Civic Tech
+    highlight: Practical contract language to strengthen open source procurement.
+
+autoFeatured:
+  enabled: true
+  count: 9
 
 themes:
   Accessibility:

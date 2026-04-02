@@ -37,6 +37,7 @@ Key constraints:
 - Keep dependencies minimal and justify new packages.
 - Never commit secrets, tokens, or sensitive data.
 - Preserve owner-mode token handling as browser-local only.
+- When drafting commit messages and PR titles, follow the `Commit and PR Conventions` section in AGENTS.md exactly.
 
 ## Accessibility expectations
 

@@ -1,0 +1,38 @@
+name: Validate Catalog Data
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build merged site data
+        run: npm run build:data
+
+      - name: Validate generated data schema
+        run: npm run validate:data
+
+      - name: Validate curation references
+        run: npm run validate:curation
+
+      - name: Run tests
+        run: npm test
