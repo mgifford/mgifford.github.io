@@ -224,8 +224,8 @@ h1 {
 }
 
 .story__card {
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid #d3dbd6;
+  background: var(--card);
+  border: 1px solid var(--line);
   border-radius: 10px;
   padding: 0.65rem 0.75rem;
 }
@@ -251,7 +251,7 @@ main {
   display: grid;
   gap: 0.8rem;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  background: rgba(255, 255, 255, 0.78);
+  background: var(--card);
   border: 1px solid var(--line);
   padding: 1rem;
   border-radius: 12px;
@@ -317,7 +317,7 @@ select {
 
 .owner-access__hint {
   margin: 0.4rem 0 0.7rem;
-  color: #4f615b;
+  color: var(--muted);
   font-size: 0.9rem;
 }
 
@@ -365,7 +365,7 @@ select {
 
 .impact {
   background: var(--card);
-  border: 1px solid #c0d5d0;
+  border: 1px solid var(--line);
   border-radius: 10px;
   padding: 0.9rem;
   margin-bottom: 0.8rem;
@@ -391,7 +391,7 @@ select {
 
 .impact__hint {
   margin: 0.45rem 0 0.8rem;
-  color: #4f615b;
+  color: var(--muted);
   font-size: 0.9rem;
 }
 
@@ -401,19 +401,19 @@ select {
 }
 
 .impact__item {
-  border: 1px solid #d2e0dc;
+  border: 1px solid var(--line);
   border-radius: 8px;
   padding: 0.55rem 0.65rem;
   background: color-mix(in srgb, var(--card) 88%, var(--bg-alt) 12%);
 }
 
 .impact__item a {
-  color: #124e49;
+  color: var(--accent);
   font-weight: 700;
 }
 
 .impact__meta {
-  color: #5b6f69;
+  color: var(--muted);
   font-size: 0.84rem;
   margin-top: 0.2rem;
 }
@@ -443,13 +443,13 @@ select {
 }
 
 #impact-page-label {
-  color: #4f615b;
+  color: var(--muted);
   font-size: 0.88rem;
 }
 
 .owner__metric {
   background: var(--card);
-  border: 1px solid #c0d5d0;
+  border: 1px solid var(--line);
   border-radius: 10px;
   padding: 0.7rem;
 }
@@ -462,7 +462,7 @@ select {
 }
 
 .featured-row__item {
-  border: 1px solid #c8d4cf;
+  border: 1px solid var(--line);
   background: linear-gradient(140deg, var(--card) 0%, color-mix(in srgb, var(--card) 82%, var(--bg-alt) 18%) 100%);
   border-radius: 11px;
   padding: 0.75rem 0.85rem;
@@ -474,7 +474,7 @@ select {
   font-size: 0.72rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #47645f;
+  color: var(--muted);
   font-weight: 700;
 }
 
@@ -496,7 +496,7 @@ select {
 
 .featured-row__impact {
   margin: 0;
-  color: #364744;
+  color: var(--text);
   font-size: 0.89rem;
   line-height: 1.4;
 }
@@ -509,8 +509,8 @@ select {
 .freshness {
   margin: 1.3rem 0 0.6rem;
   padding-top: 0.8rem;
-  border-top: 1px solid #d3dbd6;
-  color: #5a6c67;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
   font-size: 0.86rem;
 }
 
@@ -522,7 +522,7 @@ select {
 
 .card {
   background: var(--card);
-  border: 1px solid #d0d8d2;
+  border: 1px solid var(--line);
   border-radius: 14px;
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -587,7 +587,7 @@ select {
 }
 
 .card__flags {
-  color: #305f58;
+  color: var(--muted);
 }
 
 .card__links {

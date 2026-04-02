@@ -9,6 +9,10 @@ on:
         description: "Force recapture for all eligible repositories"
         required: false
         default: "false"
+      bootstrap:
+        description: "Capture ALL eligible repos with no cap (use for first run)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
@@ -34,8 +38,8 @@ jobs:
 
       - name: Capture screenshots
         env:
-          MAX_SCREENSHOTS: "40"
-          FORCE_SCREENSHOT_REFRESH: ${{ github.event.inputs.force_refresh || 'false' }}
+          MAX_SCREENSHOTS: ${{ github.event.inputs.bootstrap == 'true' && '0' || '40' }}
+          FORCE_SCREENSHOT_REFRESH: ${{ (github.event.inputs.force_refresh == 'true' || github.event.inputs.bootstrap == 'true') && 'true' || 'false' }}
         run: npm run screenshot:pages
 
       - name: Rebuild site data
@@ -57,7 +61,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add src/assets/screenshots data/generated/screenshots.json data/site-data.json
-            git commit -m "chore: monthly screenshot refresh"
+            git commit -m "chore: ${{ github.event.inputs.bootstrap == 'true' && 'bootstrap' || 'monthly' }} screenshot refresh"
             git push
           else
             echo "No meaningful screenshot changes to commit"

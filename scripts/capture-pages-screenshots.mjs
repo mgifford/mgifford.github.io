@@ -5,7 +5,8 @@ import { chromium } from "playwright";
 const INPUT = "data/site-data.json";
 const OUTPUT = "data/generated/screenshots.json";
 const SHOT_DIR = "src/assets/screenshots";
-const MAX_CAPTURES = Number.parseInt(process.env.MAX_SCREENSHOTS || "24", 10);
+const _maxEnv = Number.parseInt(process.env.MAX_SCREENSHOTS || "24", 10);
+const MAX_CAPTURES = _maxEnv === 0 ? Number.POSITIVE_INFINITY : _maxEnv;
 const FORCE_REFRESH = String(process.env.FORCE_SCREENSHOT_REFRESH || "false") === "true";
 
 function candidateUrl(repo) {
