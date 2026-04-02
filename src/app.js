@@ -54,6 +54,48 @@ function isOwnerMode() {
   return Boolean(state.token) && !els.ownerPanel.hidden;
 }
 
+function parseFiltersFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const next = {};
+
+  if (params.has("q")) next.search = params.get("q") || "";
+  if (params.has("theme")) next.theme = params.get("theme") || "all";
+  if (params.has("sort")) next.sortBy = params.get("sort") || "stars";
+  if (params.has("scope")) next.publicScope = params.get("scope") || "curated";
+  if (params.has("archived")) next.archivedMode = params.get("archived") || "hide";
+
+  return next;
+}
+
+function syncUrlWithFilters() {
+  const params = new URLSearchParams(window.location.search);
+
+  if (state.filters.search) params.set("q", state.filters.search);
+  else params.delete("q");
+
+  if (state.filters.theme && state.filters.theme !== "all") params.set("theme", state.filters.theme);
+  else params.delete("theme");
+
+  if (state.filters.sortBy && state.filters.sortBy !== "stars") params.set("sort", state.filters.sortBy);
+  else params.delete("sort");
+
+  if (!isOwnerMode() && state.filters.publicScope && state.filters.publicScope !== "curated") {
+    params.set("scope", state.filters.publicScope);
+  } else {
+    params.delete("scope");
+  }
+
+  if (isOwnerMode() && state.filters.archivedMode && state.filters.archivedMode !== "hide") {
+    params.set("archived", state.filters.archivedMode);
+  } else {
+    params.delete("archived");
+  }
+
+  const query = params.toString();
+  const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+  window.history.replaceState(null, "", nextUrl);
+}
+
 function persistOwnerActionPrefs() {
   window.localStorage.setItem(OWNER_ACTION_PREFS_KEY, JSON.stringify(state.ownerActionPrefs));
 }
@@ -291,6 +333,7 @@ function renderRepos() {
   }
 
   renderSummary(visibleRepos.length, sorted.length);
+  syncUrlWithFilters();
 }
 
 function populateThemeFilters(themes) {
@@ -647,10 +690,40 @@ async function init() {
   state.filters.sortBy = state.data.sortingDefaults?.public || "stars";
   state.publicView.curatedMax = state.data.displayDefaults?.publicCuratedMax || 60;
   state.filters.publicScope = state.data.displayDefaults?.publicScope || "curated";
+
+  const urlFilters = parseFiltersFromUrl();
+  state.filters = {
+    ...state.filters,
+    ...urlFilters
+  };
+
+  const availableThemes = new Set(["all", ...(state.data.themes || [])]);
+  if (!availableThemes.has(state.filters.theme)) {
+    state.filters.theme = "all";
+  }
+
+  const allowedSort = new Set(["stars", "watchers", "updated", "name"]);
+  if (!allowedSort.has(state.filters.sortBy)) {
+    state.filters.sortBy = "stars";
+  }
+
+  const allowedScope = new Set(["curated", "all"]);
+  if (!allowedScope.has(state.filters.publicScope)) {
+    state.filters.publicScope = state.data.displayDefaults?.publicScope || "curated";
+  }
+
+  const allowedArchived = new Set(["hide", "show", "only"]);
+  if (!allowedArchived.has(state.filters.archivedMode)) {
+    state.filters.archivedMode = "hide";
+  }
+
+  els.search.value = state.filters.search;
   els.sortBy.value = state.filters.sortBy;
   els.publicScope.value = state.filters.publicScope;
 
   populateThemeFilters(state.data.themes || []);
+  els.themeFilter.value = state.filters.theme;
+  els.archivedMode.value = state.filters.archivedMode;
   renderStoryStats();
   renderFeaturedNarrativeRow();
   renderFreshnessFooter();
