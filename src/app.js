@@ -252,11 +252,17 @@ function applyPublicScope(sortedRepos) {
   }
 
   const maxItems = state.publicView.curatedMax;
-  const featured = sortedRepos.filter((repo) => repo.featured);
-  const featuredSet = new Set(featured.map((repo) => repo.name));
-  const nonFeatured = sortedRepos.filter((repo) => !featuredSet.has(repo.name));
 
-  return [...featured, ...nonFeatured].slice(0, maxItems);
+  // Only group featured repos to the top when using the default sort (stars),
+  // so user-selected sorts like "pushed" or "updated" are fully respected.
+  if (state.filters.sortBy === "stars") {
+    const featured = sortedRepos.filter((repo) => repo.featured);
+    const featuredSet = new Set(featured.map((repo) => repo.name));
+    const nonFeatured = sortedRepos.filter((repo) => !featuredSet.has(repo.name));
+    return [...featured, ...nonFeatured].slice(0, maxItems);
+  }
+
+  return sortedRepos.slice(0, maxItems);
 }
 
 function renderStoryStats() {
