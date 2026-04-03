@@ -9,7 +9,7 @@ const _maxEnv = Number.parseInt(process.env.MAX_SCREENSHOTS || "24", 10);
 const MAX_CAPTURES = _maxEnv === 0 ? Number.POSITIVE_INFINITY : _maxEnv;
 const FORCE_REFRESH = String(process.env.FORCE_SCREENSHOT_REFRESH || "false") === "true";
 
-function candidateUrl(repo) {
+export function candidateUrl(repo) {
   if (repo.homepage && /^https?:\/\//.test(repo.homepage)) {
     return repo.homepage;
   }
@@ -124,7 +124,9 @@ async function main() {
   console.log(`Screenshot report written to ${OUTPUT}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
