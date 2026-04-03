@@ -18,6 +18,8 @@ const els = {
   sortBy: document.querySelector("#sort-by"),
   archivedWrap: document.querySelector("#archived-wrap"),
   archivedMode: document.querySelector("#archived-mode"),
+  hasOpenIssuesWrap: document.querySelector("#has-open-issues-wrap"),
+  hasOpenIssues: document.querySelector("#has-open-issues"),
   summary: document.querySelector("#summary"),
   grid: document.querySelector("#repo-grid"),
   template: document.querySelector("#repo-card-template"),
@@ -41,8 +43,10 @@ const state = {
     theme: "all",
     sortBy: "stars",
     archivedMode: "hide",
-    publicScope: "curated"
+    publicScope: "curated",
+    hasOpenIssues: false
   },
+  ownerSortOverridden: false,
   publicView: {
     curatedMax: 60
   },
@@ -109,6 +113,7 @@ function parseFiltersFromUrl() {
   if (params.has("sort")) next.sortBy = params.get("sort") || "stars";
   if (params.has("scope")) next.publicScope = params.get("scope") || "curated";
   if (params.has("archived")) next.archivedMode = params.get("archived") || "hide";
+  if (params.has("issues")) next.hasOpenIssues = params.get("issues") === "open";
 
   return next;
 }
@@ -136,6 +141,9 @@ function syncUrlWithFilters() {
   } else {
     params.delete("archived");
   }
+
+  if (state.filters.hasOpenIssues) params.set("issues", "open");
+  else params.delete("issues");
 
   const query = params.toString();
   const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
@@ -182,14 +190,33 @@ function manualRankValue(repo) {
   return Number.isFinite(repo.manualSortRank) ? repo.manualSortRank : Number.POSITIVE_INFINITY;
 }
 
+function getActionItemRepoNames() {
+  const names = new Set();
+  for (const item of state.ownerActions.items) {
+    if (!item.url) continue;
+    const match = item.url.match(/github\.com\/[^/]+\/([^/]+?)(?:\/|$)/);
+    if (match) names.add(match[1].toLowerCase());
+  }
+  return names;
+}
+
 function sortRepos(repos, mode) {
   const sorted = [...repos];
+  const actionRepos = isOwnerMode() ? getActionItemRepoNames() : new Set();
 
   sorted.sort((a, b) => {
+    // In owner mode, repos with open action items bubble to the top
+    if (actionRepos.size > 0) {
+      const aIsActive = actionRepos.has(a.name.toLowerCase());
+      const bIsActive = actionRepos.has(b.name.toLowerCase());
+      if (aIsActive !== bIsActive) return aIsActive ? -1 : 1;
+    }
+
     const rankDelta = manualRankValue(a) - manualRankValue(b);
     if (rankDelta !== 0) return rankDelta;
 
     if (mode === "name") return a.name.localeCompare(b.name);
+    if (mode === "pushed") return new Date(b.pushedAt || 0) - new Date(a.pushedAt || 0);
     if (mode === "updated") return new Date(b.updatedAt) - new Date(a.updatedAt);
     if (mode === "watchers") return (b.watchers || 0) - (a.watchers || 0);
     return (b.stars || 0) - (a.stars || 0);
@@ -206,6 +233,8 @@ function filterRepos(repos) {
 
     if (state.filters.archivedMode === "hide" && repo.archived) return false;
     if (state.filters.archivedMode === "only" && !repo.archived) return false;
+
+    if (state.filters.hasOpenIssues && !(repo.openIssues > 0)) return false;
 
     if (!q) return true;
 
@@ -339,6 +368,7 @@ function renderRepos() {
   const filtered = filterRepos(state.data.repos);
   const sorted = sortRepos(filtered, state.filters.sortBy);
   const visibleRepos = applyPublicScope(sorted);
+  const actionRepos = isOwnerMode() ? getActionItemRepoNames() : new Set();
 
   els.grid.innerHTML = "";
 
@@ -371,6 +401,11 @@ function renderRepos() {
     meta.textContent = `${repo.language} · ${repo.theme} · ${repo.stars} stars · ${repo.watchers} watchers`;
 
     const badge = [];
+    const hasActionItem = actionRepos.has(repo.name.toLowerCase());
+    if (hasActionItem) {
+      card.classList.add("card--has-action");
+      badge.push("⚡ Needs attention");
+    }
     if (repo.featured) badge.push("Featured");
     if (repo.archived) badge.push("Archived");
     if (repo.readme?.needsAttention) badge.push("README needs update");
@@ -698,6 +733,18 @@ async function loadOwnerDashboard() {
   state.ownerActions.items = actions;
   state.ownerActions.page = 0;
   renderImpactDashboard();
+
+  // Default to "recently pushed" in owner mode only if the user hasn't explicitly changed the sort
+  if (!state.ownerSortOverridden) {
+    const publicDefault = state.data.sortingDefaults?.public || "stars";
+    if (state.filters.sortBy === publicDefault) {
+      state.filters.sortBy = "pushed";
+      els.sortBy.value = "pushed";
+    }
+  }
+
+  // Re-render cards with action-item pinning now that data is loaded
+  renderRepos();
 }
 
 function enableOwnerMode() {
@@ -713,8 +760,13 @@ function disableOwnerMode() {
   state.ownerAuthToken = "";
   state.ownerActions.items = [];
   state.ownerActions.page = 0;
+  state.ownerSortOverridden = false;
   state.filters.archivedMode = "hide";
   els.archivedMode.value = "hide";
+  // Restore public default sort when leaving owner mode
+  const publicDefault = state.data?.sortingDefaults?.public || "stars";
+  state.filters.sortBy = publicDefault;
+  els.sortBy.value = publicDefault;
   els.ownerPanel.hidden = true;
   els.ownerAccess.hidden = false;
   els.archivedWrap.hidden = true;
@@ -746,7 +798,7 @@ async function init() {
     state.filters.theme = "all";
   }
 
-  const allowedSort = new Set(["stars", "watchers", "updated", "name"]);
+  const allowedSort = new Set(["stars", "watchers", "updated", "pushed", "name"]);
   if (!allowedSort.has(state.filters.sortBy)) {
     state.filters.sortBy = "stars";
   }
@@ -764,6 +816,7 @@ async function init() {
   els.search.value = state.filters.search;
   els.sortBy.value = state.filters.sortBy;
   els.publicScope.value = state.filters.publicScope;
+  if (els.hasOpenIssues) els.hasOpenIssues.checked = state.filters.hasOpenIssues;
 
   populateThemeFilters(state.data.themes || []);
   els.themeFilter.value = state.filters.theme;
@@ -789,11 +842,17 @@ async function init() {
 
   bind(els.sortBy, "change", (event) => {
     state.filters.sortBy = event.target.value;
+    if (isOwnerMode()) state.ownerSortOverridden = true;
     renderRepos();
   });
 
   bind(els.archivedMode, "change", (event) => {
     state.filters.archivedMode = event.target.value;
+    renderRepos();
+  });
+
+  bind(els.hasOpenIssues, "change", (event) => {
+    state.filters.hasOpenIssues = event.target.checked;
     renderRepos();
   });
 
