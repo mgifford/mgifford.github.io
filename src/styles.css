@@ -346,10 +346,13 @@ select {
 
 .owner {
   margin-top: 1rem;
-  border: 1px dashed #51706b;
+  border: 2px solid var(--accent);
   border-radius: 12px;
   padding: 1rem;
   background: color-mix(in srgb, var(--card) 78%, var(--accent) 22%);
+  position: sticky;
+  top: 0.5rem;
+  z-index: 10;
 }
 
 .owner__hint {
@@ -590,6 +593,33 @@ select {
   color: var(--muted);
 }
 
+.card--has-action {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+.card--has-action .card__flags {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  accent-color: var(--accent);
+}
+
 .card__links {
   margin: 0.55rem 0 0;
   font-size: 0.86rem;
@@ -639,6 +669,7 @@ a {
   }
 
   .card,
+  .card--has-action,
   .owner,
   .owner-access,
   .impact,
