@@ -46,6 +46,7 @@ const state = {
     publicScope: "curated",
     hasOpenIssues: false
   },
+  ownerSortOverridden: false,
   publicView: {
     curatedMax: 60
   },
@@ -193,7 +194,7 @@ function getActionItemRepoNames() {
   const names = new Set();
   for (const item of state.ownerActions.items) {
     if (!item.url) continue;
-    const match = item.url.match(/github\.com\/[^/]+\/([^/]+)\//);
+    const match = item.url.match(/github\.com\/[^/]+\/([^/]+?)(?:\/|$)/);
     if (match) names.add(match[1].toLowerCase());
   }
   return names;
@@ -733,11 +734,13 @@ async function loadOwnerDashboard() {
   state.ownerActions.page = 0;
   renderImpactDashboard();
 
-  // Default to "recently pushed" in owner mode if the user hasn't chosen a sort
-  const publicDefault = state.data.sortingDefaults?.public || "stars";
-  if (state.filters.sortBy === publicDefault) {
-    state.filters.sortBy = "pushed";
-    els.sortBy.value = "pushed";
+  // Default to "recently pushed" in owner mode only if the user hasn't explicitly changed the sort
+  if (!state.ownerSortOverridden) {
+    const publicDefault = state.data.sortingDefaults?.public || "stars";
+    if (state.filters.sortBy === publicDefault) {
+      state.filters.sortBy = "pushed";
+      els.sortBy.value = "pushed";
+    }
   }
 
   // Re-render cards with action-item pinning now that data is loaded
@@ -757,6 +760,7 @@ function disableOwnerMode() {
   state.ownerAuthToken = "";
   state.ownerActions.items = [];
   state.ownerActions.page = 0;
+  state.ownerSortOverridden = false;
   state.filters.archivedMode = "hide";
   els.archivedMode.value = "hide";
   // Restore public default sort when leaving owner mode
@@ -838,6 +842,7 @@ async function init() {
 
   bind(els.sortBy, "change", (event) => {
     state.filters.sortBy = event.target.value;
+    if (isOwnerMode()) state.ownerSortOverridden = true;
     renderRepos();
   });
 
