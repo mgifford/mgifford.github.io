@@ -1,3 +1,5 @@
+import { manualRankValue, parseFiltersFromUrl as _parseFiltersFromUrl, buildFilterSearch, sortRepos as _sortRepos, filterRepos as _filterRepos, applyPublicScope as _applyPublicScope } from "./filters.mjs";
+
 const DATA_PATH = "data/site-data.json";
 const OWNER_ACTION_PREFS_KEY = "mgiffordRepoCatalogOwnerActionPrefs";
 const DEFAULT_SNOOZE_DAYS = 7;
@@ -105,47 +107,11 @@ function renderOwnerBadge() {
 }
 
 function parseFiltersFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const next = {};
-
-  if (params.has("q")) next.search = params.get("q") || "";
-  if (params.has("theme")) next.theme = params.get("theme") || "all";
-  if (params.has("sort")) next.sortBy = params.get("sort") || "stars";
-  if (params.has("scope")) next.publicScope = params.get("scope") || "curated";
-  if (params.has("archived")) next.archivedMode = params.get("archived") || "hide";
-  if (params.has("issues")) next.hasOpenIssues = params.get("issues") === "open";
-
-  return next;
+  return _parseFiltersFromUrl(window.location.search);
 }
 
 function syncUrlWithFilters() {
-  const params = new URLSearchParams(window.location.search);
-
-  if (state.filters.search) params.set("q", state.filters.search);
-  else params.delete("q");
-
-  if (state.filters.theme && state.filters.theme !== "all") params.set("theme", state.filters.theme);
-  else params.delete("theme");
-
-  if (state.filters.sortBy && state.filters.sortBy !== "stars") params.set("sort", state.filters.sortBy);
-  else params.delete("sort");
-
-  if (!isOwnerMode() && state.filters.publicScope && state.filters.publicScope !== "curated") {
-    params.set("scope", state.filters.publicScope);
-  } else {
-    params.delete("scope");
-  }
-
-  if (isOwnerMode() && state.filters.archivedMode && state.filters.archivedMode !== "hide") {
-    params.set("archived", state.filters.archivedMode);
-  } else {
-    params.delete("archived");
-  }
-
-  if (state.filters.hasOpenIssues) params.set("issues", "open");
-  else params.delete("issues");
-
-  const query = params.toString();
+  const query = buildFilterSearch(window.location.search, state.filters, { ownerMode: isOwnerMode() });
   const nextUrl = query ? `${window.location.pathname}?${query}` : window.location.pathname;
   window.history.replaceState(null, "", nextUrl);
 }
@@ -186,10 +152,6 @@ function visibleOwnerActions() {
   return state.ownerActions.items.filter((item) => !isActionDismissed(item.url) && !isActionSnoozed(item.url));
 }
 
-function manualRankValue(repo) {
-  return Number.isFinite(repo.manualSortRank) ? repo.manualSortRank : Number.POSITIVE_INFINITY;
-}
-
 function getActionItemRepoNames() {
   const names = new Set();
   for (const item of state.ownerActions.items) {
@@ -201,68 +163,23 @@ function getActionItemRepoNames() {
 }
 
 function sortRepos(repos, mode) {
-  const sorted = [...repos];
-  const actionRepos = isOwnerMode() ? getActionItemRepoNames() : new Set();
-
-  sorted.sort((a, b) => {
-    // In owner mode, repos with open action items bubble to the top
-    if (actionRepos.size > 0) {
-      const aIsActive = actionRepos.has(a.name.toLowerCase());
-      const bIsActive = actionRepos.has(b.name.toLowerCase());
-      if (aIsActive !== bIsActive) return aIsActive ? -1 : 1;
-    }
-
-    const rankDelta = manualRankValue(a) - manualRankValue(b);
-    if (rankDelta !== 0) return rankDelta;
-
-    if (mode === "name") return a.name.localeCompare(b.name);
-    if (mode === "pushed") return new Date(b.pushedAt || 0) - new Date(a.pushedAt || 0);
-    if (mode === "updated") return new Date(b.updatedAt) - new Date(a.updatedAt);
-    if (mode === "watchers") return (b.watchers || 0) - (a.watchers || 0);
-    return (b.stars || 0) - (a.stars || 0);
+  return _sortRepos(repos, mode, {
+    ownerMode: isOwnerMode(),
+    actionRepoNames: isOwnerMode() ? getActionItemRepoNames() : new Set()
   });
-
-  return sorted;
 }
 
 function filterRepos(repos) {
-  const q = state.filters.search.trim().toLowerCase();
-
-  return repos.filter((repo) => {
-    if (state.filters.theme !== "all" && repo.theme !== state.filters.theme) return false;
-
-    if (state.filters.archivedMode === "hide" && repo.archived) return false;
-    if (state.filters.archivedMode === "only" && !repo.archived) return false;
-
-    if (state.filters.hasOpenIssues && !(repo.openIssues > 0)) return false;
-
-    if (!q) return true;
-
-    const haystack = [repo.name, repo.summary, repo.language, repo.theme, ...(repo.topics || [])]
-      .join(" ")
-      .toLowerCase();
-
-    return haystack.includes(q);
-  });
+  return _filterRepos(repos, state.filters);
 }
 
 function applyPublicScope(sortedRepos) {
-  if (isOwnerMode() || state.filters.publicScope === "all") {
-    return sortedRepos;
-  }
-
-  const maxItems = state.publicView.curatedMax;
-
-  // Only group featured repos to the top when using the default sort (stars),
-  // so user-selected sorts like "pushed" or "updated" are fully respected.
-  if (state.filters.sortBy === "stars") {
-    const featured = sortedRepos.filter((repo) => repo.featured);
-    const featuredSet = new Set(featured.map((repo) => repo.name));
-    const nonFeatured = sortedRepos.filter((repo) => !featuredSet.has(repo.name));
-    return [...featured, ...nonFeatured].slice(0, maxItems);
-  }
-
-  return sortedRepos.slice(0, maxItems);
+  return _applyPublicScope(sortedRepos, {
+    ownerMode: isOwnerMode(),
+    publicScope: state.filters.publicScope,
+    sortBy: state.filters.sortBy,
+    curatedMax: state.publicView.curatedMax
+  });
 }
 
 function renderStoryStats() {
