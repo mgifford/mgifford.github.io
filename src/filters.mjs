@@ -101,7 +101,7 @@ export function sortRepos(repos, mode, opts = {}) {
 
     // Manual rank only applies for the default stars sort so user-chosen
     // sorts like "updated" or "pushed" are fully respected.
-    if (mode === "stars" || mode == null) {
+    if (mode === "stars" || mode === null || mode === undefined) {
       const aRank = manualRankValue(a);
       const bRank = manualRankValue(b);
       if (aRank !== bRank) return aRank - bRank;
