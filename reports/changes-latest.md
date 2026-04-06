@@ -1,23 +1,18 @@
 # Repository Sync Report
 
-Generated: 2026-04-06T06:56:02.319Z
-Owner: mgifford
+Generated: 2025-01-01T00:00:00Z
+Owner: testowner
 
-- Previous repos: 281
-- Current repos: 287
-- Added: 6
+- Previous repos: 2
+- Current repos: 3
+- Added: 1
 - Deleted: 0
-- Newly archived: 0
+- Newly archived: 1
 - Unarchived: 0
 
 ## Added
 
-- mgifford/DigitalPolicies
-- mgifford/TraceA11y
-- mgifford/daily-hhs
-- mgifford/daily-nsf
-- mgifford/html2html
-- mgifford/pen-archive
+- testowner/new-repo
 
 ## Deleted
 
@@ -25,7 +20,7 @@ Owner: mgifford
 
 ## Newly archived
 
-- None
+- testowner/old-repo
 
 ## Unarchived
 
