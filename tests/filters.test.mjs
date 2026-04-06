@@ -341,7 +341,7 @@ test("sortRepos with created mode respects manualSortRank", () => {
     makeRepoForSort("high-rank", { createdAt: "2015-01-01T00:00:00Z", manualSortRank: 1 })
   ];
   const result = sortRepos(repos, "created");
-  assert.equal(result[0].name, "high-rank", "manualSortRank should override createdAt in default sort");
+  assert.equal(result[0].name, "high-rank", "manualSortRank should override createdAt in created sort");
 });
 
 test("sortRepos with updated mode ignores manualSortRank so ?sort=updated is fully respected", () => {
