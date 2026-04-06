@@ -43,7 +43,7 @@ const state = {
   filters: {
     search: "",
     theme: "all",
-    sortBy: "stars",
+    sortBy: "created",
     archivedMode: "hide",
     publicScope: "curated",
     hasOpenIssues: false
@@ -721,9 +721,9 @@ async function init() {
     state.filters.theme = "all";
   }
 
-  const allowedSort = new Set(["stars", "watchers", "updated", "pushed", "name"]);
+  const allowedSort = new Set(["stars", "watchers", "updated", "pushed", "name", "created"]);
   if (!allowedSort.has(state.filters.sortBy)) {
-    state.filters.sortBy = "stars";
+    state.filters.sortBy = "created";
   }
 
   const allowedScope = new Set(["curated", "all"]);
