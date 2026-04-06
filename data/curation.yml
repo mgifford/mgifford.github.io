@@ -1,6 +1,6 @@
 owner: mgifford
 sortingDefaults:
-  public: stars
+  public: created
   owner: updated
 
 displayDefaults:
@@ -11,12 +11,21 @@ featured:
   - repo: ACCESSIBILITY.md
     theme: Accessibility
     highlight: Open guidance helping coding agents build accessibility in by default.
-  - repo: a11y-courses
+  - repo: contrast-plus
     theme: Accessibility
-    highlight: A high-signal course index for accessibility learning and practice.
-  - repo: open-source-contracting
+    highlight: A color contrast checker that supports WCAG 2, APCA and Focus Colors.
+  - repo: open-scans
+    theme: Accessibility
+    highlight: Scan URLs with various open source accessibility scanners.
+  - repo: daily-dap
     theme: Civic Tech
-    highlight: Practical contract language to strengthen open source procurement.
+    highlight: Monitoring top US Federal Government websites for accessibility and performance.
+  - repo: EchoLocate
+    theme: AI and Automation
+    highlight: A multi-person speech to text tool for locating different speakers in a room.
+  - repo: airtime2
+    theme: AI and Automation
+    highlight: Get insights from your transcripts on meeting participation.
 
 autoFeatured:
   enabled: true

@@ -68,8 +68,8 @@ test("parseFiltersFromUrl falls back to 'all' for blank theme", () => {
   assert.equal(parseFiltersFromUrl("?theme=").theme, "all");
 });
 
-test("parseFiltersFromUrl falls back to 'stars' for blank sort", () => {
-  assert.equal(parseFiltersFromUrl("?sort=").sortBy, "stars");
+test("parseFiltersFromUrl falls back to 'created' for blank sort", () => {
+  assert.equal(parseFiltersFromUrl("?sort=").sortBy, "created");
 });
 
 // ---------------------------------------------------------------------------
@@ -79,7 +79,7 @@ test("parseFiltersFromUrl falls back to 'stars' for blank sort", () => {
 const defaultFilters = {
   search: "",
   theme: "all",
-  sortBy: "stars",
+  sortBy: "created",
   archivedMode: "hide",
   publicScope: "curated",
   hasOpenIssues: false
@@ -94,9 +94,14 @@ test("buildFilterSearch includes sort when non-default", () => {
   assert.ok(result.includes("sort=updated"), `Expected sort=updated in: ${result}`);
 });
 
-test("buildFilterSearch omits sort=stars (default)", () => {
-  const result = buildFilterSearch("", { ...defaultFilters, sortBy: "stars" });
+test("buildFilterSearch omits sort=created (default)", () => {
+  const result = buildFilterSearch("", { ...defaultFilters, sortBy: "created" });
   assert.ok(!result.includes("sort="), `Should not include sort= in: ${result}`);
+});
+
+test("buildFilterSearch includes sort=stars when explicitly set", () => {
+  const result = buildFilterSearch("", { ...defaultFilters, sortBy: "stars" });
+  assert.ok(result.includes("sort=stars"), `Expected sort=stars in: ${result}`);
 });
 
 test("buildFilterSearch includes q when search is set", () => {
@@ -294,6 +299,16 @@ test("sortRepos sorts by updatedAt descending", () => {
   assert.equal(result[0].name, "new");
 });
 
+test("sortRepos sorts by createdAt descending", () => {
+  const repos = [
+    makeRepoForSort("old", { createdAt: "2015-01-01T00:00:00Z" }),
+    makeRepoForSort("new", { createdAt: "2025-06-01T00:00:00Z" })
+  ];
+  const result = sortRepos(repos, "created");
+  assert.equal(result[0].name, "new");
+  assert.equal(result[1].name, "old");
+});
+
 test("sortRepos sorts by pushedAt descending", () => {
   const repos = [
     makeRepoForSort("old", { pushedAt: "2019-01-01T00:00:00Z" }),
@@ -318,6 +333,15 @@ test("sortRepos with stars mode respects manualSortRank", () => {
   ];
   const result = sortRepos(repos, "stars");
   assert.equal(result[0].name, "high-rank", "lower manualSortRank should come first");
+});
+
+test("sortRepos with created mode respects manualSortRank", () => {
+  const repos = [
+    makeRepoForSort("low-rank", { createdAt: "2025-01-01T00:00:00Z", manualSortRank: 99 }),
+    makeRepoForSort("high-rank", { createdAt: "2015-01-01T00:00:00Z", manualSortRank: 1 })
+  ];
+  const result = sortRepos(repos, "created");
+  assert.equal(result[0].name, "high-rank", "manualSortRank should override createdAt in default sort");
 });
 
 test("sortRepos with updated mode ignores manualSortRank so ?sort=updated is fully respected", () => {
@@ -419,6 +443,18 @@ test("applyPublicScope pins featured repos first when sortBy is 'stars'", () => 
   const result = applyPublicScope(repos, { ownerMode: false, publicScope: "curated", sortBy: "stars", curatedMax: 60 });
   assert.ok(result[0].featured, "First repo should be featured");
   assert.ok(result[1].featured, "Second repo should be featured");
+});
+
+test("applyPublicScope pins featured repos first when sortBy is 'created'", () => {
+  const repos = [
+    makeRepoForScope("non-featured-a"),
+    makeRepoForScope("non-featured-b"),
+    makeRepoForScope("featured-one", { featured: true }),
+    makeRepoForScope("featured-two", { featured: true })
+  ];
+  const result = applyPublicScope(repos, { ownerMode: false, publicScope: "curated", sortBy: "created", curatedMax: 60 });
+  assert.ok(result[0].featured, "First repo should be featured with sort=created");
+  assert.ok(result[1].featured, "Second repo should be featured with sort=created");
 });
 
 test("applyPublicScope does NOT pin featured repos for ?sort=updated", () => {

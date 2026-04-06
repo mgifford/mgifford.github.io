@@ -28,7 +28,7 @@ export function parseFiltersFromUrl(search) {
 
   if (params.has("q")) next.search = params.get("q") || "";
   if (params.has("theme")) next.theme = params.get("theme") || "all";
-  if (params.has("sort")) next.sortBy = params.get("sort") || "stars";
+  if (params.has("sort")) next.sortBy = params.get("sort") || "created";
   if (params.has("scope")) next.publicScope = params.get("scope") || "curated";
   if (params.has("archived")) next.archivedMode = params.get("archived") || "hide";
   if (params.has("issues")) next.hasOpenIssues = params.get("issues") === "open";
@@ -55,7 +55,7 @@ export function buildFilterSearch(existingSearch, filters, opts = {}) {
   if (filters.theme && filters.theme !== "all") params.set("theme", filters.theme);
   else params.delete("theme");
 
-  if (filters.sortBy && filters.sortBy !== "stars") params.set("sort", filters.sortBy);
+  if (filters.sortBy && filters.sortBy !== "created") params.set("sort", filters.sortBy);
   else params.delete("sort");
 
   if (!ownerMode && filters.publicScope && filters.publicScope !== "curated") {
@@ -99,15 +99,16 @@ export function sortRepos(repos, mode, opts = {}) {
       if (aIsActive !== bIsActive) return aIsActive ? -1 : 1;
     }
 
-    // Manual rank only applies for the default stars sort so user-chosen
+    // Manual rank only applies for the default sorts so user-chosen
     // sorts like "updated" or "pushed" are fully respected.
-    if (mode === "stars" || mode === null || mode === undefined) {
+    if (mode === "stars" || mode === "created" || mode === null || mode === undefined) {
       const aRank = manualRankValue(a);
       const bRank = manualRankValue(b);
       if (aRank !== bRank) return aRank - bRank;
     }
 
     if (mode === "name") return a.name.localeCompare(b.name);
+    if (mode === "created") return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
     if (mode === "pushed") return new Date(b.pushedAt || 0) - new Date(a.pushedAt || 0);
     if (mode === "updated") return new Date(b.updatedAt) - new Date(a.updatedAt);
     if (mode === "watchers") return (b.watchers || 0) - (a.watchers || 0);
@@ -163,7 +164,7 @@ export function applyPublicScope(sortedRepos, opts = {}) {
     return sortedRepos;
   }
 
-  if (sortBy === "stars") {
+  if (sortBy === "stars" || sortBy === "created") {
     const featured = sortedRepos.filter((repo) => repo.featured);
     const featuredSet = new Set(featured.map((repo) => repo.name));
     const nonFeatured = sortedRepos.filter((repo) => !featuredSet.has(repo.name));
