@@ -136,6 +136,20 @@ test("readmeHeuristic short README has low score and flags short", () => {
   assert.ok(result.reasons.includes("README is very short"));
 });
 
+test("readmeHeuristic strips YAML frontmatter before extracting summary", () => {
+  const markdown = `---\ntitle: My Project\ndescription: badge noise\n---\n\n# My Project\n\nThis is the actual meaningful description of the project that should appear as the summary.`;
+  const result = readmeHeuristic(markdown);
+  assert.match(result.summary, /actual meaningful description/i);
+  assert.ok(!result.summary.includes("---"));
+});
+
+test("readmeHeuristic strips HTML tags such as img badge lines", () => {
+  const markdown = `<img src="https://www.gnu.org/licenses/agpl3.0"> <img src="https://github.com/org/repo/actions/workflows/deploy.yml">\n\n# My Project\n\nThis is the actual project description that should be shown as the summary text.`;
+  const result = readmeHeuristic(markdown);
+  assert.ok(!result.summary.includes("<img"), "summary should not contain <img tags");
+  assert.match(result.summary, /actual project description/i);
+});
+
 // mapRepo – additional cases
 
 test("mapRepo preserves provided description and topics", () => {
