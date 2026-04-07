@@ -99,9 +99,14 @@ export function readmeHeuristic(markdown) {
     };
   }
 
-  const cleaned = markdown
+  const withoutFrontmatter = markdown.startsWith("---")
+    ? markdown.replace(/^---[\s\S]*?\n---\s*(\r?\n|$)/, "")
+    : markdown;
+
+  const cleaned = withoutFrontmatter
     .replace(/```[\s\S]*?```/g, " ")
     .replace(/^\s*\!\[[^\]]*\]\([^)]*\)\s*$/gm, " ")
+    .replace(/<[^>]+>/g, " ")
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
     .replace(/[#>*_`~-]/g, "")
     .replace(/\r/g, "")
