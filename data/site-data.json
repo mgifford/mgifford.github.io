@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-06T06:57:24.398Z",
+  "generatedAt": "2026-04-07T00:50:33.275Z",
   "sourceGeneratedAt": "2026-04-06T06:56:02.319Z",
   "owner": "mgifford",
   "sortingDefaults": {
-    "public": "stars",
+    "public": "created",
     "owner": "updated"
   },
   "displayDefaults": {
@@ -12,6 +12,7 @@
   },
   "themes": [
     "Accessibility",
+    "AI and Automation",
     "Civic Tech",
     "General",
     "Web Platform"
@@ -19,7 +20,7 @@
   "summary": {
     "total": 287,
     "archived": 14,
-    "featured": 12,
+    "featured": 15,
     "readmeNeedsAttention": 40
   },
   "freshness": {
@@ -92,14 +93,14 @@
       "screenshot": "",
       "hidden": false,
       "featured": true,
-      "featuredSource": "manual",
+      "featuredSource": "auto",
       "manualSortRank": null,
-      "theme": "Accessibility",
+      "theme": "General",
       "cardTitle": "a11y-courses",
       "cardSummary": "Accessibility Courses Courses, webinars, educational videos, and more, offered in web accessibility.",
       "summary": "Accessibility Courses Courses, webinars, educational videos, and more, offered in web accessibility.",
-      "featuredNarrative": "A high-signal course index for accessibility learning and practice.",
-      "highlight": "A high-signal course index for accessibility learning and practice."
+      "featuredNarrative": "",
+      "highlight": ""
     },
     {
       "id": 83059128,
@@ -138,14 +139,14 @@
       "screenshot": "src/assets/screenshots/open-source-contracting.png",
       "hidden": false,
       "featured": true,
-      "featuredSource": "manual",
+      "featuredSource": "auto",
       "manualSortRank": null,
-      "theme": "Civic Tech",
+      "theme": "General",
       "cardTitle": "open-source-contracting",
       "cardSummary": "Problem: Many institutions use open source software. Unfortunately, the procurement process usually restricts collaboration and participation. By adding these elements to boilerplate contracts we hope to encourage better practices. Supporting more effective engagement will allow us to build / maintain the code better.",
       "summary": "Problem: Many institutions use open source software. Unfortunately, the procurement process usually restricts collaboration and participation. By adding these elements to boilerplate contracts we hope to encourage better practices. Supporting more effective engagement will allow us to build / maintain the code better.",
-      "featuredNarrative": "Practical contract language to strengthen open source procurement.",
-      "highlight": "Practical contract language to strengthen open source procurement."
+      "featuredNarrative": "",
+      "highlight": ""
     },
     {
       "id": 85870974,
@@ -448,14 +449,14 @@
       "screenshot": "src/assets/screenshots/contrast-plus.png",
       "hidden": false,
       "featured": true,
-      "featuredSource": "auto",
+      "featuredSource": "manual",
       "manualSortRank": null,
-      "theme": "General",
+      "theme": "Accessibility",
       "cardTitle": "contrast-plus",
       "cardSummary": "A practical contrast checker that reports both: WCAG 2.x contrast ratio (the compliance metric used today in most policies) APCA Lc (Accessible Perceptual Contrast Algorithm, a perceptual readability metric)",
       "summary": "A practical contrast checker that reports both: WCAG 2.x contrast ratio (the compliance metric used today in most policies) APCA Lc (Accessible Perceptual Contrast Algorithm, a perceptual readability metric)",
-      "featuredNarrative": "",
-      "highlight": ""
+      "featuredNarrative": "A color contrast checker that supports WCAG 2, APCA and Focus Colors.",
+      "highlight": "A color contrast checker that supports WCAG 2, APCA and Focus Colors."
     },
     {
       "id": 83100255,
@@ -571,8 +572,8 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": true,
-      "featuredSource": "auto",
+      "featured": false,
+      "featuredSource": "none",
       "manualSortRank": null,
       "theme": "General",
       "cardTitle": "Digital-Accessibility-Bingo",
@@ -834,15 +835,15 @@
       },
       "screenshot": "src/assets/screenshots/open-scans.png",
       "hidden": false,
-      "featured": false,
-      "featuredSource": "none",
+      "featured": true,
+      "featuredSource": "manual",
       "manualSortRank": null,
-      "theme": "General",
+      "theme": "Accessibility",
       "cardTitle": "open-scans",
       "cardSummary": "![License: AGPL v3](https://www.gnu.org/licenses/agpl3.0) ![Deploy to GitHub Pages](https://github.com/mgifford/openscans/actions/workflows/deploypages.yml) ![Scan Request](https://github.com/mgifford/openscans/actions/workflows/scanrequest.yml) ![Scan Queue](https://github.com/mgifford/openscans/actions/workflows/scan",
       "summary": "![License: AGPL v3](https://www.gnu.org/licenses/agpl3.0) ![Deploy to GitHub Pages](https://github.com/mgifford/openscans/actions/workflows/deploypages.yml) ![Scan Request](https://github.com/mgifford/openscans/actions/workflows/scanrequest.yml) ![Scan Queue](https://github.com/mgifford/openscans/actions/workflows/scan",
-      "featuredNarrative": "",
-      "highlight": ""
+      "featuredNarrative": "Scan URLs with various open source accessibility scanners.",
+      "highlight": "Scan URLs with various open source accessibility scanners."
     },
     {
       "id": 1166970279,
@@ -1361,15 +1362,15 @@
       },
       "screenshot": "src/assets/screenshots/airtime2.png",
       "hidden": false,
-      "featured": false,
-      "featuredSource": "none",
+      "featured": true,
+      "featuredSource": "manual",
       "manualSortRank": null,
-      "theme": "General",
+      "theme": "AI and Automation",
       "cardTitle": "airtime2",
       "cardSummary": "Privacyfocused meeting participation analyzer for Zoom and Microsoft Teams transcripts.",
       "summary": "Privacyfocused meeting participation analyzer for Zoom and Microsoft Teams transcripts.",
-      "featuredNarrative": "",
-      "highlight": ""
+      "featuredNarrative": "Get insights from your transcripts on meeting participation.",
+      "highlight": "Get insights from your transcripts on meeting participation."
     },
     {
       "id": 1158703721,
@@ -1745,15 +1746,15 @@
       },
       "screenshot": "src/assets/screenshots/daily-dap.png",
       "hidden": false,
-      "featured": false,
-      "featuredSource": "none",
+      "featured": true,
+      "featuredSource": "manual",
       "manualSortRank": null,
-      "theme": "General",
+      "theme": "Civic Tech",
       "cardTitle": "daily-dap",
       "cardSummary": "Daily DAP benchmarks the quality and accessibility of the most visited U.S. government pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public services.",
       "summary": "Daily DAP benchmarks the quality and accessibility of the most visited U.S. government pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public services.",
-      "featuredNarrative": "",
-      "highlight": ""
+      "featuredNarrative": "Monitoring top US Federal Government websites for accessibility and performance.",
+      "highlight": "Monitoring top US Federal Government websites for accessibility and performance."
     },
     {
       "id": 502079854,
@@ -3682,15 +3683,15 @@
       },
       "screenshot": "",
       "hidden": false,
-      "featured": false,
-      "featuredSource": "none",
+      "featured": true,
+      "featuredSource": "manual",
       "manualSortRank": null,
-      "theme": "General",
+      "theme": "AI and Automation",
       "cardTitle": "EchoLocate",
       "cardSummary": "Live, private, inbrowser captioning with simulated speaker grouping.",
       "summary": "Live, private, inbrowser captioning with simulated speaker grouping.",
-      "featuredNarrative": "",
-      "highlight": ""
+      "featuredNarrative": "A multi-person speech to text tool for locating different speakers in a room.",
+      "highlight": "A multi-person speech to text tool for locating different speakers in a room."
     },
     {
       "id": 21006958,
