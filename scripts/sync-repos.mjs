@@ -8,6 +8,8 @@ const TOKEN = process.env.GH_TOKEN || "";
 const README_SCAN_LIMIT_RAW = (process.env.README_SCAN_LIMIT || "all").toLowerCase();
 const NOW = new Date().toISOString();
 
+const MAX_WARN_MSG_LENGTH = 200;
+
 const OUTPUT_REPOS = "data/generated/repos.json";
 const OUTPUT_CHANGES = "data/generated/changes.json";
 const OUTPUT_REPORT = "reports/changes-latest.md";
@@ -105,13 +107,13 @@ export async function fetchPinnedRepos(owner) {
 
     if (!response.ok) {
       const body = await response.text();
-      console.warn(`GraphQL request failed (${response.status}): ${body.slice(0, 200)}`);
+      console.warn(`GraphQL request failed (${response.status}): ${body.slice(0, MAX_WARN_MSG_LENGTH)}`);
       return [];
     }
 
     const result = await response.json();
     if (result.errors) {
-      console.warn("GraphQL errors:", JSON.stringify(result.errors).slice(0, 200));
+      console.warn("GraphQL errors:", JSON.stringify(result.errors).slice(0, MAX_WARN_MSG_LENGTH));
       return [];
     }
 
