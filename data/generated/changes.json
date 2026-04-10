@@ -1,23 +1,41 @@
 {
-  "generatedAt": "2026-04-06T06:56:02.319Z",
+  "generatedAt": "2026-04-10T12:19:45.452Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 281,
-    "current": 287,
-    "added": 6,
+    "previous": 287,
+    "current": 288,
+    "added": 1,
     "deleted": 0,
-    "archivedNow": 0,
+    "archivedNow": 22,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/DigitalPolicies",
-    "mgifford/TraceA11y",
-    "mgifford/daily-hhs",
-    "mgifford/daily-nsf",
-    "mgifford/html2html",
-    "mgifford/pen-archive"
+    "mgifford/Hex-Bicup-Rotor"
   ],
   "deleted": [],
-  "archivedNow": [],
+  "archivedNow": [
+    "mgifford/Accessibility-Statement",
+    "mgifford/Digital-Accessibility-Bingo",
+    "mgifford/GitHub4All",
+    "mgifford/a11ywatch",
+    "mgifford/accessibility",
+    "mgifford/accessibility-2",
+    "mgifford/accessibility-testing-tools",
+    "mgifford/accessible-inline-svg",
+    "mgifford/chef-phpmyadmin",
+    "mgifford/drupal-etherpad",
+    "mgifford/drupal-security",
+    "mgifford/holmes",
+    "mgifford/inclusive-design-checklist",
+    "mgifford/non-disclosure-agreements",
+    "mgifford/open-funding",
+    "mgifford/openparlgc-docs",
+    "mgifford/openpats",
+    "mgifford/section508-to-wcag2aa",
+    "mgifford/top-people-to-follow-in-web-accessibility",
+    "mgifford/uxchecklist.github.io",
+    "mgifford/virtual-presentation-checklist",
+    "mgifford/wpds-ui-kit"
+  ],
   "unarchivedNow": []
 }

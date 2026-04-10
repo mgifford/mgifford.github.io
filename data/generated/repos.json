@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-06T06:56:02.319Z",
+  "generatedAt": "2026-04-10T12:19:45.452Z",
   "owner": "mgifford",
-  "repoCount": 287,
-  "readmeScanLimit": 287,
+  "repoCount": 288,
+  "readmeScanLimit": 288,
   "repos": [
     {
       "id": 95514878,
@@ -39,7 +39,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -74,7 +74,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -113,7 +113,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -136,20 +136,20 @@
       "archived": false,
       "fork": false,
       "visibility": "public",
-      "stars": 39,
+      "stars": 40,
       "forksCount": 6,
-      "watchers": 39,
-      "openIssues": 8,
+      "watchers": 40,
+      "openIssues": 9,
       "createdAt": "2026-02-19T14:56:55Z",
-      "updatedAt": "2026-04-05T02:45:39Z",
-      "pushedAt": "2026-04-05T02:45:33Z",
+      "updatedAt": "2026-04-09T15:49:37Z",
+      "pushedAt": "2026-04-09T15:49:29Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "The open standard for project accessibility transparency, governance, and AIassisted inclusion.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -162,7 +162,7 @@
       "topics": [],
       "homepage": "",
       "hasPages": false,
-      "archived": false,
+      "archived": true,
       "fork": false,
       "visibility": "public",
       "stars": 24,
@@ -170,7 +170,7 @@
       "watchers": 24,
       "openIssues": 2,
       "createdAt": "2013-11-15T04:17:17Z",
-      "updatedAt": "2026-02-25T09:47:53Z",
+      "updatedAt": "2026-04-07T12:21:19Z",
       "pushedAt": "2018-07-25T18:52:42Z",
       "defaultBranch": "master",
       "readme": {
@@ -178,7 +178,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -209,7 +209,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -240,7 +240,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -253,7 +253,7 @@
       "topics": [],
       "homepage": "",
       "hasPages": false,
-      "archived": false,
+      "archived": true,
       "fork": false,
       "visibility": "public",
       "stars": 10,
@@ -261,7 +261,7 @@
       "watchers": 10,
       "openIssues": 9,
       "createdAt": "2016-04-05T18:24:12Z",
-      "updatedAt": "2018-01-04T11:04:09Z",
+      "updatedAt": "2026-04-06T16:05:54Z",
       "pushedAt": "2018-02-20T16:58:09Z",
       "defaultBranch": "master",
       "readme": {
@@ -269,7 +269,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -299,7 +299,7 @@
       "watchers": 9,
       "openIssues": 2,
       "createdAt": "2025-11-28T00:51:17Z",
-      "updatedAt": "2026-04-02T20:05:00Z",
+      "updatedAt": "2026-04-07T16:51:28Z",
       "pushedAt": "2026-04-02T20:04:55Z",
       "defaultBranch": "main",
       "readme": {
@@ -307,7 +307,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -324,7 +324,7 @@
       ],
       "homepage": "",
       "hasPages": false,
-      "archived": false,
+      "archived": true,
       "fork": false,
       "visibility": "public",
       "stars": 8,
@@ -332,7 +332,7 @@
       "watchers": 8,
       "openIssues": 0,
       "createdAt": "2017-02-25T02:31:48Z",
-      "updatedAt": "2018-07-03T19:08:20Z",
+      "updatedAt": "2026-04-06T16:07:21Z",
       "pushedAt": "2017-03-29T19:08:38Z",
       "defaultBranch": "master",
       "readme": {
@@ -340,7 +340,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -353,7 +353,7 @@
       "topics": [],
       "homepage": "",
       "hasPages": false,
-      "archived": false,
+      "archived": true,
       "fork": true,
       "visibility": "public",
       "stars": 7,
@@ -361,7 +361,7 @@
       "watchers": 7,
       "openIssues": 0,
       "createdAt": "2016-01-28T15:29:02Z",
-      "updatedAt": "2022-04-05T17:39:15Z",
+      "updatedAt": "2026-04-07T12:20:41Z",
       "pushedAt": "2016-01-28T23:27:09Z",
       "defaultBranch": "master",
       "readme": {
@@ -369,7 +369,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -382,7 +382,7 @@
       "topics": [],
       "homepage": "",
       "hasPages": false,
-      "archived": false,
+      "archived": true,
       "fork": false,
       "visibility": "public",
       "stars": 7,
@@ -390,7 +390,7 @@
       "watchers": 7,
       "openIssues": 0,
       "createdAt": "2018-02-03T23:42:14Z",
-      "updatedAt": "2020-12-17T13:05:07Z",
+      "updatedAt": "2026-04-06T16:06:38Z",
       "pushedAt": "2018-02-03T23:43:09Z",
       "defaultBranch": "master",
       "readme": {
@@ -398,7 +398,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -432,7 +432,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -456,17 +456,17 @@
       "stars": 5,
       "forksCount": 1,
       "watchers": 5,
-      "openIssues": 6,
+      "openIssues": 5,
       "createdAt": "2026-03-09T14:51:14Z",
-      "updatedAt": "2026-04-05T00:16:12Z",
-      "pushedAt": "2026-04-05T00:16:11Z",
+      "updatedAt": "2026-04-07T13:04:51Z",
+      "pushedAt": "2026-04-07T13:04:45Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A free, zeroinfrastructure PDF accessibility scanner. Point it at any website, it will begin a process that might take an hour to crawl your site, discover most of the PDFs and then flag common accessibility issues. It then posts a public report of the discoveries. All through a GitHub issue. No servers to deploy, no a",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -495,7 +495,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -524,7 +524,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -552,15 +552,15 @@
       "watchers": 4,
       "openIssues": 2,
       "createdAt": "2026-03-05T20:04:19Z",
-      "updatedAt": "2026-04-06T03:06:50Z",
-      "pushedAt": "2026-04-06T03:06:44Z",
+      "updatedAt": "2026-04-10T03:06:34Z",
+      "pushedAt": "2026-04-10T03:06:31Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An interactive GitHub Pages dashboard that visualises the \"Mirror Spine\" of WCAG 2.2 — bridging Responsibility (ARRM) and Technical Testing (ACT, Axecore, Alfa, Trusted Tester) for every Success Criterion.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -585,17 +585,17 @@
       "stars": 4,
       "forksCount": 1,
       "watchers": 4,
-      "openIssues": 14,
+      "openIssues": 16,
       "createdAt": "2026-02-20T20:48:50Z",
-      "updatedAt": "2026-04-06T01:17:53Z",
-      "pushedAt": "2026-04-06T01:17:49Z",
+      "updatedAt": "2026-04-10T01:32:34Z",
+      "pushedAt": "2026-04-10T01:32:27Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "![License: AGPL v3](https://www.gnu.org/licenses/agpl3.0) ![Deploy to GitHub Pages](https://github.com/mgifford/openscans/actions/workflows/deploypages.yml) ![Scan Request](https://github.com/mgifford/openscans/actions/workflows/scanrequest.yml) ![Scan Queue](https://github.com/mgifford/openscans/actions/workflows/scan",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -619,17 +619,17 @@
       "stars": 4,
       "forksCount": 1,
       "watchers": 4,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-02-25T20:07:30Z",
-      "updatedAt": "2026-04-03T16:34:45Z",
-      "pushedAt": "2026-04-03T16:34:42Z",
+      "updatedAt": "2026-04-08T12:32:39Z",
+      "pushedAt": "2026-04-08T12:32:36Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Top Task Finder helps you quickly generate a representative, prioritized list of URLs from any public website — perfect for accessibility audits, toptask reviews, and UX research.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -665,7 +665,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -702,7 +702,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -731,7 +731,67 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 134856203,
+      "name": "accessible-inline-svg",
+      "fullName": "mgifford/accessible-inline-svg",
+      "url": "https://github.com/mgifford/accessible-inline-svg",
+      "description": "Trying to create a simpler way to explain this...",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": false,
+      "visibility": "public",
+      "stars": 3,
+      "forksCount": 0,
+      "watchers": 3,
+      "openIssues": 0,
+      "createdAt": "2018-05-25T12:56:42Z",
+      "updatedAt": "2026-04-06T16:09:40Z",
+      "pushedAt": "2018-05-26T13:50:55Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Trying to create a simpler way to explain this... There is a lot of confusion where different browsers or assistive technology make this more difficult.",
+        "score": 2,
+        "needsAttention": true,
+        "reasons": [
+          "README is very short"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 72165958,
+      "name": "openparlgc-docs",
+      "fullName": "mgifford/openparlgc-docs",
+      "url": "https://github.com/mgifford/openparlgc-docs",
+      "description": "We need better docs about the open data available in Canada's Parliament",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": false,
+      "visibility": "public",
+      "stars": 3,
+      "forksCount": 0,
+      "watchers": 3,
+      "openIssues": 3,
+      "createdAt": "2016-10-28T02:23:04Z",
+      "updatedAt": "2026-04-06T16:09:04Z",
+      "pushedAt": "2016-11-01T00:49:47Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "We need better docs about the open data available in Canada's Parliament.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -764,7 +824,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -783,17 +843,17 @@
       "stars": 3,
       "forksCount": 1,
       "watchers": 3,
-      "openIssues": 29,
+      "openIssues": 35,
       "createdAt": "2026-02-20T20:47:52Z",
       "updatedAt": "2026-03-30T15:30:32Z",
-      "pushedAt": "2026-04-01T08:43:54Z",
+      "pushedAt": "2026-04-08T03:20:51Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "This project is still experimental. Most of this site was generated with AI and has not yet been validated in realworld settings. All content must be treated as a starting point only — not as authoritative or productionready guidance.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -828,67 +888,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 72165958,
-      "name": "openparlgc-docs",
-      "fullName": "mgifford/openparlgc-docs",
-      "url": "https://github.com/mgifford/openparlgc-docs",
-      "description": "We need better docs about the open data available in Canada's Parliament",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 3,
-      "forksCount": 0,
-      "watchers": 3,
-      "openIssues": 3,
-      "createdAt": "2016-10-28T02:23:04Z",
-      "updatedAt": "2025-01-15T15:52:28Z",
-      "pushedAt": "2016-11-01T00:49:47Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "We need better docs about the open data available in Canada's Parliament.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 134856203,
-      "name": "accessible-inline-svg",
-      "fullName": "mgifford/accessible-inline-svg",
-      "url": "https://github.com/mgifford/accessible-inline-svg",
-      "description": "Trying to create a simpler way to explain this...",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 3,
-      "forksCount": 0,
-      "watchers": 3,
-      "openIssues": 0,
-      "createdAt": "2018-05-25T12:56:42Z",
-      "updatedAt": "2020-07-30T23:23:23Z",
-      "pushedAt": "2018-05-26T13:50:55Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Trying to create a simpler way to explain this... There is a lot of confusion where different browsers or assistive technology make this more difficult.",
-        "score": 2,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -907,10 +907,10 @@
       "stars": 2,
       "forksCount": 0,
       "watchers": 2,
-      "openIssues": 96,
+      "openIssues": 101,
       "createdAt": "2026-03-04T20:34:09Z",
-      "updatedAt": "2026-04-05T12:05:34Z",
-      "pushedAt": "2026-04-05T12:05:28Z",
+      "updatedAt": "2026-04-10T12:14:09Z",
+      "pushedAt": "2026-04-10T12:13:54Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "SAM.gov Contract Opportunities Explorer & Pipeline",
@@ -920,7 +920,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -945,15 +945,195 @@
       "watchers": 2,
       "openIssues": 0,
       "createdAt": "2026-03-28T22:04:38Z",
-      "updatedAt": "2026-04-05T02:41:44Z",
-      "pushedAt": "2026-04-05T02:41:40Z",
+      "updatedAt": "2026-04-09T15:49:29Z",
+      "pushedAt": "2026-04-09T15:48:48Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "AI agent skills derived from examples/ best practice guides. Each skill distills a full example into agentactionable rules. The examples/ file is always the canonical source of truth.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1544316,
+      "name": "drupal-etherpad",
+      "fullName": "mgifford/drupal-etherpad",
+      "url": "https://github.com/mgifford/drupal-etherpad",
+      "description": "A Drupal module for pulling etherpads into Drupal pages",
+      "language": "PHP",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2011-03-30T01:50:09Z",
+      "updatedAt": "2026-04-06T16:12:15Z",
+      "pushedAt": "2011-03-30T03:00:31Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Code coming soon!",
+        "score": 0,
+        "needsAttention": true,
+        "reasons": [
+          "README is very short",
+          "No clear summary paragraph",
+          "Contains placeholder language"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1842601,
+      "name": "holmes",
+      "fullName": "mgifford/holmes",
+      "url": "https://github.com/mgifford/holmes",
+      "description": "Holmes is stand-alone diagnostic CSS stylesheet that can highlight potentially invalid or erroneous HTML(5) markup by adding one class",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "http://red-root.com/sandbox/holmes/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2011-06-03T14:04:10Z",
+      "updatedAt": "2026-04-06T16:11:54Z",
+      "pushedAt": "2011-06-03T16:16:06Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "holmes.css CSS Markup Detective =================================",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 179566477,
+      "name": "accessibility-testing-tools",
+      "fullName": "mgifford/accessibility-testing-tools",
+      "url": "https://github.com/mgifford/accessibility-testing-tools",
+      "description": "A collection of useful tools for accessibility testing and debugging in the browser, online and desktop",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2019-04-04T19:48:09Z",
+      "updatedAt": "2026-04-06T16:11:31Z",
+      "pushedAt": "2019-04-04T19:52:21Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "This is a collection of useful tools for accessibility testing and debugging. The earlier in the process you start using these, the better.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 300658080,
+      "name": "virtual-presentation-checklist",
+      "fullName": "mgifford/virtual-presentation-checklist",
+      "url": "https://github.com/mgifford/virtual-presentation-checklist",
+      "description": "Just wanting to have a short list of suggestions for better presentations. ",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": false,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2020-10-02T15:27:52Z",
+      "updatedAt": "2026-04-06T16:10:58Z",
+      "pushedAt": "2020-10-02T16:08:47Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Virtual Presentation Checklist A short list of suggestions for better presentations.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 111563067,
+      "name": "inclusive-design-checklist",
+      "fullName": "mgifford/inclusive-design-checklist",
+      "url": "https://github.com/mgifford/inclusive-design-checklist",
+      "description": "Aims to be the biggest checklist of inclusive design considerations ever",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 1,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2017-11-21T14:57:36Z",
+      "updatedAt": "2026-04-06T16:10:34Z",
+      "pushedAt": "2017-11-21T15:28:44Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Aims to be the biggest checklist of inclusive design considerations for the web ever. Includes items for accessibility, performance, device support, interoperability, and language. Pull requests welcome!",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 104889787,
+      "name": "top-people-to-follow-in-web-accessibility",
+      "fullName": "mgifford/top-people-to-follow-in-web-accessibility",
+      "url": "https://github.com/mgifford/top-people-to-follow-in-web-accessibility",
+      "description": "A list of the top people to follow in web accessibility and web standards.",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2017-09-26T13:41:37Z",
+      "updatedAt": "2026-04-06T16:10:06Z",
+      "pushedAt": "2019-05-13T18:28:04Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "This is a list, in alphabetical order, of people to follow that contribute greatly to web accessibility and web standards.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -990,7 +1170,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1013,10 +1193,10 @@
       "stars": 2,
       "forksCount": 0,
       "watchers": 2,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-02-15T19:40:57Z",
       "updatedAt": "2026-03-29T14:36:44Z",
-      "pushedAt": "2026-03-27T09:43:43Z",
+      "pushedAt": "2026-04-07T00:04:31Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "⚠️ EXPERIMENTAL — AIGenerated Content Requires RealWorld Validation",
@@ -1025,7 +1205,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1059,187 +1239,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 104889787,
-      "name": "top-people-to-follow-in-web-accessibility",
-      "fullName": "mgifford/top-people-to-follow-in-web-accessibility",
-      "url": "https://github.com/mgifford/top-people-to-follow-in-web-accessibility",
-      "description": "A list of the top people to follow in web accessibility and web standards.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 0,
-      "watchers": 2,
-      "openIssues": 0,
-      "createdAt": "2017-09-26T13:41:37Z",
-      "updatedAt": "2025-01-09T00:30:07Z",
-      "pushedAt": "2019-05-13T18:28:04Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "This is a list, in alphabetical order, of people to follow that contribute greatly to web accessibility and web standards.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 111563067,
-      "name": "inclusive-design-checklist",
-      "fullName": "mgifford/inclusive-design-checklist",
-      "url": "https://github.com/mgifford/inclusive-design-checklist",
-      "description": "Aims to be the biggest checklist of inclusive design considerations ever",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 1,
-      "watchers": 2,
-      "openIssues": 0,
-      "createdAt": "2017-11-21T14:57:36Z",
-      "updatedAt": "2023-07-17T15:52:33Z",
-      "pushedAt": "2017-11-21T15:28:44Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Aims to be the biggest checklist of inclusive design considerations for the web ever. Includes items for accessibility, performance, device support, interoperability, and language. Pull requests welcome!",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 300658080,
-      "name": "virtual-presentation-checklist",
-      "fullName": "mgifford/virtual-presentation-checklist",
-      "url": "https://github.com/mgifford/virtual-presentation-checklist",
-      "description": "Just wanting to have a short list of suggestions for better presentations. ",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 0,
-      "watchers": 2,
-      "openIssues": 0,
-      "createdAt": "2020-10-02T15:27:52Z",
-      "updatedAt": "2021-01-13T16:05:46Z",
-      "pushedAt": "2020-10-02T16:08:47Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Virtual Presentation Checklist A short list of suggestions for better presentations.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 179566477,
-      "name": "accessibility-testing-tools",
-      "fullName": "mgifford/accessibility-testing-tools",
-      "url": "https://github.com/mgifford/accessibility-testing-tools",
-      "description": "A collection of useful tools for accessibility testing and debugging in the browser, online and desktop",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 0,
-      "watchers": 2,
-      "openIssues": 0,
-      "createdAt": "2019-04-04T19:48:09Z",
-      "updatedAt": "2020-12-17T04:43:45Z",
-      "pushedAt": "2019-04-04T19:52:21Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "This is a collection of useful tools for accessibility testing and debugging. The earlier in the process you start using these, the better.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 1842601,
-      "name": "holmes",
-      "fullName": "mgifford/holmes",
-      "url": "https://github.com/mgifford/holmes",
-      "description": "Holmes is stand-alone diagnostic CSS stylesheet that can highlight potentially invalid or erroneous HTML(5) markup by adding one class",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "http://red-root.com/sandbox/holmes/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 0,
-      "watchers": 2,
-      "openIssues": 0,
-      "createdAt": "2011-06-03T14:04:10Z",
-      "updatedAt": "2013-09-06T02:30:23Z",
-      "pushedAt": "2011-06-03T16:16:06Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "holmes.css CSS Markup Detective =================================",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 1544316,
-      "name": "drupal-etherpad",
-      "fullName": "mgifford/drupal-etherpad",
-      "url": "https://github.com/mgifford/drupal-etherpad",
-      "description": "A Drupal module for pulling etherpads into Drupal pages",
-      "language": "PHP",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 0,
-      "watchers": 2,
-      "openIssues": 0,
-      "createdAt": "2011-03-30T01:50:09Z",
-      "updatedAt": "2013-09-06T02:30:22Z",
-      "pushedAt": "2011-03-30T03:00:31Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Code coming soon!",
-        "score": 0,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short",
-          "No clear summary paragraph",
-          "Contains placeholder language"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1265,17 +1265,169 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 4,
+      "openIssues": 13,
       "createdAt": "2026-02-21T16:39:19Z",
-      "updatedAt": "2026-04-05T09:58:08Z",
-      "pushedAt": "2026-04-05T09:58:03Z",
+      "updatedAt": "2026-04-10T10:18:23Z",
+      "pushedAt": "2026-04-10T10:18:19Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Daily DAP benchmarks the quality and accessibility of the most visited U.S. government pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public services.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 807099919,
+      "name": "open-funding",
+      "fullName": "mgifford/open-funding",
+      "url": "https://github.com/mgifford/open-funding",
+      "description": "A guide for researching ways of funding open source projects.",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 0,
+      "createdAt": "2024-05-28T13:34:47Z",
+      "updatedAt": "2026-04-06T16:16:57Z",
+      "pushedAt": "2024-05-28T13:37:56Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Introduction Grants Open Technology Fund OTF OTF Internet Freedom Fund OTF Rapid Response Fund OTF Labs RIPE NCC Community Projects Fund Vinnova :sweden: InnovationsFonden :denmark: The Swedish Internet Foundation :sweden: Netidee :austria: The Python Software Foundation SIDN Fund :netherlands: The Awesome Foundation K",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 84615968,
+      "name": "accessibility",
+      "fullName": "mgifford/accessibility",
+      "url": "https://github.com/mgifford/accessibility",
+      "description": "A repo to organize the guidelines and best practices for accessibility at 18f.",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://pages.18f.gov/accessibility/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 0,
+      "createdAt": "2017-03-11T01:52:53Z",
+      "updatedAt": "2026-04-06T16:16:38Z",
+      "pushedAt": "2026-04-06T16:16:10Z",
+      "defaultBranch": "18f-pages",
+      "readme": {
+        "summary": "⚠️ This guide has moved to the consolidated 18F guides repository.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 139617227,
+      "name": "Accessibility-Statement",
+      "fullName": "mgifford/Accessibility-Statement",
+      "url": "https://github.com/mgifford/Accessibility-Statement",
+      "description": "A template & resources for creating good accessibility templates for your website & apps.",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 0,
+      "createdAt": "2018-07-03T17:32:17Z",
+      "updatedAt": "2026-04-06T16:15:53Z",
+      "pushedAt": "2018-07-03T17:45:10Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Accessibility Statement Accessibility Information Page",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 111563030,
+      "name": "uxchecklist.github.io",
+      "fullName": "mgifford/uxchecklist.github.io",
+      "url": "https://github.com/mgifford/uxchecklist.github.io",
+      "description": "ux project checklist",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 0,
+      "createdAt": "2017-11-21T14:57:22Z",
+      "updatedAt": "2026-04-06T16:15:26Z",
+      "pushedAt": "2018-02-06T04:00:38Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Start your next UX project with this checklist and don't forget anything!",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 351208795,
+      "name": "openpats",
+      "fullName": "mgifford/openpats",
+      "url": "https://github.com/mgifford/openpats",
+      "description": "Temporary account for development of OpenPats JSON Schema",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": false,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 1,
+      "watchers": 1,
+      "openIssues": 0,
+      "createdAt": "2021-03-24T20:05:25Z",
+      "updatedAt": "2026-04-06T16:14:56Z",
+      "pushedAt": "2021-07-13T15:33:42Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "openpats Temporary account for development of OpenPats JSON Schema",
+        "score": 1,
+        "needsAttention": true,
+        "reasons": [
+          "README is very short",
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1288,7 +1440,7 @@
       "topics": [],
       "homepage": "https://a11ywatch.com",
       "hasPages": false,
-      "archived": false,
+      "archived": true,
       "fork": true,
       "visibility": "public",
       "stars": 1,
@@ -1296,15 +1448,15 @@
       "watchers": 1,
       "openIssues": 0,
       "createdAt": "2022-06-10T14:48:48Z",
-      "updatedAt": "2026-04-03T14:09:52Z",
+      "updatedAt": "2026-04-06T16:13:58Z",
       "pushedAt": "2026-04-03T14:09:54Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<div align=\"center\" <h1A11yWatch Lite</h1 <p <strongThe fast, precise, and sophisticated web accessibility automation tool for staying inclusive</strong </p <p",
+        "summary": "The fast, precise, and sophisticated web accessibility automation tool for staying inclusive",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1329,17 +1481,17 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 1,
+      "openIssues": 2,
       "createdAt": "2026-02-04T00:21:06Z",
       "updatedAt": "2026-04-03T10:13:02Z",
-      "pushedAt": "2026-04-03T10:12:57Z",
+      "pushedAt": "2026-04-08T20:35:41Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An accessible HTML presentation template with realtime live captioning. Two captioning options are supported:",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1365,7 +1517,7 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 1,
+      "openIssues": 2,
       "createdAt": "2025-08-01T15:14:58Z",
       "updatedAt": "2026-04-02T09:19:42Z",
       "pushedAt": "2026-04-02T09:19:35Z",
@@ -1375,7 +1527,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1400,13 +1552,11 @@
       "pushedAt": "2026-03-31T12:42:50Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<img alt=\"Alfa\" src=\"media/logo.svg\" height=\"40\"",
-        "score": 3,
+        "summary": ":wheelchair: Suite of open and standardsbased tools for performing reliable accessibility conformance testing at scale",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1440,7 +1590,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1464,17 +1614,17 @@
       "stars": 1,
       "forksCount": 1,
       "watchers": 1,
-      "openIssues": 7,
+      "openIssues": 8,
       "createdAt": "2026-03-01T00:17:17Z",
       "updatedAt": "2026-03-29T14:39:56Z",
-      "pushedAt": "2026-03-26T05:28:47Z",
+      "pushedAt": "2026-04-08T20:53:19Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "This directory contains automated workflows that help maintain the quality and accessibility of the Inclusive Emergency Readiness project.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1508,7 +1658,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1541,7 +1691,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1565,17 +1715,17 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 5,
+      "openIssues": 6,
       "createdAt": "2026-01-09T02:18:16Z",
       "updatedAt": "2026-03-20T12:27:29Z",
-      "pushedAt": "2026-03-20T12:27:31Z",
+      "pushedAt": "2026-04-08T21:02:21Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A browsernative SVG optimization tool that prioritizes WCAG 2.2 AA accessibility and dynamic theming (light/dark mode).",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1611,7 +1761,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1640,7 +1790,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1671,7 +1821,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1700,7 +1850,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1729,65 +1879,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 807099919,
-      "name": "open-funding",
-      "fullName": "mgifford/open-funding",
-      "url": "https://github.com/mgifford/open-funding",
-      "description": "A guide for researching ways of funding open source projects.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2024-05-28T13:34:47Z",
-      "updatedAt": "2024-07-21T21:22:30Z",
-      "pushedAt": "2024-05-28T13:37:56Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Introduction Grants Open Technology Fund OTF OTF Internet Freedom Fund OTF Rapid Response Fund OTF Labs RIPE NCC Community Projects Fund Vinnova :sweden: InnovationsFonden :denmark: The Swedish Internet Foundation :sweden: Netidee :austria: The Python Software Foundation SIDN Fund :netherlands: The Awesome Foundation K",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 84615968,
-      "name": "accessibility",
-      "fullName": "mgifford/accessibility",
-      "url": "https://github.com/mgifford/accessibility",
-      "description": "A repo to organize the guidelines and best practices for accessibility at 18f.",
-      "language": "Ruby",
-      "topics": [],
-      "homepage": "https://pages.18f.gov/accessibility/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2017-03-11T01:52:53Z",
-      "updatedAt": "2023-06-12T10:52:49Z",
-      "pushedAt": "2021-09-23T19:04:51Z",
-      "defaultBranch": "18f-pages",
-      "readme": {
-        "summary": "Accessibility This repo will contain the guidelines and best practices for 508 accessibility at 18f. The site is in draft.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1816,99 +1908,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 351208795,
-      "name": "openpats",
-      "fullName": "mgifford/openpats",
-      "url": "https://github.com/mgifford/openpats",
-      "description": "Temporary account for development of OpenPats JSON Schema",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 1,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2021-03-24T20:05:25Z",
-      "updatedAt": "2021-07-13T15:33:44Z",
-      "pushedAt": "2021-07-13T15:33:42Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "openpats Temporary account for development of OpenPats JSON Schema",
-        "score": 1,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short",
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 111563030,
-      "name": "uxchecklist.github.io",
-      "fullName": "mgifford/uxchecklist.github.io",
-      "url": "https://github.com/mgifford/uxchecklist.github.io",
-      "description": "ux project checklist",
-      "language": "HTML",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2017-11-21T14:57:22Z",
-      "updatedAt": "2020-12-17T04:45:04Z",
-      "pushedAt": "2018-02-06T04:00:38Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Start your next UX project with this checklist and don't forget anything!",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 139617227,
-      "name": "Accessibility-Statement",
-      "fullName": "mgifford/Accessibility-Statement",
-      "url": "https://github.com/mgifford/Accessibility-Statement",
-      "description": "A template & resources for creating good accessibility templates for your website & apps.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2018-07-03T17:32:17Z",
-      "updatedAt": "2020-12-17T04:44:16Z",
-      "pushedAt": "2018-07-03T17:45:10Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Accessibility Statement Accessibility Information Page",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1939,7 +1939,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1964,11 +1964,11 @@
       "pushedAt": "2017-06-02T19:16:02Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<div<h1A11Y Style Guide</h1 <pThis application is a living style guide, generated from <abbr title=\"Knyle Style Sheets\"KSS</abbr documented styles...with an accessibility twist. See a <a href=\"http://a11ystyleguide.com/styleguide\" target=\"blank\" arialabel=\"Accessibility style guide demo\"live demo</a of the style guide.",
+        "summary": "A11Y Style Guide This application is a living style guide, generated from KSS documented styles...with an accessibility twist. See a live demo of the style guide.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -1997,7 +1997,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2026,7 +2026,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2055,7 +2055,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2086,7 +2086,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2117,7 +2117,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2148,7 +2148,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2177,7 +2177,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2208,7 +2208,7 @@
         "reasons": [
           "No README returned"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2239,7 +2239,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2264,11 +2264,13 @@
       "pushedAt": "2012-06-06T13:11:43Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<img src=\"http://github.com/wetboew/wetboewdrupal/raw/master/images/webexplarge.png\"",
-        "score": 4,
+        "summary": "![Build Status](http://travisci.org/wetboew/wetboewdrupal)",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2299,7 +2301,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2328,7 +2330,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2359,7 +2361,94 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1200574316,
+      "name": "daily-hhs",
+      "fullName": "mgifford/daily-hhs",
+      "url": "https://github.com/mgifford/daily-hhs",
+      "description": "Daily accessibility report of the top HHS.gov web pages.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/daily-hhs/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-04-03T15:18:12Z",
+      "updatedAt": "2026-04-10T11:30:17Z",
+      "pushedAt": "2026-04-10T11:30:14Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily HHS benchmarks the quality and accessibility of the most visited U.S. Department of Health and Human Services (HHS) pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public health services.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1200516116,
+      "name": "daily-nsf",
+      "fullName": "mgifford/daily-nsf",
+      "url": "https://github.com/mgifford/daily-nsf",
+      "description": "Daily accessibility report of the top NSF.gov web pages.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/daily-nsf/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-04-03T14:02:55Z",
+      "updatedAt": "2026-04-10T09:44:46Z",
+      "pushedAt": "2026-04-10T09:44:43Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily NSF benchmarks the quality and accessibility of the most visited National Science Foundation pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking NSF services.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1206466875,
+      "name": "Hex-Bicup-Rotor",
+      "fullName": "mgifford/Hex-Bicup-Rotor",
+      "url": "https://github.com/mgifford/Hex-Bicup-Rotor",
+      "description": "A Hexagonal Bicupola Rotor with Sails",
+      "language": "OpenSCAD",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/Hex-Bicup-Rotor/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-04-10T00:17:09Z",
+      "updatedAt": "2026-04-10T02:59:26Z",
+      "pushedAt": "2026-04-10T02:59:22Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Hexagonal Bicupola Wind Rotor · HBR614V · Rev 1.1 Rotor: 1000mm diameter · 20mm aluminium shaft · 10mm rods",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2382,17 +2471,209 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 2,
+      "openIssues": 1,
       "createdAt": "2026-02-26T08:06:35Z",
-      "updatedAt": "2026-04-06T06:45:12Z",
-      "pushedAt": "2026-04-06T06:45:09Z",
+      "updatedAt": "2026-04-09T20:21:05Z",
+      "pushedAt": "2026-04-10T10:35:27Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "![License: AGPL v3](LICENSE) ![Deploy GitHub Pages](https://github.com/mgifford/euplusgovernmentscans/actions/workflows/deploypages.yml) ![GitHub Pages](https://mgifford.github.io/euplusgovernmentscans/)",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1185127045,
+      "name": "STYLES.md",
+      "fullName": "mgifford/STYLES.md",
+      "url": "https://github.com/mgifford/STYLES.md",
+      "description": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
+      "language": "HTML",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "design",
+        "web",
+        "web-design"
+      ],
+      "homepage": "https://mgifford.github.io/STYLES.md",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-03-18T09:09:53Z",
+      "updatedAt": "2026-04-09T15:42:29Z",
+      "pushedAt": "2026-04-09T15:39:10Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A machinereadable style standard for human and AI collaboration.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 1191604030,
+      "name": "daily-cap",
+      "fullName": "mgifford/daily-cap",
+      "url": "https://github.com/mgifford/daily-cap",
+      "description": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "canada",
+        "federal-government",
+        "government",
+        "monitoring",
+        "top-sites"
+      ],
+      "homepage": "https://mgifford.github.io/daily-cap/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2026-03-25T12:09:23Z",
+      "updatedAt": "2026-04-09T10:16:27Z",
+      "pushedAt": "2026-04-09T10:16:24Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily CAP (Canadian Analytics Project) is an independent daily quality benchmarking pipeline for Canadian federal digital service entry points.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 632118171,
+      "name": "wpds-ui-kit",
+      "fullName": "mgifford/wpds-ui-kit",
+      "url": "https://github.com/mgifford/wpds-ui-kit",
+      "description": "WPDS's UiKit coded in React using Stitches, Radix UI and more! Also home to our docs site",
+      "language": "TypeScript",
+      "topics": [],
+      "homepage": "https://build.washingtonpost.com",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2023-04-24T18:44:33Z",
+      "updatedAt": "2026-04-07T22:09:28Z",
+      "pushedAt": "2026-04-07T18:05:51Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "The Washington Post Design System (WPDS) UI Kit is now a monorepo that contains not only our UI Kit, but also our documentation site.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 21006958,
+      "name": "mgifford.github.io",
+      "fullName": "mgifford/mgifford.github.io",
+      "url": "https://github.com/mgifford/mgifford.github.io",
+      "description": "A presentation view of my repositories in GitHub",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "http://mgifford.github.io/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2014-06-19T16:13:54Z",
+      "updatedAt": "2026-04-07T22:07:27Z",
+      "pushedAt": "2026-04-07T22:07:19Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "This repository powers https://mgifford.github.io as a curated catalog of work across the GitHub account for @mgifford. Instead of showing a flat list of hundreds of repositories, it organizes projects into a useful table of contents with themes, highlights, and maintenance signals.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 5965365,
+      "name": "chef-phpmyadmin",
+      "fullName": "mgifford/chef-phpmyadmin",
+      "url": "https://github.com/mgifford/chef-phpmyadmin",
+      "description": "Chef Cookbook for installing and configuring phpMyAdmin",
+      "language": "Ruby",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 13,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2012-09-26T12:23:47Z",
+      "updatedAt": "2026-04-07T12:16:16Z",
+      "pushedAt": "2012-09-26T12:50:11Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Chef Cookbook for installing and configuring phpMyAdmin",
+        "score": 1,
+        "needsAttention": true,
+        "reasons": [
+          "README is very short",
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
+      }
+    },
+    {
+      "id": 409582461,
+      "name": "accessibility-2",
+      "fullName": "mgifford/accessibility-2",
+      "url": "https://github.com/mgifford/accessibility-2",
+      "description": "a11y resources and guild work",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2021-09-23T12:27:28Z",
+      "updatedAt": "2026-04-06T16:21:31Z",
+      "pushedAt": "2026-04-03T12:30:08Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "This is the primary repository of information and resources surrounding accessibility practices at Truss.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2411,7 +2692,7 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-04-04T20:24:33Z",
       "updatedAt": "2026-04-06T02:54:56Z",
       "pushedAt": "2026-04-06T02:54:52Z",
@@ -2421,7 +2702,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2453,72 +2734,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 1191604030,
-      "name": "daily-cap",
-      "fullName": "mgifford/daily-cap",
-      "url": "https://github.com/mgifford/daily-cap",
-      "description": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
-      "language": "JavaScript",
-      "topics": [
-        "accessibility",
-        "canada",
-        "federal-government",
-        "government",
-        "monitoring",
-        "top-sites"
-      ],
-      "homepage": "https://mgifford.github.io/daily-cap/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2026-03-25T12:09:23Z",
-      "updatedAt": "2026-04-05T10:07:11Z",
-      "pushedAt": "2026-04-05T10:07:06Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily CAP (Canadian Analytics Project) is an independent daily quality benchmarking pipeline for Canadian federal digital service entry points.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 1200516116,
-      "name": "daily-nsf",
-      "fullName": "mgifford/daily-nsf",
-      "url": "https://github.com/mgifford/daily-nsf",
-      "description": "Daily accessibility report of the top NSF.gov web pages.",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/daily-nsf/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-03T14:02:55Z",
-      "updatedAt": "2026-04-05T09:30:09Z",
-      "pushedAt": "2026-04-05T09:30:06Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily NSF benchmarks the quality and accessibility of the most visited National Science Foundation pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking NSF services.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2543,11 +2759,11 @@
       "pushedAt": "2026-04-05T02:46:53Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<img alt=\"Drupal Logo\" src=\"https://www.drupal.org/files/WordmarkblueRGB.png\" height=\"60px\"",
+        "summary": "Drupal is an open source content management platform supporting a variety of websites ranging from personal weblogs to large communitydriven websites. For more information, visit the Drupal website, [Drupal.org][Drupal.org], and join the [Drupal community][Drupal community].",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2568,17 +2784,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-02-11T20:55:57Z",
       "updatedAt": "2026-04-05T00:19:13Z",
-      "pushedAt": "2026-04-05T00:19:09Z",
+      "pushedAt": "2026-04-07T01:09:09Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An initial attempt to build a Drupal Open Dashboard is a static dashboard for visualizing Drupal.org and GitLab activity for an organization roster. It is designed for fully static hosting (e.g., GitHub Pages) and prefetches all data via scheduled GitHub Actions, serving only static JSON snapshots to the frontend.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2613,7 +2829,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2646,36 +2862,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 1200574316,
-      "name": "daily-hhs",
-      "fullName": "mgifford/daily-hhs",
-      "url": "https://github.com/mgifford/daily-hhs",
-      "description": "Daily accessibility report of the top HHS.gov web pages.",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/daily-hhs/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-03T15:18:12Z",
-      "updatedAt": "2026-04-04T11:22:09Z",
-      "pushedAt": "2026-04-04T11:22:04Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily HHS benchmarks the quality and accessibility of the most visited U.S. Department of Health and Human Services (HHS) pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public health services.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2706,36 +2893,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 21006958,
-      "name": "mgifford.github.io",
-      "fullName": "mgifford/mgifford.github.io",
-      "url": "https://github.com/mgifford/mgifford.github.io",
-      "description": "A presentation view of my repositories in GitHub",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "http://mgifford.github.io/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2014-06-19T16:13:54Z",
-      "updatedAt": "2026-04-04T02:24:47Z",
-      "pushedAt": "2026-04-04T02:24:43Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "This repository powers https://mgifford.github.io as a curated catalog of work across the GitHub account for @mgifford. Instead of showing a flat list of hundreds of repositories, it organizes projects into a useful table of contents with themes, highlights, and maintenance signals.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2759,17 +2917,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 1,
+      "openIssues": 2,
       "createdAt": "2026-03-17T13:03:22Z",
       "updatedAt": "2026-04-03T17:20:16Z",
-      "pushedAt": "2026-04-03T17:20:08Z",
+      "pushedAt": "2026-04-08T21:00:47Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Issuedriven alttext analysis prototype using GitHub Pages and GitHub Actions.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2802,7 +2960,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2831,7 +2989,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2855,46 +3013,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 1,
+      "openIssues": 2,
       "createdAt": "2026-01-13T22:52:48Z",
       "updatedAt": "2026-04-03T14:16:44Z",
-      "pushedAt": "2026-04-03T14:16:48Z",
+      "pushedAt": "2026-04-06T22:40:22Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An opensource transparency dashboard inspired by cal.com/open and other open startup initiatives. This project builds and publishes a beautiful static dashboard showing public opensource contributions by your GitHub organization.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 409582461,
-      "name": "accessibility-2",
-      "fullName": "mgifford/accessibility-2",
-      "url": "https://github.com/mgifford/accessibility-2",
-      "description": "a11y resources and guild work",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2021-09-23T12:27:28Z",
-      "updatedAt": "2026-04-03T12:30:15Z",
-      "pushedAt": "2026-04-03T12:30:08Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "This is the primary repository of information and resources surrounding accessibility practices at Truss.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2919,11 +3048,13 @@
       "pushedAt": "2026-04-03T12:29:51Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<a href=\"https://www.producthunt.com/posts/awesomeaccessibility?utmsource=badgefeatured&utmmedium=badge&utmsouce=badgeawesome&0045;accessibility\" target=\"blank\"<img src=\"https://api.producthunt.com/widgets/embedimage/v1/featured.svg?postid=339140&theme=light\" alt=\"Awesome&0032;Accessibility&0032; A&0032;curate&0032;lis",
-        "score": 4,
+        "summary": "Para uma versão em português deste arquivo, veja README.ptBR.",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2946,17 +3077,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-03-28T23:03:47Z",
       "updatedAt": "2026-04-03T12:23:47Z",
-      "pushedAt": "2026-04-03T12:23:44Z",
+      "pushedAt": "2026-04-08T21:05:23Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Privacyfirst live captions with a browserfirst transcription path. The default engine is the Web Speech API running entirely in the browser, which means the UI can be hosted as static files, including on GitHub Pages. HTMX remains the delivery layer for audience updates when a relay stream is present. When you want sha",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -2985,7 +3116,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3021,7 +3152,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3056,7 +3187,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3080,17 +3211,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-03-16T08:59:55Z",
       "updatedAt": "2026-04-02T20:17:35Z",
-      "pushedAt": "2026-04-02T20:17:35Z",
+      "pushedAt": "2026-04-08T20:53:26Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Issuedriven sustainability scanning for the Web Sustainability Guidelines (WSG), using: Lighthouse (performance and bestpractices categories) CO2.js for perpage and aggregate emissions estimates The Green Web Foundation API for green hosting checks WSG guideline mapping for actionable remediation Sustainable Web Design",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3125,7 +3256,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3154,7 +3285,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3186,7 +3317,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3215,7 +3346,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3246,7 +3377,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3278,7 +3409,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3301,10 +3432,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 1,
+      "openIssues": 6,
       "createdAt": "2025-11-12T06:42:37Z",
       "updatedAt": "2026-04-02T09:21:01Z",
-      "pushedAt": "2026-04-02T09:20:55Z",
+      "pushedAt": "2026-04-08T04:55:39Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "",
@@ -3314,7 +3445,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3350,7 +3481,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3379,7 +3510,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3408,7 +3539,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3444,7 +3575,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3473,44 +3604,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 1185127045,
-      "name": "STYLES.md",
-      "fullName": "mgifford/STYLES.md",
-      "url": "https://github.com/mgifford/STYLES.md",
-      "description": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
-      "language": "HTML",
-      "topics": [
-        "agentic-ai",
-        "agents",
-        "design",
-        "web",
-        "web-design"
-      ],
-      "homepage": "https://mgifford.github.io/STYLES.md",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-03-18T09:09:53Z",
-      "updatedAt": "2026-03-31T00:02:34Z",
-      "pushedAt": "2026-03-31T00:02:30Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A machinereadable style standard for human and AI collaboration.",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3542,7 +3636,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3571,7 +3665,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3594,10 +3688,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-03-04T19:39:10Z",
       "updatedAt": "2026-03-29T14:47:49Z",
-      "pushedAt": "2026-03-09T12:30:35Z",
+      "pushedAt": "2026-04-08T08:15:40Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "",
@@ -3606,7 +3700,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3640,7 +3734,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3675,7 +3769,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3711,7 +3805,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3740,7 +3834,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3765,13 +3859,11 @@
       "pushedAt": "2026-03-27T02:21:22Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<h1 align=\"center\" <picture <source media=\"(preferscolorscheme: light)\" srcset=\".github/wagtail.svg\" <source media=\"(preferscolorscheme: dark)\" srcset=\".github/wagtailinverse.svg\" <img width=\"343\" src=\".github/wagtail.svg\" alt=\"Wagtail\" </picture </h1 <p align=\"center\" <br <a href=\"https://github.com/wagtail/wagtail/ac",
-        "score": 3,
+        "summary": "Wagtail is an open source content management system built on Django, with a strong community and commercial support. It's focused on user experience, and offers precise control for designers and developers.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "Contains placeholder language"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3800,7 +3892,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3825,11 +3917,11 @@
       "pushedAt": "2026-03-27T04:59:08Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<p align=\"center\" <a href=\"https://strapi.io\" <img src=\"https://strapi.io/assets/strapilogodark.svg\" width=\"318px\" alt=\"Strapi logo\" / </a </p <h3 align=\"center\"API creation made simple, secure and fast.</h3 <p align=\"center\"The most advanced opensource headless CMS to build powerful APIs with no effort.</p <br /",
+        "summary": "API creation made simple, secure and fast. The most advanced opensource headless CMS to build powerful APIs with no effort.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3858,7 +3950,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3883,11 +3975,11 @@
       "pushedAt": "2026-03-22T02:28:14Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<! Copyright (c) 2014 2023 UNICEF. All rights reserved. Primero ======== ![DPG Badge](https://www.digitalpublicgoods.net/r/primero) ![Build Status](https://github.com/primeroIMS/primero/actions)",
+        "summary": "Primero ======== ![DPG Badge](https://www.digitalpublicgoods.net/r/primero) ![Build Status](https://github.com/primeroIMS/primero/actions)",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3912,11 +4004,11 @@
       "pushedAt": "2026-03-20T20:08:47Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "CKEditor&nbsp;5 ![Tweet](https://twitter.com/intent/tweet?text=Check%20out%20CKEditor%205%20on%20GitHub&url=https%3A%2F%2Fgithub.com%2Fckeditor%2Fckeditor5)<! omit in toc ===================================",
+        "summary": "CKEditor&nbsp;5 ![Tweet](https://twitter.com/intent/tweet?text=Check%20out%20CKEditor%205%20on%20GitHub&url=https%3A%2F%2Fgithub.com%2Fckeditor%2Fckeditor5) ===================================",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3935,10 +4027,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 10,
+      "openIssues": 11,
       "createdAt": "2021-08-31T23:55:14Z",
       "updatedAt": "2026-03-17T12:31:26Z",
-      "pushedAt": "2026-03-17T12:31:22Z",
+      "pushedAt": "2026-04-08T09:07:29Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "U.S. Web Design System (USWDS) Documentation Website",
@@ -3947,7 +4039,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -3979,7 +4071,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4008,7 +4100,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4042,7 +4134,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4074,7 +4166,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4105,7 +4197,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4134,7 +4226,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4165,7 +4257,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4194,7 +4286,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4227,7 +4319,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4258,7 +4350,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4287,7 +4379,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4316,7 +4408,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4348,7 +4440,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4380,7 +4472,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4412,7 +4504,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4447,7 +4539,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4485,7 +4577,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4516,7 +4608,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4545,7 +4637,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4576,7 +4668,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4607,7 +4699,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4636,7 +4728,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4665,7 +4757,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4694,7 +4786,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4723,7 +4815,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4752,7 +4844,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4781,7 +4873,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4812,7 +4904,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4837,13 +4929,11 @@
       "pushedAt": "2025-10-29T03:56:16Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<div align=\"center\" <img src=\"./images/logo.png\" width=\"100\" height=\"100\" / <h3 align=\"center\"Mere Medical</h3 <p align=\"center\" A personal health record to aggregate and sync all of your medical records from multiple patient portals in one place. Currently supports thousands of hospitals and clinics and major electron",
-        "score": 3,
+        "summary": "A personal health record to aggregate and sync all of your medical records from multiple patient portals in one place. Currently supports thousands of hospitals and clinics and major electronic medical record systems. Selfhosted, privacyfocused, and offlinefirst.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "Contains placeholder language"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4872,7 +4962,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4901,7 +4991,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4926,11 +5016,11 @@
       "pushedAt": "2025-10-16T09:28:17Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<a href=\"https://digitalpublicgoods.net/r/dpgslug\" target=\"blank\" rel=\"no opener noreferrer\"<img src=\"https://github.com/DPGAlliance/dpgresources/blob/main/docs/assets/dpgbadge.png?raw=true\" width=\"70\" alt=\"Digital Public Goods Badge\"</a",
+        "summary": "The official knowledge base for all documentation, resources, guides, and templates to help open source digital solutions with their Digital Public Good (DPG) application and for successful DPGs to continue to improve their project within the focus areas of the DPG Standard.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4959,7 +5049,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -4988,7 +5078,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5020,7 +5110,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5051,7 +5141,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5083,7 +5173,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5112,7 +5202,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5144,7 +5234,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5173,7 +5263,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5202,7 +5292,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5234,7 +5324,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5263,7 +5353,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5292,7 +5382,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5321,7 +5411,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5350,7 +5440,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5369,17 +5459,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2025-04-22T15:55:54Z",
       "updatedAt": "2025-04-22T15:55:55Z",
-      "pushedAt": "2019-02-11T17:31:23Z",
+      "pushedAt": "2026-04-08T03:09:59Z",
       "defaultBranch": "master",
       "readme": {
         "summary": "Mission The goal of the site is to help acquisition professionals learn, discuss, and execute Digital Service Acquisitions",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5408,7 +5498,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5437,7 +5527,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5469,7 +5559,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5498,7 +5588,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5527,7 +5617,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5556,7 +5646,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5588,7 +5678,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5613,11 +5703,11 @@
       "pushedAt": "2024-03-27T10:35:30Z",
       "defaultBranch": "develop",
       "readme": {
-        "summary": "<! SPDXLicenseIdentifier: CC01.0 <! SPDXFileCopyrightText: 20192024 The Foundation for Public Code <info@publiccode.net, https://standard.publiccode.net/AUTHORS",
+        "summary": "The Standard for Public Code gives public organizations a model for preparing open source solutions to enable collaborations with similar public organizations in other places. It includes guidance for policy makers, city administrators, developers and vendors.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5636,17 +5726,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2021-04-23T14:14:06Z",
       "updatedAt": "2024-07-01T17:52:21Z",
-      "pushedAt": "2021-04-23T14:27:07Z",
+      "pushedAt": "2026-04-08T08:04:43Z",
       "defaultBranch": "master",
       "readme": {
         "summary": "Baseline Test Pages The Baseline and ITTP Working Group will use this repository and set of pages to store and make reference to test pages for use in validating test rules contained in the ICT Testing Baseline.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5675,7 +5765,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5700,13 +5790,11 @@
       "pushedAt": "2023-06-06T17:43:45Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<! Copyright 20202021 VMware, Inc. SPDXLicenseIdentifier: MIT",
-        "score": 3,
+        "summary": "Crest quickly tests any HTML web page for a simple way to solve your accessibility testing problems. Provide a website URL to our callable API and expose potential WCAG violations.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5735,7 +5823,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5766,7 +5854,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5791,11 +5879,13 @@
       "pushedAt": "2025-11-19T21:15:45Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<p align=\"center\" <br/ <a href=\"https://astro.build\"Astro</a is a website build tool for the modern web &mdash; <br/ powerful developer experience meets lightweight output. <br/<br/ </p",
-        "score": 4,
+        "summary": "Astro is a website build tool for the modern web &mdash;",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5827,68 +5917,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 632118171,
-      "name": "wpds-ui-kit",
-      "fullName": "mgifford/wpds-ui-kit",
-      "url": "https://github.com/mgifford/wpds-ui-kit",
-      "description": "WPDS's UiKit coded in React using Stitches, Radix UI and more! Also home to our docs site",
-      "language": "TypeScript",
-      "topics": [],
-      "homepage": "https://build.washingtonpost.com",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2023-04-24T18:44:33Z",
-      "updatedAt": "2023-04-24T23:55:58Z",
-      "pushedAt": "2026-02-20T03:07:32Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "The Washington Post Design System (WPDS) UI Kit is now a monorepo that contains not only our UI Kit, but also our documentation site.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
-      }
-    },
-    {
-      "id": 5965365,
-      "name": "chef-phpmyadmin",
-      "fullName": "mgifford/chef-phpmyadmin",
-      "url": "https://github.com/mgifford/chef-phpmyadmin",
-      "description": "Chef Cookbook for installing and configuring phpMyAdmin",
-      "language": "Ruby",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 13,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2012-09-26T12:23:47Z",
-      "updatedAt": "2023-03-02T14:39:01Z",
-      "pushedAt": "2012-09-26T12:50:11Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Chef Cookbook for installing and configuring phpMyAdmin",
-        "score": 1,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short",
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5917,7 +5946,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5948,7 +5977,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5977,7 +6006,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -5996,10 +6025,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2022-11-22T13:45:01Z",
       "updatedAt": "2022-11-22T12:54:47Z",
-      "pushedAt": "2022-11-26T04:14:49Z",
+      "pushedAt": "2026-04-08T07:57:50Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A directory of Fediverse users working to make government and democracy better.",
@@ -6008,7 +6037,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6037,7 +6066,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6066,7 +6095,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6098,7 +6127,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6129,7 +6158,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6148,17 +6177,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2022-07-21T18:56:39Z",
       "updatedAt": "2022-05-27T16:50:11Z",
-      "pushedAt": "2022-08-31T18:11:38Z",
+      "pushedAt": "2026-04-08T06:32:54Z",
       "defaultBranch": "18f-pages",
       "readme": {
         "summary": "This is the repository for the 18F Content Guide. This guide was developed for 18F employees, but we hope it's a useful reference for everyone.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6187,7 +6216,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6212,11 +6241,13 @@
       "pushedAt": "2025-09-19T14:27:07Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<! Federalist recommends you use Continuous Integration to automatically test and validate any new changes to your site. CircleCI is free for open source projcets. You should replace this badge with your own.",
-        "score": 4,
+        "summary": "![CircleCI](https://circleci.com/gh/18F/federalistuswdsjekyll)",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6241,11 +6272,11 @@
       "pushedAt": "2025-09-19T14:30:21Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<a href=\"https://wcagemreporttool2021redesign.netlify.app/\"<img width=\"400\" alt=\"\" src=\"https://userimages.githubusercontent.com/178782/114709430d86bd7009d2c11eb8508c628ef6614d4.png\"</a",
+        "summary": "The WCAGEM Report tool is an assistant that takes the user through the process of evaluating the accessibility of a website, using the WCAG Evaluation Methodology.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6274,7 +6305,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6303,7 +6334,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6332,7 +6363,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6361,7 +6392,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6390,7 +6421,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6421,7 +6452,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6452,7 +6483,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6481,7 +6512,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6510,7 +6541,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6539,7 +6570,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6568,7 +6599,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6599,7 +6630,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6630,7 +6661,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6662,7 +6693,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6691,7 +6722,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6722,7 +6753,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6751,7 +6782,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6780,7 +6811,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6812,7 +6843,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6841,7 +6872,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6870,7 +6901,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6899,7 +6930,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6930,7 +6961,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6959,7 +6990,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -6990,7 +7021,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7022,7 +7053,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7047,11 +7078,11 @@
       "pushedAt": "2026-04-03T05:22:04Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<p align=\"center\" <img width=\"800\" src=\"https://userimages.githubusercontent.com/4608155/74476584771553004e5e11ea88c66c9f64cf0f05.png\" alt=\"Octicons cover\" / </p",
+        "summary": "![Octicons Build](https://github.com/primer/octicons/actions?query=workflow%3A%22Octicons+Build%22)",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7080,7 +7111,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7109,7 +7140,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7138,7 +7169,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7163,11 +7194,13 @@
       "pushedAt": "2025-09-19T14:30:45Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "<h1<img src=\"https://digital.gov/img/digitalgovlogopurple.svg\" alt=\"Digital.gov Logo\"/</h1",
-        "score": 4,
+        "summary": "We help people in government build better digital services",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7198,7 +7231,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7227,7 +7260,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7256,7 +7289,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7285,7 +7318,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7314,7 +7347,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7343,7 +7376,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7372,7 +7405,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7401,7 +7434,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7430,7 +7463,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7461,7 +7494,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7493,7 +7526,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7518,11 +7551,11 @@
       "pushedAt": "2025-09-19T14:24:36Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<p align=\"center\" <a href=\"https://liip.ch/\"<img src=\"https://github.com/liip.png\" alt=\"Liip\" width=\"150px\" /</a<br / <empresents</em<br / The Accessibility Testing Machine </p",
+        "summary": "![Version](https://github.com/liip/TheA11yMachine) ![Downloads](https://www.npmjs.com/package/thea11ymachine) ![License](authorsandlicense)",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7551,7 +7584,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7583,7 +7616,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7612,7 +7645,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7641,7 +7674,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7670,7 +7703,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7699,7 +7732,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7728,7 +7761,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7757,7 +7790,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7786,7 +7819,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7815,7 +7848,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7844,7 +7877,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7875,7 +7908,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7894,17 +7927,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2020-03-29T13:25:28Z",
       "updatedAt": "2020-03-29T13:25:30Z",
-      "pushedAt": "2020-03-29T13:26:14Z",
+      "pushedAt": "2026-04-08T07:47:55Z",
       "defaultBranch": "master",
       "readme": {
         "summary": "Elementary This is my personal blog's Jekyll template that I've been optimizing for performance, accessibility, usability, readability and simplicity in general.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7935,7 +7968,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7964,7 +7997,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -7993,7 +8026,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8022,7 +8055,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8051,7 +8084,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8082,7 +8115,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8111,7 +8144,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8142,7 +8175,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8167,13 +8200,11 @@
       "pushedAt": "2025-09-19T14:24:40Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "<! markdownlintdisable MD041 Français <! markdownlintenable MD041",
-        "score": 3,
+        "summary": "Provides practical and measurable guidance to assist individual projects with becoming more agile, open and userfocused.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "reasons": [],
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8192,17 +8223,17 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2018-05-03T13:32:52Z",
       "updatedAt": "2018-05-03T13:33:01Z",
-      "pushedAt": "2018-04-16T13:38:01Z",
+      "pushedAt": "2026-04-10T03:37:45Z",
       "defaultBranch": "devel",
       "readme": {
         "summary": "Goteo The Open Source Crowdfunding Platform ===========================================",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8231,7 +8262,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8262,7 +8293,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8291,7 +8322,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8322,7 +8353,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8351,7 +8382,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8380,7 +8411,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8411,7 +8442,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8440,7 +8471,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8469,7 +8500,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8498,7 +8529,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8527,7 +8558,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8556,7 +8587,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8585,7 +8616,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8614,7 +8645,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8643,7 +8674,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8672,7 +8703,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8701,7 +8732,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8726,11 +8757,11 @@
       "pushedAt": "2014-10-31T09:22:43Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Our friends over at PluginHero have just released the <a href=\"http://pluginhero.com/portfolio/meanmenu/\"WordPress version of MeanMenu</a.",
+        "summary": "Our friends over at PluginHero have just released the WordPress version of MeanMenu .",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8759,7 +8790,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8788,7 +8819,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     },
     {
@@ -8820,7 +8851,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-06T06:56:02.319Z"
+        "scannedAt": "2026-04-10T12:19:45.452Z"
       }
     }
   ]
