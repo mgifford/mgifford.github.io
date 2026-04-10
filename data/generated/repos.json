@@ -121,7 +121,7 @@
       "name": "ACCESSIBILITY.md",
       "fullName": "mgifford/ACCESSIBILITY.md",
       "url": "https://github.com/mgifford/ACCESSIBILITY.md",
-      "description": "ACCESSIBILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
+      "description": "ACCESSIBILITY.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
       "language": "CSS",
       "topics": [
         "a11y",
@@ -377,7 +377,7 @@
       "name": "Digital-Accessibility-Bingo",
       "fullName": "mgifford/Digital-Accessibility-Bingo",
       "url": "https://github.com/mgifford/Digital-Accessibility-Bingo",
-      "description": "Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
+      "description": "Things said or implied at meetings when someone mentions the \u201cA\u201d word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -394,7 +394,7 @@
       "pushedAt": "2018-02-03T23:43:09Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Digital Accessibility Bingo Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digiren if we have missed any.",
+        "summary": "Digital Accessibility Bingo Things said or implied at meetings when someone mentions the \u201cA\u201d word. Scroll down to read list. Twitter @Digiren if we have missed any.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -556,7 +556,7 @@
       "pushedAt": "2026-04-10T03:06:31Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "An interactive GitHub Pages dashboard that visualises the \"Mirror Spine\" of WCAG 2.2 — bridging Responsibility (ARRM) and Technical Testing (ACT, Axecore, Alfa, Trusted Tester) for every Success Criterion.",
+        "summary": "An interactive GitHub Pages dashboard that visualises the \"Mirror Spine\" of WCAG 2.2 \u2014 bridging Responsibility (ARRM) and Technical Testing (ACT, Axecore, Alfa, Trusted Tester) for every Success Criterion.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -625,7 +625,7 @@
       "pushedAt": "2026-04-08T12:32:36Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Top Task Finder helps you quickly generate a representative, prioritized list of URLs from any public website — perfect for accessibility audits, toptask reviews, and UX research.",
+        "summary": "Top Task Finder helps you quickly generate a representative, prioritized list of URLs from any public website \u2014 perfect for accessibility audits, toptask reviews, and UX research.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -849,7 +849,7 @@
       "pushedAt": "2026-04-08T03:20:51Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "This project is still experimental. Most of this site was generated with AI and has not yet been validated in realworld settings. All content must be treated as a starting point only — not as authoritative or productionready guidance.",
+        "summary": "This project is still experimental. Most of this site was generated with AI and has not yet been validated in realworld settings. All content must be treated as a starting point only \u2014 not as authoritative or productionready guidance.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -1199,7 +1199,7 @@
       "pushedAt": "2026-04-07T00:04:31Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "⚠️ EXPERIMENTAL — AIGenerated Content Requires RealWorld Validation",
+        "summary": "\u26a0\ufe0f EXPERIMENTAL \u2014 AIGenerated Content Requires RealWorld Validation",
         "score": 3,
         "needsAttention": false,
         "reasons": [
@@ -1329,7 +1329,7 @@
       "pushedAt": "2026-04-06T16:16:10Z",
       "defaultBranch": "18f-pages",
       "readme": {
-        "summary": "⚠️ This guide has moved to the consolidated 18F guides repository.",
+        "summary": "\u26a0\ufe0f This guide has moved to the consolidated 18F guides repository.",
         "score": 3,
         "needsAttention": false,
         "reasons": [
@@ -1523,7 +1523,7 @@
       "pushedAt": "2026-04-02T09:19:35Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "APCA vs WCAG 2. ⚙️ Configurable thresholds (both WCAG and APCA thresholds can be adjusted) 🎲 Multiple color selection modes (random, fixed backgrounds, custom defaults) 🔧 Flexible color format support (3digit, 6digit, with/without ) 📈 Debug statistics for understanding result distributions 👁️ Color blindness simula",
+        "summary": "APCA vs WCAG 2. \u2699\ufe0f Configurable thresholds (both WCAG and APCA thresholds can be adjusted) \ud83c\udfb2 Multiple color selection modes (random, fixed backgrounds, custom defaults) \ud83d\udd27 Flexible color format support (3digit, 6digit, with/without ) \ud83d\udcc8 Debug statistics for understanding result distributions \ud83d\udc41\ufe0f Color blindness simula",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -2444,7 +2444,7 @@
       "pushedAt": "2026-04-10T02:59:22Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Hexagonal Bicupola Wind Rotor · HBR614V · Rev 1.1 Rotor: 1000mm diameter · 20mm aluminium shaft · 10mm rods",
+        "summary": "Hexagonal Bicupola Wind Rotor \u00b7 HBR614V \u00b7 Rev 1.1 Rotor: 1000mm diameter \u00b7 20mm aluminium shaft \u00b7 10mm rods",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -2489,7 +2489,7 @@
       "name": "STYLES.md",
       "fullName": "mgifford/STYLES.md",
       "url": "https://github.com/mgifford/STYLES.md",
-      "description": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
+      "description": "STYLES.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
       "language": "HTML",
       "topics": [
         "agentic-ai",
@@ -2698,7 +2698,7 @@
       "pushedAt": "2026-04-06T02:54:52Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![Build & Deploy](https://github.com/mgifford/DigitalPolicies/actions/workflows/pages.yml) ![Accessibility](https://github.com/mgifford/DigitalPolicies/actions/workflows/axe.yml) ![Link Check](https://github.com/mgifford/DigitalPolicies/actions/workflows/links.yml) ![License: CC BY 4.0](https://creativecommons.org/lice",
+        "summary": "A living library of model policy language for the digital age \u2014 built for advocates, communities, and governments who want innovation without sacrificing people or planet.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -2742,7 +2742,7 @@
       "name": "drupal-core",
       "fullName": "mgifford/drupal-core",
       "url": "https://github.com/mgifford/drupal-core",
-      "description": "Drupal core fork — accessibility work and AI tooling",
+      "description": "Drupal core fork \u2014 accessibility work and AI tooling",
       "language": "PHP",
       "topics": [],
       "homepage": "",
@@ -2802,7 +2802,7 @@
       "name": "SUSTAINABILITY.md",
       "fullName": "mgifford/SUSTAINABILITY.md",
       "url": "https://github.com/mgifford/SUSTAINABILITY.md",
-      "description": "SUSTAINABILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents",
+      "description": "SUSTAINABILITY.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents",
       "language": "HTML",
       "topics": [
         "agents",
@@ -3048,7 +3048,7 @@
       "pushedAt": "2026-04-03T12:29:51Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Para uma versão em português deste arquivo, veja README.ptBR.",
+        "summary": "Para uma vers\u00e3o em portugu\u00eas deste arquivo, veja README.ptBR.",
         "score": 3,
         "needsAttention": false,
         "reasons": [
@@ -3385,7 +3385,7 @@
       "name": "ox.ca",
       "fullName": "mgifford/ox.ca",
       "url": "https://github.com/mgifford/ox.ca",
-      "description": "My personal site — Mike Gifford",
+      "description": "My personal site \u2014 Mike Gifford",
       "language": "JavaScript",
       "topics": [
         "personal-website",
@@ -3506,7 +3506,7 @@
       "pushedAt": "2026-02-07T08:39:37Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "This repository is a minimal, static demonstration of a Sign Language Sidecar: a 3D signlanguage avatar that stays in view while users read longform ICT accessibility content. The content focuses on how EN 301 549 v3.2.1 is applied in Canada (CAN/ASC – EN 301 549:2024) versus the European Union (Web Accessibility Direc",
+        "summary": "This repository is a minimal, static demonstration of a Sign Language Sidecar: a 3D signlanguage avatar that stays in view while users read longform ICT accessibility content. The content focuses on how EN 301 549 v3.2.1 is applied in Canada (CAN/ASC \u2013 EN 301 549:2024) versus the European Union (Web Accessibility Direc",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -3569,7 +3569,7 @@
       "pushedAt": "2026-03-27T15:35:04Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "🛡️ Accessibility Conformance Report (ACR) Generator",
+        "summary": "\ud83d\udee1\ufe0f Accessibility Conformance Report (ACR) Generator",
         "score": 3,
         "needsAttention": false,
         "reasons": [
@@ -3644,7 +3644,7 @@
       "name": "a11y-meta-skills",
       "fullName": "mgifford/a11y-meta-skills",
       "url": "https://github.com/mgifford/a11y-meta-skills",
-      "description": "Accessibility planner-critic skill pair for Claude Code — WCAG implementation planning + ARIA/focus/semantic review",
+      "description": "Accessibility planner-critic skill pair for Claude Code \u2014 WCAG implementation planning + ARIA/focus/semantic review",
       "language": "Python",
       "topics": [],
       "homepage": "",
@@ -3661,7 +3661,7 @@
       "pushedAt": "2026-03-29T18:38:09Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Accessibility skill bundle for Claude Code — plan, test, review, and audit from real perspectives.",
+        "summary": "Accessibility skill bundle for Claude Code \u2014 plan, test, review, and audit from real perspectives.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -3888,7 +3888,7 @@
       "pushedAt": "2026-03-27T04:36:06Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Status This project is currently in early beta status. It’s used in production on a few sites while we learn and continuously improve.",
+        "summary": "Status This project is currently in early beta status. It\u2019s used in production on a few sites while we learn and continuously improve.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -3900,7 +3900,7 @@
       "name": "strapi",
       "fullName": "mgifford/strapi",
       "url": "https://github.com/mgifford/strapi",
-      "description": "🚀 Open source Node.js Headless CMS to easily build customisable APIs",
+      "description": "\ud83d\ude80 Open source Node.js Headless CMS to easily build customisable APIs",
       "language": "JavaScript",
       "topics": [],
       "homepage": "https://strapi.io",
@@ -4130,7 +4130,7 @@
       "pushedAt": "2026-03-08T13:03:46Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "A personal, sciencebased smart cookbook that runs entirely clientside on GitHub Pages. No backend required—all data is stored in YAML files and localStorage for complete privacy and offlinefirst capability.",
+        "summary": "A personal, sciencebased smart cookbook that runs entirely clientside on GitHub Pages. No backend required\u2014all data is stored in YAML files and localStorage for complete privacy and offlinefirst capability.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -4251,7 +4251,7 @@
       "pushedAt": "2026-02-23T11:35:36Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Centralised Web Accessibility Checker (CWAC) 🦆",
+        "summary": "Centralised Web Accessibility Checker (CWAC) \ud83e\udd86",
         "score": 3,
         "needsAttention": false,
         "reasons": [
@@ -4468,7 +4468,7 @@
       "pushedAt": "2026-01-05T16:13:11Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Discover films you'll actually love—based on what you've already loved.",
+        "summary": "Discover films you'll actually love\u2014based on what you've already loved.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -4662,7 +4662,7 @@
       "pushedAt": "2025-12-12T14:52:11Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "ACRT Project Title “Accessibility Conformance Report Tool (ACRT)”",
+        "summary": "ACRT Project Title \u201cAccessibility Conformance Report Tool (ACRT)\u201d",
         "score": 3,
         "needsAttention": false,
         "reasons": [
@@ -4782,7 +4782,7 @@
       "pushedAt": "2025-11-11T01:17:17Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "W3C TPAC Accessibility Roles and Responsibilities Mapping (ARRM) Breakout Discussion Slides to guide the 2025 TPAC breakout group — Accessibility Roles and Responsibilities Mapping (ARRM). 12 November 2025, 16:15–17:15 Japan Standard Time",
+        "summary": "W3C TPAC Accessibility Roles and Responsibilities Mapping (ARRM) Breakout Discussion Slides to guide the 2025 TPAC breakout group \u2014 Accessibility Roles and Responsibilities Mapping (ARRM). 12 November 2025, 16:15\u201317:15 Japan Standard Time",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -4811,7 +4811,7 @@
       "pushedAt": "2025-11-09T23:40:44Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "W3C TPAC Sustainable Web Guidelines Breakout Discussion Slides to guide the 2025 TPAC breakout group — Sustainable Web IG Update for the Web Sustainability Guidelines. 12 November 2025, 08:30–09:30 Japan Standard Time",
+        "summary": "W3C TPAC Sustainable Web Guidelines Breakout Discussion Slides to guide the 2025 TPAC breakout group \u2014 Sustainable Web IG Update for the Web Sustainability Guidelines. 12 November 2025, 08:30\u201309:30 Japan Standard Time",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -4970,7 +4970,7 @@
       "name": "EHRCON25-Barcelona",
       "fullName": "mgifford/EHRCON25-Barcelona",
       "url": "https://github.com/mgifford/EHRCON25-Barcelona",
-      "description": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contemporània de Barcelona for EHRCON25 attendees.",
+      "description": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contempor\u00e0nia de Barcelona for EHRCON25 attendees.",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://mgifford.github.io/EHRCON25-Barcelona/",
@@ -4987,7 +4987,7 @@
       "pushedAt": "2025-09-24T12:14:44Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Here’s a communitycurated list of food and drink spots near the Centre de Cultura Contemporània de Barcelona.",
+        "summary": "Here\u2019s a communitycurated list of food and drink spots near the Centre de Cultura Contempor\u00e0nia de Barcelona.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -5567,7 +5567,7 @@
       "name": "ditap-curriculum-update",
       "fullName": "mgifford/ditap-curriculum-update",
       "url": "https://github.com/mgifford/ditap-curriculum-update",
-      "description": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be “an open-source learning model that makes DITAP scalable, adaptable, and future-proof.”",
+      "description": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be \u201can open-source learning model that makes DITAP scalable, adaptable, and future-proof.\u201d",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://techfarhub.usds.gov/get-started/ditap/",
@@ -5862,7 +5862,7 @@
       "name": "astro",
       "fullName": "mgifford/astro",
       "url": "https://github.com/mgifford/astro",
-      "description": "The all-in-one web framework designed for speed. ⭐️ Star to support our work!",
+      "description": "The all-in-one web framework designed for speed. \u2b50\ufe0f Star to support our work!",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://astro.build",
@@ -6595,7 +6595,7 @@
       "pushedAt": "2021-09-23T12:24:06Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Dear participant to Code Institute x Trust In SODA Hackathon 👩‍💻👨‍💻, Accessibility Edition.",
+        "summary": "Dear participant to Code Institute x Trust In SODA Hackathon \ud83d\udc69\u200d\ud83d\udcbb\ud83d\udc68\u200d\ud83d\udcbb, Accessibility Edition.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -6638,7 +6638,7 @@
       "name": "a11y-resources",
       "fullName": "mgifford/a11y-resources",
       "url": "https://github.com/mgifford/a11y-resources",
-      "description": ":book: Accessibility resources - Ressources accessibilité",
+      "description": ":book: Accessibility resources - Ressources accessibilit\u00e9",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -6938,7 +6938,7 @@
       "name": "empathy-prompts",
       "fullName": "mgifford/empathy-prompts",
       "url": "https://github.com/mgifford/empathy-prompts",
-      "description": "💡 Ideas to help consider Inclusive Design principles when making things for others to use.",
+      "description": "\ud83d\udca1 Ideas to help consider Inclusive Design principles when making things for others to use.",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://empathyprompts.net/",
@@ -7177,7 +7177,7 @@
       "name": "digitalgov.gov",
       "fullName": "mgifford/digitalgov.gov",
       "url": "https://github.com/mgifford/digitalgov.gov",
-      "description": "Digital.gov — Helping the government community deliver better digital services.",
+      "description": "Digital.gov \u2014\u00a0Helping the government community deliver better digital services.",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://digital.gov",
@@ -7728,7 +7728,7 @@
       "pushedAt": "2020-12-21T11:26:29Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Buffer Voluntary Product Accessibility Template (VPAT®) This repository contains Voluntary Product Accessibility Template (VPAT®) documents for Buffer.",
+        "summary": "Buffer Voluntary Product Accessibility Template (VPAT\u00ae) This repository contains Voluntary Product Accessibility Template (VPAT\u00ae) documents for Buffer.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -7769,7 +7769,7 @@
       "name": "jekyll-accessibility-template",
       "fullName": "mgifford/jekyll-accessibility-template",
       "url": "https://github.com/mgifford/jekyll-accessibility-template",
-      "description": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
+      "description": "Jekyll Voluntary Product Accessibility Template (VPAT) and \u00a7508 accessibility information template",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -7786,7 +7786,7 @@
       "pushedAt": "2016-05-16T23:43:06Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
+        "summary": "Jekyll Voluntary Product Accessibility Template (VPAT) and \u00a7508 accessibility information template",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -7945,7 +7945,7 @@
       "name": "digital-canada-ca",
       "fullName": "mgifford/digital-canada-ca",
       "url": "https://github.com/mgifford/digital-canada-ca",
-      "description": "Website for the Canadian Digital Service / Site Web du Service numérique canadien",
+      "description": "Website for the Canadian Digital Service / Site Web du Service num\u00e9rique canadien",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://digital.canada.ca/",
@@ -8034,7 +8034,7 @@
       "name": "accessibility-for-teams",
       "fullName": "mgifford/accessibility-for-teams",
       "url": "https://github.com/mgifford/accessibility-for-teams",
-      "description": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow",
+      "description": "A \u2018quick-start\u2019 guide for embedding accessibility and inclusive design practices into your team\u2019s workflow",
       "language": "CSS",
       "topics": [],
       "homepage": "https://accessibility.digital.gov",
@@ -8051,7 +8051,7 @@
       "pushedAt": "2019-08-01T15:45:36Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Practices for embedding accessibility and inclusive design into a team’s workflow.",
+        "summary": "Practices for embedding accessibility and inclusive design into a team\u2019s workflow.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -8080,7 +8080,7 @@
       "pushedAt": "2019-06-10T17:03:26Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurrin",
+        "summary": "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines \u2014 blurrin",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -8092,7 +8092,7 @@
       "name": "ore-ero",
       "fullName": "mgifford/ore-ero",
       "url": "https://github.com/mgifford/ore-ero",
-      "description": "Open Resource Exchange - Échange de ressources ouvert",
+      "description": "Open Resource Exchange - \u00c9change de ressources ouvert",
       "language": "HTML",
       "topics": [],
       "homepage": "https://canada-ca.github.io/ore-ero/",
@@ -8152,7 +8152,7 @@
       "name": "open-source-contribution-logiciel-libre",
       "fullName": "mgifford/open-source-contribution-logiciel-libre",
       "url": "https://github.com/mgifford/open-source-contribution-logiciel-libre",
-      "description": "Draft requirements on open source contributions. / Brouillon des besoins liés à la contribution aux logiciels libres.",
+      "description": "Draft requirements on open source contributions. / Brouillon des besoins li\u00e9s \u00e0 la contribution aux logiciels libres.",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -8169,7 +8169,7 @@
       "pushedAt": "2026-03-02T09:04:12Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Open Source Contribution (Draft) Contribution aux logiciels libres (Ébauche)",
+        "summary": "Open Source Contribution (Draft) Contribution aux logiciels libres (\u00c9bauche)",
         "score": 2,
         "needsAttention": true,
         "reasons": [
@@ -8183,7 +8183,7 @@
       "name": "digital-playbook-guide-numerique",
       "fullName": "mgifford/digital-playbook-guide-numerique",
       "url": "https://github.com/mgifford/digital-playbook-guide-numerique",
-      "description": "Government of Canada Digital Playbook / Guide numérique du gouvernement du Canada",
+      "description": "Government of Canada Digital Playbook / Guide num\u00e9rique du gouvernement du Canada",
       "language": "HTML",
       "topics": [],
       "homepage": "https://canada-ca.github.io/digital-playbook-guide-numerique/",
@@ -8641,7 +8641,7 @@
       "pushedAt": "2016-05-01T20:04:02Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Welcome to the WHMCS “Six” template repository! This repository is dedicated to providing versionbyversion changes of the “Six” template as published in WHMCS. Sharing these changes through GitHub as a readonly repository enables you to quick inspect and import these changes for your custom theme.",
+        "summary": "Welcome to the WHMCS \u201cSix\u201d template repository! This repository is dedicated to providing versionbyversion changes of the \u201cSix\u201d template as published in WHMCS. Sharing these changes through GitHub as a readonly repository enables you to quick inspect and import these changes for your custom theme.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -8711,7 +8711,7 @@
       "name": "project-open-data.github.io",
       "fullName": "mgifford/project-open-data.github.io",
       "url": "https://github.com/mgifford/project-open-data.github.io",
-      "description": "Open Data Policy — Managing Information as an Asset",
+      "description": "Open Data Policy \u2014 Managing Information as an Asset",
       "language": "HTML",
       "topics": [],
       "homepage": "https://project-open-data.cio.gov/",

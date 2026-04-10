@@ -150,6 +150,14 @@ test("readmeHeuristic strips HTML tags such as img badge lines", () => {
   assert.match(result.summary, /actual project description/i);
 });
 
+test("readmeHeuristic skips multiple inline markdown badge images and uses the real description", () => {
+  const markdown = `![Build](https://github.com/org/repo/actions/workflows/pages.yml) ![Accessibility](https://github.com/org/repo/actions/workflows/axe.yml) ![License: CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)\n\n# My Project\n\nA living library of model policy language for the digital age.`;
+  const result = readmeHeuristic(markdown);
+  assert.ok(!result.summary.includes("!["), "summary should not contain markdown image syntax");
+  assert.ok(!result.summary.includes("!Build"), "summary should not contain badge alt text fragments");
+  assert.match(result.summary, /living library/i);
+});
+
 // mapRepo – additional cases
 
 test("mapRepo preserves provided description and topics", () => {

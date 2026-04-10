@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-10T12:30:24.533Z",
+  "generatedAt": "2026-04-10T13:02:47.915Z",
   "sourceGeneratedAt": "2026-04-10T12:19:45.452Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -3689,7 +3689,7 @@
       "pushedAt": "2026-04-06T02:54:52Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![Build & Deploy](https://github.com/mgifford/DigitalPolicies/actions/workflows/pages.yml) ![Accessibility](https://github.com/mgifford/DigitalPolicies/actions/workflows/axe.yml) ![Link Check](https://github.com/mgifford/DigitalPolicies/actions/workflows/links.yml) ![License: CC BY 4.0](https://creativecommons.org/lice",
+        "summary": "A living library of model policy language for the digital age — built for advocates, communities, and governments who want innovation without sacrificing people or planet.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
@@ -3702,8 +3702,8 @@
       "manualSortRank": null,
       "theme": "General",
       "cardTitle": "DigitalPolicies",
-      "cardSummary": "![Build & Deploy](https://github.com/mgifford/DigitalPolicies/actions/workflows/pages.yml) ![Accessibility](https://github.com/mgifford/DigitalPolicies/actions/workflows/axe.yml) ![Link Check](https://github.com/mgifford/DigitalPolicies/actions/workflows/links.yml) ![License: CC BY 4.0](https://creativecommons.org/lice",
-      "summary": "![Build & Deploy](https://github.com/mgifford/DigitalPolicies/actions/workflows/pages.yml) ![Accessibility](https://github.com/mgifford/DigitalPolicies/actions/workflows/axe.yml) ![Link Check](https://github.com/mgifford/DigitalPolicies/actions/workflows/links.yml) ![License: CC BY 4.0](https://creativecommons.org/lice",
+      "cardSummary": "A living library of model policy language for the digital age — built for advocates, communities, and governments who want innovation without sacrificing people or planet.",
+      "summary": "A living library of model policy language for the digital age — built for advocates, communities, and governments who want innovation without sacrificing people or planet.",
       "featuredNarrative": "",
       "highlight": ""
     },

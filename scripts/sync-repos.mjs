@@ -162,7 +162,7 @@ export function readmeHeuristic(markdown) {
 
   const cleaned = withoutFrontmatter
     .replace(/```[\s\S]*?```/g, " ")
-    .replace(/^\s*\!\[[^\]]*\]\([^)]*\)\s*$/gm, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
     .replace(/<[^>]*>/g, " ")
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1")
     .replace(/[#>*_`~-]/g, "")
