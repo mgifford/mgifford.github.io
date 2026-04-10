@@ -9,6 +9,64 @@ const INPUT_SCREENSHOTS = "data/generated/screenshots.json";
 const INPUT_CURATION = "data/curation.yml";
 const OUTPUT_SITE_DATA = "data/site-data.json";
 
+/**
+ * Map of GitHub topic slugs to curated theme names.
+ * Used to infer a theme when no explicit override or featured entry provides one.
+ */
+const TOPIC_THEME_MAP = {
+  // Accessibility
+  a11y: "Accessibility",
+  accessibility: "Accessibility",
+  wcag: "Accessibility",
+  aria: "Accessibility",
+  "screen-reader": "Accessibility",
+  "color-contrast": "Accessibility",
+  "digital-accessibility": "Accessibility",
+  "web-accessibility": "Accessibility",
+  "accessible-design": "Accessibility",
+  "assistive-technology": "Accessibility",
+  // Civic Tech
+  "civic-tech": "Civic Tech",
+  government: "Civic Tech",
+  "open-government": "Civic Tech",
+  "open-data": "Civic Tech",
+  "public-sector": "Civic Tech",
+  "digital-government": "Civic Tech",
+  policy: "Civic Tech",
+  "public-interest": "Civic Tech",
+  // AI and Automation
+  ai: "AI and Automation",
+  "artificial-intelligence": "AI and Automation",
+  "machine-learning": "AI and Automation",
+  automation: "AI and Automation",
+  chatgpt: "AI and Automation",
+  llm: "AI and Automation",
+  "large-language-model": "AI and Automation",
+  "generative-ai": "AI and Automation",
+  nlp: "AI and Automation",
+  "natural-language-processing": "AI and Automation",
+  // Web Platform
+  web: "Web Platform",
+  frontend: "Web Platform",
+  html: "Web Platform",
+  css: "Web Platform",
+  "static-site": "Web Platform",
+  "github-pages": "Web Platform",
+  "web-components": "Web Platform",
+  javascript: "Web Platform",
+  // Data and Research
+  data: "Data and Research",
+  analytics: "Data and Research",
+  research: "Data and Research",
+  "data-visualization": "Data and Research",
+  datasets: "Data and Research",
+  reporting: "Data and Research",
+  // Personalization
+  personalization: "Personalization",
+  "user-preferences": "Personalization",
+  "adaptive-design": "Personalization"
+};
+
 export async function readJson(path, fallback = null) {
   if (!existsSync(path)) return fallback;
   return JSON.parse(await readFile(path, "utf8"));
@@ -21,6 +79,23 @@ export async function readYaml(path, fallback = {}) {
 
 export async function ensureParent(path) {
   await mkdir(dirname(path), { recursive: true });
+}
+
+/**
+ * Infers a curated theme name from a repo's GitHub topic slugs.
+ * Returns the first matching theme (ordered by TOPIC_THEME_MAP declaration priority),
+ * or null if no topic matches.
+ *
+ * @param {string[]} topics
+ * @returns {string|null}
+ */
+export function inferThemeFromTopics(topics) {
+  if (!Array.isArray(topics)) return null;
+  for (const topic of topics) {
+    const theme = TOPIC_THEME_MAP[topic];
+    if (theme) return theme;
+  }
+  return null;
 }
 
 export function suggestFeaturedRepos(repos, curation) {
@@ -46,13 +121,14 @@ export function suggestFeaturedRepos(repos, curation) {
   return new Set(ranked.map((repo) => repo.name));
 }
 
-export function applyCuration(repo, curation, autoFeaturedNames = new Set()) {
+export function applyCuration(repo, curation, autoFeaturedNames = new Set(), pinnedRepoNames = new Set()) {
   const override = curation.overrides?.[repo.name] || {};
   const manualFeatured = (curation.featured || []).find((item) => item.repo === repo.name);
-  const autoFeatured = autoFeaturedNames.has(repo.name);
-  const featured = manualFeatured || (autoFeatured ? { repo: repo.name } : null);
+  const pinnedFeatured = !manualFeatured && pinnedRepoNames.has(repo.name);
+  const autoFeatured = !manualFeatured && !pinnedFeatured && autoFeaturedNames.has(repo.name);
+  const featured = manualFeatured || (pinnedFeatured ? { repo: repo.name } : null) || (autoFeatured ? { repo: repo.name } : null);
 
-  const theme = override.theme || featured?.theme || "General";
+  const theme = override.theme || featured?.theme || inferThemeFromTopics(repo.topics) || "General";
   const cardSummary =
     override.cardSummary ||
     override.summary ||
@@ -69,7 +145,7 @@ export function applyCuration(repo, curation, autoFeaturedNames = new Set()) {
     hidden,
     visibility,
     featured: Boolean(featured),
-    featuredSource: manualFeatured ? "manual" : autoFeatured ? "auto" : "none",
+    featuredSource: manualFeatured ? "manual" : pinnedFeatured ? "pinned" : autoFeatured ? "auto" : "none",
     manualSortRank,
     theme,
     cardTitle: override.cardTitle || repo.name,
@@ -95,10 +171,12 @@ export async function main() {
   const screenshots = await readJson(INPUT_SCREENSHOTS, { captures: [] });
   const curation = await readYaml(INPUT_CURATION, {});
 
+  const pinnedRepoNames = new Set(Array.isArray(repoData.pinnedRepos) ? repoData.pinnedRepos : []);
+
   const withScreens = applyScreenshots(repoData.repos || [], screenshots);
   const autoFeaturedNames = suggestFeaturedRepos(withScreens, curation);
   const curatedRepos = withScreens
-    .map((repo) => applyCuration(repo, curation, autoFeaturedNames))
+    .map((repo) => applyCuration(repo, curation, autoFeaturedNames, pinnedRepoNames))
     .filter((repo) => !repo.hidden);
 
   const themes = [...new Set(curatedRepos.map((repo) => repo.theme).filter(Boolean))].sort((a, b) => a.localeCompare(b));
