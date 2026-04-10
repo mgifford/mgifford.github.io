@@ -47,16 +47,16 @@
 
     <main>
       <section class="controls" aria-label="Catalog controls">
+        <label>
+          Search
+          <input id="search" type="search" placeholder="Find repo, language, or theme" />
+        </label>
         <label id="public-scope-wrap">
           View
           <select id="public-scope">
             <option value="curated">Curated highlights</option>
             <option value="all">All public repos</option>
           </select>
-        </label>
-        <label>
-          Search
-          <input id="search" type="search" placeholder="Find repo, language, or theme" />
         </label>
         <label>
           Theme
@@ -75,13 +75,6 @@
             <option value="name">Name (A-Z)</option>
           </select>
         </label>
-        <label id="has-open-issues-wrap">
-          Filter
-          <label class="checkbox-label">
-            <input id="has-open-issues" type="checkbox" />
-            Has open issues
-          </label>
-        </label>
         <label id="archived-wrap" hidden>
           Archived
           <select id="archived-mode">
@@ -89,6 +82,13 @@
             <option value="show">Show archived</option>
             <option value="only">Only archived</option>
           </select>
+        </label>
+        <label id="has-open-issues-wrap">
+          Filter
+          <label class="checkbox-label">
+            <input id="has-open-issues" type="checkbox" />
+            Has open issues
+          </label>
         </label>
       </section>
 

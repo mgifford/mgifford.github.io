@@ -8,6 +8,8 @@ const TOKEN = process.env.GH_TOKEN || "";
 const README_SCAN_LIMIT_RAW = (process.env.README_SCAN_LIMIT || "all").toLowerCase();
 const NOW = new Date().toISOString();
 
+const MAX_WARN_MSG_LENGTH = 200;
+
 const OUTPUT_REPOS = "data/generated/repos.json";
 const OUTPUT_CHANGES = "data/generated/changes.json";
 const OUTPUT_REPORT = "reports/changes-latest.md";
@@ -65,6 +67,61 @@ async function fetchText(url, accept = "application/vnd.github.raw") {
   }
 
   return response.text();
+}
+
+/**
+ * Fetches the names of the owner's pinned repositories via the GitHub GraphQL API.
+ * Returns an empty array if the token is missing or the request fails.
+ *
+ * @param {string} owner
+ * @returns {Promise<string[]>}
+ */
+export async function fetchPinnedRepos(owner) {
+  if (!TOKEN) return [];
+
+  const query = `
+    query($login: String!) {
+      user(login: $login) {
+        pinnedItems(first: 6, types: REPOSITORY) {
+          nodes {
+            ... on Repository {
+              name
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  try {
+    const response = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${TOKEN}`,
+        "User-Agent": "mgifford-repo-catalog-sync"
+      },
+      body: JSON.stringify({ query, variables: { login: owner } })
+    });
+
+    if (!response.ok) {
+      const body = await response.text();
+      console.warn(`GraphQL request failed (${response.status}): ${body.slice(0, MAX_WARN_MSG_LENGTH)}`);
+      return [];
+    }
+
+    const result = await response.json();
+    if (result.errors) {
+      console.warn("GraphQL errors:", JSON.stringify(result.errors).slice(0, MAX_WARN_MSG_LENGTH));
+      return [];
+    }
+
+    return (result.data?.user?.pinnedItems?.nodes || []).map((node) => node.name).filter(Boolean);
+  } catch (err) {
+    console.warn("Failed to fetch pinned repos:", err.message);
+    return [];
+  }
 }
 
 function resolveReadmeLimit(totalRepos) {
@@ -321,11 +378,20 @@ export async function main() {
   const currentRepos = sortedRepos.map((repo) => mapRepo(repo, readmeByName.get(repo.name) || null));
   const changes = buildChanges(previousRepos, currentRepos);
 
+  console.log("Fetching pinned repositories...");
+  const pinnedRepos = await fetchPinnedRepos(OWNER);
+  if (pinnedRepos.length > 0) {
+    console.log(`Pinned repos: ${pinnedRepos.join(", ")}`);
+  } else {
+    console.log("No pinned repos found (token may be absent or GraphQL unavailable).");
+  }
+
   await writeJson(OUTPUT_REPOS, {
     generatedAt: NOW,
     owner: OWNER,
     repoCount: currentRepos.length,
     readmeScanLimit: readmeScanLimit,
+    pinnedRepos,
     repos: currentRepos
   });
 
