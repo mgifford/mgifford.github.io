@@ -691,7 +691,6 @@ function disableOwnerMode() {
   state.filters.sortBy = publicDefault;
   els.sortBy.value = publicDefault;
   els.ownerPanel.hidden = true;
-  els.ownerAccess.hidden = false;
   els.archivedWrap.hidden = true;
   els.publicScopeWrap.hidden = false;
   els.clearOwner.hidden = true;
@@ -829,7 +828,6 @@ async function init() {
 
   restoreOwnerMode();
   if (!isOwnerMode()) {
-    els.ownerAccess.hidden = false;
     els.publicScopeWrap.hidden = false;
   }
 

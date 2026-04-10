@@ -36,7 +36,7 @@
         <p class="lede">
           A curated, living table of contents for active and noteworthy work across GitHub.
         </p>
-        <div class="hero__actions">
+        <div class="hero__actions" hidden>
           <button id="enable-owner" class="btn btn--primary" type="button" disabled aria-disabled="true">Owner Mode Requires OAuth</button>
           <button id="clear-owner" class="btn btn--ghost" hidden>Disable Owner Mode</button>
         </div>
@@ -92,7 +92,7 @@
         </label>
       </section>
 
-      <section id="owner-access" class="owner-access" aria-label="Owner access">
+      <section id="owner-access" class="owner-access" aria-label="Owner access" hidden>
         <h2>Owner Access</h2>
         <p class="owner-access__hint">
           Owner mode is disabled in the public site until GitHub OAuth is wired up. The <strong>MGIFFORD_TOKEN</strong> repository secret is for Actions only and cannot be exposed to the browser.
