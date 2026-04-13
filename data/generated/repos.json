@@ -1,8 +1,16 @@
 {
-  "generatedAt": "2026-04-10T12:19:45.452Z",
+  "generatedAt": "2026-04-13T07:03:32.789Z",
   "owner": "mgifford",
   "repoCount": 288,
   "readmeScanLimit": 288,
+  "pinnedRepos": [
+    "ACCESSIBILITY.md",
+    "contrast-plus",
+    "open-scans",
+    "daily-dap",
+    "EchoLocate",
+    "airtime2"
+  ],
   "repos": [
     {
       "id": 95514878,
@@ -39,7 +47,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -74,7 +82,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -113,7 +121,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -121,12 +129,13 @@
       "name": "ACCESSIBILITY.md",
       "fullName": "mgifford/ACCESSIBILITY.md",
       "url": "https://github.com/mgifford/ACCESSIBILITY.md",
-      "description": "ACCESSIBILITY.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
+      "description": "ACCESSIBILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents to be more accessible",
       "language": "CSS",
       "topics": [
         "a11y",
         "accessibility",
         "agents",
+        "ai",
         "ai-agents",
         "llm",
         "web-accessibility"
@@ -139,17 +148,17 @@
       "stars": 40,
       "forksCount": 6,
       "watchers": 40,
-      "openIssues": 9,
+      "openIssues": 8,
       "createdAt": "2026-02-19T14:56:55Z",
-      "updatedAt": "2026-04-09T15:49:37Z",
-      "pushedAt": "2026-04-09T15:49:29Z",
+      "updatedAt": "2026-04-10T16:46:49Z",
+      "pushedAt": "2026-04-10T15:27:04Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "The open standard for project accessibility transparency, governance, and AIassisted inclusion.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -178,7 +187,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -209,7 +218,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -240,7 +249,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -269,7 +278,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -307,7 +316,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -340,7 +349,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -369,7 +378,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -377,7 +386,7 @@
       "name": "Digital-Accessibility-Bingo",
       "fullName": "mgifford/Digital-Accessibility-Bingo",
       "url": "https://github.com/mgifford/Digital-Accessibility-Bingo",
-      "description": "Things said or implied at meetings when someone mentions the \u201cA\u201d word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
+      "description": "Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digi_ren if we have missed any.",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -394,11 +403,11 @@
       "pushedAt": "2018-02-03T23:43:09Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Digital Accessibility Bingo Things said or implied at meetings when someone mentions the \u201cA\u201d word. Scroll down to read list. Twitter @Digiren if we have missed any.",
+        "summary": "Digital Accessibility Bingo Things said or implied at meetings when someone mentions the “A” word. Scroll down to read list. Twitter @Digiren if we have missed any.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -432,7 +441,39 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1039256536,
+      "name": "gh-summary",
+      "fullName": "mgifford/gh-summary",
+      "url": "https://github.com/mgifford/gh-summary",
+      "description": "Pull your GitHub Summaries for easier timekeeping",
+      "language": "JavaScript",
+      "topics": [
+        "opensource",
+        "ospo"
+      ],
+      "homepage": "https://mgifford.github.io/gh-summary/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 5,
+      "forksCount": 0,
+      "watchers": 5,
+      "openIssues": 0,
+      "createdAt": "2025-08-16T20:15:27Z",
+      "updatedAt": "2026-04-10T12:48:26Z",
+      "pushedAt": "2026-04-03T15:33:32Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A Node.js tool to fetch and summarize your (or any user's) GitHub activity. Available as both a commandline interface (CLI) and a GitHub Pages web application.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -466,36 +507,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1039256536,
-      "name": "gh-summary",
-      "fullName": "mgifford/gh-summary",
-      "url": "https://github.com/mgifford/gh-summary",
-      "description": "Pull your GitHub Summaries for easier timekeeping",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/gh-summary/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 5,
-      "forksCount": 0,
-      "watchers": 5,
-      "openIssues": 0,
-      "createdAt": "2025-08-16T20:15:27Z",
-      "updatedAt": "2026-04-03T15:33:37Z",
-      "pushedAt": "2026-04-03T15:33:32Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A Node.js tool to fetch and summarize your (or any user's) GitHub activity. Available as both a commandline interface (CLI) and a GitHub Pages web application.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -524,7 +536,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -552,15 +564,49 @@
       "watchers": 4,
       "openIssues": 2,
       "createdAt": "2026-03-05T20:04:19Z",
-      "updatedAt": "2026-04-10T03:06:34Z",
-      "pushedAt": "2026-04-10T03:06:31Z",
+      "updatedAt": "2026-04-13T03:07:41Z",
+      "pushedAt": "2026-04-13T03:07:36Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "An interactive GitHub Pages dashboard that visualises the \"Mirror Spine\" of WCAG 2.2 \u2014 bridging Responsibility (ARRM) and Technical Testing (ACT, Axecore, Alfa, Trusted Tester) for every Success Criterion.",
+        "summary": "An interactive GitHub Pages dashboard that visualises the \"Mirror Spine\" of WCAG 2.2 — bridging Responsibility (ARRM) and Technical Testing (ACT, Axecore, Alfa, Trusted Tester) for every Success Criterion.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1133534570,
+      "name": "o-hat-scanner",
+      "fullName": "mgifford/o-hat-scanner",
+      "url": "https://github.com/mgifford/o-hat-scanner",
+      "description": "An effort to use GitHub Actions to run Oobee style tools",
+      "language": "HTML",
+      "topics": [
+        "accessibility",
+        "accessibility-scanner",
+        "axe-core",
+        "scanner"
+      ],
+      "homepage": "https://mgifford.github.io/o-hat-scanner/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 4,
+      "forksCount": 1,
+      "watchers": 4,
+      "openIssues": 7,
+      "createdAt": "2026-01-13T13:34:10Z",
+      "updatedAt": "2026-04-13T02:10:33Z",
+      "pushedAt": "2026-04-13T02:10:31Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "This repository provides two accessibility scanning modes: 1. CI Scanner: Runs in GitHub Actions using Playwright + Axe, producing a static HTML report. 2. Standalone Scanner: A single HTML file you can drop into your website to scan it from the inside (sameorigin).",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -585,17 +631,46 @@
       "stars": 4,
       "forksCount": 1,
       "watchers": 4,
-      "openIssues": 16,
+      "openIssues": 15,
       "createdAt": "2026-02-20T20:48:50Z",
-      "updatedAt": "2026-04-10T01:32:34Z",
-      "pushedAt": "2026-04-10T01:32:27Z",
+      "updatedAt": "2026-04-13T01:21:44Z",
+      "pushedAt": "2026-04-13T01:21:40Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![License: AGPL v3](https://www.gnu.org/licenses/agpl3.0) ![Deploy to GitHub Pages](https://github.com/mgifford/openscans/actions/workflows/deploypages.yml) ![Scan Request](https://github.com/mgifford/openscans/actions/workflows/scanrequest.yml) ![Scan Queue](https://github.com/mgifford/openscans/actions/workflows/scan",
+        "summary": "Issuedriven accessibility scanning using GitHub Pages and GitHub Actions. This project was inspired by Oobee a project of GovTech Singapore.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 2515386,
+      "name": "Government-of-Canada-Drupal",
+      "fullName": "mgifford/Government-of-Canada-Drupal",
+      "url": "https://github.com/mgifford/Government-of-Canada-Drupal",
+      "description": "",
+      "language": "PHP",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": false,
+      "visibility": "public",
+      "stars": 4,
+      "forksCount": 2,
+      "watchers": 4,
+      "openIssues": 0,
+      "createdAt": "2011-10-04T22:53:38Z",
+      "updatedAt": "2026-04-10T15:40:32Z",
+      "pushedAt": "2011-10-04T18:03:17Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "About Drupal Configuration and features Appearance Developing for Drupal",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -619,53 +694,17 @@
       "stars": 4,
       "forksCount": 1,
       "watchers": 4,
-      "openIssues": 1,
+      "openIssues": 0,
       "createdAt": "2026-02-25T20:07:30Z",
-      "updatedAt": "2026-04-08T12:32:39Z",
-      "pushedAt": "2026-04-08T12:32:36Z",
+      "updatedAt": "2026-04-10T12:41:06Z",
+      "pushedAt": "2026-04-10T12:41:08Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Top Task Finder helps you quickly generate a representative, prioritized list of URLs from any public website \u2014 perfect for accessibility audits, toptask reviews, and UX research.",
+        "summary": "Top Task Finder helps you quickly generate a representative, prioritized list of URLs from any public website — perfect for accessibility audits, toptask reviews, and UX research.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1133534570,
-      "name": "o-hat-scanner",
-      "fullName": "mgifford/o-hat-scanner",
-      "url": "https://github.com/mgifford/o-hat-scanner",
-      "description": "An effort to use GitHub Actions to run Oobee style tools",
-      "language": "HTML",
-      "topics": [
-        "accessibility",
-        "accessibility-scanner",
-        "axe-core",
-        "scanner"
-      ],
-      "homepage": "https://mgifford.github.io/o-hat-scanner/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 4,
-      "forksCount": 1,
-      "watchers": 4,
-      "openIssues": 8,
-      "createdAt": "2026-01-13T13:34:10Z",
-      "updatedAt": "2026-04-03T14:24:50Z",
-      "pushedAt": "2026-04-03T14:25:55Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "![GitHub Pages](https://mgifford.github.io/ohatscanner/)",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -702,36 +741,36 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
-      "id": 2515386,
-      "name": "Government-of-Canada-Drupal",
-      "fullName": "mgifford/Government-of-Canada-Drupal",
-      "url": "https://github.com/mgifford/Government-of-Canada-Drupal",
-      "description": "",
-      "language": "PHP",
+      "id": 1162899950,
+      "name": "wai-yaml-ld",
+      "fullName": "mgifford/wai-yaml-ld",
+      "url": "https://github.com/mgifford/wai-yaml-ld",
+      "description": "An attempt to put standards from W3C WAI into YAML LD files",
+      "language": "Mermaid",
       "topics": [],
-      "homepage": "",
-      "hasPages": false,
+      "homepage": "https://mgifford.github.io/wai-yaml-ld/",
+      "hasPages": true,
       "archived": false,
       "fork": false,
       "visibility": "public",
-      "stars": 4,
-      "forksCount": 2,
-      "watchers": 4,
-      "openIssues": 0,
-      "createdAt": "2011-10-04T22:53:38Z",
-      "updatedAt": "2014-06-10T15:49:51Z",
-      "pushedAt": "2011-10-04T18:03:17Z",
-      "defaultBranch": "master",
+      "stars": 3,
+      "forksCount": 1,
+      "watchers": 3,
+      "openIssues": 37,
+      "createdAt": "2026-02-20T20:47:52Z",
+      "updatedAt": "2026-04-10T12:33:25Z",
+      "pushedAt": "2026-04-10T12:34:13Z",
+      "defaultBranch": "main",
       "readme": {
-        "summary": "About Drupal Configuration and features Appearance Developing for Drupal",
+        "summary": "This project is still experimental. Most of this site was generated with AI and has not yet been validated in realworld settings. All content must be treated as a starting point only — not as authoritative or productionready guidance.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -762,7 +801,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -791,7 +830,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -824,36 +863,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1162899950,
-      "name": "wai-yaml-ld",
-      "fullName": "mgifford/wai-yaml-ld",
-      "url": "https://github.com/mgifford/wai-yaml-ld",
-      "description": "An attempt to put standards from W3C WAI into YAML LD files",
-      "language": "Mermaid",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/wai-yaml-ld/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 3,
-      "forksCount": 1,
-      "watchers": 3,
-      "openIssues": 35,
-      "createdAt": "2026-02-20T20:47:52Z",
-      "updatedAt": "2026-03-30T15:30:32Z",
-      "pushedAt": "2026-04-08T03:20:51Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "This project is still experimental. Most of this site was generated with AI and has not yet been validated in realworld settings. All content must be treated as a starting point only \u2014 not as authoritative or productionready guidance.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -888,7 +898,42 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1158703721,
+      "name": "a11y-maps",
+      "fullName": "mgifford/a11y-maps",
+      "url": "https://github.com/mgifford/a11y-maps",
+      "description": "Some examples of maps with accessibility built in. ",
+      "language": "HTML",
+      "topics": [
+        "accessibility",
+        "keyboard-only",
+        "openstreetmap"
+      ],
+      "homepage": "https://mgifford.github.io/a11y-maps/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 0,
+      "createdAt": "2026-02-15T19:40:57Z",
+      "updatedAt": "2026-04-13T02:38:26Z",
+      "pushedAt": "2026-04-13T02:38:40Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "⚠️ EXPERIMENTAL — AIGenerated Content Requires RealWorld Validation",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -907,10 +952,10 @@
       "stars": 2,
       "forksCount": 0,
       "watchers": 2,
-      "openIssues": 101,
+      "openIssues": 102,
       "createdAt": "2026-03-04T20:34:09Z",
-      "updatedAt": "2026-04-10T12:14:09Z",
-      "pushedAt": "2026-04-10T12:13:54Z",
+      "updatedAt": "2026-04-12T12:07:37Z",
+      "pushedAt": "2026-04-12T12:07:29Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "SAM.gov Contract Opportunities Explorer & Pipeline",
@@ -920,7 +965,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -932,6 +977,8 @@
       "language": "Unknown",
       "topics": [
         "accessibility",
+        "ai",
+        "ai-tools",
         "claude-skills",
         "llm"
       ],
@@ -945,7 +992,7 @@
       "watchers": 2,
       "openIssues": 0,
       "createdAt": "2026-03-28T22:04:38Z",
-      "updatedAt": "2026-04-09T15:49:29Z",
+      "updatedAt": "2026-04-10T16:47:23Z",
       "pushedAt": "2026-04-09T15:48:48Z",
       "defaultBranch": "main",
       "readme": {
@@ -953,7 +1000,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -986,7 +1033,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1017,7 +1064,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1046,7 +1093,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1075,7 +1122,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1104,7 +1151,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1133,7 +1180,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1170,42 +1217,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1158703721,
-      "name": "a11y-maps",
-      "fullName": "mgifford/a11y-maps",
-      "url": "https://github.com/mgifford/a11y-maps",
-      "description": "Some examples of maps with accessibility built in. ",
-      "language": "HTML",
-      "topics": [
-        "accessibility",
-        "keyboard-only",
-        "openstreetmap"
-      ],
-      "homepage": "https://mgifford.github.io/a11y-maps/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 2,
-      "forksCount": 0,
-      "watchers": 2,
-      "openIssues": 1,
-      "createdAt": "2026-02-15T19:40:57Z",
-      "updatedAt": "2026-03-29T14:36:44Z",
-      "pushedAt": "2026-04-07T00:04:31Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "\u26a0\ufe0f EXPERIMENTAL \u2014 AIGenerated Content Requires RealWorld Validation",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1239,7 +1251,139 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1149294339,
+      "name": "whisper-slides",
+      "fullName": "mgifford/whisper-slides",
+      "url": "https://github.com/mgifford/whisper-slides",
+      "description": "HTML slide tool (based on W3C slides) with Whisper.cpp integration for captioning. ",
+      "language": "JavaScript",
+      "topics": [
+        "captions",
+        "presentation-slides",
+        "presentations",
+        "slides",
+        "whispercpp"
+      ],
+      "homepage": "https://mgifford.github.io/whisper-slides/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 1,
+      "createdAt": "2026-02-04T00:21:06Z",
+      "updatedAt": "2026-04-13T02:57:08Z",
+      "pushedAt": "2026-04-13T02:57:10Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "An accessible HTML presentation template with realtime live captioning. Two captioning options are supported:",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1130781657,
+      "name": "a11y-svg",
+      "fullName": "mgifford/a11y-svg",
+      "url": "https://github.com/mgifford/a11y-svg",
+      "description": "Help build accessible SVGs.",
+      "language": "JavaScript",
+      "topics": [
+        "a11y",
+        "accessibility",
+        "svg",
+        "svg-images"
+      ],
+      "homepage": "https://mgifford.github.io/a11y-svg/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 5,
+      "createdAt": "2026-01-09T02:18:16Z",
+      "updatedAt": "2026-04-13T02:49:02Z",
+      "pushedAt": "2026-04-13T02:48:57Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A browsernative SVG optimization tool that prioritizes WCAG 2.2 AA accessibility and dynamic theming (light/dark mode).",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1169617933,
+      "name": "inclusive-emergency-readiness",
+      "fullName": "mgifford/inclusive-emergency-readiness",
+      "url": "https://github.com/mgifford/inclusive-emergency-readiness",
+      "description": "Inclusive Emergency Readiness Guide for digital technology. Making sure everyone can be prepared.",
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "emergency-response",
+        "emergency-services",
+        "wcag"
+      ],
+      "homepage": "https://mgifford.github.io/inclusive-emergency-readiness/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 1,
+      "watchers": 1,
+      "openIssues": 7,
+      "createdAt": "2026-03-01T00:17:17Z",
+      "updatedAt": "2026-04-13T02:22:21Z",
+      "pushedAt": "2026-04-13T02:22:15Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "This directory contains automated workflows that help maintain the quality and accessibility of the Inclusive Emergency Readiness project.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 177606597,
+      "name": "axe-core",
+      "fullName": "mgifford/axe-core",
+      "url": "https://github.com/mgifford/axe-core",
+      "description": "Accessibility engine for automated Web UI testing",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://www.deque.com/axe/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 1,
+      "createdAt": "2019-03-25T14:49:33Z",
+      "updatedAt": "2026-04-12T19:44:16Z",
+      "pushedAt": "2026-04-12T19:42:33Z",
+      "defaultBranch": "develop",
+      "readme": {
+        "summary": "Axe is an accessibility testing engine for websites and other HTMLbased user interfaces. It's fast, secure, lightweight, and was built to seamlessly integrate with any existing test environment so you can automate accessibility testing alongside your regular functional testing.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1267,15 +1411,44 @@
       "watchers": 1,
       "openIssues": 13,
       "createdAt": "2026-02-21T16:39:19Z",
-      "updatedAt": "2026-04-10T10:18:23Z",
-      "pushedAt": "2026-04-10T10:18:19Z",
+      "updatedAt": "2026-04-12T19:35:05Z",
+      "pushedAt": "2026-04-12T19:35:02Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Daily DAP benchmarks the quality and accessibility of the most visited U.S. government pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public services.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1112694221,
+      "name": "oobee",
+      "fullName": "mgifford/oobee",
+      "url": "https://github.com/mgifford/oobee",
+      "description": "Oobee (formerly known as Purple A11y) is a customisable, automated web accessibility testing tool that allows software development teams to find and fix accessibility problems to improve persons with disabilities (PWDs) access to digital services.",
+      "language": "EJS",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 1,
+      "forksCount": 0,
+      "watchers": 1,
+      "openIssues": 0,
+      "createdAt": "2025-12-09T01:19:22Z",
+      "updatedAt": "2026-04-10T12:46:24Z",
+      "pushedAt": "2026-04-10T12:46:01Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Oobee (formerly known as Purple A11y) is a customisable, automated accessibility testing tool that allows software development teams to assess whether their products are userfriendly to persons with disabilities (PWDs).",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1304,7 +1477,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1329,13 +1502,13 @@
       "pushedAt": "2026-04-06T16:16:10Z",
       "defaultBranch": "18f-pages",
       "readme": {
-        "summary": "\u26a0\ufe0f This guide has moved to the consolidated 18F guides repository.",
+        "summary": "⚠️ This guide has moved to the consolidated 18F guides repository.",
         "score": 3,
         "needsAttention": false,
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1366,7 +1539,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1395,7 +1568,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1427,7 +1600,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1456,42 +1629,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1149294339,
-      "name": "whisper-slides",
-      "fullName": "mgifford/whisper-slides",
-      "url": "https://github.com/mgifford/whisper-slides",
-      "description": "HTML slide tool (based on W3C slides) with Whisper.cpp integration for captioning. ",
-      "language": "JavaScript",
-      "topics": [
-        "captions",
-        "presentation-slides",
-        "presentations",
-        "slides",
-        "whispercpp"
-      ],
-      "homepage": "https://mgifford.github.io/whisper-slides/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 2,
-      "createdAt": "2026-02-04T00:21:06Z",
-      "updatedAt": "2026-04-03T10:13:02Z",
-      "pushedAt": "2026-04-08T20:35:41Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "An accessible HTML presentation template with realtime live captioning. Two captioning options are supported:",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1523,11 +1661,11 @@
       "pushedAt": "2026-04-02T09:19:35Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "APCA vs WCAG 2. \u2699\ufe0f Configurable thresholds (both WCAG and APCA thresholds can be adjusted) \ud83c\udfb2 Multiple color selection modes (random, fixed backgrounds, custom defaults) \ud83d\udd27 Flexible color format support (3digit, 6digit, with/without ) \ud83d\udcc8 Debug statistics for understanding result distributions \ud83d\udc41\ufe0f Color blindness simula",
+        "summary": "APCA vs WCAG 2. ⚙️ Configurable thresholds (both WCAG and APCA thresholds can be adjusted) 🎲 Multiple color selection modes (random, fixed backgrounds, custom defaults) 🔧 Flexible color format support (3digit, 6digit, with/without ) 📈 Debug statistics for understanding result distributions 👁️ Color blindness simula",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1556,7 +1694,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1590,41 +1728,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1169617933,
-      "name": "inclusive-emergency-readiness",
-      "fullName": "mgifford/inclusive-emergency-readiness",
-      "url": "https://github.com/mgifford/inclusive-emergency-readiness",
-      "description": "Inclusive Emergency Readiness Guide for digital technology. Making sure everyone can be prepared.",
-      "language": "JavaScript",
-      "topics": [
-        "accessibility",
-        "emergency-response",
-        "emergency-services",
-        "wcag"
-      ],
-      "homepage": "https://mgifford.github.io/inclusive-emergency-readiness/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 1,
-      "watchers": 1,
-      "openIssues": 8,
-      "createdAt": "2026-03-01T00:17:17Z",
-      "updatedAt": "2026-03-29T14:39:56Z",
-      "pushedAt": "2026-04-08T20:53:19Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "This directory contains automated workflows that help maintain the quality and accessibility of the Inclusive Emergency Readiness project.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1658,7 +1762,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1691,41 +1795,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1130781657,
-      "name": "a11y-svg",
-      "fullName": "mgifford/a11y-svg",
-      "url": "https://github.com/mgifford/a11y-svg",
-      "description": "Help build accessible SVGs.",
-      "language": "JavaScript",
-      "topics": [
-        "a11y",
-        "accessibility",
-        "svg",
-        "svg-images"
-      ],
-      "homepage": "https://mgifford.github.io/a11y-svg/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 6,
-      "createdAt": "2026-01-09T02:18:16Z",
-      "updatedAt": "2026-03-20T12:27:29Z",
-      "pushedAt": "2026-04-08T21:02:21Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A browsernative SVG optimization tool that prioritizes WCAG 2.2 AA accessibility and dynamic theming (light/dark mode).",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1761,36 +1831,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1112694221,
-      "name": "oobee",
-      "fullName": "mgifford/oobee",
-      "url": "https://github.com/mgifford/oobee",
-      "description": "Oobee (formerly known as Purple A11y) is a customisable, automated web accessibility testing tool that allows software development teams to find and fix accessibility problems to improve persons with disabilities (PWDs) access to digital services.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2025-12-09T01:19:22Z",
-      "updatedAt": "2025-12-18T17:32:10Z",
-      "pushedAt": "2025-12-09T01:28:01Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Oobee (formerly known as Purple A11y) is a customisable, automated accessibility testing tool that allows software development teams to assess whether their products are userfriendly to persons with disabilities (PWDs).",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1821,7 +1862,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1850,7 +1891,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1879,7 +1920,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1908,7 +1949,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1939,7 +1980,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1968,7 +2009,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -1997,36 +2038,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 177606597,
-      "name": "axe-core",
-      "fullName": "mgifford/axe-core",
-      "url": "https://github.com/mgifford/axe-core",
-      "description": "Accessibility engine for automated Web UI testing",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://www.deque.com/axe/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 0,
-      "createdAt": "2019-03-25T14:49:33Z",
-      "updatedAt": "2020-01-22T22:58:22Z",
-      "pushedAt": "2025-01-11T19:11:19Z",
-      "defaultBranch": "develop",
-      "readme": {
-        "summary": "![License](LICENSE) ![Version](https://www.npmjs.com/package/axecore) ![Total npm downloads](https://www.npmjs.com/package/axecore) ![Commits](https://github.com/dequelabs/axecore/commits/develop) ![GitHub contributors](https://github.com/dequelabs/axecore/graphs/contributors) ![Join the chat at https://gitter.im/deque",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2055,7 +2067,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2086,7 +2098,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2117,7 +2129,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2148,7 +2160,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2177,7 +2189,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2208,7 +2220,7 @@
         "reasons": [
           "No README returned"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2233,13 +2245,11 @@
       "pushedAt": "2012-06-25T15:59:27Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](http://travisci.org/wetboew/wetboew)",
-        "score": 3,
+        "summary": "Web Experience Toolkit (WET) includes reusable components for building and maintaining innovative Web sites that are accessible, usable, and interoperable. These reusable components are open source software and free for use by departments and external Web communities.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2264,13 +2274,11 @@
       "pushedAt": "2012-06-06T13:11:43Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](http://travisci.org/wetboew/wetboewdrupal)",
-        "score": 3,
+        "summary": "The WET Distribution now uses Drush Make for rapid built out of the Drupal codebase. A drush make file is similar to \"ant script\" which allows for us to just host the code that we are developing (Installation Profile and Custom Modules, Features, and Themes) on GitHub. Any user who has Drush installed can then query th",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2301,7 +2309,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2330,7 +2338,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2361,94 +2369,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1200574316,
-      "name": "daily-hhs",
-      "fullName": "mgifford/daily-hhs",
-      "url": "https://github.com/mgifford/daily-hhs",
-      "description": "Daily accessibility report of the top HHS.gov web pages.",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/daily-hhs/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-04-03T15:18:12Z",
-      "updatedAt": "2026-04-10T11:30:17Z",
-      "pushedAt": "2026-04-10T11:30:14Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily HHS benchmarks the quality and accessibility of the most visited U.S. Department of Health and Human Services (HHS) pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public health services.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1200516116,
-      "name": "daily-nsf",
-      "fullName": "mgifford/daily-nsf",
-      "url": "https://github.com/mgifford/daily-nsf",
-      "description": "Daily accessibility report of the top NSF.gov web pages.",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/daily-nsf/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-03T14:02:55Z",
-      "updatedAt": "2026-04-10T09:44:46Z",
-      "pushedAt": "2026-04-10T09:44:43Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily NSF benchmarks the quality and accessibility of the most visited National Science Foundation pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking NSF services.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1206466875,
-      "name": "Hex-Bicup-Rotor",
-      "fullName": "mgifford/Hex-Bicup-Rotor",
-      "url": "https://github.com/mgifford/Hex-Bicup-Rotor",
-      "description": "A Hexagonal Bicupola Rotor with Sails",
-      "language": "OpenSCAD",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/Hex-Bicup-Rotor/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-10T00:17:09Z",
-      "updatedAt": "2026-04-10T02:59:26Z",
-      "pushedAt": "2026-04-10T02:59:22Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Hexagonal Bicupola Wind Rotor \u00b7 HBR614V \u00b7 Rev 1.1 Rotor: 1000mm diameter \u00b7 20mm aluminium shaft \u00b7 10mm rods",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2471,17 +2392,1167 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 1,
+      "openIssues": 0,
       "createdAt": "2026-02-26T08:06:35Z",
-      "updatedAt": "2026-04-09T20:21:05Z",
-      "pushedAt": "2026-04-10T10:35:27Z",
+      "updatedAt": "2026-04-13T06:04:30Z",
+      "pushedAt": "2026-04-13T06:04:24Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![License: AGPL v3](LICENSE) ![Deploy GitHub Pages](https://github.com/mgifford/euplusgovernmentscans/actions/workflows/deploypages.yml) ![GitHub Pages](https://mgifford.github.io/euplusgovernmentscans/)",
+        "summary": "Scans and seed datasets for finding accessibility statements on government websites, with a Europefirst scope (plus selected nonEU countries like UK and Switzerland).",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1191604030,
+      "name": "daily-cap",
+      "fullName": "mgifford/daily-cap",
+      "url": "https://github.com/mgifford/daily-cap",
+      "description": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "canada",
+        "federal-government",
+        "government",
+        "monitoring",
+        "top-sites"
+      ],
+      "homepage": "https://mgifford.github.io/daily-cap/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2026-03-25T12:09:23Z",
+      "updatedAt": "2026-04-13T02:59:13Z",
+      "pushedAt": "2026-04-13T02:59:09Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily CAP (Canadian Analytics Project) is an independent daily quality benchmarking pipeline for Canadian federal digital service entry points.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1194865315,
+      "name": "AirScript",
+      "fullName": "mgifford/AirScript",
+      "url": "https://github.com/mgifford/AirScript",
+      "description": "A tool for speech to caption to phone. Making it easier for people to watch captions as they see fit.",
+      "language": "HTML",
+      "topics": [
+        "accessibility",
+        "deaf-communications",
+        "presentation-tools"
+      ],
+      "homepage": "https://mgifford.github.io/AirScript/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-03-28T23:03:47Z",
+      "updatedAt": "2026-04-13T02:55:12Z",
+      "pushedAt": "2026-04-13T02:55:24Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Privacyfirst live captions with a browserfirst transcription path. The default engine is the Web Speech API running entirely in the browser, which means the UI can be hosted as static files, including on GitHub Pages. HTMX remains the delivery layer for audience updates when a relay stream is present. When you want sha",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1184299048,
+      "name": "alt-text-scan",
+      "fullName": "mgifford/alt-text-scan",
+      "url": "https://github.com/mgifford/alt-text-scan",
+      "description": "Are the alt text for images useful? Most aren't. Most testing tools only look for absence of description, not if it is any good.",
+      "language": "HTML",
+      "topics": [
+        "accessibility",
+        "accessibility-checker",
+        "alt-text",
+        "images"
+      ],
+      "homepage": "https://mgifford.github.io/alt-text-scan/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-03-17T13:03:22Z",
+      "updatedAt": "2026-04-13T02:49:36Z",
+      "pushedAt": "2026-04-13T02:49:33Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Issuedriven alttext analysis prototype using GitHub Pages and GitHub Actions.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1094776154,
+      "name": "w3c-a11y-maturity-model",
+      "fullName": "mgifford/w3c-a11y-maturity-model",
+      "url": "https://github.com/mgifford/w3c-a11y-maturity-model",
+      "description": "A draft tool for the W3C's Accessibility Maturity Model",
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "maturity-model",
+        "w3c"
+      ],
+      "homepage": "https://mgifford.github.io/w3c-a11y-maturity-model/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2025-11-12T06:42:37Z",
+      "updatedAt": "2026-04-13T02:43:15Z",
+      "pushedAt": "2026-04-13T02:43:12Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "",
+        "score": 1,
+        "needsAttention": true,
+        "reasons": [
+          "README is very short",
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1133853185,
+      "name": "gh-open-dash",
+      "fullName": "mgifford/gh-open-dash",
+      "url": "https://github.com/mgifford/gh-open-dash",
+      "description": "GitHub Open Dashboard",
+      "language": "JavaScript",
+      "topics": [
+        "dashboard",
+        "github-dashboard",
+        "ospo",
+        "ospos"
+      ],
+      "homepage": "https://mgifford.github.io/gh-open-dash/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-01-13T22:52:48Z",
+      "updatedAt": "2026-04-13T02:39:25Z",
+      "pushedAt": "2026-04-13T02:40:04Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "An opensource transparency dashboard inspired by cal.com/open and other open startup initiatives. This project builds and publishes a beautiful static dashboard showing public opensource contributions by your GitHub organization.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1136973248,
+      "name": "o-hat-standalone",
+      "fullName": "mgifford/o-hat-standalone",
+      "url": "https://github.com/mgifford/o-hat-standalone",
+      "description": "Standalone scanner for a single directory and sub-directories.",
+      "language": "HTML",
+      "topics": [
+        "a11y",
+        "a11y-testing",
+        "accessibility",
+        "accessibility-scanner",
+        "axe-core"
+      ],
+      "homepage": "https://mgifford.github.io/o-hat-standalone/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-01-18T17:33:12Z",
+      "updatedAt": "2026-04-12T20:48:13Z",
+      "pushedAt": "2026-04-12T20:48:06Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "This repository contains the standalone component of the OHat Scanner ecosystem. It provides a singlefile solution for accessibility testing that can run entirely within a browser, without requiring complex serverside infrastructure.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1206466875,
+      "name": "Hex-Bicup-Rotor",
+      "fullName": "mgifford/Hex-Bicup-Rotor",
+      "url": "https://github.com/mgifford/Hex-Bicup-Rotor",
+      "description": "A Hexagonal Bicupola Rotor with Sails",
+      "language": "OpenSCAD",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/Hex-Bicup-Rotor/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-04-10T00:17:09Z",
+      "updatedAt": "2026-04-12T19:01:24Z",
+      "pushedAt": "2026-04-12T19:01:21Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Hexagonal Bicupola Wind Rotor · HBR614V · Rev 1.1 Rotor: 1000mm diameter · 20mm aluminium shaft · 10mm rods",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1200516116,
+      "name": "daily-nsf",
+      "fullName": "mgifford/daily-nsf",
+      "url": "https://github.com/mgifford/daily-nsf",
+      "description": "Daily accessibility report of the top NSF.gov web pages.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/daily-nsf/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-04-03T14:02:55Z",
+      "updatedAt": "2026-04-12T09:34:27Z",
+      "pushedAt": "2026-04-12T09:34:23Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily NSF benchmarks the quality and accessibility of the most visited National Science Foundation pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking NSF services.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1155731349,
+      "name": "drupal-open-dash",
+      "fullName": "mgifford/drupal-open-dash",
+      "url": "https://github.com/mgifford/drupal-open-dash",
+      "description": "An attempt to learn more about our stats on d.o - Work in Progress",
+      "language": "TypeScript",
+      "topics": [
+        "drupal"
+      ],
+      "homepage": "https://mgifford.github.io/drupal-open-dash/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-02-11T20:55:57Z",
+      "updatedAt": "2026-04-12T00:20:45Z",
+      "pushedAt": "2026-04-12T00:20:41Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "An initial attempt to build a Drupal Open Dashboard is a static dashboard for visualizing Drupal.org and GitLab activity for an organization roster. It is designed for fully static hosting (e.g., GitHub Pages) and prefetches all data via scheduled GitHub Actions, serving only static JSON snapshots to the frontend.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1200574316,
+      "name": "daily-hhs",
+      "fullName": "mgifford/daily-hhs",
+      "url": "https://github.com/mgifford/daily-hhs",
+      "description": "Daily accessibility report of the top HHS.gov web pages.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/daily-hhs/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2026-04-03T15:18:12Z",
+      "updatedAt": "2026-04-11T10:07:23Z",
+      "pushedAt": "2026-04-11T10:07:20Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily HHS benchmarks the quality and accessibility of the most visited U.S. Department of Health and Human Services (HHS) pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public health services.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1137590355,
+      "name": "openapi-reference",
+      "fullName": "mgifford/openapi-reference",
+      "url": "https://github.com/mgifford/openapi-reference",
+      "description": "A possible alternative to Swagger UI",
+      "language": "JavaScript",
+      "topics": [
+        "api",
+        "open-data"
+      ],
+      "homepage": "https://mgifford.github.io/openapi-reference/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2026-01-19T15:12:41Z",
+      "updatedAt": "2026-04-10T18:10:58Z",
+      "pushedAt": "2026-04-10T18:10:53Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A lightweight, accessible CSV data explorer for government health datasets. Hybrid architecture: Vanilla JS browser app with optional Node.js proxy server that solves CORS restrictions and extracts metadata from healthcare.gov, CDC, and other data portals.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1179108547,
+      "name": "ai-browser-test",
+      "fullName": "mgifford/ai-browser-test",
+      "url": "https://github.com/mgifford/ai-browser-test",
+      "description": "Does your browser support AI? If so what features?",
+      "language": "JavaScript",
+      "topics": [
+        "llm",
+        "web",
+        "web-ai"
+      ],
+      "homepage": "https://mgifford.github.io/ai-browser-test/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-03-11T17:40:20Z",
+      "updatedAt": "2026-04-10T17:05:22Z",
+      "pushedAt": "2026-04-10T17:05:18Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Interactive singlepage app to demonstrate AIenabled browsing in Chrome, Firefox, and Edge, including runtime probes for builtin AI behavior.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 22222990,
+      "name": "select2",
+      "fullName": "mgifford/select2",
+      "url": "https://github.com/mgifford/select2",
+      "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "http://ivaynberg.github.com/select2/",
+      "hasPages": true,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2014-07-24T17:32:33Z",
+      "updatedAt": "2026-04-10T16:17:45Z",
+      "pushedAt": "2026-04-10T16:15:37Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Select2 ======= ![Build Status][githubactionsimage]",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 38774001,
+      "name": "project-open-data.github.io",
+      "fullName": "mgifford/project-open-data.github.io",
+      "url": "https://github.com/mgifford/project-open-data.github.io",
+      "description": "Open Data Policy — Managing Information as an Asset",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://project-open-data.cio.gov/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 3,
+      "createdAt": "2015-07-08T19:03:08Z",
+      "updatedAt": "2026-04-10T16:15:30Z",
+      "pushedAt": "2026-04-10T16:15:04Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Resources.data.gov has replaced Project Open Data. We look forward to your continued support and contributions.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 173473637,
+      "name": "helm-drupalwxt",
+      "fullName": "mgifford/helm-drupalwxt",
+      "url": "https://github.com/mgifford/helm-drupalwxt",
+      "description": "Drupal WxT helm chart for Kubernetes.",
+      "language": "Smarty",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2019-03-02T16:48:24Z",
+      "updatedAt": "2026-04-10T16:14:37Z",
+      "pushedAt": "2019-03-02T16:54:15Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "A Helm chart for Drupal WxT using Minio for stateful data. These are the instructions for a Kubernetes package manager to set up Drupal and it's environment. You can use this to build a local development environment or a cloud native implementation.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 445202574,
+      "name": "wai-eval-tools",
+      "fullName": "mgifford/wai-eval-tools",
+      "url": "https://github.com/mgifford/wai-eval-tools",
+      "description": "WAI Accessibility Evaluation Tools",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "http://w3c.github.io/wai-eval-tools/",
+      "hasPages": true,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2022-01-06T14:41:25Z",
+      "updatedAt": "2026-04-10T16:14:02Z",
+      "pushedAt": "2026-04-10T16:13:21Z",
+      "defaultBranch": "gh-pages",
+      "readme": {
+        "summary": "[!IMPORTANT] This repository was used for the old list, and has been archived 17 July 2025.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 328995875,
+      "name": "mongo",
+      "fullName": "mgifford/mongo",
+      "url": "https://github.com/mgifford/mongo",
+      "description": "The MongoDB Database",
+      "language": "C++",
+      "topics": [],
+      "homepage": "https://www.mongodb.com/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2021-01-12T13:29:52Z",
+      "updatedAt": "2026-04-10T16:13:48Z",
+      "pushedAt": "2026-04-10T16:12:26Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "mongod The database server. mongos Sharding router.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 563452593,
+      "name": "ckan",
+      "fullName": "mgifford/ckan",
+      "url": "https://github.com/mgifford/ckan",
+      "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
+      "language": "Python",
+      "topics": [],
+      "homepage": "https://ckan.org/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2022-11-08T16:36:11Z",
+      "updatedAt": "2026-04-10T16:12:18Z",
+      "pushedAt": "2026-04-10T16:12:05Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "CKAN: The Open Source Data Portal Software ==========================================",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 743559845,
+      "name": "open-gsa-redesign",
+      "fullName": "mgifford/open-gsa-redesign",
+      "url": "https://github.com/mgifford/open-gsa-redesign",
+      "description": "A fresh start for open.gsa.gov.",
+      "language": "SCSS",
+      "topics": [],
+      "homepage": "https://open.gsa.gov/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 3,
+      "createdAt": "2024-01-15T13:51:32Z",
+      "updatedAt": "2026-04-10T16:12:11Z",
+      "pushedAt": "2026-04-10T16:10:37Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Open.gsa.gov is the current developer portal for all GSA data, APIs, and code open to the public. This repo is where we will be managing development of this portal.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 607797528,
+      "name": "a11y-data-keywords",
+      "fullName": "mgifford/a11y-data-keywords",
+      "url": "https://github.com/mgifford/a11y-data-keywords",
+      "description": "This is a compiled list of keywords to use when data-mining customer feedback to get the voice of your customers with a disability",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 2,
+      "createdAt": "2023-02-28T17:39:53Z",
+      "updatedAt": "2026-04-10T16:11:41Z",
+      "pushedAt": "2022-02-11T20:56:08Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "a11ydatakeywords This is a compiled list of keywords to use when datamining customer feedback to get the voice of your customers with a disability. The list has been compiled from lists I received from other organizations. I'm going to keep the contributors private per their request.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 847431443,
+      "name": "custom-metrics",
+      "fullName": "mgifford/custom-metrics",
+      "url": "https://github.com/mgifford/custom-metrics",
+      "description": "Custom metrics to use with WebPageTest agents",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2024-08-25T19:56:14Z",
+      "updatedAt": "2026-04-10T16:10:21Z",
+      "pushedAt": "2026-04-10T16:08:59Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "HTTP Archive uses WebPageTest (WPT) to collect information about how web pages are built. WPT is able to run arbitrary JavaScript at the end of a test to collect specific data, known as custom metrics. See the WPT custom metrics documentation for more info.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 979548216,
+      "name": "wai-website-data",
+      "fullName": "mgifford/wai-website-data",
+      "url": "https://github.com/mgifford/wai-website-data",
+      "description": "",
+      "language": "Ruby",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2025-05-07T17:25:18Z",
+      "updatedAt": "2026-04-10T16:08:45Z",
+      "pushedAt": "2026-04-10T16:07:13Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "[!IMPORTANT] This repository has been archived 30 January 2026.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1200057653,
+      "name": "TraceA11y",
+      "fullName": "mgifford/TraceA11y",
+      "url": "https://github.com/mgifford/TraceA11y",
+      "description": "Digital Forensics for Accessibility: Tracing the DNA of every error to its rightful owner.",
+      "language": "HTML",
+      "topics": [
+        "accessibility"
+      ],
+      "homepage": "https://mgifford.github.io/TraceA11y/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-04-03T01:53:29Z",
+      "updatedAt": "2026-04-10T15:50:46Z",
+      "pushedAt": "2026-04-10T15:50:38Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Digital Forensics for Accessibility: Tracing the DNA of every error to its rightful owner.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1179891183,
+      "name": "iv-cbv-payroll",
+      "fullName": "mgifford/iv-cbv-payroll",
+      "url": "https://github.com/mgifford/iv-cbv-payroll",
+      "description": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
+      "language": "Ruby",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": false,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-03-12T13:41:55Z",
+      "updatedAt": "2026-04-10T15:43:47Z",
+      "pushedAt": "2026-04-10T15:43:30Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Eligibility made easy ========================",
+        "score": 2,
+        "needsAttention": true,
+        "reasons": [
+          "No clear summary paragraph",
+          "Contains placeholder language"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1198561783,
+      "name": "federal-contracting-skills",
+      "fullName": "mgifford/federal-contracting-skills",
+      "url": "https://github.com/mgifford/federal-contracting-skills",
+      "description": "Free Claude Skills for federal contracting: IGCE builders (FFP, T&M, cost-reimbursement), SOW/PWS generator, market research reports, and live API tools for USASpending, GSA CALC+, BLS OEWS, Per Diem, Federal Register, eCFR, Regulations.gov. Built for GS-1102 contract specialists and government contractors.",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "https://1102tools.com",
+      "hasPages": false,
+      "archived": false,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-04-01T14:39:24Z",
+      "updatedAt": "2026-04-10T15:43:17Z",
+      "pushedAt": "2026-04-10T15:43:12Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Claude Skills for federal contracting professionals. No subscriptions, no paywalls. Every skill in this collection uses a public federal API that's free to query.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1110624736,
+      "name": "civicactions-a11ysite",
+      "fullName": "mgifford/civicactions-a11ysite",
+      "url": "https://github.com/mgifford/civicactions-a11ysite",
+      "description": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and Digital Transformation.",
+      "language": "Python",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/civicactions-a11ysite/",
+      "hasPages": true,
+      "archived": false,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2025-12-05T13:28:08Z",
+      "updatedAt": "2026-04-10T15:02:27Z",
+      "pushedAt": "2026-04-10T15:02:13Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A collection of resources about digital accessibility and how it aligns with open source and government technology.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 21006958,
+      "name": "mgifford.github.io",
+      "fullName": "mgifford/mgifford.github.io",
+      "url": "https://github.com/mgifford/mgifford.github.io",
+      "description": "A presentation view of my repositories in GitHub",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "http://mgifford.github.io/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2014-06-19T16:13:54Z",
+      "updatedAt": "2026-04-10T14:17:09Z",
+      "pushedAt": "2026-04-10T14:17:05Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "This repository powers https://mgifford.github.io as a curated catalog of work across the GitHub account for @mgifford. Instead of showing a flat list of hundreds of repositories, it organizes projects into a useful table of contents with themes, highlights, and maintenance signals.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1195393104,
+      "name": "EchoLocate",
+      "fullName": "mgifford/EchoLocate",
+      "url": "https://github.com/mgifford/EchoLocate",
+      "description": "A multi-person speech to text tool. Help to locate different speakers in the room.",
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "deaf-communications",
+        "speech-to-text"
+      ],
+      "homepage": "https://mgifford.github.io/EchoLocate/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-03-29T16:09:24Z",
+      "updatedAt": "2026-04-10T12:49:01Z",
+      "pushedAt": "2026-04-04T10:46:32Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Live, private, inbrowser captioning with simulated speaker grouping.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1132969511,
+      "name": "a11y-ai-training",
+      "fullName": "mgifford/a11y-ai-training",
+      "url": "https://github.com/mgifford/a11y-ai-training",
+      "description": "Files for creating an internal AI knowledge base with open source content.",
+      "language": "Unknown",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-01-12T17:43:51Z",
+      "updatedAt": "2026-04-10T12:45:38Z",
+      "pushedAt": "2025-12-31T20:31:36Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "a11yaitraining Files for creating an internal AI knowledge base with open source content.",
+        "score": 2,
+        "needsAttention": true,
+        "reasons": [
+          "README is very short"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1172883052,
+      "name": "Drupal-docs",
+      "fullName": "mgifford/Drupal-docs",
+      "url": "https://github.com/mgifford/Drupal-docs",
+      "description": "Attempt to modernize Drupal's documentation with AI",
+      "language": "HTML",
+      "topics": [
+        "drupal",
+        "llm",
+        "markdown"
+      ],
+      "homepage": "https://mgifford.github.io/Drupal-docs/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-03-04T19:39:10Z",
+      "updatedAt": "2026-04-10T12:40:06Z",
+      "pushedAt": "2026-04-10T12:40:05Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "",
+        "score": 0,
+        "needsAttention": true,
+        "reasons": [
+          "README unavailable"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 360906971,
+      "name": "baselinealignment",
+      "fullName": "mgifford/baselinealignment",
+      "url": "https://github.com/mgifford/baselinealignment",
+      "description": "This repository contains code and references to pages intended to help validate test rules contained in the ICT Testing Basline.",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "https://section508coordinators.github.io/baselinealignment/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2021-04-23T14:14:06Z",
+      "updatedAt": "2026-04-10T12:39:48Z",
+      "pushedAt": "2026-04-10T12:39:38Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Baseline Test Pages The Baseline and ITTP Working Group will use this repository and set of pages to store and make reference to test pages for use in validating test rules contained in the ICT Testing Baseline.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 569285890,
+      "name": "civictech.club",
+      "fullName": "mgifford/civictech.club",
+      "url": "https://github.com/mgifford/civictech.club",
+      "description": "A directory of Fediverse users working to make government and democracy better.",
+      "language": "CSS",
+      "topics": [],
+      "homepage": "https://civictech.club",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2022-11-22T13:45:01Z",
+      "updatedAt": "2026-04-10T12:38:26Z",
+      "pushedAt": "2026-04-10T12:37:49Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A directory of Fediverse users working to make government and democracy better.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "Contains placeholder language"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 251037960,
+      "name": "Elementary",
+      "fullName": "mgifford/Elementary",
+      "url": "https://github.com/mgifford/Elementary",
+      "description": "Minimal Jekyll theme optimized for performance, accessibility, usability and readability",
+      "language": "SCSS",
+      "topics": [],
+      "homepage": "https://elementary-jekyll.github.io/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2020-03-29T13:25:28Z",
+      "updatedAt": "2026-04-10T12:37:18Z",
+      "pushedAt": "2026-04-10T12:37:08Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Unmaintained Blog moved to Wordpress I've moved my blog to wordpress and ported this theme to Wordpress https://github.com/abhn/ElementaryWordpress.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 516489511,
+      "name": "content-guide",
+      "fullName": "mgifford/content-guide",
+      "url": "https://github.com/mgifford/content-guide",
+      "description": "18F Content Guide",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://content-guide.18f.gov/",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2022-07-21T18:56:39Z",
+      "updatedAt": "2026-04-10T12:36:23Z",
+      "pushedAt": "2026-04-10T12:36:00Z",
+      "defaultBranch": "18f-pages",
+      "readme": {
+        "summary": "⚠️ This guide has moved to the consolidated 18F guides repository.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 970835983,
+      "name": "techfar-hub",
+      "fullName": "mgifford/techfar-hub",
+      "url": "https://github.com/mgifford/techfar-hub",
+      "description": "TechFAR Hub",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2025-04-22T15:55:54Z",
+      "updatedAt": "2026-04-10T12:32:43Z",
+      "pushedAt": "2026-04-10T12:32:06Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "Mission The goal of the site is to help acquisition professionals learn, discuss, and execute Digital Service Acquisitions",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 1183084964,
+      "name": "open-susty-scans",
+      "fullName": "mgifford/open-susty-scans",
+      "url": "https://github.com/mgifford/open-susty-scans",
+      "description": "Automated scans for common sustainability challenges",
+      "language": "HTML",
+      "topics": [
+        "monitoring-tool",
+        "sustainability",
+        "web-sustainability",
+        "web-sustainability-guidelines"
+      ],
+      "homepage": "https://mgifford.github.io/open-susty-scans/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-03-16T08:59:55Z",
+      "updatedAt": "2026-04-10T12:30:11Z",
+      "pushedAt": "2026-04-10T22:01:12Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Issuedriven sustainability scanning for the Web Sustainability Guidelines (WSG), using: Lighthouse (performance and bestpractices categories) CO2.js for perpage and aggregate emissions estimates The Green Web Foundation API for green hosting checks WSG guideline mapping for actionable remediation Sustainable Web Design",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
+      }
+    },
+    {
+      "id": 131999778,
+      "name": "goteo",
+      "fullName": "mgifford/goteo",
+      "url": "https://github.com/mgifford/goteo",
+      "description": "Goteo Version 3, the Open Source Crowdfunding Platform",
+      "language": "PHP",
+      "topics": [],
+      "homepage": "http://goteo.org",
+      "hasPages": false,
+      "archived": true,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2018-05-03T13:32:52Z",
+      "updatedAt": "2026-04-10T12:28:16Z",
+      "pushedAt": "2026-04-10T12:27:55Z",
+      "defaultBranch": "devel",
+      "readme": {
+        "summary": "Goteo The Open Source Crowdfunding Platform ===========================================",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2489,7 +3560,7 @@
       "name": "STYLES.md",
       "fullName": "mgifford/STYLES.md",
       "url": "https://github.com/mgifford/STYLES.md",
-      "description": "STYLES.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
+      "description": "STYLES.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents on content and design style.",
       "language": "HTML",
       "topics": [
         "agentic-ai",
@@ -2518,43 +3589,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1191604030,
-      "name": "daily-cap",
-      "fullName": "mgifford/daily-cap",
-      "url": "https://github.com/mgifford/daily-cap",
-      "description": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
-      "language": "JavaScript",
-      "topics": [
-        "accessibility",
-        "canada",
-        "federal-government",
-        "government",
-        "monitoring",
-        "top-sites"
-      ],
-      "homepage": "https://mgifford.github.io/daily-cap/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2026-03-25T12:09:23Z",
-      "updatedAt": "2026-04-09T10:16:27Z",
-      "pushedAt": "2026-04-09T10:16:24Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily CAP (Canadian Analytics Project) is an independent daily quality benchmarking pipeline for Canadian federal digital service entry points.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2583,36 +3618,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 21006958,
-      "name": "mgifford.github.io",
-      "fullName": "mgifford/mgifford.github.io",
-      "url": "https://github.com/mgifford/mgifford.github.io",
-      "description": "A presentation view of my repositories in GitHub",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "http://mgifford.github.io/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2014-06-19T16:13:54Z",
-      "updatedAt": "2026-04-07T22:07:27Z",
-      "pushedAt": "2026-04-07T22:07:19Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "This repository powers https://mgifford.github.io as a curated catalog of work across the GitHub account for @mgifford. Instead of showing a flat list of hundreds of repositories, it organizes projects into a useful table of contents with themes, highlights, and maintenance signals.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2644,7 +3650,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2673,7 +3679,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2695,14 +3701,14 @@
       "openIssues": 1,
       "createdAt": "2026-04-04T20:24:33Z",
       "updatedAt": "2026-04-06T02:54:56Z",
-      "pushedAt": "2026-04-06T02:54:52Z",
+      "pushedAt": "2026-04-13T02:40:31Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "A living library of model policy language for the digital age \u2014 built for advocates, communities, and governments who want innovation without sacrificing people or planet.",
+        "summary": "A living library of model policy language for the digital age — built for advocates, communities, and governments who want innovation without sacrificing people or planet.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2734,7 +3740,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2742,7 +3748,7 @@
       "name": "drupal-core",
       "fullName": "mgifford/drupal-core",
       "url": "https://github.com/mgifford/drupal-core",
-      "description": "Drupal core fork \u2014 accessibility work and AI tooling",
+      "description": "Drupal core fork — accessibility work and AI tooling",
       "language": "PHP",
       "topics": [],
       "homepage": "",
@@ -2763,38 +3769,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1155731349,
-      "name": "drupal-open-dash",
-      "fullName": "mgifford/drupal-open-dash",
-      "url": "https://github.com/mgifford/drupal-open-dash",
-      "description": "An attempt to learn more about our stats on d.o - Work in Progress",
-      "language": "TypeScript",
-      "topics": [
-        "drupal"
-      ],
-      "homepage": "https://mgifford.github.io/drupal-open-dash/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-02-11T20:55:57Z",
-      "updatedAt": "2026-04-05T00:19:13Z",
-      "pushedAt": "2026-04-07T01:09:09Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "An initial attempt to build a Drupal Open Dashboard is a static dashboard for visualizing Drupal.org and GitLab activity for an organization roster. It is designed for fully static hosting (e.g., GitHub Pages) and prefetches all data via scheduled GitHub Actions, serving only static JSON snapshots to the frontend.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2802,7 +3777,7 @@
       "name": "SUSTAINABILITY.md",
       "fullName": "mgifford/SUSTAINABILITY.md",
       "url": "https://github.com/mgifford/SUSTAINABILITY.md",
-      "description": "SUSTAINABILITY.md \u2014 a simple, open format (aligned with AGENTS.md) for guiding coding agents",
+      "description": "SUSTAINABILITY.md — a simple, open format (aligned with AGENTS.md) for guiding coding agents",
       "language": "HTML",
       "topics": [
         "agents",
@@ -2829,7 +3804,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -2858,172 +3833,11 @@
       "pushedAt": "2026-04-04T17:22:43Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![License: AGPL3.0](https://www.gnu.org/licenses/agpl3.0) ![Accessibility](https://github.com/mgifford/html2html/actions/workflows/accessibility.yml) ![GitHub Pages](https://mgifford.github.io/html2html/)",
+        "summary": "A singlefile HTML tool for testing raw HTML and inline SVG in real time, with instant accessibility feedback.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1195393104,
-      "name": "EchoLocate",
-      "fullName": "mgifford/EchoLocate",
-      "url": "https://github.com/mgifford/EchoLocate",
-      "description": "A multi-person speech to text tool. Help to locate different speakers in the room.",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/EchoLocate/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-03-29T16:09:24Z",
-      "updatedAt": "2026-04-04T02:25:31Z",
-      "pushedAt": "2026-04-04T10:46:32Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Live, private, inbrowser captioning with simulated speaker grouping.",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1184299048,
-      "name": "alt-text-scan",
-      "fullName": "mgifford/alt-text-scan",
-      "url": "https://github.com/mgifford/alt-text-scan",
-      "description": "Are the alt text for images useful? Most aren't. Most testing tools only look for absence of description, not if it is any good.",
-      "language": "HTML",
-      "topics": [
-        "accessibility",
-        "accessibility-checker",
-        "alt-text",
-        "images"
-      ],
-      "homepage": "https://mgifford.github.io/alt-text-scan/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2026-03-17T13:03:22Z",
-      "updatedAt": "2026-04-03T17:20:16Z",
-      "pushedAt": "2026-04-08T21:00:47Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Issuedriven alttext analysis prototype using GitHub Pages and GitHub Actions.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1179108547,
-      "name": "ai-browser-test",
-      "fullName": "mgifford/ai-browser-test",
-      "url": "https://github.com/mgifford/ai-browser-test",
-      "description": "Does your browser support AI? If so what features?",
-      "language": "JavaScript",
-      "topics": [
-        "llm",
-        "web",
-        "web-ai"
-      ],
-      "homepage": "https://mgifford.github.io/ai-browser-test/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-03-11T17:40:20Z",
-      "updatedAt": "2026-04-03T16:19:22Z",
-      "pushedAt": "2026-04-04T23:38:42Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Interactive singlepage app to demonstrate AIenabled browsing in Chrome, Firefox, and Edge, including runtime probes for builtin AI behavior.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1200057653,
-      "name": "TraceA11y",
-      "fullName": "mgifford/TraceA11y",
-      "url": "https://github.com/mgifford/TraceA11y",
-      "description": "Digital Forensics for Accessibility: Tracing the DNA of every error to its rightful owner.",
-      "language": "HTML",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/TraceA11y/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-03T01:53:29Z",
-      "updatedAt": "2026-04-03T14:30:05Z",
-      "pushedAt": "2026-04-03T14:30:00Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Digital Forensics for Accessibility: Tracing the DNA of every error to its rightful owner.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1133853185,
-      "name": "gh-open-dash",
-      "fullName": "mgifford/gh-open-dash",
-      "url": "https://github.com/mgifford/gh-open-dash",
-      "description": "GitHub Open Dashboard",
-      "language": "JavaScript",
-      "topics": [
-        "dashboard",
-        "github-dashboard",
-        "ospo",
-        "ospos"
-      ],
-      "homepage": "https://mgifford.github.io/gh-open-dash/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2026-01-13T22:52:48Z",
-      "updatedAt": "2026-04-03T14:16:44Z",
-      "pushedAt": "2026-04-06T22:40:22Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "An opensource transparency dashboard inspired by cal.com/open and other open startup initiatives. This project builds and publishes a beautiful static dashboard showing public opensource contributions by your GitHub organization.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3048,75 +3862,13 @@
       "pushedAt": "2026-04-03T12:29:51Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Para uma vers\u00e3o em portugu\u00eas deste arquivo, veja README.ptBR.",
+        "summary": "Para uma versão em português deste arquivo, veja README.ptBR.",
         "score": 3,
         "needsAttention": false,
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1194865315,
-      "name": "AirScript",
-      "fullName": "mgifford/AirScript",
-      "url": "https://github.com/mgifford/AirScript",
-      "description": "A tool for speech to caption to phone. Making it easier for people to watch captions as they see fit.",
-      "language": "HTML",
-      "topics": [
-        "accessibility",
-        "deaf-communications",
-        "presentation-tools"
-      ],
-      "homepage": "https://mgifford.github.io/AirScript/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-03-28T23:03:47Z",
-      "updatedAt": "2026-04-03T12:23:47Z",
-      "pushedAt": "2026-04-08T21:05:23Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Privacyfirst live captions with a browserfirst transcription path. The default engine is the Web Speech API running entirely in the browser, which means the UI can be hosted as static files, including on GitHub Pages. HTMX remains the delivery layer for audience updates when a relay stream is present. When you want sha",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 847431443,
-      "name": "custom-metrics",
-      "fullName": "mgifford/custom-metrics",
-      "url": "https://github.com/mgifford/custom-metrics",
-      "description": "Custom metrics to use with WebPageTest agents",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2024-08-25T19:56:14Z",
-      "updatedAt": "2026-04-03T02:46:03Z",
-      "pushedAt": "2026-04-03T02:46:06Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "HTTP Archive uses WebPageTest (WPT) to collect information about how web pages are built. WPT is able to run arbitrary JavaScript at the end of a test to collect specific data, known as custom metrics. See the WPT custom metrics documentation for more info.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3152,7 +3904,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3187,41 +3939,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1183084964,
-      "name": "open-susty-scans",
-      "fullName": "mgifford/open-susty-scans",
-      "url": "https://github.com/mgifford/open-susty-scans",
-      "description": "Automated scans for common sustainability challenges",
-      "language": "HTML",
-      "topics": [
-        "monitoring-tool",
-        "sustainability",
-        "web-sustainability",
-        "web-sustainability-guidelines"
-      ],
-      "homepage": "https://mgifford.github.io/open-susty-scans/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-03-16T08:59:55Z",
-      "updatedAt": "2026-04-02T20:17:35Z",
-      "pushedAt": "2026-04-08T20:53:26Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Issuedriven sustainability scanning for the Web Sustainability Guidelines (WSG), using: Lighthouse (performance and bestpractices categories) CO2.js for perpage and aggregate emissions estimates The Green Web Foundation API for green hosting checks WSG guideline mapping for actionable remediation Sustainable Web Design",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3256,7 +3974,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3285,7 +4003,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3317,36 +4035,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1198561783,
-      "name": "federal-contracting-skills",
-      "fullName": "mgifford/federal-contracting-skills",
-      "url": "https://github.com/mgifford/federal-contracting-skills",
-      "description": "Free Claude Skills for federal contracting: IGCE builders (FFP, T&M, cost-reimbursement), SOW/PWS generator, market research reports, and live API tools for USASpending, GSA CALC+, BLS OEWS, Per Diem, Federal Register, eCFR, Regulations.gov. Built for GS-1102 contract specialists and government contractors.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://1102tools.com",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-01T14:39:24Z",
-      "updatedAt": "2026-04-02T14:35:28Z",
-      "pushedAt": "2026-04-02T14:35:23Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Free Claude Skills for federal contracting professionals and government contractors.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3377,7 +4066,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3385,7 +4074,7 @@
       "name": "ox.ca",
       "fullName": "mgifford/ox.ca",
       "url": "https://github.com/mgifford/ox.ca",
-      "description": "My personal site \u2014 Mike Gifford",
+      "description": "My personal site — Mike Gifford",
       "language": "JavaScript",
       "topics": [
         "personal-website",
@@ -3409,43 +4098,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1094776154,
-      "name": "w3c-a11y-maturity-model",
-      "fullName": "mgifford/w3c-a11y-maturity-model",
-      "url": "https://github.com/mgifford/w3c-a11y-maturity-model",
-      "description": "A draft tool for the W3C's Accessibility Maturity Model",
-      "language": "TypeScript",
-      "topics": [
-        "accessibility",
-        "maturity-model",
-        "w3c"
-      ],
-      "homepage": "https://mgifford.github.io/w3c-a11y-maturity-model/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 6,
-      "createdAt": "2025-11-12T06:42:37Z",
-      "updatedAt": "2026-04-02T09:21:01Z",
-      "pushedAt": "2026-04-08T04:55:39Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "",
-        "score": 1,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short",
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3481,7 +4134,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3506,11 +4159,11 @@
       "pushedAt": "2026-02-07T08:39:37Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "This repository is a minimal, static demonstration of a Sign Language Sidecar: a 3D signlanguage avatar that stays in view while users read longform ICT accessibility content. The content focuses on how EN 301 549 v3.2.1 is applied in Canada (CAN/ASC \u2013 EN 301 549:2024) versus the European Union (Web Accessibility Direc",
+        "summary": "This repository is a minimal, static demonstration of a Sign Language Sidecar: a 3D signlanguage avatar that stays in view while users read longform ICT accessibility content. The content focuses on how EN 301 549 v3.2.1 is applied in Canada (CAN/ASC – EN 301 549:2024) versus the European Union (Web Accessibility Direc",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3539,7 +4192,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3569,13 +4222,13 @@
       "pushedAt": "2026-03-27T15:35:04Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "\ud83d\udee1\ufe0f Accessibility Conformance Report (ACR) Generator",
+        "summary": "🛡️ Accessibility Conformance Report (ACR) Generator",
         "score": 3,
         "needsAttention": false,
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3600,43 +4253,11 @@
       "pushedAt": "2026-03-31T15:49:46Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![Netlify Status](https://app.netlify.com/sites/overlayfactsheet/deploys)",
+        "summary": "A nonbiased, communitydriven, factbased information sheet aimed at educating customers on webaccessibility overlays. This repo powers the site at https://overlayfactsheet.com/",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1137590355,
-      "name": "openapi-reference",
-      "fullName": "mgifford/openapi-reference",
-      "url": "https://github.com/mgifford/openapi-reference",
-      "description": "A possible alternative to Swagger UI",
-      "language": "JavaScript",
-      "topics": [
-        "api",
-        "open-data"
-      ],
-      "homepage": "https://mgifford.github.io/openapi-reference/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2026-01-19T15:12:41Z",
-      "updatedAt": "2026-03-30T19:09:21Z",
-      "pushedAt": "2026-03-30T19:09:25Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A lightweight, accessible CSV data explorer for government health datasets. Hybrid architecture: Vanilla JS browser app with optional Node.js proxy server that solves CORS restrictions and extracts metadata from healthcare.gov, CDC, and other data portals.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3644,7 +4265,7 @@
       "name": "a11y-meta-skills",
       "fullName": "mgifford/a11y-meta-skills",
       "url": "https://github.com/mgifford/a11y-meta-skills",
-      "description": "Accessibility planner-critic skill pair for Claude Code \u2014 WCAG implementation planning + ARIA/focus/semantic review",
+      "description": "Accessibility planner-critic skill pair for Claude Code — WCAG implementation planning + ARIA/focus/semantic review",
       "language": "Python",
       "topics": [],
       "homepage": "",
@@ -3661,46 +4282,11 @@
       "pushedAt": "2026-03-29T18:38:09Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Accessibility skill bundle for Claude Code \u2014 plan, test, review, and audit from real perspectives.",
+        "summary": "Accessibility skill bundle for Claude Code — plan, test, review, and audit from real perspectives.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1172883052,
-      "name": "Drupal-docs",
-      "fullName": "mgifford/Drupal-docs",
-      "url": "https://github.com/mgifford/Drupal-docs",
-      "description": "Attempt to modernize Drupal's documentation with AI",
-      "language": "HTML",
-      "topics": [
-        "drupal",
-        "llm",
-        "markdown"
-      ],
-      "homepage": "https://mgifford.github.io/Drupal-docs/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-03-04T19:39:10Z",
-      "updatedAt": "2026-03-29T14:47:49Z",
-      "pushedAt": "2026-04-08T08:15:40Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "",
-        "score": 0,
-        "needsAttention": true,
-        "reasons": [
-          "README unavailable"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3734,7 +4320,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3769,7 +4355,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3805,7 +4391,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3830,11 +4416,11 @@
       "pushedAt": "2026-03-27T10:42:13Z",
       "defaultBranch": "develop",
       "readme": {
-        "summary": "![CircleCI Build Status](https://circleci.com/gh/uswds/uswds/tree/develop) !Snyk vulnerabilities ![npm Version](https://www.npmjs.com/package/uswds) ![npm Downloads](https://www.npmjs.com/package/uswds) ![GitHub issues](https://github.com/uswds/uswds/issues) ![code style: prettier](https://github.com/prettier/prettier)",
+        "summary": "The United States Web Design System includes a library of open source UI components and a visual style guide for U.S. federal government websites.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3863,7 +4449,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3888,11 +4474,11 @@
       "pushedAt": "2026-03-27T04:36:06Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Status This project is currently in early beta status. It\u2019s used in production on a few sites while we learn and continuously improve.",
+        "summary": "Status This project is currently in early beta status. It’s used in production on a few sites while we learn and continuously improve.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3900,7 +4486,7 @@
       "name": "strapi",
       "fullName": "mgifford/strapi",
       "url": "https://github.com/mgifford/strapi",
-      "description": "\ud83d\ude80 Open source Node.js Headless CMS to easily build customisable APIs",
+      "description": "🚀 Open source Node.js Headless CMS to easily build customisable APIs",
       "language": "JavaScript",
       "topics": [],
       "homepage": "https://strapi.io",
@@ -3921,7 +4507,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3950,7 +4536,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -3975,11 +4561,11 @@
       "pushedAt": "2026-03-22T02:28:14Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Primero ======== ![DPG Badge](https://www.digitalpublicgoods.net/r/primero) ![Build Status](https://github.com/primeroIMS/primero/actions)",
+        "summary": "[!WARNING] Primero v2.10 adds support for PostgreSQL 15! Support for PostgreSQL 14 is retained and remains the default when running using Ansible/Docker Compose. Please use this opportunity to upgrade! PostgreSQL 15 will be the default starting with Primero v2.11. support for PostgreSQL 10, 11 has been dropped and 14 w",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4004,11 +4590,13 @@
       "pushedAt": "2026-03-20T20:08:47Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "CKEditor&nbsp;5 ![Tweet](https://twitter.com/intent/tweet?text=Check%20out%20CKEditor%205%20on%20GitHub&url=https%3A%2F%2Fgithub.com%2Fckeditor%2Fckeditor5) ===================================",
-        "score": 4,
+        "summary": "CKEditor&nbsp;5 ===================================",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4039,39 +4627,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1179891183,
-      "name": "iv-cbv-payroll",
-      "fullName": "mgifford/iv-cbv-payroll",
-      "url": "https://github.com/mgifford/iv-cbv-payroll",
-      "description": "Consent-Based Verification (CBV) is a prototype that allows benefit applicants to verify their income directly using payroll providers. It is currently being piloted for testing and validation purposes.",
-      "language": "Ruby",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-03-12T13:41:55Z",
-      "updatedAt": "2026-03-12T16:39:18Z",
-      "pushedAt": "2026-03-12T16:39:12Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Eligibility made easy ========================",
-        "score": 2,
-        "needsAttention": true,
-        "reasons": [
-          "No clear summary paragraph",
-          "Contains placeholder language"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4100,7 +4656,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4130,11 +4686,11 @@
       "pushedAt": "2026-03-08T13:03:46Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "A personal, sciencebased smart cookbook that runs entirely clientside on GitHub Pages. No backend required\u2014all data is stored in YAML files and localStorage for complete privacy and offlinefirst capability.",
+        "summary": "A personal, sciencebased smart cookbook that runs entirely clientside on GitHub Pages. No backend required—all data is stored in YAML files and localStorage for complete privacy and offlinefirst capability.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4166,7 +4722,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4197,7 +4753,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4226,7 +4782,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4251,13 +4807,13 @@
       "pushedAt": "2026-02-23T11:35:36Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Centralised Web Accessibility Checker (CWAC) \ud83e\udd86",
+        "summary": "Centralised Web Accessibility Checker (CWAC) 🦆",
         "score": 3,
         "needsAttention": false,
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4286,7 +4842,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4313,13 +4869,11 @@
       "pushedAt": "2026-01-17T14:01:22Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Code Climate](https://codeclimate.com/github/18F/domainscan)",
-        "score": 3,
+        "summary": "A lightweight scan pipeline for orchestrating third party tools, at scale and (optionally) using serverless infrastructure.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4350,36 +4904,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 607797528,
-      "name": "a11y-data-keywords",
-      "fullName": "mgifford/a11y-data-keywords",
-      "url": "https://github.com/mgifford/a11y-data-keywords",
-      "description": "This is a compiled list of keywords to use when data-mining customer feedback to get the voice of your customers with a disability",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2023-02-28T17:39:53Z",
-      "updatedAt": "2026-02-03T14:09:38Z",
-      "pushedAt": "2022-02-11T20:56:08Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "a11ydatakeywords This is a compiled list of keywords to use when datamining customer feedback to get the voice of your customers with a disability. The list has been compiled from lists I received from other organizations. I'm going to keep the contributors private per their request.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4408,7 +4933,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4440,7 +4965,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4468,11 +4993,11 @@
       "pushedAt": "2026-01-05T16:13:11Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Discover films you'll actually love\u2014based on what you've already loved.",
+        "summary": "Discover films you'll actually love—based on what you've already loved.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4504,42 +5029,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1136973248,
-      "name": "o-hat-standalone",
-      "fullName": "mgifford/o-hat-standalone",
-      "url": "https://github.com/mgifford/o-hat-standalone",
-      "description": "Standalone scanner for a single directory and sub-directories.",
-      "language": "HTML",
-      "topics": [
-        "a11y",
-        "a11y-testing",
-        "accessibility",
-        "accessibility-scanner",
-        "axe-core"
-      ],
-      "homepage": "https://mgifford.github.io/o-hat-standalone/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-01-18T17:33:12Z",
-      "updatedAt": "2026-01-20T22:06:44Z",
-      "pushedAt": "2026-01-20T18:56:46Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "This repository contains the standalone component of the OHat Scanner ecosystem. It provides a singlefile solution for accessibility testing that can run entirely within a browser, without requiring complex serverside infrastructure.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4577,67 +5067,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1132969511,
-      "name": "a11y-ai-training",
-      "fullName": "mgifford/a11y-ai-training",
-      "url": "https://github.com/mgifford/a11y-ai-training",
-      "description": "Files for creating an internal AI knowledge base with open source content.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-01-12T17:43:51Z",
-      "updatedAt": "2026-01-12T17:43:51Z",
-      "pushedAt": "2025-12-31T20:31:36Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "a11yaitraining Files for creating an internal AI knowledge base with open source content.",
-        "score": 2,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 1110624736,
-      "name": "civicactions-a11ysite",
-      "fullName": "mgifford/civicactions-a11ysite",
-      "url": "https://github.com/mgifford/civicactions-a11ysite",
-      "description": "CivicActions Accessibility Site: A collection of resources about digital accessibility and how it aligns with open source, CivicTech and Digital Transformation.",
-      "language": "Python",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/civicactions-a11ysite/",
-      "hasPages": true,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2025-12-05T13:28:08Z",
-      "updatedAt": "2025-12-17T20:48:33Z",
-      "pushedAt": "2025-12-17T20:48:29Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A collection of resources about digital accessibility and how it aligns with open source and government technology.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4662,13 +5092,13 @@
       "pushedAt": "2025-12-12T14:52:11Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "ACRT Project Title \u201cAccessibility Conformance Report Tool (ACRT)\u201d",
+        "summary": "ACRT Project Title “Accessibility Conformance Report Tool (ACRT)”",
         "score": 3,
         "needsAttention": false,
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4699,7 +5129,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4728,7 +5158,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4757,7 +5187,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4782,11 +5212,11 @@
       "pushedAt": "2025-11-11T01:17:17Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "W3C TPAC Accessibility Roles and Responsibilities Mapping (ARRM) Breakout Discussion Slides to guide the 2025 TPAC breakout group \u2014 Accessibility Roles and Responsibilities Mapping (ARRM). 12 November 2025, 16:15\u201317:15 Japan Standard Time",
+        "summary": "W3C TPAC Accessibility Roles and Responsibilities Mapping (ARRM) Breakout Discussion Slides to guide the 2025 TPAC breakout group — Accessibility Roles and Responsibilities Mapping (ARRM). 12 November 2025, 16:15–17:15 Japan Standard Time",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4811,11 +5241,11 @@
       "pushedAt": "2025-11-09T23:40:44Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "W3C TPAC Sustainable Web Guidelines Breakout Discussion Slides to guide the 2025 TPAC breakout group \u2014 Sustainable Web IG Update for the Web Sustainability Guidelines. 12 November 2025, 08:30\u201309:30 Japan Standard Time",
+        "summary": "W3C TPAC Sustainable Web Guidelines Breakout Discussion Slides to guide the 2025 TPAC breakout group — Sustainable Web IG Update for the Web Sustainability Guidelines. 12 November 2025, 08:30–09:30 Japan Standard Time",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4844,7 +5274,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4873,7 +5303,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4904,7 +5334,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4933,7 +5363,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4962,7 +5392,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -4970,7 +5400,7 @@
       "name": "EHRCON25-Barcelona",
       "fullName": "mgifford/EHRCON25-Barcelona",
       "url": "https://github.com/mgifford/EHRCON25-Barcelona",
-      "description": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contempor\u00e0nia de Barcelona for EHRCON25 attendees.",
+      "description": "A community-curated list of food, drinks, and hangout spots near Centre de Cultura Contemporània de Barcelona for EHRCON25 attendees.",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://mgifford.github.io/EHRCON25-Barcelona/",
@@ -4987,11 +5417,11 @@
       "pushedAt": "2025-09-24T12:14:44Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Here\u2019s a communitycurated list of food and drink spots near the Centre de Cultura Contempor\u00e0nia de Barcelona.",
+        "summary": "Here’s a communitycurated list of food and drink spots near the Centre de Cultura Contemporània de Barcelona.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5020,7 +5450,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5049,7 +5479,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5078,7 +5508,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5110,7 +5540,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5141,7 +5571,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5173,7 +5603,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5202,7 +5632,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5234,7 +5664,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5263,7 +5693,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5292,7 +5722,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5324,7 +5754,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5349,11 +5779,11 @@
       "pushedAt": "2025-09-19T14:26:50Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![Test](https://github.com/HTTPArchive/wappalyzer/actions/workflows/test.yml)",
+        "summary": "Wappalyzer identifies technologies on websites, such as CMS, web frameworks, ecommerce platforms, JavaScript libraries, analytics tools and more.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5378,40 +5808,11 @@
       "pushedAt": "2025-09-19T14:39:02Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Open Practice Library ![Netlify Status](https://app.netlify.com/sites/openpracticelibrary/deploys)",
+        "summary": "The Open Practice Library provides information about practices and ideas that empower teams to collaborate and deliver iteratively. Learn more about the philosophy behind the library here.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 979548216,
-      "name": "wai-website-data",
-      "fullName": "mgifford/wai-website-data",
-      "url": "https://github.com/mgifford/wai-website-data",
-      "description": "",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2025-05-07T17:25:18Z",
-      "updatedAt": "2025-05-07T17:25:18Z",
-      "pushedAt": "2025-05-07T17:34:25Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "The files in this repository are companion files for the waiwebsitetheme. They are included in all repositories that use the theme by being included as the git submodule at /external/data and linked to from the folder /data.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5440,36 +5841,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 970835983,
-      "name": "techfar-hub",
-      "fullName": "mgifford/techfar-hub",
-      "url": "https://github.com/mgifford/techfar-hub",
-      "description": "TechFAR Hub",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2025-04-22T15:55:54Z",
-      "updatedAt": "2025-04-22T15:55:55Z",
-      "pushedAt": "2026-04-08T03:09:59Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Mission The goal of the site is to help acquisition professionals learn, discuss, and execute Digital Service Acquisitions",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5494,11 +5866,11 @@
       "pushedAt": "2018-03-27T21:46:45Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "18F Handbook ![CircleCI](https://circleci.com/gh/18F/handbook) ========================",
+        "summary": "The 18F Handbook documents the mission, values, structures, policies, tools, and guides that shape our team. This is a living document and is updated regularly. If you have questions, comments, or suggestions, please open an issue. If you want to add content to the Handbook, please submit a pull request or ask in 18fha",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5527,7 +5899,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5559,7 +5931,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5567,7 +5939,7 @@
       "name": "ditap-curriculum-update",
       "fullName": "mgifford/ditap-curriculum-update",
       "url": "https://github.com/mgifford/ditap-curriculum-update",
-      "description": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be \u201can open-source learning model that makes DITAP scalable, adaptable, and future-proof.\u201d",
+      "description": "The DITAP Curriculum Update aims to modernize the DITAP training program by auditing and updating its content, resources, and assessment methods to reflect current procurement practices. The product vision is for DITAP to be “an open-source learning model that makes DITAP scalable, adaptable, and future-proof.”",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://techfarhub.usds.gov/get-started/ditap/",
@@ -5588,7 +5960,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5617,7 +5989,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5642,11 +6014,11 @@
       "pushedAt": "2025-11-16T21:45:05Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Publisher](https://github.com/ukxgovsoftwarecommunity/xgovopensourcereposcraper/actions/workflows/main.yml)",
+        "summary": "This is a crude tool that scrapes organisations that GitHub recognise to be UK central gov or UK councils and records some stats about that.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5678,7 +6050,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5707,36 +6079,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 360906971,
-      "name": "baselinealignment",
-      "fullName": "mgifford/baselinealignment",
-      "url": "https://github.com/mgifford/baselinealignment",
-      "description": "This repository contains code and references to pages intended to help validate test rules contained in the ICT Testing Basline.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://section508coordinators.github.io/baselinealignment/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2021-04-23T14:14:06Z",
-      "updatedAt": "2024-07-01T17:52:21Z",
-      "pushedAt": "2026-04-08T08:04:43Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Baseline Test Pages The Baseline and ITTP Working Group will use this repository and set of pages to store and make reference to test pages for use in validating test rules contained in the ICT Testing Baseline.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5765,7 +6108,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5794,36 +6137,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 743559845,
-      "name": "open-gsa-redesign",
-      "fullName": "mgifford/open-gsa-redesign",
-      "url": "https://github.com/mgifford/open-gsa-redesign",
-      "description": "A fresh start for open.gsa.gov.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://open.gsa.gov/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 3,
-      "createdAt": "2024-01-15T13:51:32Z",
-      "updatedAt": "2024-01-15T13:51:32Z",
-      "pushedAt": "2026-02-19T22:44:14Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Open.gsa.gov is the current developer portal for all GSA data, APIs, and code open to the public. This repo is where we will be managing development of the redesign of this portal.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5854,7 +6168,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5862,7 +6176,7 @@
       "name": "astro",
       "fullName": "mgifford/astro",
       "url": "https://github.com/mgifford/astro",
-      "description": "The all-in-one web framework designed for speed. \u2b50\ufe0f Star to support our work!",
+      "description": "The all-in-one web framework designed for speed. ⭐️ Star to support our work!",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://astro.build",
@@ -5885,7 +6199,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5917,7 +6231,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5946,7 +6260,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -5971,13 +6285,13 @@
       "pushedAt": "2026-02-09T22:25:59Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Netlify Status](https://app.netlify.com/sites/waiauthoringtoolslist/deploys)",
+        "summary": "Vendors are encourage to also use the ATAG Reporting tool to provide details of their tool.",
         "score": 2,
         "needsAttention": true,
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6006,67 +6320,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 569285890,
-      "name": "civictech.club",
-      "fullName": "mgifford/civictech.club",
-      "url": "https://github.com/mgifford/civictech.club",
-      "description": "A directory of Fediverse users working to make government and democracy better.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://civictech.club",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2022-11-22T13:45:01Z",
-      "updatedAt": "2022-11-22T12:54:47Z",
-      "pushedAt": "2026-04-08T07:57:50Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A directory of Fediverse users working to make government and democracy better.",
-        "score": 2,
-        "needsAttention": true,
-        "reasons": [
-          "README is very short"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 563452593,
-      "name": "ckan",
-      "fullName": "mgifford/ckan",
-      "url": "https://github.com/mgifford/ckan",
-      "description": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://ckan.org/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2022-11-08T16:36:11Z",
-      "updatedAt": "2022-11-08T14:51:07Z",
-      "pushedAt": "2025-12-30T21:48:11Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "CKAN: The Open Source Data Portal Software ==========================================",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6095,7 +6349,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6127,7 +6381,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6158,36 +6412,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 516489511,
-      "name": "content-guide",
-      "fullName": "mgifford/content-guide",
-      "url": "https://github.com/mgifford/content-guide",
-      "description": "18F Content Guide",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://content-guide.18f.gov/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2022-07-21T18:56:39Z",
-      "updatedAt": "2022-05-27T16:50:11Z",
-      "pushedAt": "2026-04-08T06:32:54Z",
-      "defaultBranch": "18f-pages",
-      "readme": {
-        "summary": "This is the repository for the 18F Content Guide. This guide was developed for 18F employees, but we hope it's a useful reference for everyone.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6216,7 +6441,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6241,13 +6466,11 @@
       "pushedAt": "2025-09-19T14:27:07Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![CircleCI](https://circleci.com/gh/18F/federalistuswdsjekyll)",
-        "score": 3,
+        "summary": "This Jekyll theme is developed using the U.S. Web Design System v 2.0 and is focused on providing developers a starter kit and reference implementation for Federalist websites.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6276,7 +6499,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6305,36 +6528,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 445202574,
-      "name": "wai-eval-tools",
-      "fullName": "mgifford/wai-eval-tools",
-      "url": "https://github.com/mgifford/wai-eval-tools",
-      "description": "WAI Accessibility Evaluation Tools",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "http://w3c.github.io/wai-eval-tools/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 2,
-      "createdAt": "2022-01-06T14:41:25Z",
-      "updatedAt": "2022-01-06T14:41:26Z",
-      "pushedAt": "2025-09-19T14:32:01Z",
-      "defaultBranch": "gh-pages",
-      "readme": {
-        "summary": "Data is collected in the data directory. There are two possibilities to use it.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6363,7 +6557,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6392,7 +6586,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6421,7 +6615,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6452,7 +6646,7 @@
         "reasons": [
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6483,7 +6677,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6512,7 +6706,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6541,7 +6735,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6570,7 +6764,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6595,11 +6789,11 @@
       "pushedAt": "2021-09-23T12:24:06Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "Dear participant to Code Institute x Trust In SODA Hackathon \ud83d\udc69\u200d\ud83d\udcbb\ud83d\udc68\u200d\ud83d\udcbb, Accessibility Edition.",
+        "summary": "Dear participant to Code Institute x Trust In SODA Hackathon 👩‍💻👨‍💻, Accessibility Edition.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6630,7 +6824,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6638,7 +6832,7 @@
       "name": "a11y-resources",
       "fullName": "mgifford/a11y-resources",
       "url": "https://github.com/mgifford/a11y-resources",
-      "description": ":book: Accessibility resources - Ressources accessibilit\u00e9",
+      "description": ":book: Accessibility resources - Ressources accessibilité",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -6661,7 +6855,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6693,7 +6887,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6722,7 +6916,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6747,13 +6941,11 @@
       "pushedAt": "2025-09-19T14:41:36Z",
       "defaultBranch": "main",
       "readme": {
-        "summary": "![Netlify Status](https://app.netlify.com/sites/floehandbook/deploys)",
-        "score": 3,
+        "summary": "This project contains the content needed to build and deploy a copy of the Inclusive Learning Design Handbook.",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6782,7 +6974,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6811,7 +7003,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6843,7 +7035,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6872,7 +7064,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6901,7 +7093,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6930,7 +7122,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6938,7 +7130,7 @@
       "name": "empathy-prompts",
       "fullName": "mgifford/empathy-prompts",
       "url": "https://github.com/mgifford/empathy-prompts",
-      "description": "\ud83d\udca1 Ideas to help consider Inclusive Design principles when making things for others to use.",
+      "description": "💡 Ideas to help consider Inclusive Design principles when making things for others to use.",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://empathyprompts.net/",
@@ -6961,7 +7153,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -6990,7 +7182,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7021,7 +7213,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7053,7 +7245,7 @@
           "No clear summary paragraph",
           "Contains placeholder language"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7078,11 +7270,13 @@
       "pushedAt": "2026-04-03T05:22:04Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Octicons Build](https://github.com/primer/octicons/actions?query=workflow%3A%22Octicons+Build%22)",
-        "score": 4,
+        "summary": "Octicons are a set of SVG icons built by GitHub for GitHub.",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7111,7 +7305,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7140,7 +7334,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7169,7 +7363,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7177,7 +7371,7 @@
       "name": "digitalgov.gov",
       "fullName": "mgifford/digitalgov.gov",
       "url": "https://github.com/mgifford/digitalgov.gov",
-      "description": "Digital.gov \u2014\u00a0Helping the government community deliver better digital services.",
+      "description": "Digital.gov — Helping the government community deliver better digital services.",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://digital.gov",
@@ -7200,7 +7394,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7231,7 +7425,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7260,7 +7454,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7289,7 +7483,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7318,7 +7512,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7347,7 +7541,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7376,7 +7570,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7401,11 +7595,13 @@
       "pushedAt": "2025-09-19T14:30:23Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](https://travisci.org/zrrrzzt/nodewcagpdf) ![jsstandardstyle](https://github.com/feross/standard)",
-        "score": 4,
+        "summary": "Check the Accessibility of a PDF Document using eiii.",
+        "score": 3,
         "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7434,7 +7630,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7463,7 +7659,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7494,7 +7690,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7526,7 +7722,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7551,11 +7747,11 @@
       "pushedAt": "2025-09-19T14:24:36Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Version](https://github.com/liip/TheA11yMachine) ![Downloads](https://www.npmjs.com/package/thea11ymachine) ![License](authorsandlicense)",
+        "summary": "The A11y Machine (or a11ym for short, spelled “alym”) is an automated accessibility testing tool which crawls and tests pages of any Web application to produce detailed reports. It validates pages against the following specifications/laws:",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7584,7 +7780,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7616,7 +7812,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7645,7 +7841,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7674,36 +7870,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 328995875,
-      "name": "mongo",
-      "fullName": "mgifford/mongo",
-      "url": "https://github.com/mgifford/mongo",
-      "description": "The MongoDB Database",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://www.mongodb.com/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2021-01-12T13:29:52Z",
-      "updatedAt": "2021-01-12T13:29:55Z",
-      "pushedAt": "2021-01-12T12:17:13Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "mongod The database server. mongos Sharding router. mongo The database shell (uses interactive javascript).",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7728,11 +7895,11 @@
       "pushedAt": "2020-12-21T11:26:29Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Buffer Voluntary Product Accessibility Template (VPAT\u00ae) This repository contains Voluntary Product Accessibility Template (VPAT\u00ae) documents for Buffer.",
+        "summary": "Buffer Voluntary Product Accessibility Template (VPAT®) This repository contains Voluntary Product Accessibility Template (VPAT®) documents for Buffer.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7757,11 +7924,11 @@
       "pushedAt": "2021-01-04T00:45:17Z",
       "defaultBranch": "gh-pages",
       "readme": {
-        "summary": "GitHub and Government ![Build Status](https://travisci.org/github/government.github.com)",
+        "summary": "Gather, curate, and feature stories of people using GitHub as part of their open government innovations.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7769,7 +7936,7 @@
       "name": "jekyll-accessibility-template",
       "fullName": "mgifford/jekyll-accessibility-template",
       "url": "https://github.com/mgifford/jekyll-accessibility-template",
-      "description": "Jekyll Voluntary Product Accessibility Template (VPAT) and \u00a7508 accessibility information template",
+      "description": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -7786,11 +7953,11 @@
       "pushedAt": "2016-05-16T23:43:06Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Jekyll Voluntary Product Accessibility Template (VPAT) and \u00a7508 accessibility information template",
+        "summary": "Jekyll Voluntary Product Accessibility Template (VPAT) and §508 accessibility information template",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7819,7 +7986,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7848,7 +8015,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7873,11 +8040,11 @@
       "pushedAt": "2025-09-19T14:29:55Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Travis](https://travisci.org/lgraubner/sitemapgenerator) ![David](https://daviddm.org/lgraubner/sitemapgenerator) ![npm](https://www.npmjs.com/package/sitemapgenerator)",
+        "summary": "Generates a sitemap by crawling your site. Uses streams to efficiently write the sitemap to your drive and runs asynchronously to avoid blocking the thread. Is cappable of creating multiple sitemaps if threshold is reached. Respects robots.txt and meta tags.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7908,36 +8075,7 @@
         "reasons": [
           "README unavailable"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 251037960,
-      "name": "Elementary",
-      "fullName": "mgifford/Elementary",
-      "url": "https://github.com/mgifford/Elementary",
-      "description": "Minimal Jekyll theme optimized for performance, accessibility, usability and readability",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "https://elementary-jekyll.github.io/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2020-03-29T13:25:28Z",
-      "updatedAt": "2020-03-29T13:25:30Z",
-      "pushedAt": "2026-04-08T07:47:55Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Elementary This is my personal blog's Jekyll template that I've been optimizing for performance, accessibility, usability, readability and simplicity in general.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7945,7 +8083,7 @@
       "name": "digital-canada-ca",
       "fullName": "mgifford/digital-canada-ca",
       "url": "https://github.com/mgifford/digital-canada-ca",
-      "description": "Website for the Canadian Digital Service / Site Web du Service num\u00e9rique canadien",
+      "description": "Website for the Canadian Digital Service / Site Web du Service numérique canadien",
       "language": "Unknown",
       "topics": [],
       "homepage": "https://digital.canada.ca/",
@@ -7968,7 +8106,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -7997,7 +8135,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8022,11 +8160,11 @@
       "pushedAt": "2025-09-19T14:26:48Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![CircleCI](https://circleci.com/gh/18F/18f.gsa.gov) ![Known Vulnerabilities](https://snyk.io/test/github/18F/18f.gsa.gov) ![Reviewed by Hound](https://houndci.com)",
+        "summary": "This repository houses the 18F website. We use the U.S. Web Design System for the front end interface. The site is built and served through the Federalist platform.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8034,7 +8172,7 @@
       "name": "accessibility-for-teams",
       "fullName": "mgifford/accessibility-for-teams",
       "url": "https://github.com/mgifford/accessibility-for-teams",
-      "description": "A \u2018quick-start\u2019 guide for embedding accessibility and inclusive design practices into your team\u2019s workflow",
+      "description": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow",
       "language": "CSS",
       "topics": [],
       "homepage": "https://accessibility.digital.gov",
@@ -8051,11 +8189,11 @@
       "pushedAt": "2019-08-01T15:45:36Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Practices for embedding accessibility and inclusive design into a team\u2019s workflow.",
+        "summary": "Practices for embedding accessibility and inclusive design into a team’s workflow.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8080,11 +8218,11 @@
       "pushedAt": "2019-06-10T17:03:26Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines \u2014 blurrin",
+        "summary": "The Canadian Digital Service is committed to building accessible and inclusive services. Building accessible services means meeting the needs of as many people as possible. From the start, we work with the people who will use a product, including people with disabilities. We are working across all disciplines — blurrin",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8092,7 +8230,7 @@
       "name": "ore-ero",
       "fullName": "mgifford/ore-ero",
       "url": "https://github.com/mgifford/ore-ero",
-      "description": "Open Resource Exchange - \u00c9change de ressources ouvert",
+      "description": "Open Resource Exchange - Échange de ressources ouvert",
       "language": "HTML",
       "topics": [],
       "homepage": "https://canada-ca.github.io/ore-ero/",
@@ -8109,42 +8247,13 @@
       "pushedAt": "2019-04-18T12:28:12Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](https://travisci.org/canadaca/oreero)",
+        "summary": "https://canadaca.github.io/oreero/en/index.html",
         "score": 3,
         "needsAttention": false,
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 173473637,
-      "name": "helm-drupalwxt",
-      "fullName": "mgifford/helm-drupalwxt",
-      "url": "https://github.com/mgifford/helm-drupalwxt",
-      "description": "Drupal WxT helm chart for Kubernetes.",
-      "language": "Smarty",
-      "topics": [],
-      "homepage": "",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2019-03-02T16:48:24Z",
-      "updatedAt": "2019-03-02T16:54:16Z",
-      "pushedAt": "2019-03-02T16:54:15Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "A Helm chart for Drupal WxT using Minio for stateful data. These are the instructions for a Kubernetes package manager to set up Drupal and it's environment. You can use this to build a local development environment or a cloud native implementation.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8152,7 +8261,7 @@
       "name": "open-source-contribution-logiciel-libre",
       "fullName": "mgifford/open-source-contribution-logiciel-libre",
       "url": "https://github.com/mgifford/open-source-contribution-logiciel-libre",
-      "description": "Draft requirements on open source contributions. / Brouillon des besoins li\u00e9s \u00e0 la contribution aux logiciels libres.",
+      "description": "Draft requirements on open source contributions. / Brouillon des besoins liés à la contribution aux logiciels libres.",
       "language": "Unknown",
       "topics": [],
       "homepage": "",
@@ -8169,13 +8278,13 @@
       "pushedAt": "2026-03-02T09:04:12Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Open Source Contribution (Draft) Contribution aux logiciels libres (\u00c9bauche)",
+        "summary": "Open Source Contribution (Draft) Contribution aux logiciels libres (Ébauche)",
         "score": 2,
         "needsAttention": true,
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8183,7 +8292,7 @@
       "name": "digital-playbook-guide-numerique",
       "fullName": "mgifford/digital-playbook-guide-numerique",
       "url": "https://github.com/mgifford/digital-playbook-guide-numerique",
-      "description": "Government of Canada Digital Playbook / Guide num\u00e9rique du gouvernement du Canada",
+      "description": "Government of Canada Digital Playbook / Guide numérique du gouvernement du Canada",
       "language": "HTML",
       "topics": [],
       "homepage": "https://canada-ca.github.io/digital-playbook-guide-numerique/",
@@ -8204,36 +8313,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 131999778,
-      "name": "goteo",
-      "fullName": "mgifford/goteo",
-      "url": "https://github.com/mgifford/goteo",
-      "description": "Goteo Version 3, the Open Source Crowdfunding Platform",
-      "language": "PHP",
-      "topics": [],
-      "homepage": "http://goteo.org",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2018-05-03T13:32:52Z",
-      "updatedAt": "2018-05-03T13:33:01Z",
-      "pushedAt": "2026-04-10T03:37:45Z",
-      "defaultBranch": "devel",
-      "readme": {
-        "summary": "Goteo The Open Source Crowdfunding Platform ===========================================",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8262,7 +8342,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8287,13 +8367,11 @@
       "pushedAt": "2019-06-10T12:56:37Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](https://travisci.org/canadaca/OpenFirstWhitepaper)",
-        "score": 3,
+        "summary": "The Treasury Board of Canada Secretariat is writing this whitepaper to pull together our thinking on how to shift government to an “Open” approach. This paper will unpack and get into the details on the subject of “Open” in order to inform a few initiatives, including the new Enterprise Architecture Review Board (EARB)",
+        "score": 4,
         "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "reasons": [],
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8322,7 +8400,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8353,7 +8431,7 @@
         "reasons": [
           "README is very short"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8382,7 +8460,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8411,7 +8489,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8442,7 +8520,7 @@
         "reasons": [
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8471,7 +8549,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8500,7 +8578,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8525,11 +8603,11 @@
       "pushedAt": "2017-04-21T15:48:58Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](https://travisci.org/pagesthemes/slate) ![Gem Version](https://badge.fury.io/rb/jekyllthemeslate)",
+        "summary": "Slate is a Jekyll theme for GitHub Pages. You can preview the theme to see what it looks like, or even use it today.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8554,11 +8632,11 @@
       "pushedAt": "2017-04-21T15:12:05Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "![Build Status](https://travisci.org/pagesthemes/minimal) ![Gem Version](https://badge.fury.io/rb/jekyllthememinimal)",
+        "summary": "Minimal is a Jekyll theme for GitHub Pages. You can preview the theme to see what it looks like, or even use it today.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8587,7 +8665,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8616,7 +8694,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8641,11 +8719,11 @@
       "pushedAt": "2016-05-01T20:04:02Z",
       "defaultBranch": "master",
       "readme": {
-        "summary": "Welcome to the WHMCS \u201cSix\u201d template repository! This repository is dedicated to providing versionbyversion changes of the \u201cSix\u201d template as published in WHMCS. Sharing these changes through GitHub as a readonly repository enables you to quick inspect and import these changes for your custom theme.",
+        "summary": "Welcome to the WHMCS “Six” template repository! This repository is dedicated to providing versionbyversion changes of the “Six” template as published in WHMCS. Sharing these changes through GitHub as a readonly repository enables you to quick inspect and import these changes for your custom theme.",
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8674,7 +8752,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8703,36 +8781,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 38774001,
-      "name": "project-open-data.github.io",
-      "fullName": "mgifford/project-open-data.github.io",
-      "url": "https://github.com/mgifford/project-open-data.github.io",
-      "description": "Open Data Policy \u2014 Managing Information as an Asset",
-      "language": "HTML",
-      "topics": [],
-      "homepage": "https://project-open-data.cio.gov/",
-      "hasPages": false,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 3,
-      "createdAt": "2015-07-08T19:03:08Z",
-      "updatedAt": "2015-07-08T19:03:12Z",
-      "pushedAt": "2026-02-20T01:12:59Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "![Build Status](https://travisci.org/projectopendata/projectopendata.github.io)",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8761,36 +8810,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
-      }
-    },
-    {
-      "id": 22222990,
-      "name": "select2",
-      "fullName": "mgifford/select2",
-      "url": "https://github.com/mgifford/select2",
-      "description": "Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
-      "language": "Unknown",
-      "topics": [],
-      "homepage": "http://ivaynberg.github.com/select2/",
-      "hasPages": true,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2014-07-24T17:32:33Z",
-      "updatedAt": "2014-07-24T15:17:18Z",
-      "pushedAt": "2014-07-24T19:02:59Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "Select2 is a jQuerybased replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8819,7 +8839,7 @@
         "score": 4,
         "needsAttention": false,
         "reasons": [],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     },
     {
@@ -8851,7 +8871,7 @@
           "README is very short",
           "No clear summary paragraph"
         ],
-        "scannedAt": "2026-04-10T12:19:45.452Z"
+        "scannedAt": "2026-04-13T07:03:32.789Z"
       }
     }
   ]

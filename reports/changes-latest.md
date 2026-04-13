@@ -1,18 +1,18 @@
 # Repository Sync Report
 
-Generated: 2025-01-01T00:00:00Z
-Owner: testowner
+Generated: 2026-04-13T07:03:32.789Z
+Owner: mgifford
 
-- Previous repos: 2
-- Current repos: 3
-- Added: 1
+- Previous repos: 288
+- Current repos: 288
+- Added: 0
 - Deleted: 0
-- Newly archived: 1
+- Newly archived: 20
 - Unarchived: 0
 
 ## Added
 
-- testowner/new-repo
+- None
 
 ## Deleted
 
@@ -20,7 +20,26 @@ Owner: testowner
 
 ## Newly archived
 
-- testowner/old-repo
+- mgifford/Elementary
+- mgifford/Government-of-Canada-Drupal
+- mgifford/a11y-ai-training
+- mgifford/a11y-data-keywords
+- mgifford/axe-core
+- mgifford/baselinealignment
+- mgifford/civictech.club
+- mgifford/ckan
+- mgifford/content-guide
+- mgifford/custom-metrics
+- mgifford/goteo
+- mgifford/helm-drupalwxt
+- mgifford/mongo
+- mgifford/oobee
+- mgifford/open-gsa-redesign
+- mgifford/project-open-data.github.io
+- mgifford/select2
+- mgifford/techfar-hub
+- mgifford/wai-eval-tools
+- mgifford/wai-website-data
 
 ## Unarchived
 
