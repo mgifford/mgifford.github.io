@@ -333,8 +333,8 @@ function renderRepos() {
     if (repo.archived) badge.push("Archived");
     if (repo.readme?.needsAttention) badge.push("README needs update");
     if (repo.readme?.hasAiDisclosure) badge.push("AI Disclosure");
-    if (repo.aiQuality?.hasAgentsMd) badge.push("AGENTS.md");
-    if (repo.aiQuality?.hasCopilotInstructions) badge.push("Copilot Instructions");
+    if (repo.aiQuality?.hasAgentsMd) badge.push("Has AGENTS.md");
+    if (repo.aiQuality?.hasCopilotInstructions) badge.push("Has Copilot Instructions");
     flags.textContent = badge.join(" · ");
 
     const readmeUrl = `${repo.url}/blob/${repo.defaultBranch || "main"}/README.md`;
