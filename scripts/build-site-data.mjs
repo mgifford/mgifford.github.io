@@ -185,7 +185,10 @@ export async function main() {
     total: curatedRepos.length,
     archived: curatedRepos.filter((repo) => repo.archived).length,
     featured: curatedRepos.filter((repo) => repo.featured).length,
-    readmeNeedsAttention: curatedRepos.filter((repo) => repo.readme?.needsAttention).length
+    readmeNeedsAttention: curatedRepos.filter((repo) => repo.readme?.needsAttention).length,
+    withAiDisclosure: curatedRepos.filter((repo) => repo.readme?.hasAiDisclosure).length,
+    withAgentsMd: curatedRepos.filter((repo) => repo.aiQuality?.hasAgentsMd).length,
+    withCopilotInstructions: curatedRepos.filter((repo) => repo.aiQuality?.hasCopilotInstructions).length
   };
 
   const result = {
