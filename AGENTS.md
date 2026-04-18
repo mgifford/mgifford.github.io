@@ -129,7 +129,8 @@ Each repo record consumed by the frontend should include:
 - status: archived, fork, visibility
 - metrics: stars, watchers, openIssues, updatedAt
 - metadata: language, topics, description, homepage, hasPages
-- enrichment: readme summary and quality signal
+- enrichment: readme summary and quality signal (including hasAiDisclosure)
+- aiQuality: hasAgentsMd, hasCopilotInstructions, scannedAt
 - curation overlay: theme, featured flag, optional screenshot, optional highlight
 - presentation overrides when curated: cardTitle, cardSummary, featuredNarrative, manualSortRank, visibility
 

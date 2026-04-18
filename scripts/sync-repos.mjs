@@ -146,13 +146,19 @@ async function fetchAllRepos(owner) {
   return repos;
 }
 
+export function detectAiDisclosure(markdown) {
+  if (!markdown || typeof markdown !== "string") return false;
+  return /ai\s+disclosure/i.test(markdown);
+}
+
 export function readmeHeuristic(markdown) {
   if (!markdown || typeof markdown !== "string") {
     return {
       summary: "",
       score: 0,
       needsAttention: true,
-      reasons: ["No README returned"]
+      reasons: ["No README returned"],
+      hasAiDisclosure: false
     };
   }
 
@@ -194,7 +200,8 @@ export function readmeHeuristic(markdown) {
     summary: summary.slice(0, 320),
     score,
     needsAttention: score <= 2,
-    reasons
+    reasons,
+    hasAiDisclosure: detectAiDisclosure(markdown)
   };
 }
 
@@ -209,9 +216,38 @@ async function fetchReadme(owner, repoName) {
       summary: "",
       score: 0,
       needsAttention: true,
-      reasons: ["README unavailable"]
+      reasons: ["README unavailable"],
+      hasAiDisclosure: false
     };
   }
+}
+
+async function fetchFileExists(owner, repoName, filePath) {
+  const url = `${API_BASE}/repos/${owner}/${repoName}/contents/${filePath}`;
+  const headers = {
+    Accept: "application/vnd.github+json",
+    "User-Agent": "mgifford-repo-catalog-sync"
+  };
+  if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
+
+  try {
+    const response = await fetch(url, { headers });
+    return response.status === 200;
+  } catch {
+    return false;
+  }
+}
+
+export async function fetchAiQuality(owner, repoName) {
+  const [hasAgentsMd, hasCopilotInstructions] = await Promise.all([
+    fetchFileExists(owner, repoName, "AGENTS.md"),
+    fetchFileExists(owner, repoName, ".github/copilot-instructions.md")
+  ]);
+  return {
+    hasAgentsMd,
+    hasCopilotInstructions,
+    scannedAt: NOW
+  };
 }
 
 async function withConcurrency(items, limit, worker) {
@@ -230,7 +266,7 @@ async function withConcurrency(items, limit, worker) {
   return results;
 }
 
-export function mapRepo(repo, readme) {
+export function mapRepo(repo, readme, aiQuality = null) {
   return {
     id: repo.id,
     name: repo.name,
@@ -252,7 +288,8 @@ export function mapRepo(repo, readme) {
     updatedAt: repo.updated_at,
     pushedAt: repo.pushed_at,
     defaultBranch: repo.default_branch || "main",
-    readme
+    readme,
+    aiQuality
   };
 }
 
@@ -364,18 +401,25 @@ export async function main() {
   const readmeScanLimit = resolveReadmeLimit(sortedRepos.length);
   const readmeTargets = sortedRepos.slice(0, readmeScanLimit);
 
-  console.log(`Scanning README quality for ${readmeTargets.length} repos (limit ${readmeScanLimit})...`);
+  console.log(`Scanning README quality and AI quality for ${readmeTargets.length} repos (limit ${readmeScanLimit})...`);
   const readmeByName = new Map();
+  const aiQualityByName = new Map();
 
   await withConcurrency(readmeTargets, 8, async (repo) => {
-    const result = await fetchReadme(OWNER, repo.name);
+    const [readmeResult, aiQualityResult] = await Promise.all([
+      fetchReadme(OWNER, repo.name),
+      fetchAiQuality(OWNER, repo.name)
+    ]);
     readmeByName.set(repo.name, {
-      ...result,
+      ...readmeResult,
       scannedAt: NOW
     });
+    aiQualityByName.set(repo.name, aiQualityResult);
   });
 
-  const currentRepos = sortedRepos.map((repo) => mapRepo(repo, readmeByName.get(repo.name) || null));
+  const currentRepos = sortedRepos.map((repo) =>
+    mapRepo(repo, readmeByName.get(repo.name) || null, aiQualityByName.get(repo.name) || null)
+  );
   const changes = buildChanges(previousRepos, currentRepos);
 
   console.log("Fetching pinned repositories...");

@@ -4,7 +4,7 @@ import { join } from "node:path";
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { parseLinkHeader, readmeHeuristic, buildChanges, mapRepo, writeMarkdownReport } from "../scripts/sync-repos.mjs";
+import { parseLinkHeader, readmeHeuristic, buildChanges, mapRepo, writeMarkdownReport, detectAiDisclosure } from "../scripts/sync-repos.mjs";
 
 test("parseLinkHeader parses rel links", () => {
   const header = '<https://api.github.com/foo?page=2>; rel="next", <https://api.github.com/foo?page=9>; rel="last"';
@@ -281,3 +281,107 @@ test("writeMarkdownReport writes a readable markdown file", async (t) => {
   assert.ok(content.includes("## Deleted"));
   assert.ok(content.includes("- None"));
 });
+
+// detectAiDisclosure
+
+test("detectAiDisclosure returns false for non-string input", () => {
+  assert.equal(detectAiDisclosure(null), false);
+  assert.equal(detectAiDisclosure(""), false);
+  assert.equal(detectAiDisclosure(42), false);
+});
+
+test("detectAiDisclosure returns true for exact phrase 'AI Disclosure'", () => {
+  const markdown = `# My Project\n\n## AI Disclosure\n\nThis project uses AI tools.`;
+  assert.equal(detectAiDisclosure(markdown), true);
+});
+
+test("detectAiDisclosure is case-insensitive", () => {
+  assert.equal(detectAiDisclosure("ai disclosure statement"), true);
+  assert.equal(detectAiDisclosure("AI DISCLOSURE"), true);
+  assert.equal(detectAiDisclosure("Ai Disclosure"), true);
+});
+
+test("detectAiDisclosure returns false when phrase is absent", () => {
+  const markdown = `# My Project\n\nThis is a normal README with no AI-related disclosure.`;
+  assert.equal(detectAiDisclosure(markdown), false);
+});
+
+// readmeHeuristic includes hasAiDisclosure
+
+test("readmeHeuristic sets hasAiDisclosure true when AI Disclosure section is present", () => {
+  const markdown = `# My Project\n\n## AI Disclosure\n\nThis project uses AI-assisted tooling.\n\n${"Content repeated many times. ".repeat(30)}`;
+  const result = readmeHeuristic(markdown);
+  assert.equal(result.hasAiDisclosure, true);
+});
+
+test("readmeHeuristic sets hasAiDisclosure false when no disclosure present", () => {
+  const markdown = `# My Project\n\nA normal project description without any special statements.\n\n${"Content repeated many times. ".repeat(30)}`;
+  const result = readmeHeuristic(markdown);
+  assert.equal(result.hasAiDisclosure, false);
+});
+
+test("readmeHeuristic sets hasAiDisclosure false for missing README", () => {
+  const result = readmeHeuristic("");
+  assert.equal(result.hasAiDisclosure, false);
+});
+
+// mapRepo includes aiQuality
+
+test("mapRepo includes aiQuality field when provided", () => {
+  const aiQuality = { hasAgentsMd: true, hasCopilotInstructions: false, scannedAt: "2025-01-01T00:00:00Z" };
+  const mapped = mapRepo(
+    {
+      id: 3,
+      name: "repo",
+      full_name: "owner/repo",
+      html_url: "https://github.com/owner/repo",
+      description: null,
+      language: null,
+      topics: null,
+      homepage: "",
+      has_pages: false,
+      archived: false,
+      fork: false,
+      visibility: "public",
+      stargazers_count: 0,
+      watchers_count: 0,
+      open_issues_count: 0,
+      created_at: "2025-01-01T00:00:00Z",
+      updated_at: "2025-01-02T00:00:00Z",
+      pushed_at: "2025-01-03T00:00:00Z",
+      default_branch: "main"
+    },
+    null,
+    aiQuality
+  );
+  assert.deepEqual(mapped.aiQuality, aiQuality);
+});
+
+test("mapRepo aiQuality defaults to null when not provided", () => {
+  const mapped = mapRepo(
+    {
+      id: 4,
+      name: "repo2",
+      full_name: "owner/repo2",
+      html_url: "https://github.com/owner/repo2",
+      description: null,
+      language: null,
+      topics: null,
+      homepage: "",
+      has_pages: false,
+      archived: false,
+      fork: false,
+      visibility: "public",
+      stargazers_count: 0,
+      watchers_count: 0,
+      open_issues_count: 0,
+      created_at: "2025-01-01T00:00:00Z",
+      updated_at: "2025-01-02T00:00:00Z",
+      pushed_at: "2025-01-03T00:00:00Z",
+      default_branch: "main"
+    },
+    null
+  );
+  assert.equal(mapped.aiQuality, null);
+});
+
