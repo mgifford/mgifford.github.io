@@ -12,6 +12,7 @@ const els = {
   ownerAccess: document.querySelector("#owner-access"),
   ownerConnect: document.querySelector("#owner-connect"),
   ownerBadge: document.querySelector("#owner-badge"),
+  heroActions: document.querySelector(".hero__actions"),
   themeToggle: document.querySelector("#theme-toggle"),
   publicScopeWrap: document.querySelector("#public-scope-wrap"),
   publicScope: document.querySelector("#public-scope"),
@@ -103,7 +104,9 @@ function toggleTheme() {
 function renderOwnerBadge() {
   const active = isOwnerMode();
   els.ownerBadge.hidden = !active;
-  els.enableOwner.hidden = active;
+  els.heroActions.hidden = !active;
+  els.enableOwner.hidden = true;
+  els.clearOwner.hidden = !active;
 }
 
 function parseFiltersFromUrl() {
