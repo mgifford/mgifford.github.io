@@ -1,18 +1,18 @@
 # Repository Sync Report
 
-Generated: 2025-01-01T00:00:00Z
-Owner: testowner
+Generated: 2026-04-20T07:04:57.796Z
+Owner: mgifford
 
-- Previous repos: 2
-- Current repos: 3
+- Previous repos: 288
+- Current repos: 289
 - Added: 1
 - Deleted: 0
-- Newly archived: 1
+- Newly archived: 9
 - Unarchived: 0
 
 ## Added
 
-- testowner/new-repo
+- mgifford/awesome-copilot
 
 ## Deleted
 
@@ -20,7 +20,15 @@ Owner: testowner
 
 ## Newly archived
 
-- testowner/old-repo
+- mgifford/DomainAccessibilityAudit
+- mgifford/RespTechWork-website
+- mgifford/T-ENTacle
+- mgifford/ckeditor5
+- mgifford/cwac
+- mgifford/open-source-contribution-logiciel-libre
+- mgifford/primero
+- mgifford/wai-authoring-tools-list
+- mgifford/website
 
 ## Unarchived
 

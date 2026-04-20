@@ -1,37 +1,28 @@
 {
-  "generatedAt": "2026-04-13T07:03:32.789Z",
+  "generatedAt": "2026-04-20T07:04:57.796Z",
   "owner": "mgifford",
   "counts": {
     "previous": 288,
-    "current": 288,
-    "added": 0,
+    "current": 289,
+    "added": 1,
     "deleted": 0,
-    "archivedNow": 20,
+    "archivedNow": 9,
     "unarchivedNow": 0
   },
-  "added": [],
+  "added": [
+    "mgifford/awesome-copilot"
+  ],
   "deleted": [],
   "archivedNow": [
-    "mgifford/Elementary",
-    "mgifford/Government-of-Canada-Drupal",
-    "mgifford/a11y-ai-training",
-    "mgifford/a11y-data-keywords",
-    "mgifford/axe-core",
-    "mgifford/baselinealignment",
-    "mgifford/civictech.club",
-    "mgifford/ckan",
-    "mgifford/content-guide",
-    "mgifford/custom-metrics",
-    "mgifford/goteo",
-    "mgifford/helm-drupalwxt",
-    "mgifford/mongo",
-    "mgifford/oobee",
-    "mgifford/open-gsa-redesign",
-    "mgifford/project-open-data.github.io",
-    "mgifford/select2",
-    "mgifford/techfar-hub",
-    "mgifford/wai-eval-tools",
-    "mgifford/wai-website-data"
+    "mgifford/DomainAccessibilityAudit",
+    "mgifford/RespTechWork-website",
+    "mgifford/T-ENTacle",
+    "mgifford/ckeditor5",
+    "mgifford/cwac",
+    "mgifford/open-source-contribution-logiciel-libre",
+    "mgifford/primero",
+    "mgifford/wai-authoring-tools-list",
+    "mgifford/website"
   ],
   "unarchivedNow": []
 }
