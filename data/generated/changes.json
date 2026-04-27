@@ -1,28 +1,22 @@
 {
-  "generatedAt": "2026-04-20T07:04:57.796Z",
+  "generatedAt": "2026-04-27T07:12:38.800Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 288,
-    "current": 289,
-    "added": 1,
+    "previous": 289,
+    "current": 294,
+    "added": 5,
     "deleted": 0,
-    "archivedNow": 9,
+    "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/awesome-copilot"
+    "mgifford/accessibility-tools",
+    "mgifford/dot-gov-scans",
+    "mgifford/edu-scans",
+    "mgifford/inclusive-design-personas",
+    "mgifford/rockstar"
   ],
   "deleted": [],
-  "archivedNow": [
-    "mgifford/DomainAccessibilityAudit",
-    "mgifford/RespTechWork-website",
-    "mgifford/T-ENTacle",
-    "mgifford/ckeditor5",
-    "mgifford/cwac",
-    "mgifford/open-source-contribution-logiciel-libre",
-    "mgifford/primero",
-    "mgifford/wai-authoring-tools-list",
-    "mgifford/website"
-  ],
+  "archivedNow": [],
   "unarchivedNow": []
 }

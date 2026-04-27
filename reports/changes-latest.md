@@ -1,18 +1,22 @@
 # Repository Sync Report
 
-Generated: 2026-04-20T07:04:57.796Z
+Generated: 2026-04-27T07:12:38.800Z
 Owner: mgifford
 
-- Previous repos: 288
-- Current repos: 289
-- Added: 1
+- Previous repos: 289
+- Current repos: 294
+- Added: 5
 - Deleted: 0
-- Newly archived: 9
+- Newly archived: 0
 - Unarchived: 0
 
 ## Added
 
-- mgifford/awesome-copilot
+- mgifford/accessibility-tools
+- mgifford/dot-gov-scans
+- mgifford/edu-scans
+- mgifford/inclusive-design-personas
+- mgifford/rockstar
 
 ## Deleted
 
@@ -20,15 +24,7 @@ Owner: mgifford
 
 ## Newly archived
 
-- mgifford/DomainAccessibilityAudit
-- mgifford/RespTechWork-website
-- mgifford/T-ENTacle
-- mgifford/ckeditor5
-- mgifford/cwac
-- mgifford/open-source-contribution-logiciel-libre
-- mgifford/primero
-- mgifford/wai-authoring-tools-list
-- mgifford/website
+- None
 
 ## Unarchived
 
