@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-04-27T07:12:38.800Z",
+  "generatedAt": "2026-05-04T07:20:48.632Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 289,
-    "current": 294,
-    "added": 5,
+    "previous": 294,
+    "current": 297,
+    "added": 3,
     "deleted": 0,
-    "archivedNow": 0,
+    "archivedNow": 1,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/accessibility-tools",
-    "mgifford/dot-gov-scans",
-    "mgifford/edu-scans",
-    "mgifford/inclusive-design-personas",
-    "mgifford/rockstar"
+    "mgifford/codenames-game",
+    "mgifford/cribbage-grid",
+    "mgifford/keyboard-vibes"
   ],
   "deleted": [],
-  "archivedNow": [],
+  "archivedNow": [
+    "mgifford/lightcrawler"
+  ],
   "unarchivedNow": []
 }

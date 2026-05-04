@@ -1,22 +1,20 @@
 # Repository Sync Report
 
-Generated: 2026-04-27T07:12:38.800Z
+Generated: 2026-05-04T07:20:48.632Z
 Owner: mgifford
 
-- Previous repos: 289
-- Current repos: 294
-- Added: 5
+- Previous repos: 294
+- Current repos: 297
+- Added: 3
 - Deleted: 0
-- Newly archived: 0
+- Newly archived: 1
 - Unarchived: 0
 
 ## Added
 
-- mgifford/accessibility-tools
-- mgifford/dot-gov-scans
-- mgifford/edu-scans
-- mgifford/inclusive-design-personas
-- mgifford/rockstar
+- mgifford/codenames-game
+- mgifford/cribbage-grid
+- mgifford/keyboard-vibes
 
 ## Deleted
 
@@ -24,7 +22,7 @@ Owner: mgifford
 
 ## Newly archived
 
-- None
+- mgifford/lightcrawler
 
 ## Unarchived
 
