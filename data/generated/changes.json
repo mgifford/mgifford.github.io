@@ -1,22 +1,20 @@
 {
-  "generatedAt": "2026-05-04T07:20:48.632Z",
+  "generatedAt": "2026-05-11T07:34:23.583Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 294,
-    "current": 297,
-    "added": 3,
+    "previous": 297,
+    "current": 298,
+    "added": 1,
     "deleted": 0,
     "archivedNow": 1,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/codenames-game",
-    "mgifford/cribbage-grid",
-    "mgifford/keyboard-vibes"
+    "mgifford/drupal-cms"
   ],
   "deleted": [],
   "archivedNow": [
-    "mgifford/lightcrawler"
+    "mgifford/devops-base"
   ],
   "unarchivedNow": []
 }
