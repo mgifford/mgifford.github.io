@@ -1,22 +1,16 @@
 {
-  "generatedAt": "2026-05-18T02:16:59.226Z",
+  "generatedAt": "2026-05-18T07:45:05.131Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 298,
+    "previous": 300,
     "current": 300,
-    "added": 2,
+    "added": 0,
     "deleted": 0,
-    "archivedNow": 2,
+    "archivedNow": 0,
     "unarchivedNow": 0
   },
-  "added": [
-    "mgifford/A11yFirst-CKEditor5-Plugin",
-    "mgifford/aedesproject-uif"
-  ],
+  "added": [],
   "deleted": [],
-  "archivedNow": [
-    "mgifford/badging",
-    "mgifford/rockstar"
-  ],
+  "archivedNow": [],
   "unarchivedNow": []
 }
