@@ -1,20 +1,22 @@
 {
-  "generatedAt": "2026-05-11T07:34:23.583Z",
+  "generatedAt": "2026-05-18T02:16:59.226Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 297,
-    "current": 298,
-    "added": 1,
+    "previous": 298,
+    "current": 300,
+    "added": 2,
     "deleted": 0,
-    "archivedNow": 1,
+    "archivedNow": 2,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/drupal-cms"
+    "mgifford/A11yFirst-CKEditor5-Plugin",
+    "mgifford/aedesproject-uif"
   ],
   "deleted": [],
   "archivedNow": [
-    "mgifford/devops-base"
+    "mgifford/badging",
+    "mgifford/rockstar"
   ],
   "unarchivedNow": []
 }
