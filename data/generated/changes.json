@@ -1,16 +1,23 @@
 {
-  "generatedAt": "2026-05-18T07:45:05.131Z",
+  "generatedAt": "2026-05-25T07:55:22.899Z",
   "owner": "mgifford",
   "counts": {
     "previous": 300,
-    "current": 300,
-    "added": 0,
+    "current": 301,
+    "added": 1,
     "deleted": 0,
-    "archivedNow": 0,
+    "archivedNow": 4,
     "unarchivedNow": 0
   },
-  "added": [],
+  "added": [
+    "mgifford/dpg-dpi-govstack-map"
+  ],
   "deleted": [],
-  "archivedNow": [],
+  "archivedNow": [
+    "mgifford/connect",
+    "mgifford/crawl-and-download",
+    "mgifford/crest",
+    "mgifford/govuk-accessibility-reports"
+  ],
   "unarchivedNow": []
 }

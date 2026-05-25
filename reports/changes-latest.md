@@ -1,18 +1,18 @@
 # Repository Sync Report
 
-Generated: 2026-05-18T07:45:05.131Z
+Generated: 2026-05-25T07:55:22.899Z
 Owner: mgifford
 
 - Previous repos: 300
-- Current repos: 300
-- Added: 0
+- Current repos: 301
+- Added: 1
 - Deleted: 0
-- Newly archived: 0
+- Newly archived: 4
 - Unarchived: 0
 
 ## Added
 
-- None
+- mgifford/dpg-dpi-govstack-map
 
 ## Deleted
 
@@ -20,7 +20,10 @@ Owner: mgifford
 
 ## Newly archived
 
-- None
+- mgifford/connect
+- mgifford/crawl-and-download
+- mgifford/crest
+- mgifford/govuk-accessibility-reports
 
 ## Unarchived
 
