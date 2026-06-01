@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T08:13:44.292Z",
+  "generatedAt": "2026-06-01T09:21:31.562Z",
   "sourceGeneratedAt": "2026-06-01T08:12:33.060Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -29,7 +29,7 @@
   "freshness": {
     "repoSnapshotGeneratedAt": "2026-06-01T08:12:33.060Z",
     "changesGeneratedAt": "2026-06-01T08:12:33.060Z",
-    "screenshotsGeneratedAt": "2026-06-01T08:13:44.128Z",
+    "screenshotsGeneratedAt": "2026-06-01T09:21:31.387Z",
     "repoCountDelta": 4
   },
   "changes": {
@@ -4437,7 +4437,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-01T08:12:33.060Z"
       },
-      "screenshot": "src/assets/screenshots/markdown-slides-editor.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4725,7 +4725,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-01T08:12:33.060Z"
       },
-      "screenshot": "src/assets/screenshots/daily-cap.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
