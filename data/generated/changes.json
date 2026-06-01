@@ -1,23 +1,30 @@
 {
-  "generatedAt": "2026-05-25T07:55:22.899Z",
+  "generatedAt": "2026-06-01T08:12:33.060Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 300,
-    "current": 301,
-    "added": 1,
+    "previous": 301,
+    "current": 305,
+    "added": 4,
     "deleted": 0,
-    "archivedNow": 4,
+    "archivedNow": 8,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/dpg-dpi-govstack-map"
+    "mgifford/OSW_plus",
+    "mgifford/contractwatch",
+    "mgifford/drupal-diff",
+    "mgifford/vital-core"
   ],
   "deleted": [],
   "archivedNow": [
-    "mgifford/connect",
-    "mgifford/crawl-and-download",
-    "mgifford/crest",
-    "mgifford/govuk-accessibility-reports"
+    "mgifford/a11y",
+    "mgifford/accessibility-handbook",
+    "mgifford/astro",
+    "mgifford/filescan",
+    "mgifford/filescan-server",
+    "mgifford/gc-digital-talent",
+    "mgifford/pdfwam",
+    "mgifford/wet-boew"
   ],
   "unarchivedNow": []
 }
