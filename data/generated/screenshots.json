@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-01T09:21:31.387Z",
+  "generatedAt": "2026-06-08T08:07:43.033Z",
   "mode": "changed-only",
-  "maxCaptures": 40,
+  "maxCaptures": 20,
   "captures": [
     {
       "repo": "open-source-contracting",
@@ -14,32 +14,12 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "ACCESSIBILITY.md",
-      "url": "https://mgifford.github.io/ACCESSIBILITY.md",
-      "path": "src/assets/screenshots/ACCESSIBILITY.md.png",
-      "ok": true,
-      "repoPushedAt": "2026-06-01T00:32:18Z",
-      "capturedAt": "2026-06-01T08:13:16.954Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
       "repo": "a11y-contracting",
       "url": "https://mgifford.github.io/a11y-contracting/",
       "path": "src/assets/screenshots/a11y-contracting.png",
       "ok": true,
       "repoPushedAt": "2023-12-07T16:27:47Z",
       "capturedAt": "2026-04-02T14:00:19.643Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "contrast-plus",
-      "url": "https://mgifford.github.io/contrast-plus/",
-      "path": "src/assets/screenshots/contrast-plus.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-18T19:06:49Z",
-      "capturedAt": "2026-05-25T07:56:01.211Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -64,66 +44,6 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "open-scans",
-      "url": "https://mgifford.github.io/open-scans",
-      "path": "src/assets/screenshots/open-scans.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-28T16:58:31Z",
-      "capturedAt": "2026-06-01T08:13:18.141Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "pdf-crawler",
-      "url": "https://mgifford.github.io/pdf-crawler/",
-      "path": "src/assets/screenshots/pdf-crawler.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-23T07:17:19Z",
-      "capturedAt": "2026-05-25T07:56:01.675Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "wcag-spine",
-      "url": "https://mgifford.github.io/wcag-spine/",
-      "path": "src/assets/screenshots/wcag-spine.png",
-      "ok": true,
-      "repoPushedAt": "2026-06-01T03:11:36Z",
-      "capturedAt": "2026-06-01T08:13:18.473Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "top-task-finder",
-      "url": "https://mgifford.github.io/top-task-finder/",
-      "path": "src/assets/screenshots/top-task-finder.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-26T10:03:14Z",
-      "capturedAt": "2026-06-01T08:13:18.918Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "o-hat-scanner",
-      "url": "https://mgifford.github.io/o-hat-scanner/",
-      "path": "src/assets/screenshots/o-hat-scanner.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-23T19:27:27Z",
-      "capturedAt": "2026-05-25T07:56:02.103Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "sam_gov_md",
-      "url": "https://mgifford.github.io/sam_gov_md/",
-      "path": "src/assets/screenshots/sam_gov_md.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-31T14:25:56Z",
-      "capturedAt": "2026-06-01T08:13:19.241Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
       "repo": "accessible-buildings",
       "url": "https://mgifford.github.io/accessible-buildings/",
       "path": "src/assets/screenshots/accessible-buildings.png",
@@ -140,16 +60,6 @@
       "ok": true,
       "repoPushedAt": "2026-04-10T12:34:13Z",
       "capturedAt": "2026-04-13T07:04:20.178Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "a11y-maps",
-      "url": "https://mgifford.github.io/a11y-maps/",
-      "path": "src/assets/screenshots/a11y-maps.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-24T06:16:19Z",
-      "capturedAt": "2026-05-25T07:56:02.536Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -190,16 +100,6 @@
       "ok": true,
       "repoPushedAt": "2026-04-03T12:24:54Z",
       "capturedAt": "2026-04-06T06:56:59.777Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "daily-dap",
-      "url": "https://mgifford.github.io/daily-dap/",
-      "path": "src/assets/screenshots/daily-dap.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-31T10:37:52Z",
-      "capturedAt": "2026-06-01T08:13:19.614Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -354,32 +254,144 @@
       "skipReason": "Unchanged since last capture"
     },
     {
+      "repo": "OSW_plus",
+      "url": "https://mgifford.github.io/OSW_plus/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-29T01:13:09Z",
+      "capturedAt": "2026-06-01T09:21:26.690Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/OSW_plus/\" is interrupted by another navigation to \"https://mgifford.github.io/drupal-diff/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/OSW_plus/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "drupal-diff",
+      "url": "https://mgifford.github.io/drupal-diff/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-29T11:02:08Z",
+      "capturedAt": "2026-06-01T09:21:26.597Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/drupal-diff/\" is interrupted by another navigation to \"https://mgifford.github.io/eu-plus-government-scans/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/drupal-diff/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "eu-plus-government-scans",
+      "url": "https://mgifford.github.io/eu-plus-government-scans/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-06-01T07:52:05Z",
+      "capturedAt": "2026-06-01T09:21:26.502Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/eu-plus-government-scans/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/eu-plus-government-scans/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "daily-cap",
+      "url": "https://mgifford.github.io/daily-cap/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-26T23:30:21Z",
+      "capturedAt": "2026-06-01T09:21:27.402Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/daily-cap/\" is interrupted by another navigation to \"https://mgifford.github.io/accessibility-tools/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/daily-cap/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "aedesproject-uif",
+      "url": "https://mgifford.github.io/aedesproject-uif/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-06-01T07:37:19Z",
+      "capturedAt": "2026-06-01T09:21:28.074Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/aedesproject-uif/\" is interrupted by another navigation to \"https://cds-accessibility-handbook.herokuapp.com/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/aedesproject-uif/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "o-hat-standalone",
+      "url": "https://mgifford.github.io/o-hat-standalone/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-04-21T17:39:51Z",
+      "capturedAt": "2026-06-01T09:21:31.265Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/o-hat-standalone/\" is interrupted by another navigation to \"https://mgifford.github.io/TraceA11y/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/o-hat-standalone/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "a11y-mermaid-studio",
+      "url": "https://mgifford.github.io/a11y-mermaid-studio/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-04-17T03:14:23Z",
+      "capturedAt": "2026-05-01T08:19:14.772Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/a11y-mermaid-studio/\" is interrupted by another navigation to \"https://mgifford.github.io/ui-palette-generator/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/a11y-mermaid-studio/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "uswds",
+      "url": "https://mgifford.github.io/uswds/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-27T18:51:53Z",
+      "capturedAt": "2026-06-01T09:21:27.228Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/uswds/\" is interrupted by another navigation to \"https://contractwatch.org/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/uswds/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "DigitalPolicies",
+      "url": "https://mgifford.github.io/DigitalPolicies/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-25T12:45:45Z",
+      "capturedAt": "2026-06-01T09:21:28.161Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/DigitalPolicies/\" is interrupted by another navigation to \"https://mgifford.github.io/aedesproject-uif/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/DigitalPolicies/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "ParaCharts",
+      "url": "https://mgifford.github.io/ParaCharts/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-01T09:54:27Z",
+      "capturedAt": "2026-06-01T09:21:30.805Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/ParaCharts/\" is interrupted by another navigation to \"https://mgifford.github.io/EchoLocate/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/ParaCharts/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "mgifford.github.io",
+      "url": "http://mgifford.github.io/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-25T07:56:25Z",
+      "capturedAt": "2026-06-01T09:21:28.380Z",
+      "error": "page.goto: Navigation to \"http://mgifford.github.io/\" is interrupted by another navigation to \"https://mgifford.github.io/gh-open-dash/\"\nCall log:\n  - navigating to \"http://mgifford.github.io/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "gh-open-dash",
+      "url": "https://mgifford.github.io/gh-open-dash/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-25T09:30:45Z",
+      "capturedAt": "2026-06-01T09:21:28.235Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/gh-open-dash/\" is interrupted by another navigation to \"https://mgifford.github.io/DigitalPolicies/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/gh-open-dash/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
       "repo": "SUSTAINABILITY.md",
       "url": "https://mgifford.github.io/SUSTAINABILITY.md",
       "path": "src/assets/screenshots/SUSTAINABILITY.md.png",
       "ok": true,
       "repoPushedAt": "2026-06-01T07:37:55Z",
       "capturedAt": "2026-06-01T08:13:41.551Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "dot-gov-scans",
-      "url": "https://mgifford.github.io/dot-gov-scans/",
-      "path": "src/assets/screenshots/dot-gov-scans.png",
-      "ok": true,
-      "repoPushedAt": "2026-06-01T07:23:38Z",
-      "capturedAt": "2026-06-01T08:13:41.970Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "edu-scans",
-      "url": "https://mgifford.github.io/edu-scans/",
-      "path": "src/assets/screenshots/edu-scans.png",
-      "ok": true,
-      "repoPushedAt": "2026-06-01T06:55:23Z",
-      "capturedAt": "2026-06-01T08:13:42.358Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -394,53 +406,288 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "vital-core",
-      "url": "https://mgifford.github.io/vital-core/",
-      "path": "src/assets/screenshots/vital-core.png",
-      "ok": true,
-      "repoPushedAt": "2026-06-01T01:51:20Z",
-      "capturedAt": "2026-06-01T08:13:43.055Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "daily-hhs",
-      "url": "https://mgifford.github.io/daily-hhs/",
-      "path": "src/assets/screenshots/daily-hhs.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-31T10:23:30Z",
-      "capturedAt": "2026-06-01T08:13:43.398Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "daily-nsf",
-      "url": "https://mgifford.github.io/daily-nsf/",
-      "path": "src/assets/screenshots/daily-nsf.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-31T10:06:04Z",
-      "capturedAt": "2026-06-01T08:13:43.730Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "drupal-open-dash",
-      "url": "https://mgifford.github.io/drupal-open-dash/",
-      "path": "src/assets/screenshots/drupal-open-dash.png",
-      "ok": true,
-      "repoPushedAt": "2026-05-31T00:35:06Z",
-      "capturedAt": "2026-06-01T08:13:44.099Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "a11y-mermaid-studio",
-      "url": "https://mgifford.github.io/a11y-mermaid-studio/",
+      "repo": "markdown-slides-editor",
+      "url": "https://mgifford.github.io/markdown-slides-editor/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-04-17T03:14:23Z",
-      "capturedAt": "2026-05-01T08:19:14.772Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/a11y-mermaid-studio/\" is interrupted by another navigation to \"https://mgifford.github.io/ui-palette-generator/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/a11y-mermaid-studio/\", waiting until \"domcontentloaded\"\n",
+      "repoPushedAt": "2026-05-28T17:23:41Z",
+      "capturedAt": "2026-06-01T09:21:26.784Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/markdown-slides-editor/\" is interrupted by another navigation to \"https://mgifford.github.io/OSW_plus/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/markdown-slides-editor/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "drupal-core",
+      "url": "https://mgifford.github.io/drupal-core/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-28T16:58:19Z",
+      "capturedAt": "2026-06-01T09:21:26.879Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/drupal-core/\" is interrupted by another navigation to \"https://mgifford.github.io/markdown-slides-editor/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/drupal-core/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "alt-text-scan",
+      "url": "https://mgifford.github.io/alt-text-scan/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-28T17:03:13Z",
+      "capturedAt": "2026-06-01T09:21:26.974Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/alt-text-scan/\" is interrupted by another navigation to \"https://mgifford.github.io/drupal-core/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/alt-text-scan/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "contractwatch",
+      "url": "https://contractwatch.org",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-28T11:25:30Z",
+      "capturedAt": "2026-06-01T09:21:27.136Z",
+      "error": "page.goto: Navigation to \"https://contractwatch.org/\" is interrupted by another navigation to \"https://mgifford.github.io/alt-text-scan/\"\nCall log:\n  - navigating to \"https://contractwatch.org/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "accessibility-tools",
+      "url": "https://mgifford.github.io/accessibility-tools/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-27T13:48:09Z",
+      "capturedAt": "2026-06-01T09:21:27.313Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/accessibility-tools/\" is interrupted by another navigation to \"https://mgifford.github.io/uswds/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/accessibility-tools/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "astro",
+      "url": "https://astro.build",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-26T20:11:53Z",
+      "capturedAt": "2026-06-01T09:21:27.574Z",
+      "error": "page.goto: Navigation to \"https://astro.build/\" is interrupted by another navigation to \"https://mgifford.github.io/daily-cap/\"\nCall log:\n  - navigating to \"https://astro.build/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "ox.ca",
+      "url": "https://ox.ca",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-26T13:03:47Z",
+      "capturedAt": "2026-06-01T09:21:27.764Z",
+      "error": "page.goto: Navigation to \"https://ox.ca/\" is interrupted by another navigation to \"https://astro.build/\"\nCall log:\n  - navigating to \"https://ox.ca/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "accessibility-handbook",
+      "url": "https://cds-accessibility-handbook.herokuapp.com/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-25T17:24:26Z",
+      "capturedAt": "2026-06-01T09:21:27.985Z",
+      "error": "page.goto: Navigation to \"https://cds-accessibility-handbook.herokuapp.com/\" is interrupted by another navigation to \"https://ox.ca/\"\nCall log:\n  - navigating to \"https://cds-accessibility-handbook.herokuapp.com/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "openapi-reference",
+      "url": "https://mgifford.github.io/openapi-reference/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-23T22:03:51Z",
+      "capturedAt": "2026-06-01T09:21:28.470Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/openapi-reference/\" is interrupted by another navigation to \"http://mgifford.github.io/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/openapi-reference/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "connect",
+      "url": "https://ofa.github.io/connect/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-07T02:28:22Z",
+      "capturedAt": "2026-06-01T09:21:28.585Z",
+      "error": "page.goto: Navigation to \"https://ofa.github.io/connect/\" is interrupted by another navigation to \"https://mgifford.github.io/openapi-reference/\"\nCall log:\n  - navigating to \"https://ofa.github.io/connect/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "badging",
+      "url": "https://badging.chaoss.community",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-17T21:31:29Z",
+      "capturedAt": "2026-06-01T09:21:28.821Z",
+      "error": "page.goto: Navigation to \"https://badging.chaoss.community/\" is interrupted by another navigation to \"https://ofa.github.io/connect/\"\nCall log:\n  - navigating to \"https://badging.chaoss.community/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "open-susty-scans",
+      "url": "https://mgifford.github.io/open-susty-scans/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-13T20:44:13Z",
+      "capturedAt": "2026-06-01T09:21:28.949Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/open-susty-scans/\" is interrupted by another navigation to \"https://badging.chaoss.community/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/open-susty-scans/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "CKEditor5-A11yFirst",
+      "url": "https://mgifford.github.io/CKEditor5-A11yFirst/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-13T15:10:26Z",
+      "capturedAt": "2026-06-01T09:21:29.031Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/CKEditor5-A11yFirst/\" is interrupted by another navigation to \"https://mgifford.github.io/open-susty-scans/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/CKEditor5-A11yFirst/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "w3c-a11y-maturity-model",
+      "url": "https://mgifford.github.io/w3c-a11y-maturity-model/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-20T09:33:57Z",
+      "capturedAt": "2026-06-01T09:21:29.130Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/w3c-a11y-maturity-model/\" is interrupted by another navigation to \"https://mgifford.github.io/CKEditor5-A11yFirst/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/w3c-a11y-maturity-model/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "ai-browser-test",
+      "url": "https://mgifford.github.io/ai-browser-test/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-13T11:52:46Z",
+      "capturedAt": "2026-06-01T09:21:29.232Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/ai-browser-test/\" is interrupted by another navigation to \"https://mgifford.github.io/w3c-a11y-maturity-model/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/ai-browser-test/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "rockstar",
+      "url": "https://mgifford.github.io/rockstar/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-13T03:24:36Z",
+      "capturedAt": "2026-06-01T09:21:29.323Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/rockstar/\" is interrupted by another navigation to \"https://mgifford.github.io/ai-browser-test/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/rockstar/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "octicons",
+      "url": "https://primer.style/octicons/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-07T02:26:40Z",
+      "capturedAt": "2026-06-01T09:21:30.247Z",
+      "error": "page.goto: Navigation to \"https://primer.style/octicons/\" is interrupted by another navigation to \"https://mgifford.github.io/rockstar/\"\nCall log:\n  - navigating to \"https://primer.style/octicons/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "AirScript",
+      "url": "https://mgifford.github.io/AirScript/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-07T02:24:07Z",
+      "capturedAt": "2026-06-01T09:21:30.341Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/AirScript/\" is interrupted by another navigation to \"https://primer.style/octicons/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/AirScript/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "cribbage-grid",
+      "url": "https://mgifford.github.io/cribbage-grid/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-06T01:42:10Z",
+      "capturedAt": "2026-06-01T09:21:30.449Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/cribbage-grid/\" is interrupted by another navigation to \"https://mgifford.github.io/AirScript/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/cribbage-grid/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "codenames-game",
+      "url": "https://mgifford.github.io/codenames-game/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-05T23:38:02Z",
+      "capturedAt": "2026-06-01T09:21:30.527Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/codenames-game/\" is interrupted by another navigation to \"https://mgifford.github.io/cribbage-grid/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/codenames-game/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "OpenWealth",
+      "url": "https://mgifford.github.io/OpenWealth/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-09T02:19:55Z",
+      "capturedAt": "2026-06-01T09:21:30.618Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/OpenWealth/\" is interrupted by another navigation to \"https://mgifford.github.io/codenames-game/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/OpenWealth/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "EchoLocate",
+      "url": "https://mgifford.github.io/EchoLocate/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-02T20:00:15Z",
+      "capturedAt": "2026-06-01T09:21:30.704Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/EchoLocate/\" is interrupted by another navigation to \"https://mgifford.github.io/OpenWealth/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/EchoLocate/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "tune-my-repos",
+      "url": "https://mgifford.github.io/tune-my-repos/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-05-01T00:56:47Z",
+      "capturedAt": "2026-06-01T09:21:30.917Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/tune-my-repos/\" is interrupted by another navigation to \"https://mgifford.github.io/ParaCharts/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/tune-my-repos/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "STYLES.md",
+      "url": "https://mgifford.github.io/STYLES.md",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-04-25T18:52:10Z",
+      "capturedAt": "2026-06-01T09:21:31.084Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/STYLES.md\" is interrupted by another navigation to \"https://mgifford.github.io/tune-my-repos/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/STYLES.md\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "TraceA11y",
+      "url": "https://mgifford.github.io/TraceA11y/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-04-25T02:03:41Z",
+      "capturedAt": "2026-06-01T09:21:31.175Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/TraceA11y/\" is interrupted by another navigation to \"https://mgifford.github.io/STYLES.md/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/TraceA11y/\", waiting until \"domcontentloaded\"\n",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "ui-palette-generator",
+      "url": "https://mgifford.github.io/ui-palette-generator/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-04-17T13:16:06Z",
+      "capturedAt": "2026-06-01T09:21:31.354Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/ui-palette-generator/\" is interrupted by another navigation to \"https://mgifford.github.io/o-hat-standalone/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/ui-palette-generator/\", waiting until \"domcontentloaded\"\n",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -665,12 +912,92 @@
       "skipReason": "Unchanged since last capture"
     },
     {
+      "repo": "ACCESSIBILITY.md",
+      "url": "https://mgifford.github.io/ACCESSIBILITY.md",
+      "path": "src/assets/screenshots/ACCESSIBILITY.md.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-01T21:04:47Z",
+      "capturedAt": "2026-06-08T08:07:20.668Z"
+    },
+    {
+      "repo": "contrast-plus",
+      "url": "https://mgifford.github.io/contrast-plus/",
+      "path": "src/assets/screenshots/contrast-plus.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-01T19:20:50Z",
+      "capturedAt": "2026-06-08T08:07:20.953Z"
+    },
+    {
+      "repo": "open-scans",
+      "url": "https://mgifford.github.io/open-scans",
+      "path": "src/assets/screenshots/open-scans.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-06T02:08:50Z",
+      "capturedAt": "2026-06-08T08:07:21.119Z"
+    },
+    {
+      "repo": "pdf-crawler",
+      "url": "https://mgifford.github.io/pdf-crawler/",
+      "path": "src/assets/screenshots/pdf-crawler.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-04T01:53:30Z",
+      "capturedAt": "2026-06-08T08:07:21.245Z"
+    },
+    {
+      "repo": "wcag-spine",
+      "url": "https://mgifford.github.io/wcag-spine/",
+      "path": "src/assets/screenshots/wcag-spine.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-08T03:11:36Z",
+      "capturedAt": "2026-06-08T08:07:21.496Z"
+    },
+    {
+      "repo": "top-task-finder",
+      "url": "https://mgifford.github.io/top-task-finder/",
+      "path": "src/assets/screenshots/top-task-finder.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-05T15:40:45Z",
+      "capturedAt": "2026-06-08T08:07:21.681Z"
+    },
+    {
+      "repo": "o-hat-scanner",
+      "url": "https://mgifford.github.io/o-hat-scanner/",
+      "path": "src/assets/screenshots/o-hat-scanner.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-01T14:42:21Z",
+      "capturedAt": "2026-06-08T08:07:21.857Z"
+    },
+    {
+      "repo": "sam_gov_md",
+      "url": "https://mgifford.github.io/sam_gov_md/",
+      "path": "src/assets/screenshots/sam_gov_md.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-01T14:40:09Z",
+      "capturedAt": "2026-06-08T08:07:21.987Z"
+    },
+    {
+      "repo": "a11y-maps",
+      "url": "https://mgifford.github.io/a11y-maps/",
+      "path": "src/assets/screenshots/a11y-maps.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-02T00:03:39Z",
+      "capturedAt": "2026-06-08T08:07:22.090Z"
+    },
+    {
+      "repo": "daily-dap",
+      "url": "https://mgifford.github.io/daily-dap/",
+      "path": "src/assets/screenshots/daily-dap.png",
+      "ok": true,
+      "repoPushedAt": "2026-06-07T10:42:07Z",
+      "capturedAt": "2026-06-08T08:07:22.311Z"
+    },
+    {
       "repo": "accessibility",
       "url": "https://pages.18f.gov/accessibility/",
       "path": "",
       "ok": false,
       "repoPushedAt": "2026-04-06T16:16:10Z",
-      "capturedAt": "2026-06-01T09:21:06.254Z",
+      "capturedAt": "2026-06-08T08:07:22.393Z",
       "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://pages.18f.gov/accessibility/\nCall log:\n  - navigating to \"https://pages.18f.gov/accessibility/\", waiting until \"domcontentloaded\"\n"
     },
     {
@@ -679,7 +1006,7 @@
       "path": "",
       "ok": false,
       "repoPushedAt": "2020-03-11T21:42:13Z",
-      "capturedAt": "2026-06-01T09:21:26.286Z",
+      "capturedAt": "2026-06-08T08:07:42.428Z",
       "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://a11y.reviews/\nCall log:\n  - navigating to \"https://a11y.reviews/\", waiting until \"domcontentloaded\"\n"
     },
     {
@@ -688,341 +1015,71 @@
       "path": "",
       "ok": false,
       "repoPushedAt": "2009-08-19T00:34:11Z",
-      "capturedAt": "2026-06-01T09:21:26.332Z",
+      "capturedAt": "2026-06-08T08:07:42.464Z",
       "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at http://clf.openconcept.ca/\nCall log:\n  - navigating to \"http://clf.openconcept.ca/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "eu-plus-government-scans",
-      "url": "https://mgifford.github.io/eu-plus-government-scans/",
+      "repo": "dot-gov-scans",
+      "url": "https://mgifford.github.io/dot-gov-scans/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-06-01T07:52:05Z",
-      "capturedAt": "2026-06-01T09:21:26.502Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/eu-plus-government-scans/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/eu-plus-government-scans/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-08T07:24:57Z",
+      "capturedAt": "2026-06-08T08:07:42.736Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/dot-gov-scans/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/dot-gov-scans/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "drupal-diff",
-      "url": "https://mgifford.github.io/drupal-diff/",
+      "repo": "edu-scans",
+      "url": "https://mgifford.github.io/edu-scans/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-05-29T11:02:08Z",
-      "capturedAt": "2026-06-01T09:21:26.597Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/drupal-diff/\" is interrupted by another navigation to \"https://mgifford.github.io/eu-plus-government-scans/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/drupal-diff/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-08T06:53:53Z",
+      "capturedAt": "2026-06-08T08:07:42.771Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/edu-scans/\" is interrupted by another navigation to \"https://mgifford.github.io/dot-gov-scans/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/edu-scans/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "OSW_plus",
-      "url": "https://mgifford.github.io/OSW_plus/",
+      "repo": "daily-hhs",
+      "url": "https://mgifford.github.io/daily-hhs/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-05-29T01:13:09Z",
-      "capturedAt": "2026-06-01T09:21:26.690Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/OSW_plus/\" is interrupted by another navigation to \"https://mgifford.github.io/drupal-diff/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/OSW_plus/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-07T10:12:55Z",
+      "capturedAt": "2026-06-08T08:07:42.805Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/daily-hhs/\" is interrupted by another navigation to \"https://mgifford.github.io/edu-scans/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/daily-hhs/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "markdown-slides-editor",
-      "url": "https://mgifford.github.io/markdown-slides-editor/",
+      "repo": "daily-nsf",
+      "url": "https://mgifford.github.io/daily-nsf/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-05-28T17:23:41Z",
-      "capturedAt": "2026-06-01T09:21:26.784Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/markdown-slides-editor/\" is interrupted by another navigation to \"https://mgifford.github.io/OSW_plus/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/markdown-slides-editor/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-07T10:11:57Z",
+      "capturedAt": "2026-06-08T08:07:42.911Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/daily-nsf/\" is interrupted by another navigation to \"https://mgifford.github.io/daily-hhs/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/daily-nsf/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "drupal-core",
-      "url": "https://mgifford.github.io/drupal-core/",
+      "repo": "drupal-open-dash",
+      "url": "https://mgifford.github.io/drupal-open-dash/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-05-28T16:58:19Z",
-      "capturedAt": "2026-06-01T09:21:26.879Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/drupal-core/\" is interrupted by another navigation to \"https://mgifford.github.io/markdown-slides-editor/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/drupal-core/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-07T00:36:52Z",
+      "capturedAt": "2026-06-08T08:07:42.949Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/drupal-open-dash/\" is interrupted by another navigation to \"https://mgifford.github.io/daily-nsf/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/drupal-open-dash/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "alt-text-scan",
-      "url": "https://mgifford.github.io/alt-text-scan/",
+      "repo": "susty-house",
+      "url": "https://mgifford.github.io/susty-house/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-05-28T17:03:13Z",
-      "capturedAt": "2026-06-01T09:21:26.974Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/alt-text-scan/\" is interrupted by another navigation to \"https://mgifford.github.io/drupal-core/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/alt-text-scan/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-06T15:49:48Z",
+      "capturedAt": "2026-06-08T08:07:42.983Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/susty-house/\" is interrupted by another navigation to \"https://mgifford.github.io/drupal-open-dash/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/susty-house/\", waiting until \"domcontentloaded\"\n"
     },
     {
-      "repo": "contractwatch",
-      "url": "https://contractwatch.org",
+      "repo": "vital-core",
+      "url": "https://mgifford.github.io/vital-core/",
       "path": "",
       "ok": false,
-      "repoPushedAt": "2026-05-28T11:25:30Z",
-      "capturedAt": "2026-06-01T09:21:27.136Z",
-      "error": "page.goto: Navigation to \"https://contractwatch.org/\" is interrupted by another navigation to \"https://mgifford.github.io/alt-text-scan/\"\nCall log:\n  - navigating to \"https://contractwatch.org/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "uswds",
-      "url": "https://mgifford.github.io/uswds/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-27T18:51:53Z",
-      "capturedAt": "2026-06-01T09:21:27.228Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/uswds/\" is interrupted by another navigation to \"https://contractwatch.org/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/uswds/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "accessibility-tools",
-      "url": "https://mgifford.github.io/accessibility-tools/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-27T13:48:09Z",
-      "capturedAt": "2026-06-01T09:21:27.313Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/accessibility-tools/\" is interrupted by another navigation to \"https://mgifford.github.io/uswds/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/accessibility-tools/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "daily-cap",
-      "url": "https://mgifford.github.io/daily-cap/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-26T23:30:21Z",
-      "capturedAt": "2026-06-01T09:21:27.402Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/daily-cap/\" is interrupted by another navigation to \"https://mgifford.github.io/accessibility-tools/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/daily-cap/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "astro",
-      "url": "https://astro.build",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-26T20:11:53Z",
-      "capturedAt": "2026-06-01T09:21:27.574Z",
-      "error": "page.goto: Navigation to \"https://astro.build/\" is interrupted by another navigation to \"https://mgifford.github.io/daily-cap/\"\nCall log:\n  - navigating to \"https://astro.build/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "ox.ca",
-      "url": "https://ox.ca",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-26T13:03:47Z",
-      "capturedAt": "2026-06-01T09:21:27.764Z",
-      "error": "page.goto: Navigation to \"https://ox.ca/\" is interrupted by another navigation to \"https://astro.build/\"\nCall log:\n  - navigating to \"https://ox.ca/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "accessibility-handbook",
-      "url": "https://cds-accessibility-handbook.herokuapp.com/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-25T17:24:26Z",
-      "capturedAt": "2026-06-01T09:21:27.985Z",
-      "error": "page.goto: Navigation to \"https://cds-accessibility-handbook.herokuapp.com/\" is interrupted by another navigation to \"https://ox.ca/\"\nCall log:\n  - navigating to \"https://cds-accessibility-handbook.herokuapp.com/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "aedesproject-uif",
-      "url": "https://mgifford.github.io/aedesproject-uif/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-06-01T07:37:19Z",
-      "capturedAt": "2026-06-01T09:21:28.074Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/aedesproject-uif/\" is interrupted by another navigation to \"https://cds-accessibility-handbook.herokuapp.com/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/aedesproject-uif/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "DigitalPolicies",
-      "url": "https://mgifford.github.io/DigitalPolicies/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-25T12:45:45Z",
-      "capturedAt": "2026-06-01T09:21:28.161Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/DigitalPolicies/\" is interrupted by another navigation to \"https://mgifford.github.io/aedesproject-uif/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/DigitalPolicies/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "gh-open-dash",
-      "url": "https://mgifford.github.io/gh-open-dash/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-25T09:30:45Z",
-      "capturedAt": "2026-06-01T09:21:28.235Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/gh-open-dash/\" is interrupted by another navigation to \"https://mgifford.github.io/DigitalPolicies/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/gh-open-dash/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "mgifford.github.io",
-      "url": "http://mgifford.github.io/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-25T07:56:25Z",
-      "capturedAt": "2026-06-01T09:21:28.380Z",
-      "error": "page.goto: Navigation to \"http://mgifford.github.io/\" is interrupted by another navigation to \"https://mgifford.github.io/gh-open-dash/\"\nCall log:\n  - navigating to \"http://mgifford.github.io/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "openapi-reference",
-      "url": "https://mgifford.github.io/openapi-reference/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-23T22:03:51Z",
-      "capturedAt": "2026-06-01T09:21:28.470Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/openapi-reference/\" is interrupted by another navigation to \"http://mgifford.github.io/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/openapi-reference/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "connect",
-      "url": "https://ofa.github.io/connect/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-07T02:28:22Z",
-      "capturedAt": "2026-06-01T09:21:28.585Z",
-      "error": "page.goto: Navigation to \"https://ofa.github.io/connect/\" is interrupted by another navigation to \"https://mgifford.github.io/openapi-reference/\"\nCall log:\n  - navigating to \"https://ofa.github.io/connect/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "badging",
-      "url": "https://badging.chaoss.community",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-17T21:31:29Z",
-      "capturedAt": "2026-06-01T09:21:28.821Z",
-      "error": "page.goto: Navigation to \"https://badging.chaoss.community/\" is interrupted by another navigation to \"https://ofa.github.io/connect/\"\nCall log:\n  - navigating to \"https://badging.chaoss.community/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "open-susty-scans",
-      "url": "https://mgifford.github.io/open-susty-scans/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-13T20:44:13Z",
-      "capturedAt": "2026-06-01T09:21:28.949Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/open-susty-scans/\" is interrupted by another navigation to \"https://badging.chaoss.community/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/open-susty-scans/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "CKEditor5-A11yFirst",
-      "url": "https://mgifford.github.io/CKEditor5-A11yFirst/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-13T15:10:26Z",
-      "capturedAt": "2026-06-01T09:21:29.031Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/CKEditor5-A11yFirst/\" is interrupted by another navigation to \"https://mgifford.github.io/open-susty-scans/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/CKEditor5-A11yFirst/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "w3c-a11y-maturity-model",
-      "url": "https://mgifford.github.io/w3c-a11y-maturity-model/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-20T09:33:57Z",
-      "capturedAt": "2026-06-01T09:21:29.130Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/w3c-a11y-maturity-model/\" is interrupted by another navigation to \"https://mgifford.github.io/CKEditor5-A11yFirst/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/w3c-a11y-maturity-model/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "ai-browser-test",
-      "url": "https://mgifford.github.io/ai-browser-test/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-13T11:52:46Z",
-      "capturedAt": "2026-06-01T09:21:29.232Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/ai-browser-test/\" is interrupted by another navigation to \"https://mgifford.github.io/w3c-a11y-maturity-model/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/ai-browser-test/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "rockstar",
-      "url": "https://mgifford.github.io/rockstar/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-13T03:24:36Z",
-      "capturedAt": "2026-06-01T09:21:29.323Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/rockstar/\" is interrupted by another navigation to \"https://mgifford.github.io/ai-browser-test/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/rockstar/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "octicons",
-      "url": "https://primer.style/octicons/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-07T02:26:40Z",
-      "capturedAt": "2026-06-01T09:21:30.247Z",
-      "error": "page.goto: Navigation to \"https://primer.style/octicons/\" is interrupted by another navigation to \"https://mgifford.github.io/rockstar/\"\nCall log:\n  - navigating to \"https://primer.style/octicons/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "AirScript",
-      "url": "https://mgifford.github.io/AirScript/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-07T02:24:07Z",
-      "capturedAt": "2026-06-01T09:21:30.341Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/AirScript/\" is interrupted by another navigation to \"https://primer.style/octicons/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/AirScript/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "cribbage-grid",
-      "url": "https://mgifford.github.io/cribbage-grid/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-06T01:42:10Z",
-      "capturedAt": "2026-06-01T09:21:30.449Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/cribbage-grid/\" is interrupted by another navigation to \"https://mgifford.github.io/AirScript/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/cribbage-grid/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "codenames-game",
-      "url": "https://mgifford.github.io/codenames-game/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-05T23:38:02Z",
-      "capturedAt": "2026-06-01T09:21:30.527Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/codenames-game/\" is interrupted by another navigation to \"https://mgifford.github.io/cribbage-grid/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/codenames-game/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "OpenWealth",
-      "url": "https://mgifford.github.io/OpenWealth/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-09T02:19:55Z",
-      "capturedAt": "2026-06-01T09:21:30.618Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/OpenWealth/\" is interrupted by another navigation to \"https://mgifford.github.io/codenames-game/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/OpenWealth/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "EchoLocate",
-      "url": "https://mgifford.github.io/EchoLocate/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-02T20:00:15Z",
-      "capturedAt": "2026-06-01T09:21:30.704Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/EchoLocate/\" is interrupted by another navigation to \"https://mgifford.github.io/OpenWealth/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/EchoLocate/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "ParaCharts",
-      "url": "https://mgifford.github.io/ParaCharts/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-01T09:54:27Z",
-      "capturedAt": "2026-06-01T09:21:30.805Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/ParaCharts/\" is interrupted by another navigation to \"https://mgifford.github.io/EchoLocate/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/ParaCharts/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "tune-my-repos",
-      "url": "https://mgifford.github.io/tune-my-repos/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-05-01T00:56:47Z",
-      "capturedAt": "2026-06-01T09:21:30.917Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/tune-my-repos/\" is interrupted by another navigation to \"https://mgifford.github.io/ParaCharts/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/tune-my-repos/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "STYLES.md",
-      "url": "https://mgifford.github.io/STYLES.md",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-04-25T18:52:10Z",
-      "capturedAt": "2026-06-01T09:21:31.084Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/STYLES.md\" is interrupted by another navigation to \"https://mgifford.github.io/tune-my-repos/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/STYLES.md\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "TraceA11y",
-      "url": "https://mgifford.github.io/TraceA11y/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-04-25T02:03:41Z",
-      "capturedAt": "2026-06-01T09:21:31.175Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/TraceA11y/\" is interrupted by another navigation to \"https://mgifford.github.io/STYLES.md/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/TraceA11y/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "o-hat-standalone",
-      "url": "https://mgifford.github.io/o-hat-standalone/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-04-21T17:39:51Z",
-      "capturedAt": "2026-06-01T09:21:31.265Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/o-hat-standalone/\" is interrupted by another navigation to \"https://mgifford.github.io/TraceA11y/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/o-hat-standalone/\", waiting until \"domcontentloaded\"\n"
-    },
-    {
-      "repo": "ui-palette-generator",
-      "url": "https://mgifford.github.io/ui-palette-generator/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-04-17T13:16:06Z",
-      "capturedAt": "2026-06-01T09:21:31.354Z",
-      "error": "page.goto: Navigation to \"https://mgifford.github.io/ui-palette-generator/\" is interrupted by another navigation to \"https://mgifford.github.io/o-hat-standalone/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/ui-palette-generator/\", waiting until \"domcontentloaded\"\n"
+      "repoPushedAt": "2026-06-06T12:28:08Z",
+      "capturedAt": "2026-06-08T08:07:43.005Z",
+      "error": "page.goto: Navigation to \"https://mgifford.github.io/vital-core/\" is interrupted by another navigation to \"https://mgifford.github.io/susty-house/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/vital-core/\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }

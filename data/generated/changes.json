@@ -1,30 +1,22 @@
 {
-  "generatedAt": "2026-06-01T08:12:33.060Z",
+  "generatedAt": "2026-06-08T08:06:32.632Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 301,
-    "current": 305,
-    "added": 4,
+    "previous": 305,
+    "current": 306,
+    "added": 1,
     "deleted": 0,
-    "archivedNow": 8,
+    "archivedNow": 3,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/OSW_plus",
-    "mgifford/contractwatch",
-    "mgifford/drupal-diff",
-    "mgifford/vital-core"
+    "mgifford/susty-house"
   ],
   "deleted": [],
   "archivedNow": [
-    "mgifford/a11y",
-    "mgifford/accessibility-handbook",
-    "mgifford/astro",
-    "mgifford/filescan",
-    "mgifford/filescan-server",
-    "mgifford/gc-digital-talent",
-    "mgifford/pdfwam",
-    "mgifford/wet-boew"
+    "mgifford/eu-plus-government-scans",
+    "mgifford/o-hat-scanner",
+    "mgifford/o-hat-standalone"
   ],
   "unarchivedNow": []
 }

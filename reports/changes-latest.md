@@ -1,21 +1,18 @@
 # Repository Sync Report
 
-Generated: 2026-06-01T08:12:33.060Z
+Generated: 2026-06-08T08:06:32.632Z
 Owner: mgifford
 
-- Previous repos: 301
-- Current repos: 305
-- Added: 4
+- Previous repos: 305
+- Current repos: 306
+- Added: 1
 - Deleted: 0
-- Newly archived: 8
+- Newly archived: 3
 - Unarchived: 0
 
 ## Added
 
-- mgifford/OSW_plus
-- mgifford/contractwatch
-- mgifford/drupal-diff
-- mgifford/vital-core
+- mgifford/susty-house
 
 ## Deleted
 
@@ -23,14 +20,9 @@ Owner: mgifford
 
 ## Newly archived
 
-- mgifford/a11y
-- mgifford/accessibility-handbook
-- mgifford/astro
-- mgifford/filescan
-- mgifford/filescan-server
-- mgifford/gc-digital-talent
-- mgifford/pdfwam
-- mgifford/wet-boew
+- mgifford/eu-plus-government-scans
+- mgifford/o-hat-scanner
+- mgifford/o-hat-standalone
 
 ## Unarchived
 
