@@ -1,18 +1,20 @@
 # Repository Sync Report
 
-Generated: 2026-06-08T08:06:32.632Z
+Generated: 2026-06-15T08:29:52.766Z
 Owner: mgifford
 
-- Previous repos: 305
-- Current repos: 306
-- Added: 1
+- Previous repos: 306
+- Current repos: 309
+- Added: 3
 - Deleted: 0
-- Newly archived: 3
+- Newly archived: 1
 - Unarchived: 0
 
 ## Added
 
-- mgifford/susty-house
+- mgifford/awesome-webmcp
+- mgifford/neighbourhood-solar
+- mgifford/wsg-webmcp-experiment
 
 ## Deleted
 
@@ -20,9 +22,7 @@ Owner: mgifford
 
 ## Newly archived
 
-- mgifford/eu-plus-government-scans
-- mgifford/o-hat-scanner
-- mgifford/o-hat-standalone
+- mgifford/TheA11yMachine
 
 ## Unarchived
 
