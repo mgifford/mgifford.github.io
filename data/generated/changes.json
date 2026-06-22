@@ -1,22 +1,16 @@
 {
-  "generatedAt": "2026-06-15T08:29:52.766Z",
+  "generatedAt": "2026-06-22T08:28:50.937Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 306,
+    "previous": 309,
     "current": 309,
-    "added": 3,
+    "added": 0,
     "deleted": 0,
-    "archivedNow": 1,
+    "archivedNow": 0,
     "unarchivedNow": 0
   },
-  "added": [
-    "mgifford/awesome-webmcp",
-    "mgifford/neighbourhood-solar",
-    "mgifford/wsg-webmcp-experiment"
-  ],
+  "added": [],
   "deleted": [],
-  "archivedNow": [
-    "mgifford/TheA11yMachine"
-  ],
+  "archivedNow": [],
   "unarchivedNow": []
 }

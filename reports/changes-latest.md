@@ -1,20 +1,18 @@
 # Repository Sync Report
 
-Generated: 2026-06-15T08:29:52.766Z
+Generated: 2026-06-22T08:28:50.937Z
 Owner: mgifford
 
-- Previous repos: 306
+- Previous repos: 309
 - Current repos: 309
-- Added: 3
+- Added: 0
 - Deleted: 0
-- Newly archived: 1
+- Newly archived: 0
 - Unarchived: 0
 
 ## Added
 
-- mgifford/awesome-webmcp
-- mgifford/neighbourhood-solar
-- mgifford/wsg-webmcp-experiment
+- None
 
 ## Deleted
 
@@ -22,7 +20,7 @@ Owner: mgifford
 
 ## Newly archived
 
-- mgifford/TheA11yMachine
+- None
 
 ## Unarchived
 
