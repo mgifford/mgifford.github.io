@@ -20,7 +20,7 @@
     "node": ">=22"
   },
   "dependencies": {
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.2.0"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.11.1",
