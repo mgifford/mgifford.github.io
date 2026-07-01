@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T08:09:07.354Z",
+  "generatedAt": "2026-07-01T08:50:05.708Z",
   "sourceGeneratedAt": "2026-06-29T08:07:57.291Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -29,7 +29,7 @@
   "freshness": {
     "repoSnapshotGeneratedAt": "2026-06-29T08:07:57.291Z",
     "changesGeneratedAt": "2026-06-29T08:07:57.291Z",
-    "screenshotsGeneratedAt": "2026-06-29T08:09:07.185Z",
+    "screenshotsGeneratedAt": "2026-07-01T08:50:05.512Z",
     "repoCountDelta": 0
   },
   "changes": {
@@ -4138,7 +4138,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/edu-scans.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4184,7 +4184,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-hhs.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4230,7 +4230,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-nsf.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4278,7 +4278,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/drupal-open-dash.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4324,7 +4324,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/dot-gov-scans.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4377,7 +4377,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-cap.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4423,7 +4423,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/contractwatch.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4472,7 +4472,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/openapi-reference.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4523,7 +4523,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/gh-open-dash.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4571,7 +4571,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/aedesproject-uif.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4617,7 +4617,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/mgifford.github.io.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4666,7 +4666,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ox.ca.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4764,7 +4764,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/a11y-mermaid-studio.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4810,7 +4810,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/government.github.com.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4856,7 +4856,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/opendesign.guide.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4902,7 +4902,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/TheA11yMachine.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4996,7 +4996,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/susty-house.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5048,7 +5048,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/open-site-review.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5096,7 +5096,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/drupal-diff.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5146,7 +5146,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/eu-plus-government-scans.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5198,7 +5198,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/o-hat-standalone.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5244,7 +5244,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/uswds.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5293,7 +5293,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/DigitalPolicies.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5345,7 +5345,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ParaCharts.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5536,7 +5536,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/drupal-core.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5587,7 +5587,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/alt-text-scan.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5633,7 +5633,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/accessibility-tools.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5681,7 +5681,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/astro.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5821,7 +5821,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/accessibility-handbook.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6058,7 +6058,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/connect.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6290,7 +6290,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/badging.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6341,7 +6341,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/open-susty-scans.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6392,7 +6392,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/CKEditor5-A11yFirst.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6445,7 +6445,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/w3c-a11y-maturity-model.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6495,7 +6495,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-06-29T08:07:57.291Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ai-browser-test.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
