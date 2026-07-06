@@ -1,22 +1,25 @@
 # Repository Sync Report
 
-Generated: 2026-06-29T08:07:57.291Z
+Generated: 2026-07-06T07:52:19.523Z
 Owner: mgifford
 
 - Previous repos: 309
-- Current repos: 309
-- Added: 0
-- Deleted: 0
+- Current repos: 312
+- Added: 4
+- Deleted: 1
 - Newly archived: 0
-- Unarchived: 0
+- Unarchived: 1
 
 ## Added
 
-- None
+- mgifford/bellwether
+- mgifford/publiccode-editor
+- mgifford/un-web-tv-downloader
+- mgifford/unosw.plus
 
 ## Deleted
 
-- None
+- mgifford/OSW_plus
 
 ## Newly archived
 
@@ -24,4 +27,4 @@ Owner: mgifford
 
 ## Unarchived
 
-- None
+- mgifford/eu-plus-government-scans

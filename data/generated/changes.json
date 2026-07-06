@@ -1,16 +1,25 @@
 {
-  "generatedAt": "2026-06-29T08:07:57.291Z",
+  "generatedAt": "2026-07-06T07:52:19.523Z",
   "owner": "mgifford",
   "counts": {
     "previous": 309,
-    "current": 309,
-    "added": 0,
-    "deleted": 0,
+    "current": 312,
+    "added": 4,
+    "deleted": 1,
     "archivedNow": 0,
-    "unarchivedNow": 0
+    "unarchivedNow": 1
   },
-  "added": [],
-  "deleted": [],
+  "added": [
+    "mgifford/bellwether",
+    "mgifford/publiccode-editor",
+    "mgifford/un-web-tv-downloader",
+    "mgifford/unosw.plus"
+  ],
+  "deleted": [
+    "mgifford/OSW_plus"
+  ],
   "archivedNow": [],
-  "unarchivedNow": []
+  "unarchivedNow": [
+    "mgifford/eu-plus-government-scans"
+  ]
 }
