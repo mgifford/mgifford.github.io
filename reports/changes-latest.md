@@ -1,18 +1,19 @@
 # Repository Sync Report
 
-Generated: 2026-07-13T07:25:12.971Z
+Generated: 2026-07-20T07:22:18.949Z
 Owner: mgifford
 
 - Previous repos: 312
-- Current repos: 312
-- Added: 0
+- Current repos: 314
+- Added: 2
 - Deleted: 0
-- Newly archived: 0
+- Newly archived: 4
 - Unarchived: 0
 
 ## Added
 
-- None
+- mgifford/generated_content_a11y
+- mgifford/uswds-sandbox
 
 ## Deleted
 
@@ -20,7 +21,10 @@ Owner: mgifford
 
 ## Newly archived
 
-- None
+- mgifford/digital-canada-ca
+- mgifford/octicons
+- mgifford/tanaguru2020-engine
+- mgifford/web.dev
 
 ## Unarchived
 
