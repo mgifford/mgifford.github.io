@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:27:28.268Z",
+  "generatedAt": "2026-08-01T08:19:40.876Z",
   "sourceGeneratedAt": "2026-07-27T07:26:28.002Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -29,7 +29,7 @@
   "freshness": {
     "repoSnapshotGeneratedAt": "2026-07-27T07:26:28.002Z",
     "changesGeneratedAt": "2026-07-27T07:26:28.002Z",
-    "screenshotsGeneratedAt": "2026-07-27T07:27:28.092Z",
+    "screenshotsGeneratedAt": "2026-08-01T08:19:40.696Z",
     "repoCountDelta": 1
   },
   "changes": {
@@ -4646,7 +4646,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/edu-scans.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4788,7 +4788,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/AirScript.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4887,7 +4887,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/OpenWealth.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -4933,7 +4933,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-hhs.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5032,7 +5032,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/drupal-open-dash.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5133,7 +5133,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-cap.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5274,7 +5274,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-nsf.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5325,7 +5325,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/gh-open-dash.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5465,7 +5465,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/xgov-opensource-repo-scraper.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5610,7 +5610,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/uswds-sandbox.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5702,7 +5702,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/openpracticelibrary.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5750,7 +5750,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/digital-canada-ca.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5796,7 +5796,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/docs-inclusive-learning.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5937,7 +5937,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/web.dev.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5985,7 +5985,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ditap-1-pager.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6033,7 +6033,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/perception.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6081,7 +6081,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/uswds-site.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6129,7 +6129,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/octicons.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6180,7 +6180,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/smart-cookbook.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6415,7 +6415,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/accessibility-manual.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6467,7 +6467,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/Drupal-docs.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6662,7 +6662,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/publiccode-editor.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -7988,7 +7988,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-07-27T07:26:28.002Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/rockstar.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
