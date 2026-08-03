@@ -1,18 +1,19 @@
 # Repository Sync Report
 
-Generated: 2026-07-27T07:26:28.002Z
+Generated: 2026-08-03T07:25:48.676Z
 Owner: mgifford
 
-- Previous repos: 314
-- Current repos: 315
-- Added: 1
+- Previous repos: 315
+- Current repos: 317
+- Added: 2
 - Deleted: 0
-- Newly archived: 2
+- Newly archived: 3
 - Unarchived: 0
 
 ## Added
 
-- mgifford/ContractingHQ
+- mgifford/ontario-home-energy-futures
+- mgifford/upstream-first
 
 ## Deleted
 
@@ -20,8 +21,9 @@ Owner: mgifford
 
 ## Newly archived
 
-- mgifford/daily-nsf
-- mgifford/sam_gov_md
+- mgifford/DSCovery
+- mgifford/docs-inclusive-learning
+- mgifford/xgov-opensource-repo-scraper
 
 ## Unarchived
 
