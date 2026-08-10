@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T07:25:48.676Z",
+  "generatedAt": "2026-08-10T06:45:22.156Z",
   "owner": "mgifford",
   "repoCount": 317,
   "readmeScanLimit": 317,
@@ -48,12 +48,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -77,13 +77,13 @@
       "archived": false,
       "fork": false,
       "visibility": "public",
-      "stars": 68,
-      "forksCount": 11,
-      "watchers": 68,
-      "openIssues": 2,
+      "stars": 69,
+      "forksCount": 10,
+      "watchers": 69,
+      "openIssues": 3,
       "createdAt": "2026-02-19T14:56:55Z",
-      "updatedAt": "2026-08-01T10:27:18Z",
-      "pushedAt": "2026-08-01T01:06:29Z",
+      "updatedAt": "2026-08-07T00:52:00Z",
+      "pushedAt": "2026-08-05T20:37:11Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "The open standard for project accessibility transparency, governance, and AIassisted inclusion.",
@@ -91,12 +91,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -132,12 +132,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -177,12 +177,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -204,12 +204,12 @@
       "archived": false,
       "fork": false,
       "visibility": "public",
-      "stars": 37,
+      "stars": 39,
       "forksCount": 2,
-      "watchers": 37,
+      "watchers": 39,
       "openIssues": 0,
       "createdAt": "2026-03-28T22:04:38Z",
-      "updatedAt": "2026-08-02T01:48:40Z",
+      "updatedAt": "2026-08-05T13:34:41Z",
       "pushedAt": "2026-07-31T20:44:21Z",
       "defaultBranch": "main",
       "readme": {
@@ -218,12 +218,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -253,12 +253,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -290,12 +290,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -327,12 +327,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -360,10 +360,10 @@
       "stars": 10,
       "forksCount": 0,
       "watchers": 10,
-      "openIssues": 4,
+      "openIssues": 5,
       "createdAt": "2025-11-28T00:51:17Z",
       "updatedAt": "2026-07-27T22:18:43Z",
-      "pushedAt": "2026-08-01T09:44:31Z",
+      "pushedAt": "2026-08-04T22:57:05Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A practical contrast checker that reports both: WCAG 2.x contrast ratio (the compliance metric used today in most policies) APCA Lc (Accessible Perceptual Contrast Algorithm, a perceptual readability metric)",
@@ -371,12 +371,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -406,12 +406,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -445,12 +445,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -475,10 +475,10 @@
       "stars": 7,
       "forksCount": 2,
       "watchers": 7,
-      "openIssues": 7,
+      "openIssues": 6,
       "createdAt": "2026-02-20T20:48:50Z",
-      "updatedAt": "2026-08-03T01:24:57Z",
-      "pushedAt": "2026-08-03T01:24:53Z",
+      "updatedAt": "2026-08-10T03:03:07Z",
+      "pushedAt": "2026-08-10T03:02:58Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Issuedriven accessibility scanning using GitHub Pages and GitHub Actions. This project was inspired by Oobee a project of GovTech Singapore.",
@@ -486,12 +486,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -526,12 +526,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -555,10 +555,10 @@
       "stars": 7,
       "forksCount": 1,
       "watchers": 7,
-      "openIssues": 4,
+      "openIssues": 5,
       "createdAt": "2026-01-05T13:46:49Z",
       "updatedAt": "2026-07-26T13:16:46Z",
-      "pushedAt": "2026-07-26T13:16:34Z",
+      "pushedAt": "2026-08-05T17:31:58Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A textbased wireframing tool that prioritizes semantic structure and accessibility from the start. Built with a contentfirst approach using a Domain Specific Language (DSL) that enables screen reader users and nondesigners to participate in the design process.",
@@ -568,12 +568,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -603,12 +603,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -638,12 +638,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -677,12 +677,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -715,12 +715,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -750,12 +750,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -781,10 +781,10 @@
       "stars": 4,
       "forksCount": 0,
       "watchers": 4,
-      "openIssues": 0,
+      "openIssues": 2,
       "createdAt": "2026-03-05T20:04:19Z",
-      "updatedAt": "2026-08-03T03:04:59Z",
-      "pushedAt": "2026-08-03T03:04:54Z",
+      "updatedAt": "2026-08-10T03:50:23Z",
+      "pushedAt": "2026-08-10T03:50:14Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An interactive GitHub Pages dashboard that visualises the \"Mirror Spine\" of WCAG 2.2 — bridging Responsibility (ARRM) and Technical Testing (ACT, Axecore, Alfa, Trusted Tester) for every Success Criterion.",
@@ -792,12 +792,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -823,8 +823,8 @@
       "watchers": 4,
       "openIssues": 0,
       "createdAt": "2026-02-25T20:07:30Z",
-      "updatedAt": "2026-07-31T14:17:24Z",
-      "pushedAt": "2026-07-31T14:10:45Z",
+      "updatedAt": "2026-08-05T13:28:39Z",
+      "pushedAt": "2026-08-05T13:27:36Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Top Task Finder helps you quickly generate a representative, prioritized list of URLs from any public website — perfect for accessibility audits, toptask reviews, and UX research.",
@@ -832,12 +832,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -872,12 +872,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -907,12 +907,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -950,12 +950,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -979,10 +979,10 @@
       "stars": 3,
       "forksCount": 4,
       "watchers": 3,
-      "openIssues": 12,
+      "openIssues": 15,
       "createdAt": "2026-05-29T17:22:38Z",
-      "updatedAt": "2026-08-03T07:14:54Z",
-      "pushedAt": "2026-08-03T07:14:13Z",
+      "updatedAt": "2026-08-10T06:36:47Z",
+      "pushedAt": "2026-08-10T06:36:17Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An open source website quality engine. It crawls 5–20 domains slowly and politely across each week, scans thousands of pages per domain with axecore and Siteimprove Alfa (the open source engine behind Siteimprove's commercial checker), measures page weight, estimated energy costs, image inventory, and technology stack,",
@@ -990,12 +990,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1032,12 +1032,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1061,10 +1061,10 @@
       "stars": 3,
       "forksCount": 1,
       "watchers": 3,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-05-27T13:46:25Z",
       "updatedAt": "2026-07-28T13:00:35Z",
-      "pushedAt": "2026-07-28T12:57:00Z",
+      "pushedAt": "2026-08-05T19:17:40Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "OS Week Plus (OSW+) NYC — at unosw.plus — is an opensource, communitydriven fringe calendar, directory, and knowledge platform for UN Open Source Week. (Repository formerly named OSWplus.)",
@@ -1072,12 +1072,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1110,12 +1110,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1145,12 +1145,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1175,10 +1175,10 @@
       "stars": 3,
       "forksCount": 1,
       "watchers": 3,
-      "openIssues": 5,
+      "openIssues": 6,
       "createdAt": "2026-02-16T02:08:22Z",
       "updatedAt": "2026-07-13T23:42:00Z",
-      "pushedAt": "2026-07-13T23:41:58Z",
+      "pushedAt": "2026-08-04T14:42:41Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "This toolkit is in early, experimental development. Most content was generated with AI assistance and has not yet been validated against real buildings or realworld use. Do not treat anything here as authoritative guidance until it has been reviewed and confirmed by disabled people, accessibility practitioners, and bui",
@@ -1186,12 +1186,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1223,12 +1223,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1258,12 +1258,49 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1269321666,
+      "name": "neighbourhood-solar",
+      "fullName": "mgifford/neighbourhood-solar",
+      "url": "https://github.com/mgifford/neighbourhood-solar",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/neighbourhood-solar/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 2,
+      "forksCount": 0,
+      "watchers": 2,
+      "openIssues": 5,
+      "createdAt": "2026-06-14T15:13:48Z",
+      "updatedAt": "2026-08-03T16:43:28Z",
+      "pushedAt": "2026-08-01T23:16:40Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Residentled. Vendorneutral. No commission. Fork for your street.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "hasAiDisclosure": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": false,
+        "hasCopilotInstructions": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1300,12 +1337,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1342,12 +1379,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1383,12 +1420,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1423,12 +1460,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1463,12 +1500,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1502,12 +1539,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1539,12 +1576,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1574,12 +1611,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1609,12 +1646,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1644,12 +1681,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1679,12 +1716,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1722,49 +1759,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1269321666,
-      "name": "neighbourhood-solar",
-      "fullName": "mgifford/neighbourhood-solar",
-      "url": "https://github.com/mgifford/neighbourhood-solar",
-      "description": "",
-      "language": "HTML",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/neighbourhood-solar/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 1,
-      "forksCount": 0,
-      "watchers": 1,
-      "openIssues": 6,
-      "createdAt": "2026-06-14T15:13:48Z",
-      "updatedAt": "2026-08-01T23:16:44Z",
-      "pushedAt": "2026-08-01T23:16:40Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Residentled. Vendorneutral. No commission. Fork for your street.",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": false,
-        "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1800,12 +1800,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1827,10 +1827,10 @@
       "stars": 1,
       "forksCount": 1,
       "watchers": 1,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2025-05-19T16:01:57Z",
       "updatedAt": "2026-07-31T01:16:34Z",
-      "pushedAt": "2026-07-31T01:16:32Z",
+      "pushedAt": "2026-08-04T01:57:50Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "This is the source code for Mike Gifford's personal website. It's built with Jekyll and hosted on GitHub Pages.",
@@ -1838,12 +1838,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1869,10 +1869,10 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-02-21T16:39:19Z",
       "updatedAt": "2026-07-30T12:28:48Z",
-      "pushedAt": "2026-07-27T22:19:21Z",
+      "pushedAt": "2026-08-04T13:12:16Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Daily DAP benchmarks the quality and accessibility of the most visited U.S. government pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public services.",
@@ -1880,12 +1880,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1909,10 +1909,10 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 116,
+      "openIssues": 117,
       "createdAt": "2026-01-15T13:22:35Z",
       "updatedAt": "2026-07-29T14:47:15Z",
-      "pushedAt": "2026-07-29T14:42:04Z",
+      "pushedAt": "2026-08-03T20:35:46Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A rolebased MOOC teaching the W3C Web Sustainability Guidelines (WSG) through practical, jobrelevant lessons.",
@@ -1920,12 +1920,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -1950,10 +1950,10 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-02-04T00:21:06Z",
       "updatedAt": "2026-07-27T22:18:20Z",
-      "pushedAt": "2026-07-27T22:18:24Z",
+      "pushedAt": "2026-08-04T02:25:16Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An accessible HTML presentation template with realtime live captioning. Two captioning options are supported:",
@@ -1961,12 +1961,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2002,12 +2002,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2037,12 +2037,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2072,12 +2072,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2107,12 +2107,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2136,10 +2136,10 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 2,
+      "openIssues": 3,
       "createdAt": "2026-01-09T02:18:16Z",
       "updatedAt": "2026-07-21T15:23:15Z",
-      "pushedAt": "2026-07-21T15:23:08Z",
+      "pushedAt": "2026-08-04T02:07:36Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A browsernative SVG optimization tool that prioritizes WCAG 2.2 AA accessibility and dynamic theming (light/dark mode).",
@@ -2147,12 +2147,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2176,10 +2176,10 @@
       "stars": 1,
       "forksCount": 1,
       "watchers": 1,
-      "openIssues": 7,
+      "openIssues": 8,
       "createdAt": "2026-03-01T00:17:17Z",
       "updatedAt": "2026-07-18T02:07:32Z",
-      "pushedAt": "2026-07-18T02:07:30Z",
+      "pushedAt": "2026-08-04T02:51:07Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "This directory contains automated workflows that help maintain the quality and accessibility of the Inclusive Emergency Readiness project.",
@@ -2187,12 +2187,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2211,10 +2211,10 @@
       "stars": 1,
       "forksCount": 0,
       "watchers": 1,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-07-03T02:50:22Z",
       "updatedAt": "2026-07-15T17:20:51Z",
-      "pushedAt": "2026-07-04T02:38:15Z",
+      "pushedAt": "2026-08-05T16:07:39Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A localfirst evaluation report and evidence tool for the W3C Web Sustainability Guidelines (WSG), conceptually parallel to the WCAGEM Report Tool and aligned with the STAR evaluation methodology.",
@@ -2222,12 +2222,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2264,12 +2264,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2299,12 +2299,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2336,12 +2336,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2371,12 +2371,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2414,12 +2414,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2455,12 +2455,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2490,12 +2490,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2525,12 +2525,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2560,12 +2560,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2595,12 +2595,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2630,12 +2630,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2667,12 +2667,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2704,12 +2704,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2739,12 +2739,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2777,12 +2777,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2812,12 +2812,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2847,12 +2847,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2886,12 +2886,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2923,12 +2923,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2958,12 +2958,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -2993,12 +2993,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3028,12 +3028,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3065,12 +3065,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3100,12 +3100,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3135,12 +3135,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3170,12 +3170,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3207,12 +3207,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3244,12 +3244,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3281,12 +3281,12 @@
           "README unavailable"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3316,12 +3316,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3353,12 +3353,12 @@
           "No README returned"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3388,12 +3388,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3425,12 +3425,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3460,12 +3460,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3497,12 +3497,82 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1220296945,
+      "name": "edu-scans",
+      "fullName": "mgifford/edu-scans",
+      "url": "https://github.com/mgifford/edu-scans",
+      "description": "Scans of US universities and educational sites",
+      "language": "Python",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/edu-scans/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-04-24T18:50:05Z",
+      "updatedAt": "2026-08-10T06:41:35Z",
+      "pushedAt": "2026-08-10T06:41:13Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Scans and seed datasets for finding accessibility statements and related web signals on United States educational institution websites, with an emphasis on .edu domains and the April 2027 WCAG 2.1 AA compliance horizon for public highereducation institutions.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "hasAiDisclosure": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1220067454,
+      "name": "dot-gov-scans",
+      "fullName": "mgifford/dot-gov-scans",
+      "url": "https://github.com/mgifford/dot-gov-scans",
+      "description": "A state focused on .gov scan.",
+      "language": "Python",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/dot-gov-scans/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-04-24T14:07:21Z",
+      "updatedAt": "2026-08-10T06:22:29Z",
+      "pushedAt": "2026-08-10T06:22:12Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Scans and seed datasets for finding accessibility statements on United States government websites.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "hasAiDisclosure": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3525,10 +3595,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 1,
+      "openIssues": 2,
       "createdAt": "2026-02-26T08:06:35Z",
-      "updatedAt": "2026-08-03T07:25:31Z",
-      "pushedAt": "2026-08-03T07:25:20Z",
+      "updatedAt": "2026-08-10T05:43:39Z",
+      "pushedAt": "2026-08-10T05:43:32Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Scans and seed datasets for finding accessibility statements on government websites, with a Europefirst scope (plus selected nonEU countries like UK, Switzerland, and Canada).",
@@ -3536,82 +3606,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1220296945,
-      "name": "edu-scans",
-      "fullName": "mgifford/edu-scans",
-      "url": "https://github.com/mgifford/edu-scans",
-      "description": "Scans of US universities and educational sites",
-      "language": "Python",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/edu-scans/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-24T18:50:05Z",
-      "updatedAt": "2026-08-03T06:24:26Z",
-      "pushedAt": "2026-08-03T06:24:08Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Scans and seed datasets for finding accessibility statements and related web signals on United States educational institution websites, with an emphasis on .edu domains and the April 2027 WCAG 2.1 AA compliance horizon for public highereducation institutions.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1220067454,
-      "name": "dot-gov-scans",
-      "fullName": "mgifford/dot-gov-scans",
-      "url": "https://github.com/mgifford/dot-gov-scans",
-      "description": "A state focused on .gov scan.",
-      "language": "Python",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/dot-gov-scans/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-04-24T14:07:21Z",
-      "updatedAt": "2026-08-03T06:24:18Z",
-      "pushedAt": "2026-08-03T06:23:58Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Scans and seed datasets for finding accessibility statements on United States government websites.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3622,8 +3622,8 @@
       "description": "Tracking possible costs for Ontario's energy",
       "language": "Python",
       "topics": [],
-      "homepage": "",
-      "hasPages": false,
+      "homepage": "https://mgifford.github.io/ontario-home-energy-futures/",
+      "hasPages": true,
       "archived": false,
       "fork": false,
       "visibility": "public",
@@ -3632,8 +3632,8 @@
       "watchers": 0,
       "openIssues": 0,
       "createdAt": "2026-08-02T23:02:32Z",
-      "updatedAt": "2026-08-03T01:21:08Z",
-      "pushedAt": "2026-08-03T01:21:04Z",
+      "updatedAt": "2026-08-09T21:46:29Z",
+      "pushedAt": "2026-08-09T21:46:13Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Ontario Home Energy Futures is a free, opensource planning tool that helps Ontario households explore how electricity rates, changing consumption, solar installation costs, financing, net metering, and neighbourhood grouppurchase discounts could affect their energy costs over the next 10–30 years.",
@@ -3641,12 +3641,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3665,10 +3665,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-04-03T15:18:12Z",
-      "updatedAt": "2026-08-02T11:32:41Z",
-      "pushedAt": "2026-08-02T11:32:16Z",
+      "updatedAt": "2026-08-09T09:57:30Z",
+      "pushedAt": "2026-08-09T09:56:59Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Daily HHS benchmarks the quality and accessibility of the most visited U.S. Department of Health and Human Services (HHS) pages. It prioritizes hightraffic pages because regressions on those pages affect the most people seeking public health services.",
@@ -3676,12 +3676,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3704,8 +3704,8 @@
       "watchers": 0,
       "openIssues": 1,
       "createdAt": "2026-02-11T20:55:57Z",
-      "updatedAt": "2026-08-02T00:27:28Z",
-      "pushedAt": "2026-08-02T00:27:25Z",
+      "updatedAt": "2026-08-09T00:11:47Z",
+      "pushedAt": "2026-08-09T00:11:44Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "An initial attempt to build a Drupal Open Dashboard is a static dashboard for visualizing Drupal.org and GitLab activity for an organization roster. It is designed for fully static hosting (e.g., GitHub Pages) and prefetches all data via scheduled GitHub Actions, serving only static JSON snapshots to the frontend.",
@@ -3713,12 +3713,243 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1197333501,
+      "name": "drupal-core",
+      "fullName": "mgifford/drupal-core",
+      "url": "https://github.com/mgifford/drupal-core",
+      "description": "Drupal core fork — accessibility work and AI tooling",
+      "language": "PHP",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/drupal-core/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 1,
+      "watchers": 0,
+      "openIssues": 15,
+      "createdAt": "2026-03-31T13:56:36Z",
+      "updatedAt": "2026-08-08T15:10:20Z",
+      "pushedAt": "2026-08-08T15:09:54Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "This fork is an accessibility & sustainability test harness for Drupal core — a Playwright + axecore multitheme crawl with patternlevel bug tracking, WSG/CO2 measurement, and accessibilitytree snapshots. Published reports:",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "hasAiDisclosure": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1191604030,
+      "name": "daily-cap",
+      "fullName": "mgifford/daily-cap",
+      "url": "https://github.com/mgifford/daily-cap",
+      "description": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
+      "language": "JavaScript",
+      "topics": [
+        "accessibility",
+        "canada",
+        "federal-government",
+        "government",
+        "monitoring",
+        "top-sites"
+      ],
+      "homepage": "https://mgifford.github.io/daily-cap/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 11,
+      "createdAt": "2026-03-25T12:09:23Z",
+      "updatedAt": "2026-08-04T23:50:15Z",
+      "pushedAt": "2026-08-04T23:50:07Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Daily CAP (Canadian Analytics Project) is an independent daily quality benchmarking pipeline for Canadian federal digital service entry points.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "hasAiDisclosure": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1244288958,
+      "name": "dpg-dpi-govstack-map",
+      "fullName": "mgifford/dpg-dpi-govstack-map",
+      "url": "https://github.com/mgifford/dpg-dpi-govstack-map",
+      "description": "Charting the relationships and maturity of DPG & DPI. ",
+      "language": "Astro",
+      "topics": [
+        "dpg",
+        "dpi",
+        "open",
+        "opensource"
+      ],
+      "homepage": "https://mgifford.github.io/dpg-dpi-govstack-map/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 0,
+      "createdAt": "2026-05-20T06:11:28Z",
+      "updatedAt": "2026-08-04T20:20:08Z",
+      "pushedAt": "2026-08-04T20:15:39Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "A productionquality, continuously updated, globally searchable and mappable registry of Digital Public Infrastructure (DPI), Digital Public Goods (DPG), GovTech projects, and open standards initiatives.",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "Contains placeholder language"
+        ],
+        "hasAiDisclosure": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": false,
+        "hasCopilotInstructions": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1133853185,
+      "name": "gh-open-dash",
+      "fullName": "mgifford/gh-open-dash",
+      "url": "https://github.com/mgifford/gh-open-dash",
+      "description": "GitHub Open Dashboard",
+      "language": "JavaScript",
+      "topics": [
+        "dashboard",
+        "github-dashboard",
+        "ospo",
+        "ospos"
+      ],
+      "homepage": "https://mgifford.github.io/gh-open-dash/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-01-13T22:52:48Z",
+      "updatedAt": "2026-08-03T08:39:57Z",
+      "pushedAt": "2026-08-04T12:56:04Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "An opensource transparency dashboard inspired by cal.com/open and other open startup initiatives. This project builds and publishes a beautiful static dashboard showing public opensource contributions by your GitHub organization.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "hasAiDisclosure": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 1241899043,
+      "name": "aedesproject-uif",
+      "fullName": "mgifford/aedesproject-uif",
+      "url": "https://github.com/mgifford/aedesproject-uif",
+      "description": "Advanced Early Detection and Exploration Service",
+      "language": "HTML",
+      "topics": [],
+      "homepage": "https://mgifford.github.io/aedesproject-uif/",
+      "hasPages": true,
+      "archived": false,
+      "fork": true,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2026-05-18T00:18:22Z",
+      "updatedAt": "2026-08-03T08:12:03Z",
+      "pushedAt": "2026-08-09T06:35:37Z",
+      "defaultBranch": "main",
+      "readme": {
+        "summary": "Project AEDES: Universal VectorBorne Disease Surveillance",
+        "score": 3,
+        "needsAttention": false,
+        "reasons": [
+          "No clear summary paragraph"
+        ],
+        "hasAiDisclosure": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      }
+    },
+    {
+      "id": 21006958,
+      "name": "mgifford.github.io",
+      "fullName": "mgifford/mgifford.github.io",
+      "url": "https://github.com/mgifford/mgifford.github.io",
+      "description": "A presentation view of my repositories in GitHub",
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": "http://mgifford.github.io/",
+      "hasPages": true,
+      "archived": false,
+      "fork": false,
+      "visibility": "public",
+      "stars": 0,
+      "forksCount": 0,
+      "watchers": 0,
+      "openIssues": 1,
+      "createdAt": "2014-06-19T16:13:54Z",
+      "updatedAt": "2026-08-03T07:27:50Z",
+      "pushedAt": "2026-08-03T07:27:11Z",
+      "defaultBranch": "master",
+      "readme": {
+        "summary": "This repository powers https://mgifford.github.io as a curated catalog of work across the GitHub account for @mgifford. Instead of showing a flat list of hundreds of repositories, it organizes projects into a useful table of contents with themes, highlights, and maintenance signals.",
+        "score": 4,
+        "needsAttention": false,
+        "reasons": [],
+        "hasAiDisclosure": false,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
+      },
+      "aiQuality": {
+        "hasAgentsMd": true,
+        "hasCopilotInstructions": true,
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3754,47 +3985,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 21006958,
-      "name": "mgifford.github.io",
-      "fullName": "mgifford/mgifford.github.io",
-      "url": "https://github.com/mgifford/mgifford.github.io",
-      "description": "A presentation view of my repositories in GitHub",
-      "language": "JavaScript",
-      "topics": [],
-      "homepage": "http://mgifford.github.io/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2014-06-19T16:13:54Z",
-      "updatedAt": "2026-08-01T08:19:49Z",
-      "pushedAt": "2026-08-01T08:19:42Z",
-      "defaultBranch": "master",
-      "readme": {
-        "summary": "This repository powers https://mgifford.github.io as a curated catalog of work across the GitHub account for @mgifford. Instead of showing a flat list of hundreds of repositories, it organizes projects into a useful table of contents with themes, highlights, and maintenance signals.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3829,54 +4025,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1244288958,
-      "name": "dpg-dpi-govstack-map",
-      "fullName": "mgifford/dpg-dpi-govstack-map",
-      "url": "https://github.com/mgifford/dpg-dpi-govstack-map",
-      "description": "Charting the relationships and maturity of DPG & DPI. ",
-      "language": "Astro",
-      "topics": [
-        "dpg",
-        "dpi",
-        "open",
-        "opensource"
-      ],
-      "homepage": "https://mgifford.github.io/dpg-dpi-govstack-map/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-05-20T06:11:28Z",
-      "updatedAt": "2026-08-01T03:12:00Z",
-      "pushedAt": "2026-08-01T03:11:56Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "A productionquality, continuously updated, globally searchable and mappable registry of Digital Public Infrastructure (DPI), Digital Public Goods (DPG), GovTech projects, and open standards initiatives.",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "Contains placeholder language"
-        ],
-        "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": false,
-        "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3906,12 +4060,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3941,12 +4095,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -3976,12 +4130,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4011,54 +4165,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1191604030,
-      "name": "daily-cap",
-      "fullName": "mgifford/daily-cap",
-      "url": "https://github.com/mgifford/daily-cap",
-      "description": "Monitoring top Government of Canada websites for accessibility, bilingualism, etc.",
-      "language": "JavaScript",
-      "topics": [
-        "accessibility",
-        "canada",
-        "federal-government",
-        "government",
-        "monitoring",
-        "top-sites"
-      ],
-      "homepage": "https://mgifford.github.io/daily-cap/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 11,
-      "createdAt": "2026-03-25T12:09:23Z",
-      "updatedAt": "2026-07-31T01:09:25Z",
-      "pushedAt": "2026-07-31T01:09:22Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Daily CAP (Canadian Analytics Project) is an independent daily quality benchmarking pipeline for Canadian federal digital service entry points.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4081,10 +4193,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 1,
+      "openIssues": 2,
       "createdAt": "2025-11-12T06:42:37Z",
       "updatedAt": "2026-07-31T01:08:59Z",
-      "pushedAt": "2026-07-31T01:08:55Z",
+      "pushedAt": "2026-08-05T04:53:47Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "",
@@ -4095,47 +4207,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1197333501,
-      "name": "drupal-core",
-      "fullName": "mgifford/drupal-core",
-      "url": "https://github.com/mgifford/drupal-core",
-      "description": "Drupal core fork — accessibility work and AI tooling",
-      "language": "PHP",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/drupal-core/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 1,
-      "watchers": 0,
-      "openIssues": 15,
-      "createdAt": "2026-03-31T13:56:36Z",
-      "updatedAt": "2026-07-30T13:35:33Z",
-      "pushedAt": "2026-07-30T13:32:39Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "This fork is an accessibility & sustainability test harness for Drupal core — a Playwright + axecore multitheme crawl with patternlevel bug tracking, WSG/CO2 measurement, and accessibilitytree snapshots. Published reports:",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4157,10 +4234,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 2,
+      "openIssues": 3,
       "createdAt": "2026-01-19T15:12:41Z",
       "updatedAt": "2026-07-30T12:28:07Z",
-      "pushedAt": "2026-07-27T22:18:01Z",
+      "pushedAt": "2026-08-04T02:10:50Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "A lightweight, accessible CSV data explorer for government health datasets. Hybrid architecture: Vanilla JS browser app with optional Node.js proxy server that solves CORS restrictions and extracts metadata from healthcare.gov, CDC, and other data portals.",
@@ -4168,12 +4245,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4203,12 +4280,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4231,10 +4308,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-03-28T23:03:47Z",
       "updatedAt": "2026-07-27T22:19:51Z",
-      "pushedAt": "2026-07-27T22:19:47Z",
+      "pushedAt": "2026-08-04T02:39:28Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Privacyfirst live captions with a browserfirst transcription path. The default engine is the Web Speech API running entirely in the browser, which means the UI can be hosted as static files, including on GitHub Pages. HTMX remains the delivery layer for audience updates when a relay stream is present. When you want sha",
@@ -4242,12 +4319,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4271,10 +4348,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-03-16T08:59:55Z",
       "updatedAt": "2026-07-27T22:19:04Z",
-      "pushedAt": "2026-07-27T22:18:59Z",
+      "pushedAt": "2026-08-04T02:48:42Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Issuedriven sustainability scanning for the Web Sustainability Guidelines (WSG), using: Lighthouse (performance and bestpractices categories) CO2.js for perpage and aggregate emissions estimates The Green Web Foundation API for green hosting checks WSG guideline mapping for actionable remediation Sustainable Web Design",
@@ -4282,12 +4359,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4317,12 +4394,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4345,10 +4422,10 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 0,
+      "openIssues": 1,
       "createdAt": "2026-03-11T17:40:20Z",
       "updatedAt": "2026-07-27T22:17:24Z",
-      "pushedAt": "2026-07-27T22:17:21Z",
+      "pushedAt": "2026-08-05T16:35:45Z",
       "defaultBranch": "main",
       "readme": {
         "summary": "Interactive singlepage app to demonstrate AIenabled browsing in Chrome, Firefox, and Edge, including runtime probes for builtin AI behavior.",
@@ -4356,89 +4433,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1133853185,
-      "name": "gh-open-dash",
-      "fullName": "mgifford/gh-open-dash",
-      "url": "https://github.com/mgifford/gh-open-dash",
-      "description": "GitHub Open Dashboard",
-      "language": "JavaScript",
-      "topics": [
-        "dashboard",
-        "github-dashboard",
-        "ospo",
-        "ospos"
-      ],
-      "homepage": "https://mgifford.github.io/gh-open-dash/",
-      "hasPages": true,
-      "archived": false,
-      "fork": false,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 0,
-      "createdAt": "2026-01-13T22:52:48Z",
-      "updatedAt": "2026-07-27T08:32:58Z",
-      "pushedAt": "2026-07-27T08:31:15Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "An opensource transparency dashboard inspired by cal.com/open and other open startup initiatives. This project builds and publishes a beautiful static dashboard showing public opensource contributions by your GitHub organization.",
-        "score": 4,
-        "needsAttention": false,
-        "reasons": [],
-        "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      }
-    },
-    {
-      "id": 1241899043,
-      "name": "aedesproject-uif",
-      "fullName": "mgifford/aedesproject-uif",
-      "url": "https://github.com/mgifford/aedesproject-uif",
-      "description": "Advanced Early Detection and Exploration Service",
-      "language": "HTML",
-      "topics": [],
-      "homepage": "https://mgifford.github.io/aedesproject-uif/",
-      "hasPages": true,
-      "archived": false,
-      "fork": true,
-      "visibility": "public",
-      "stars": 0,
-      "forksCount": 0,
-      "watchers": 0,
-      "openIssues": 1,
-      "createdAt": "2026-05-18T00:18:22Z",
-      "updatedAt": "2026-07-27T08:10:45Z",
-      "pushedAt": "2026-08-03T07:01:45Z",
-      "defaultBranch": "main",
-      "readme": {
-        "summary": "Project AEDES: Universal VectorBorne Disease Surveillance",
-        "score": 3,
-        "needsAttention": false,
-        "reasons": [
-          "No clear summary paragraph"
-        ],
-        "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
-      },
-      "aiQuality": {
-        "hasAgentsMd": true,
-        "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4468,12 +4468,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4505,12 +4505,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4543,12 +4543,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4578,12 +4578,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4613,12 +4613,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4648,12 +4648,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4685,12 +4685,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4720,12 +4720,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4758,12 +4758,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4793,12 +4793,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4830,12 +4830,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4867,12 +4867,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4904,12 +4904,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4941,12 +4941,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -4981,12 +4981,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5016,12 +5016,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5051,12 +5051,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5086,12 +5086,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5121,12 +5121,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5162,12 +5162,12 @@
           "README unavailable"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5197,12 +5197,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5235,12 +5235,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5272,12 +5272,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5307,12 +5307,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5342,12 +5342,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5383,12 +5383,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5418,12 +5418,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5453,12 +5453,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5490,12 +5490,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5525,12 +5525,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5562,12 +5562,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5603,12 +5603,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5630,7 +5630,7 @@
       "stars": 0,
       "forksCount": 0,
       "watchers": 0,
-      "openIssues": 12,
+      "openIssues": 13,
       "createdAt": "2026-04-04T20:24:33Z",
       "updatedAt": "2026-06-01T19:21:25Z",
       "pushedAt": "2026-06-01T19:21:20Z",
@@ -5641,12 +5641,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5676,12 +5676,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5711,12 +5711,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5748,12 +5748,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5783,12 +5783,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5820,12 +5820,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5855,12 +5855,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5892,12 +5892,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5929,12 +5929,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -5964,12 +5964,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6001,12 +6001,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6036,12 +6036,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6071,12 +6071,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6106,12 +6106,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6141,12 +6141,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6181,12 +6181,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6216,12 +6216,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6254,12 +6254,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6291,12 +6291,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6326,12 +6326,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6368,12 +6368,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6405,12 +6405,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6443,12 +6443,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6480,12 +6480,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6515,12 +6515,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6552,12 +6552,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6587,12 +6587,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6624,12 +6624,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6661,12 +6661,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6696,12 +6696,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6738,12 +6738,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6773,12 +6773,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6808,12 +6808,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6845,12 +6845,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6880,12 +6880,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6915,12 +6915,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6950,12 +6950,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -6987,12 +6987,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7022,12 +7022,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7057,12 +7057,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7092,12 +7092,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7127,12 +7127,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7164,12 +7164,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7202,12 +7202,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7237,12 +7237,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7274,12 +7274,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7309,12 +7309,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7346,12 +7346,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7381,12 +7381,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7418,12 +7418,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7453,12 +7453,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7488,12 +7488,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7523,12 +7523,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7561,12 +7561,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7596,12 +7596,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7634,12 +7634,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7673,12 +7673,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7710,12 +7710,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7745,12 +7745,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7780,12 +7780,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7815,12 +7815,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7850,12 +7850,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7885,12 +7885,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7920,12 +7920,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7955,12 +7955,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -7993,12 +7993,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8028,12 +8028,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8063,12 +8063,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8100,12 +8100,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8138,12 +8138,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8176,12 +8176,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8214,12 +8214,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8242,7 +8242,7 @@
       "fork": false,
       "visibility": "public",
       "stars": 0,
-      "forksCount": 0,
+      "forksCount": 1,
       "watchers": 0,
       "openIssues": 0,
       "createdAt": "2026-01-20T16:41:06Z",
@@ -8258,12 +8258,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": true,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8295,12 +8295,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8332,12 +8332,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": true,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8367,12 +8367,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8402,12 +8402,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8437,12 +8437,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8472,12 +8472,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8507,12 +8507,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8544,12 +8544,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8579,12 +8579,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8614,12 +8614,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8649,12 +8649,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8684,12 +8684,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8719,12 +8719,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8754,12 +8754,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8792,12 +8792,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8829,12 +8829,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8867,12 +8867,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8902,12 +8902,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8940,12 +8940,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -8975,12 +8975,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9013,12 +9013,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9048,12 +9048,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9083,12 +9083,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9118,12 +9118,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9156,12 +9156,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9191,12 +9191,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9226,12 +9226,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9264,12 +9264,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9299,12 +9299,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9334,12 +9334,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9371,12 +9371,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9406,12 +9406,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9441,12 +9441,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9476,12 +9476,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9514,12 +9514,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9551,12 +9551,12 @@
           "README unavailable"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9586,12 +9586,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9621,12 +9621,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9656,12 +9656,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9691,12 +9691,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9726,12 +9726,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9763,12 +9763,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9800,12 +9800,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9835,12 +9835,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9870,12 +9870,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9905,12 +9905,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9940,12 +9940,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -9977,12 +9977,12 @@
           "README unavailable"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10015,12 +10015,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10050,12 +10050,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10085,12 +10085,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10120,12 +10120,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10155,12 +10155,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10192,12 +10192,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10227,12 +10227,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10264,12 +10264,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10302,12 +10302,12 @@
           "Contains placeholder language"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10337,12 +10337,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10374,12 +10374,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10409,12 +10409,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10446,12 +10446,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10481,12 +10481,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10516,12 +10516,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10551,12 +10551,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10589,12 +10589,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10624,12 +10624,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10659,12 +10659,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10694,12 +10694,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10729,12 +10729,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10764,12 +10764,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10799,12 +10799,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10834,12 +10834,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10871,12 +10871,12 @@
           "README unavailable"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10906,12 +10906,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10941,12 +10941,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -10976,12 +10976,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11013,12 +11013,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11048,12 +11048,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11083,12 +11083,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11118,12 +11118,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11153,12 +11153,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11190,12 +11190,12 @@
           "README is very short"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11225,12 +11225,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11260,12 +11260,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11297,12 +11297,12 @@
           "No clear summary paragraph"
         ],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11332,12 +11332,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11367,12 +11367,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11402,12 +11402,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11437,12 +11437,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11472,12 +11472,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11507,12 +11507,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11542,12 +11542,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11577,12 +11577,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11612,12 +11612,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     },
     {
@@ -11647,12 +11647,12 @@
         "needsAttention": false,
         "reasons": [],
         "hasAiDisclosure": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       },
       "aiQuality": {
         "hasAgentsMd": false,
         "hasCopilotInstructions": false,
-        "scannedAt": "2026-08-03T07:25:48.676Z"
+        "scannedAt": "2026-08-10T06:45:22.156Z"
       }
     }
   ]

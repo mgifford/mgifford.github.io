@@ -1,23 +1,16 @@
 {
-  "generatedAt": "2026-08-03T07:25:48.676Z",
+  "generatedAt": "2026-08-10T06:45:22.156Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 315,
+    "previous": 317,
     "current": 317,
-    "added": 2,
+    "added": 0,
     "deleted": 0,
-    "archivedNow": 3,
+    "archivedNow": 0,
     "unarchivedNow": 0
   },
-  "added": [
-    "mgifford/ontario-home-energy-futures",
-    "mgifford/upstream-first"
-  ],
+  "added": [],
   "deleted": [],
-  "archivedNow": [
-    "mgifford/DSCovery",
-    "mgifford/docs-inclusive-learning",
-    "mgifford/xgov-opensource-repo-scraper"
-  ],
+  "archivedNow": [],
   "unarchivedNow": []
 }
