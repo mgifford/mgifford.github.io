@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-08-10T06:45:22.156Z",
+  "generatedAt": "2026-08-17T07:16:55.083Z",
   "owner": "mgifford",
   "counts": {
     "previous": 317,
-    "current": 317,
-    "added": 0,
+    "current": 318,
+    "added": 1,
     "deleted": 0,
     "archivedNow": 0,
     "unarchivedNow": 0
   },
-  "added": [],
+  "added": [
+    "mgifford/firefox-energy-scanner"
+  ],
   "deleted": [],
   "archivedNow": [],
   "unarchivedNow": []
