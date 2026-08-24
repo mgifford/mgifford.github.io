@@ -1,10 +1,10 @@
 # Repository Sync Report
 
-Generated: 2026-08-17T07:16:55.083Z
+Generated: 2026-08-24T07:29:27.378Z
 Owner: mgifford
 
-- Previous repos: 317
-- Current repos: 318
+- Previous repos: 318
+- Current repos: 319
 - Added: 1
 - Deleted: 0
 - Newly archived: 0
@@ -12,7 +12,7 @@ Owner: mgifford
 
 ## Added
 
-- mgifford/firefox-energy-scanner
+- mgifford/accessibility-sandbox
 
 ## Deleted
 

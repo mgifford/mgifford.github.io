@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-17T07:16:55.083Z",
+  "generatedAt": "2026-08-24T07:29:27.378Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 317,
-    "current": 318,
+    "previous": 318,
+    "current": 319,
     "added": 1,
     "deleted": 0,
     "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/firefox-energy-scanner"
+    "mgifford/accessibility-sandbox"
   ],
   "deleted": [],
   "archivedNow": [],
