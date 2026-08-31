@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-08-24T07:29:27.378Z",
+  "generatedAt": "2026-08-31T13:55:43.264Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 318,
-    "current": 319,
-    "added": 1,
+    "previous": 319,
+    "current": 321,
+    "added": 2,
     "deleted": 0,
     "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/accessibility-sandbox"
+    "mgifford/open-accessibility-workbench",
+    "mgifford/open-data-guide"
   ],
   "deleted": [],
   "archivedNow": [],
