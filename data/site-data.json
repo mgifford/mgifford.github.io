@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T13:56:44.548Z",
+  "generatedAt": "2026-09-01T07:41:04.591Z",
   "sourceGeneratedAt": "2026-08-31T13:55:43.264Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -29,7 +29,7 @@
   "freshness": {
     "repoSnapshotGeneratedAt": "2026-08-31T13:55:43.264Z",
     "changesGeneratedAt": "2026-08-31T13:55:43.264Z",
-    "screenshotsGeneratedAt": "2026-08-31T13:56:44.378Z",
+    "screenshotsGeneratedAt": "2026-09-01T07:41:04.418Z",
     "repoCountDelta": 2
   },
   "changes": {
@@ -5126,7 +5126,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/open-susty-scans.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5177,7 +5177,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/alt-text-scan.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5371,7 +5371,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/mgifford.github.io.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5555,7 +5555,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/openpracticelibrary.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5604,7 +5604,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/openapi-reference.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5654,7 +5654,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/ai-browser-test.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5707,7 +5707,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/dpg-dpi-govstack-map.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5760,7 +5760,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/w3c-a11y-maturity-model.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5858,7 +5858,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/ParaCharts.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5996,7 +5996,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/xgov-opensource-repo-scraper.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6088,7 +6088,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/OpenWealth.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6560,7 +6560,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-08-31T13:55:43.264Z"
       },
-      "screenshot": "src/assets/screenshots/ditap-1-pager.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
