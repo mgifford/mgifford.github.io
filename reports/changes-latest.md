@@ -1,10 +1,10 @@
 # Repository Sync Report
 
-Generated: 2026-08-31T13:55:43.264Z
+Generated: 2026-09-07T12:38:01.246Z
 Owner: mgifford
 
-- Previous repos: 319
-- Current repos: 321
+- Previous repos: 321
+- Current repos: 323
 - Added: 2
 - Deleted: 0
 - Newly archived: 0
@@ -12,8 +12,8 @@ Owner: mgifford
 
 ## Added
 
-- mgifford/open-accessibility-workbench
-- mgifford/open-data-guide
+- mgifford/medicare_monthly_enrollment_dashboard
+- mgifford/year-in-review-cif
 
 ## Deleted
 
