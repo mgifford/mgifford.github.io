@@ -1,18 +1,17 @@
 {
-  "generatedAt": "2026-09-21T12:52:27.838Z",
+  "generatedAt": "2026-09-28T14:00:03.989Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 325,
-    "current": 328,
-    "added": 3,
+    "previous": 328,
+    "current": 330,
+    "added": 2,
     "deleted": 0,
     "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/SOW-PWS-Builder",
-    "mgifford/medblocks-ui",
-    "mgifford/whisper-web"
+    "mgifford/DiDay",
+    "mgifford/FerroEHR"
   ],
   "deleted": [],
   "archivedNow": [],
