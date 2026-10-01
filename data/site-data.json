@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:01:18.521Z",
+  "generatedAt": "2026-10-01T14:43:34.608Z",
   "sourceGeneratedAt": "2026-09-28T14:00:03.989Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -29,7 +29,7 @@
   "freshness": {
     "repoSnapshotGeneratedAt": "2026-09-28T14:00:03.989Z",
     "changesGeneratedAt": "2026-09-28T14:00:03.989Z",
-    "screenshotsGeneratedAt": "2026-09-28T14:01:18.345Z",
+    "screenshotsGeneratedAt": "2026-10-01T14:43:34.431Z",
     "repoCountDelta": 2
   },
   "changes": {
@@ -4975,7 +4975,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/FerroEHR.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5026,7 +5026,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/alt-text-scan.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5079,7 +5079,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/daily-cap.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5127,7 +5127,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/medblocks-ui.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5178,7 +5178,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/gh-open-dash.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5226,7 +5226,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/aedesproject-uif.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5272,7 +5272,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/mgifford.github.io.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5321,7 +5321,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/openapi-reference.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5367,7 +5367,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/open-accessibility-workbench.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5413,7 +5413,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/whisper-web.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5463,7 +5463,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ai-browser-test.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5513,7 +5513,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/accessibility-sandbox.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5559,7 +5559,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/drupal-core.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5697,7 +5697,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/openpracticelibrary.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5745,7 +5745,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ditap-1-pager.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5840,7 +5840,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/OpenWealth.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5893,7 +5893,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/dpg-dpi-govstack-map.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5946,7 +5946,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/w3c-a11y-maturity-model.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5992,7 +5992,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/firefox-energy-scanner.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6043,7 +6043,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/open-susty-scans.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6137,7 +6137,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/sunclipse.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6183,7 +6183,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/uswds.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6229,7 +6229,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/uswds-sandbox.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6275,7 +6275,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/medicare_monthly_enrollment_dashboard.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6327,7 +6327,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ParaCharts.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6373,7 +6373,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/open-data-guide.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6419,7 +6419,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/federal-contracting-skills.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6465,7 +6465,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/ontario-home-energy-futures.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6603,7 +6603,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/xgov-opensource-repo-scraper.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6695,7 +6695,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/wsg-webmcp-experiment.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -8833,7 +8833,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/cribbage-grid.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -8879,7 +8879,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/codenames-game.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -8932,7 +8932,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/tune-my-repos.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -9077,7 +9077,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/TraceA11y.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -9359,7 +9359,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/primero.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -9412,7 +9412,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-09-28T14:00:03.989Z"
       },
-      "screenshot": "",
+      "screenshot": "src/assets/screenshots/python-acr.png",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
