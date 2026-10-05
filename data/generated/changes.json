@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-09-28T14:00:03.989Z",
+  "generatedAt": "2026-10-05T14:45:27.395Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 328,
-    "current": 330,
-    "added": 2,
+    "previous": 330,
+    "current": 333,
+    "added": 3,
     "deleted": 0,
     "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/DiDay",
-    "mgifford/FerroEHR"
+    "mgifford/FOSDEM-website",
+    "mgifford/drupal-core-lab",
+    "mgifford/speedlify2"
   ],
   "deleted": [],
   "archivedNow": [],
