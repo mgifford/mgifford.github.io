@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-10-05T14:45:27.395Z",
+  "generatedAt": "2026-10-12T15:31:27.391Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 330,
-    "current": 333,
-    "added": 3,
+    "previous": 333,
+    "current": 334,
+    "added": 1,
     "deleted": 0,
     "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/FOSDEM-website",
-    "mgifford/drupal-core-lab",
-    "mgifford/speedlify2"
+    "mgifford/EchoDeMontolieu"
   ],
   "deleted": [],
   "archivedNow": [],
