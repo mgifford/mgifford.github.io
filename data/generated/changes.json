@@ -1,44 +1,20 @@
 {
-  "generatedAt": "2026-10-19T13:22:29.055Z",
+  "generatedAt": "2026-10-26T13:08:42.217Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 334,
-    "current": 339,
-    "added": 6,
-    "deleted": 1,
-    "archivedNow": 18,
+    "previous": 339,
+    "current": 342,
+    "added": 3,
+    "deleted": 0,
+    "archivedNow": 0,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/alfa-integrations",
-    "mgifford/firefox-container-homes-routes",
-    "mgifford/github-a11y-scanner",
-    "mgifford/pdf-alt-fixer",
-    "mgifford/pdf_alt_text",
-    "mgifford/vital-core-data"
+    "mgifford/permutations",
+    "mgifford/vital-core-nsf",
+    "mgifford/vital-core-nsf-data"
   ],
-  "deleted": [
-    "mgifford/github-scanner"
-  ],
-  "archivedNow": [
-    "mgifford/18f.gsa.gov",
-    "mgifford/A11YPortal",
-    "mgifford/a11yproject.com",
-    "mgifford/bbc-a11y",
-    "mgifford/cupper",
-    "mgifford/digital-playbook-guide-numerique",
-    "mgifford/digitalgov.gov",
-    "mgifford/digitalservicescoalition.org",
-    "mgifford/government.github.com",
-    "mgifford/kj-liatest",
-    "mgifford/node-wcag-pdf",
-    "mgifford/oss-campaign",
-    "mgifford/pappet",
-    "mgifford/simplA11yMonit",
-    "mgifford/sitemap-generator",
-    "mgifford/uswds",
-    "mgifford/uswds-proposals",
-    "mgifford/uswds-site"
-  ],
+  "deleted": [],
+  "archivedNow": [],
   "unarchivedNow": []
 }
