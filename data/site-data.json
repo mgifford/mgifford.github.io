@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T13:09:55.548Z",
+  "generatedAt": "2026-11-01T14:27:14.572Z",
   "sourceGeneratedAt": "2026-10-26T13:08:42.217Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -29,7 +29,7 @@
   "freshness": {
     "repoSnapshotGeneratedAt": "2026-10-26T13:08:42.217Z",
     "changesGeneratedAt": "2026-10-26T13:08:42.217Z",
-    "screenshotsGeneratedAt": "2026-10-26T13:09:55.340Z",
+    "screenshotsGeneratedAt": "2026-11-01T14:27:14.376Z",
     "repoCountDelta": 3
   },
   "changes": {
@@ -5125,7 +5125,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/firefox-energy-scanner.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5173,7 +5173,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/drupal-open-dash.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5272,7 +5272,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/ai-browser-test.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5325,7 +5325,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/dpg-dpi-govstack-map.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5376,7 +5376,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/gh-open-dash.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5429,7 +5429,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/w3c-a11y-maturity-model.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5475,7 +5475,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/open-data-guide.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5524,7 +5524,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/DiDay.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5575,7 +5575,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/alt-text-scan.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5621,7 +5621,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/drupal-core.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5667,7 +5667,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/open-accessibility-workbench.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5720,7 +5720,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/daily-cap.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5863,7 +5863,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/aedesproject-uif.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -5909,7 +5909,7 @@
         "hasCopilotInstructions": true,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/mgifford.github.io.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6007,7 +6007,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/whisper-web.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -6145,7 +6145,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/OpenWealth.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -7352,7 +7352,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/government.github.com.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -7448,7 +7448,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/perception.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
@@ -7543,7 +7543,7 @@
         "hasCopilotInstructions": false,
         "scannedAt": "2026-10-26T13:08:42.217Z"
       },
-      "screenshot": "src/assets/screenshots/openpracticelibrary.png",
+      "screenshot": "",
       "hidden": false,
       "featured": false,
       "featuredSource": "none",
