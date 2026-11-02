@@ -12,7 +12,7 @@
     "validate:curation": "node scripts/validate-curation.mjs",
     "sync:all": "npm run sync:repos && npm run build:data",
     "screenshot:pages": "node scripts/capture-pages-screenshots.mjs",
-    "start": "npx serve .",
+    "start": "node scripts/serve.mjs",
     "test": "node --test",
     "test:a11y": "node --test tests/accessibility.test.mjs"
   },
@@ -23,8 +23,7 @@
     "js-yaml": "^4.3.2"
   },
   "devDependencies": {
-    "@axe-core/playwright": "^4.11.1",
-    "playwright": "^1.53.2",
-    "serve": "^14.2.4"
+    "@axe-core/playwright": "^4.14.0",
+    "playwright": "^1.64.1"
   }
 }
