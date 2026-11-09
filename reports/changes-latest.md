@@ -1,31 +1,27 @@
 # Repository Sync Report
 
-Generated: 2026-11-02T16:00:42.863Z
+Generated: 2026-11-09T16:26:38.234Z
 Owner: mgifford
 
-- Previous repos: 342
-- Current repos: 344
-- Added: 3
-- Deleted: 1
-- Newly archived: 3
-- Unarchived: 0
+- Previous repos: 344
+- Current repos: 345
+- Added: 1
+- Deleted: 0
+- Newly archived: 1
+- Unarchived: 1
 
 ## Added
 
-- mgifford/mena-policy-observatory
-- mgifford/vital-core-lgd
-- mgifford/vital-core-lgd-data
+- mgifford/openacr-release-evidence
 
 ## Deleted
 
-- mgifford/contractwatch
+- None
 
 ## Newly archived
 
-- mgifford/Section508.gov
-- mgifford/firefox-container-homes-routes
-- mgifford/testaro
+- mgifford/simplA11yGenReport
 
 ## Unarchived
 
-- None
+- mgifford/html2sign-language
