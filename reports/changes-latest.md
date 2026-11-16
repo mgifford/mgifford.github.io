@@ -1,18 +1,20 @@
 # Repository Sync Report
 
-Generated: 2026-11-09T16:26:38.234Z
+Generated: 2026-11-16T15:51:40.762Z
 Owner: mgifford
 
-- Previous repos: 344
-- Current repos: 345
-- Added: 1
+- Previous repos: 345
+- Current repos: 348
+- Added: 3
 - Deleted: 0
-- Newly archived: 1
-- Unarchived: 1
+- Newly archived: 0
+- Unarchived: 0
 
 ## Added
 
-- mgifford/openacr-release-evidence
+- mgifford/Containers-Hamlet
+- mgifford/WCAG_by_Role
+- mgifford/open-market-research-mcp
 
 ## Deleted
 
@@ -20,8 +22,8 @@ Owner: mgifford
 
 ## Newly archived
 
-- mgifford/simplA11yGenReport
+- None
 
 ## Unarchived
 
-- mgifford/html2sign-language
+- None

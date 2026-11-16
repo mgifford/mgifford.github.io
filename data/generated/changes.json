@@ -1,22 +1,20 @@
 {
-  "generatedAt": "2026-11-09T16:26:38.234Z",
+  "generatedAt": "2026-11-16T15:51:40.762Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 344,
-    "current": 345,
-    "added": 1,
+    "previous": 345,
+    "current": 348,
+    "added": 3,
     "deleted": 0,
-    "archivedNow": 1,
-    "unarchivedNow": 1
+    "archivedNow": 0,
+    "unarchivedNow": 0
   },
   "added": [
-    "mgifford/openacr-release-evidence"
+    "mgifford/Containers-Hamlet",
+    "mgifford/WCAG_by_Role",
+    "mgifford/open-market-research-mcp"
   ],
   "deleted": [],
-  "archivedNow": [
-    "mgifford/simplA11yGenReport"
-  ],
-  "unarchivedNow": [
-    "mgifford/html2sign-language"
-  ]
+  "archivedNow": [],
+  "unarchivedNow": []
 }
