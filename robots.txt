@@ -1,0 +1,5 @@
+# Public project catalogue and GitHub Pages sites.
+User-agent: *
+Allow: /
+
+Sitemap: https://mgifford.github.io/sitemap.xml
