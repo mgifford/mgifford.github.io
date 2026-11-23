@@ -1,0 +1,1955 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-23T20:08:03.742Z",
+  "timezone": "America/Toronto",
+  "days": [
+    {
+      "date": "2026-08-25",
+      "total": 1,
+      "human": 0,
+      "automated": 1,
+      "repositories": [
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "total": 25,
+      "human": 5,
+      "automated": 20,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/drupal-core",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/open-scans",
+        "mgifford/ox.ca",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 20,
+        "issue": 5
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "total": 13,
+      "human": 13,
+      "automated": 0,
+      "repositories": [
+        "mgifford/contrast-plus",
+        "mgifford/open-data-guide"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 6
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "total": 16,
+      "human": 16,
+      "automated": 0,
+      "repositories": [
+        "mgifford/markdown-slides-editor",
+        "mgifford/open-data-guide"
+      ],
+      "byCategory": {
+        "pull_request": 16
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "total": 18,
+      "human": 16,
+      "automated": 2,
+      "repositories": [
+        "mgifford/drupal-core",
+        "mgifford/markdown-slides-editor",
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "pull_request": 16,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "total": 2,
+      "human": 0,
+      "automated": 2,
+      "repositories": [
+        "mgifford/daily-hhs",
+        "mgifford/drupal-open-dash"
+      ],
+      "byCategory": {
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "total": 1,
+      "human": 0,
+      "automated": 1,
+      "repositories": [
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "total": 3,
+      "human": 0,
+      "automated": 3,
+      "repositories": [
+        "mgifford/contrast-plus",
+        "mgifford/drupal-core",
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "pull_request": 1,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "total": 24,
+      "human": 4,
+      "automated": 20,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/AirScript",
+        "mgifford/OpenWealth",
+        "mgifford/SUSTAINABILITY.md",
+        "mgifford/ai-browser-test",
+        "mgifford/contrast-plus",
+        "mgifford/daily-dap",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/mgifford.github.io",
+        "mgifford/neighbourhood-solar",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/unosw.plus",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 20,
+        "issue": 4
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "total": 8,
+      "human": 1,
+      "automated": 7,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/bellwether",
+        "mgifford/content-first-wireframe",
+        "mgifford/contrast-plus",
+        "mgifford/daily-hhs",
+        "mgifford/ox.ca",
+        "mgifford/pdf-crawler"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "total": 1,
+      "human": 1,
+      "automated": 0,
+      "repositories": [
+        "mgifford/risky-weather"
+      ],
+      "byCategory": {
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "total": 2,
+      "human": 0,
+      "automated": 2,
+      "repositories": [
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "total": 2,
+      "human": 0,
+      "automated": 2,
+      "repositories": [
+        "mgifford/drupal-open-dash",
+        "mgifford/wsg-mooc"
+      ],
+      "byCategory": {
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "total": 3,
+      "human": 0,
+      "automated": 3,
+      "repositories": [
+        "mgifford/gh-open-dash",
+        "mgifford/open-scans",
+        "mgifford/open-site-review"
+      ],
+      "byCategory": {
+        "pull_request": 2,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "total": 2,
+      "human": 1,
+      "automated": 1,
+      "repositories": [
+        "mgifford/accessibility-sandbox",
+        "mgifford/drupal-core"
+      ],
+      "byCategory": {
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "total": 13,
+      "human": 6,
+      "automated": 7,
+      "repositories": [
+        "mgifford/a11y-maps",
+        "mgifford/a11y-svg",
+        "mgifford/accessibility-skills",
+        "mgifford/open-scans",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model",
+        "uswds/uswds"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 6
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "total": 1,
+      "human": 0,
+      "automated": 1,
+      "repositories": [
+        "mgifford/firefox-energy-scanner"
+      ],
+      "byCategory": {
+        "pull_request": 1
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "total": 1,
+      "human": 0,
+      "automated": 1,
+      "repositories": [
+        "mgifford/accessibility-sandbox"
+      ],
+      "byCategory": {
+        "pull_request": 1
+      }
+    },
+    {
+      "date": "2026-09-12",
+      "total": 8,
+      "human": 6,
+      "automated": 2,
+      "repositories": [
+        "mgifford/open-scans",
+        "mgifford/sunclipse"
+      ],
+      "byCategory": {
+        "pull_request": 6,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-09-13",
+      "total": 6,
+      "human": 0,
+      "automated": 6,
+      "repositories": [
+        "mgifford/alt-text-scan",
+        "mgifford/daily-cap",
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/open-scans",
+        "mgifford/open-susty-scans",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 6
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "total": 26,
+      "human": 1,
+      "automated": 25,
+      "repositories": [
+        "mgifford/alt-text-scan",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "issue": 20,
+        "pull_request": 6
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "total": 73,
+      "human": 15,
+      "automated": 58,
+      "repositories": [
+        "mgifford/AirScript",
+        "mgifford/OpenWealth",
+        "mgifford/SUSTAINABILITY.md",
+        "mgifford/a11y-maps",
+        "mgifford/a11y-svg",
+        "mgifford/accessibility-skills",
+        "mgifford/ai-browser-test",
+        "mgifford/airtime2",
+        "mgifford/bellwether",
+        "mgifford/content-first-wireframe",
+        "mgifford/contrast-plus",
+        "mgifford/daily-cap",
+        "mgifford/daily-dap",
+        "mgifford/daily-hhs",
+        "mgifford/ditap-1-pager",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/gh-open-dash",
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/open-scans",
+        "mgifford/open-site-review",
+        "mgifford/open-susty-scans",
+        "mgifford/openapi-reference",
+        "mgifford/ox.ca",
+        "mgifford/pdf-crawler",
+        "mgifford/unosw.plus",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wayback-extractor",
+        "mgifford/wcag-spine",
+        "mgifford/whisper-slides",
+        "mgifford/wsg-mooc"
+      ],
+      "byCategory": {
+        "pull_request": 66,
+        "issue": 7
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "total": 13,
+      "human": 8,
+      "automated": 5,
+      "repositories": [
+        "mgifford/airtime2",
+        "mgifford/drupal-core",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 12,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "total": 30,
+      "human": 29,
+      "automated": 1,
+      "repositories": [
+        "mgifford/ai-browser-test",
+        "mgifford/open-accessibility-workbench",
+        "mgifford/wai-linkedobjects"
+      ],
+      "byCategory": {
+        "pull_request": 29,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "total": 30,
+      "human": 27,
+      "automated": 3,
+      "repositories": [
+        "mgifford/markdown-slides-editor",
+        "mgifford/open-accessibility-workbench",
+        "mgifford/open-scans",
+        "mgifford/ox.ca"
+      ],
+      "byCategory": {
+        "pull_request": 28,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "total": 5,
+      "human": 2,
+      "automated": 3,
+      "repositories": [
+        "mgifford/open-accessibility-workbench",
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "pull_request": 4,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-20",
+      "total": 3,
+      "human": 1,
+      "automated": 2,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/daily-hhs",
+        "mgifford/open-accessibility-workbench"
+      ],
+      "byCategory": {
+        "pull_request": 1,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "total": 8,
+      "human": 0,
+      "automated": 8,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/openapi-reference",
+        "mgifford/whisper-slides",
+        "mgifford/wsg-mooc"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "total": 6,
+      "human": 0,
+      "automated": 6,
+      "repositories": [
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 5,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "total": 4,
+      "human": 2,
+      "automated": 2,
+      "repositories": [
+        "mgifford/markdown-slides-editor",
+        "mgifford/pdf-crawler"
+      ],
+      "byCategory": {
+        "issue": 2,
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-09-25",
+      "total": 22,
+      "human": 1,
+      "automated": 21,
+      "repositories": [
+        "mgifford/alt-text-scan",
+        "mgifford/dot-gov-scans",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler"
+      ],
+      "byCategory": {
+        "issue": 22
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "total": 2,
+      "human": 0,
+      "automated": 2,
+      "repositories": [
+        "mgifford/dot-gov-scans",
+        "mgifford/open-scans"
+      ],
+      "byCategory": {
+        "pull_request": 1,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "total": 17,
+      "human": 0,
+      "automated": 17,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler"
+      ],
+      "byCategory": {
+        "issue": 15,
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "total": 21,
+      "human": 12,
+      "automated": 9,
+      "repositories": [
+        "mgifford/DiDay",
+        "mgifford/FOSDEM-website",
+        "mgifford/alt-text-scan",
+        "mgifford/open-scans",
+        "mgifford/ox.ca",
+        "mgifford/pdf-crawler",
+        "mgifford/whisper-slides"
+      ],
+      "byCategory": {
+        "pull_request": 16,
+        "issue": 5
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "total": 1,
+      "human": 1,
+      "automated": 0,
+      "repositories": [
+        "mgifford/markdown-slides-editor"
+      ],
+      "byCategory": {
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "total": 38,
+      "human": 4,
+      "automated": 34,
+      "repositories": [
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 10,
+        "issue": 28
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "total": 8,
+      "human": 0,
+      "automated": 8,
+      "repositories": [
+        "mgifford/accessible-buildings",
+        "mgifford/drupal-core-lab",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "total": 6,
+      "human": 0,
+      "automated": 6,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/open-scans",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "issue": 2,
+        "pull_request": 4
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "total": 50,
+      "human": 25,
+      "automated": 25,
+      "repositories": [
+        "mgifford/AirScript",
+        "mgifford/Find-Overlays",
+        "mgifford/a11y-svg",
+        "mgifford/alt-text-scan",
+        "mgifford/contrast-plus",
+        "mgifford/daily-hhs",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-cms",
+        "mgifford/drupal-open-dash",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 46,
+        "issue": 4
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "total": 6,
+      "human": 2,
+      "automated": 4,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/wayback-extractor"
+      ],
+      "byCategory": {
+        "pull_request": 5,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "total": 3,
+      "human": 0,
+      "automated": 3,
+      "repositories": [
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/vital-core",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "issue": 1,
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "total": 6,
+      "human": 0,
+      "automated": 6,
+      "repositories": [
+        "mgifford/open-susty-scans",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "issue": 2,
+        "pull_request": 4
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "total": 71,
+      "human": 44,
+      "automated": 27,
+      "repositories": [
+        "mgifford/EchoDeMontolieu",
+        "mgifford/a11y-svg",
+        "mgifford/daily-dap",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 63,
+        "issue": 8
+      }
+    },
+    {
+      "date": "2026-10-09",
+      "total": 53,
+      "human": 39,
+      "automated": 14,
+      "repositories": [
+        "mgifford/EchoDeMontolieu",
+        "mgifford/a11y-svg",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 42,
+        "issue": 11
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "total": 19,
+      "human": 16,
+      "automated": 3,
+      "repositories": [
+        "mgifford/EchoDeMontolieu",
+        "mgifford/open-scans",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 17,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-11",
+      "total": 44,
+      "human": 5,
+      "automated": 39,
+      "repositories": [
+        "mgifford/EchoDeMontolieu",
+        "mgifford/daily-dap",
+        "mgifford/gh-open-dash",
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/open-scans",
+        "mgifford/open-susty-scans",
+        "mgifford/ox.ca",
+        "mgifford/pdf-crawler",
+        "mgifford/smart-cookbook",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "issue": 6,
+        "pull_request": 38
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "total": 41,
+      "human": 5,
+      "automated": 36,
+      "repositories": [
+        "mgifford/AirScript",
+        "mgifford/EchoDeMontolieu",
+        "mgifford/OpenWealth",
+        "mgifford/alt-text-scan",
+        "mgifford/contrast-plus",
+        "mgifford/daily-hhs",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-cms",
+        "mgifford/drupal-core",
+        "mgifford/drupal-open-dash",
+        "mgifford/gh-open-dash",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/openapi-reference",
+        "mgifford/pdf-crawler",
+        "mgifford/perception",
+        "mgifford/smart-cookbook",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-linkedobjects",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wayback-extractor",
+        "mgifford/whisper-slides"
+      ],
+      "byCategory": {
+        "pull_request": 39,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-13",
+      "total": 58,
+      "human": 38,
+      "automated": 20,
+      "repositories": [
+        "mgifford/OpenWealth",
+        "mgifford/a11y-svg",
+        "mgifford/content-first-wireframe",
+        "mgifford/contrast-plus",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 56,
+        "release": 1,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "total": 21,
+      "human": 13,
+      "automated": 8,
+      "repositories": [
+        "mgifford/drupal-core-lab",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model"
+      ],
+      "byCategory": {
+        "pull_request": 19,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-15",
+      "total": 19,
+      "human": 11,
+      "automated": 8,
+      "repositories": [
+        "mgifford/drupal-core-lab",
+        "mgifford/open-scans",
+        "mgifford/pdf-alt-fixer",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 15,
+        "issue": 4
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "total": 8,
+      "human": 4,
+      "automated": 4,
+      "repositories": [
+        "mgifford/drupal-core-lab",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/wsg-mooc"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-17",
+      "total": 15,
+      "human": 11,
+      "automated": 4,
+      "repositories": [
+        "mgifford/drupal-core-lab",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 13,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "total": 37,
+      "human": 29,
+      "automated": 8,
+      "repositories": [
+        "mgifford/ai-browser-test",
+        "mgifford/airtime2",
+        "mgifford/drupal-core-lab",
+        "mgifford/tune-my-repos",
+        "mgifford/unosw.plus",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 36,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-19",
+      "total": 33,
+      "human": 23,
+      "automated": 10,
+      "repositories": [
+        "mgifford/drupal-core-lab",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 31,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "total": 11,
+      "human": 8,
+      "automated": 3,
+      "repositories": [
+        "mgifford/eu-plus-government-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/permutations",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 10,
+        "issue": 1
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "total": 18,
+      "human": 0,
+      "automated": 18,
+      "repositories": [
+        "mgifford/DiDay",
+        "mgifford/a11y-maps",
+        "mgifford/a11y-svg",
+        "mgifford/alt-text-scan",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/open-data-guide",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "issue": 6,
+        "pull_request": 12
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "total": 18,
+      "human": 0,
+      "automated": 18,
+      "repositories": [
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/drupal-open-dash",
+        "mgifford/open-accessibility-workbench",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core"
+      ],
+      "byCategory": {
+        "pull_request": 7,
+        "issue": 11
+      }
+    },
+    {
+      "date": "2026-10-23",
+      "total": 59,
+      "human": 19,
+      "automated": 40,
+      "repositories": [
+        "mgifford/DiDay",
+        "mgifford/a11y-maps",
+        "mgifford/a11y-svg",
+        "mgifford/alt-text-scan",
+        "mgifford/daily-dap",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/gh-open-dash",
+        "mgifford/open-accessibility-workbench",
+        "mgifford/open-data-guide",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "release": 1,
+        "pull_request": 43,
+        "issue": 15
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "total": 30,
+      "human": 6,
+      "automated": 24,
+      "repositories": [
+        "mgifford/a11y-maps",
+        "mgifford/ai-browser-test",
+        "mgifford/airtime2",
+        "mgifford/dot-gov-scans",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core-lab",
+        "mgifford/drupal-open-dash",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/gh-open-dash",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/wsg-mooc"
+      ],
+      "byCategory": {
+        "code_development": 3,
+        "issue": 5,
+        "pull_request": 22
+      }
+    },
+    {
+      "date": "2026-10-25",
+      "total": 40,
+      "human": 29,
+      "automated": 11,
+      "repositories": [
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 19,
+        "pull_request": 19,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "total": 43,
+      "human": 29,
+      "automated": 14,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/accessible-buildings",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/find-publiccode.yml",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/wcag-spine",
+        "rolfkleef/firefox-container-homes"
+      ],
+      "byCategory": {
+        "pull_request": 15,
+        "code_development": 26,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "total": 50,
+      "human": 42,
+      "automated": 8,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-cap",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/mermaid-graphs",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core-nsf",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 43,
+        "pull_request": 7
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "total": 19,
+      "human": 10,
+      "automated": 9,
+      "repositories": [
+        "lightpanda-io/browser",
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/upstream-first",
+        "mgifford/vital-core",
+        "mgifford/wcag-spine",
+        "w3c/wai-arrm"
+      ],
+      "byCategory": {
+        "issue": 1,
+        "pull_request": 7,
+        "code_development": 11
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "total": 17,
+      "human": 8,
+      "automated": 9,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 10,
+        "code_development": 7
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "total": 201,
+      "human": 91,
+      "automated": 110,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/AirScript",
+        "mgifford/DiDay",
+        "mgifford/a11y-svg",
+        "mgifford/accessibility-sandbox",
+        "mgifford/ai-browser-test",
+        "mgifford/alt-text-scan",
+        "mgifford/bellwether",
+        "mgifford/content-first-wireframe",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/find-publiccode.yml",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/gh-open-dash",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/openapi-reference",
+        "mgifford/ox.ca",
+        "mgifford/pdf-crawler",
+        "mgifford/perception",
+        "mgifford/tune-my-repos",
+        "mgifford/unosw.plus",
+        "mgifford/upstream-first",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-linkedobjects",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wcag-spine",
+        "mgifford/whisper-slides",
+        "mgifford/wsg-mooc"
+      ],
+      "byCategory": {
+        "pull_request": 82,
+        "code_development": 89,
+        "issue": 30
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "total": 38,
+      "human": 6,
+      "automated": 32,
+      "repositories": [
+        "mgifford/OpenWealth",
+        "mgifford/SUSTAINABILITY.md",
+        "mgifford/accessible-buildings",
+        "mgifford/contrast-plus",
+        "mgifford/daily-dap",
+        "mgifford/daily-hhs",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-open-dash",
+        "mgifford/edu-scans",
+        "mgifford/gh-summary",
+        "mgifford/mena-policy-observatory",
+        "mgifford/open-scans",
+        "mgifford/open-susty-scans",
+        "mgifford/smart-cookbook",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 22,
+        "pull_request": 12,
+        "issue": 4
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "total": 56,
+      "human": 38,
+      "automated": 18,
+      "repositories": [
+        "mgifford/DiDay",
+        "mgifford/SUSTAINABILITY.md",
+        "mgifford/alt-text-scan",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/mena-policy-observatory",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 32,
+        "pull_request": 22,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "total": 174,
+      "human": 74,
+      "automated": 100,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/DiDay",
+        "mgifford/EchoDeMontolieu",
+        "mgifford/FOSDEM-website",
+        "mgifford/OpenWealth",
+        "mgifford/SUSTAINABILITY.md",
+        "mgifford/a11y-svg",
+        "mgifford/accessibility-sandbox",
+        "mgifford/accessible-buildings",
+        "mgifford/content-first-wireframe",
+        "mgifford/contrast-plus",
+        "mgifford/daily-dap",
+        "mgifford/daily-hhs",
+        "mgifford/dot-gov-scans",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/drupal-open-dash",
+        "mgifford/edu-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/mena-policy-observatory",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/open-susty-scans",
+        "mgifford/openapi-reference",
+        "mgifford/ox.ca",
+        "mgifford/pdf-crawler",
+        "mgifford/smart-cookbook",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-linkedobjects",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wayback-extractor",
+        "mgifford/wcag-spine",
+        "mgifford/whisper-slides"
+      ],
+      "byCategory": {
+        "code_development": 87,
+        "pull_request": 76,
+        "issue": 11
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "total": 52,
+      "human": 26,
+      "automated": 26,
+      "repositories": [
+        "mgifford/DiDay",
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-cap",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/mena-policy-observatory",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 12,
+        "code_development": 30,
+        "issue": 10
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "total": 111,
+      "human": 65,
+      "automated": 46,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/AirScript",
+        "mgifford/DiDay",
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-cms",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/mena-policy-observatory",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 52,
+        "pull_request": 35,
+        "issue": 24
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "total": 125,
+      "human": 91,
+      "automated": 34,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/mena-policy-observatory",
+        "mgifford/ox.ca",
+        "mgifford/top-task-finder",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 61,
+        "pull_request": 52,
+        "issue": 12
+      }
+    },
+    {
+      "date": "2026-11-06",
+      "total": 199,
+      "human": 170,
+      "automated": 29,
+      "repositories": [
+        "mgifford/FOSDEM-website",
+        "mgifford/a11y-svg",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/html2sign-language",
+        "mgifford/mena-policy-observatory",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 68,
+        "code_development": 115,
+        "issue": 16
+      }
+    },
+    {
+      "date": "2026-11-07",
+      "total": 238,
+      "human": 204,
+      "automated": 34,
+      "repositories": [
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-open-dash",
+        "mgifford/edu-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/html2sign-language",
+        "mgifford/mena-policy-observatory",
+        "mgifford/open-scans",
+        "mgifford/openacr-release-evidence",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 137,
+        "pull_request": 81,
+        "issue": 20
+      }
+    },
+    {
+      "date": "2026-11-08",
+      "total": 100,
+      "human": 83,
+      "automated": 17,
+      "repositories": [
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/html2sign-language",
+        "mgifford/mena-policy-observatory",
+        "mgifford/openacr-release-evidence",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 42,
+        "code_development": 54,
+        "issue": 4
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "total": 153,
+      "human": 121,
+      "automated": 32,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/FOSDEM-website",
+        "mgifford/Find-Overlays",
+        "mgifford/a11y-svg",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/html2sign-language",
+        "mgifford/mena-policy-observatory",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/openacr-release-evidence",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 99,
+        "pull_request": 40,
+        "issue": 14
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "total": 327,
+      "human": 302,
+      "automated": 25,
+      "repositories": [
+        "mgifford/EchoLocate",
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-cap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/html2sign-language",
+        "mgifford/mena-policy-observatory",
+        "mgifford/openacr-release-evidence",
+        "mgifford/pen-archive",
+        "mgifford/perception",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wcag-spine",
+        "opengeos/RustGIS"
+      ],
+      "byCategory": {
+        "pull_request": 104,
+        "code_development": 193,
+        "issue": 30
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "total": 262,
+      "human": 235,
+      "automated": 27,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/EchoLocate",
+        "mgifford/accessibility-skills",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/html2sign-language",
+        "mgifford/openacr-release-evidence",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine",
+        "steveseguin/captionninja"
+      ],
+      "byCategory": {
+        "code_development": 172,
+        "pull_request": 63,
+        "issue": 27
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "total": 239,
+      "human": 183,
+      "automated": 56,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/DiDay",
+        "mgifford/WCAG_by_Role",
+        "mgifford/a11y-svg",
+        "mgifford/accessibility-skills",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-market-research-mcp",
+        "mgifford/open-scans",
+        "mgifford/openacr-release-evidence",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 137,
+        "pull_request": 81,
+        "issue": 21
+      }
+    },
+    {
+      "date": "2026-11-13",
+      "total": 190,
+      "human": 145,
+      "automated": 45,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/DiDay",
+        "mgifford/Drupal-docs",
+        "mgifford/FOSDEM-website",
+        "mgifford/WCAG_by_Role",
+        "mgifford/a11y-svg",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/dpg-dpi-govstack-map",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/open-market-research-mcp",
+        "mgifford/open-scans",
+        "mgifford/open-susty-scans",
+        "mgifford/openacr-release-evidence",
+        "mgifford/top-task-finder",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 101,
+        "pull_request": 79,
+        "issue": 10
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "total": 144,
+      "human": 111,
+      "automated": 33,
+      "repositories": [
+        "Stirling-Tools/Stirling-PDF",
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/Containers-Hamlet",
+        "mgifford/DiDay",
+        "mgifford/WCAG_by_Role",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-open-dash",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-nsf",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 100,
+        "pull_request": 38,
+        "issue": 6
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "total": 162,
+      "human": 100,
+      "automated": 62,
+      "repositories": [
+        "mgifford/ACCESSIBILITY.md",
+        "mgifford/AirScript",
+        "mgifford/Containers-Hamlet",
+        "mgifford/FOSDEM-website",
+        "mgifford/a11y-svg",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/gh-summary",
+        "mgifford/inclusive-emergency-readiness",
+        "mgifford/open-susty-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wai-yaml-ld",
+        "mgifford/wayback-extractor",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 104,
+        "pull_request": 56,
+        "issue": 2
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "total": 268,
+      "human": 230,
+      "automated": 38,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/Containers-Hamlet",
+        "mgifford/DiDay",
+        "mgifford/FOSDEM-website",
+        "mgifford/Find-Overlays",
+        "mgifford/contrast-plus",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-cms",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/openacr-release-evidence",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine",
+        "sitespeedio/sitespeed.io",
+        "w3c/wai-arrm"
+      ],
+      "byCategory": {
+        "code_development": 207,
+        "pull_request": 54,
+        "issue": 7
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "total": 262,
+      "human": 199,
+      "automated": 63,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/FOSDEM-website",
+        "mgifford/daily-cap",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/w3c-a11y-maturity-model",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 58,
+        "code_development": 186,
+        "issue": 18
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "total": 164,
+      "human": 139,
+      "automated": 25,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/open-scans",
+        "mgifford/openacr-release-evidence",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine",
+        "w3c/wai-arrm"
+      ],
+      "byCategory": {
+        "code_development": 121,
+        "issue": 6,
+        "pull_request": 37
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "total": 317,
+      "human": 227,
+      "automated": 90,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd",
+        "localgovdrupal/vital-core-lgd-data",
+        "mgifford/FASTER",
+        "mgifford/Find-Overlays",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/fast",
+        "mgifford/firefox-energy-scanner",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 198,
+        "issue": 39,
+        "pull_request": 78,
+        "repository_administration": 2
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "total": 226,
+      "human": 171,
+      "automated": 55,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd-data",
+        "mgifford/FASTER",
+        "mgifford/a11y-svg",
+        "mgifford/daily-dap",
+        "mgifford/design-system-lab",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-scans",
+        "mgifford/pdf-crawler",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 137,
+        "issue": 25,
+        "pull_request": 63,
+        "repository_administration": 1
+      }
+    },
+    {
+      "date": "2026-11-21",
+      "total": 53,
+      "human": 25,
+      "automated": 28,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd-data",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-open-dash",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-scans",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 49,
+        "issue": 2,
+        "pull_request": 2
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "total": 90,
+      "human": 63,
+      "automated": 27,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd-data",
+        "mgifford/Containers-Hamlet",
+        "mgifford/daily-dap",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/open-scans",
+        "mgifford/smart-cookbook",
+        "mgifford/tune-my-repos",
+        "mgifford/vital-core",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "code_development": 57,
+        "pull_request": 13,
+        "issue": 20
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "total": 208,
+      "human": 180,
+      "automated": 28,
+      "repositories": [
+        "localgovdrupal/vital-core-lgd-data",
+        "mgifford/Containers-Hamlet",
+        "mgifford/FOSDEM-website",
+        "mgifford/Find-Overlays",
+        "mgifford/blocknote-diff-lab",
+        "mgifford/daily-dap",
+        "mgifford/design-system-lab",
+        "mgifford/dot-gov-scans",
+        "mgifford/drupal-core",
+        "mgifford/drupal-core-lab",
+        "mgifford/edu-scans",
+        "mgifford/eu-plus-government-scans",
+        "mgifford/mgifford.github.io",
+        "mgifford/open-scans",
+        "mgifford/smart-cookbook",
+        "mgifford/vital-core-data",
+        "mgifford/vital-core-nsf-data",
+        "mgifford/wcag-spine"
+      ],
+      "byCategory": {
+        "pull_request": 65,
+        "code_development": 131,
+        "issue": 11,
+        "repository_administration": 1
+      }
+    }
+  ]
+}
