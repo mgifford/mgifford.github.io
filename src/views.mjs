@@ -76,7 +76,9 @@ export function renderActivityView(input) {
   const human = visible.filter((event) => !event.automated).length;
   const automated = visible.length - human;
 
-  const timelines = projects.slice(0, projectLimit).map((project) => {
+  const timelineProjects = projects.slice(0, projectLimit);
+  const anchoredRepositories = new Set(timelineProjects.map((project) => project.repository));
+  const timelines = timelineProjects.map((project) => {
     const timeline = getProjectActivity(events, project.repository, range, { timeZone });
     const indexRow = indexByRepo.get(project.repository) || { repository: project.repository };
     const continuity = getProjectContinuity(events, indexRow, { range, timeZone });
@@ -125,7 +127,7 @@ export function renderActivityView(input) {
 <section class="atlas-section" aria-labelledby="projects-active-heading">
   <h2 id="projects-active-heading">Projects updated in this range</h2>
   <p class="muted">Sorted by most recent activity. "Latest evidence" links to the original GitHub commit, pull request, issue, or release.</p>
-  ${renderProjectTable(projects, { timeZone })}
+  ${renderProjectTable(projects, { timeZone, anchoredRepositories })}
 </section>
 <section class="atlas-section" aria-labelledby="timeline-heading">
   <h2 id="timeline-heading">Activity by date</h2>

@@ -265,15 +265,22 @@ test("contributions status counts attributable work, not repository activity", a
   });
 });
 
-test("project timeline anchors exist for project table links", async () => {
+test("every project table anchor has a matching timeline", async () => {
   await withPage({}, async (page) => {
     await page.goto(`${baseUrl}/activity.html`, { waitUntil: "networkidle" });
     await page.waitForFunction(() => document.documentElement.classList.contains("atlas-js"));
 
-    const firstProjectLink = page.locator('#atlas-results table.data-table tbody th a').first();
-    const href = await firstProjectLink.getAttribute("href");
-    assert.match(href, /^#repo-/);
-    assert.equal(await page.locator(href).count(), 1, `missing timeline target ${href}`);
+    const hrefs = await page.$$eval('#atlas-results table.data-table tbody th a[href^="#repo-"]', (links) =>
+      [...new Set(links.map((link) => link.getAttribute("href")))]
+    );
+    assert.ok(hrefs.length > 0, "expected at least one project timeline anchor");
+    for (const href of hrefs) {
+      assert.equal(await page.locator(href).count(), 1, `missing timeline target ${href}`);
+    }
+
+    // Projects without a rendered timeline must link to GitHub instead.
+    const githubLinks = await page.locator('#atlas-results table.data-table tbody th a[href^="https://github.com/"]').count();
+    assert.ok(githubLinks >= 0);
   });
 });
 

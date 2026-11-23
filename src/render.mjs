@@ -167,7 +167,7 @@ export function renderEmptyState(message, hint = "") {
  * @param {{timeZone:string}} options
  */
 export function renderProjectTable(projects, options) {
-  const { timeZone } = options;
+  const { timeZone, anchoredRepositories = null } = options;
   if (!projects?.length) {
     return renderEmptyState("No projects had recorded activity in this period.");
   }
@@ -183,8 +183,12 @@ export function renderProjectTable(projects, options) {
       const humanTime = project.lastHumanActivityAt
         ? `<time datetime="${escapeAttribute(project.lastHumanActivityAt)}">${escapeHtml(formatShortDate(project.lastHumanActivityAt, timeZone))}</time>`
         : 'No human activity <span class="muted">(automation only)</span>';
+      const hasTimeline = !anchoredRepositories || anchoredRepositories.has(project.repository);
+      const nameCell = hasTimeline
+        ? `<a href="#${escapeAttribute(repositoryAnchor(project.repository))}">${escapeHtml(project.repository)}</a>`
+        : externalLink(project.repositoryUrl || `https://github.com/${project.repository}`, project.repository);
       return `      <tr>
-        <th scope="row"><a href="#${escapeAttribute(repositoryAnchor(project.repository))}">${escapeHtml(project.repository)}</a></th>
+        <th scope="row">${nameCell}</th>
         <td>${latestTime}</td>
         <td>${latest}</td>
         <td>${humanTime}</td>
