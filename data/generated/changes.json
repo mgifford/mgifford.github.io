@@ -1,20 +1,26 @@
 {
-  "generatedAt": "2026-11-16T15:51:40.762Z",
+  "generatedAt": "2026-11-23T18:15:11.144Z",
   "owner": "mgifford",
   "counts": {
-    "previous": 345,
-    "current": 348,
-    "added": 3,
-    "deleted": 0,
-    "archivedNow": 0,
+    "previous": 348,
+    "current": 350,
+    "added": 4,
+    "deleted": 2,
+    "archivedNow": 1,
     "unarchivedNow": 0
   },
   "added": [
-    "mgifford/Containers-Hamlet",
-    "mgifford/WCAG_by_Role",
-    "mgifford/open-market-research-mcp"
+    "mgifford/FASTER",
+    "mgifford/blocknote-diff-lab",
+    "mgifford/design-system-lab",
+    "mgifford/fast"
   ],
-  "deleted": [],
-  "archivedNow": [],
+  "deleted": [
+    "mgifford/vital-core-lgd",
+    "mgifford/vital-core-lgd-data"
+  ],
+  "archivedNow": [
+    "mgifford/medblocks-ui"
+  ],
   "unarchivedNow": []
 }

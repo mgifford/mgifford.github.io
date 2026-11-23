@@ -1,28 +1,30 @@
 # Repository Sync Report
 
-Generated: 2026-11-16T15:51:40.762Z
+Generated: 2026-11-23T18:15:11.144Z
 Owner: mgifford
 
-- Previous repos: 345
-- Current repos: 348
-- Added: 3
-- Deleted: 0
-- Newly archived: 0
+- Previous repos: 348
+- Current repos: 350
+- Added: 4
+- Deleted: 2
+- Newly archived: 1
 - Unarchived: 0
 
 ## Added
 
-- mgifford/Containers-Hamlet
-- mgifford/WCAG_by_Role
-- mgifford/open-market-research-mcp
+- mgifford/FASTER
+- mgifford/blocknote-diff-lab
+- mgifford/design-system-lab
+- mgifford/fast
 
 ## Deleted
 
-- None
+- mgifford/vital-core-lgd
+- mgifford/vital-core-lgd-data
 
 ## Newly archived
 
-- None
+- mgifford/medblocks-ui
 
 ## Unarchived
 

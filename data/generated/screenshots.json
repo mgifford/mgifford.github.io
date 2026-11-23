@@ -1,8 +1,18 @@
 {
-  "generatedAt": "2026-11-16T15:52:36.061Z",
+  "generatedAt": "2026-11-23T18:16:01.458Z",
   "mode": "changed-only",
   "maxCaptures": 20,
   "captures": [
+    {
+      "repo": "ACCESSIBILITY.md",
+      "url": "https://mgifford.github.io/ACCESSIBILITY.md",
+      "path": "src/assets/screenshots/ACCESSIBILITY.md.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-15T21:00:37Z",
+      "capturedAt": "2026-11-16T15:52:30.322Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
     {
       "repo": "open-source-contracting",
       "url": "https://mgifford.github.io/open-source-contracting/",
@@ -24,6 +34,16 @@
       "skipReason": "Unchanged since last capture"
     },
     {
+      "repo": "contrast-plus",
+      "url": "https://mgifford.github.io/contrast-plus/",
+      "path": "src/assets/screenshots/contrast-plus.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-16T12:37:49Z",
+      "capturedAt": "2026-11-16T15:52:31.208Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
       "repo": "content-first-wireframe",
       "url": "https://mgifford.github.io/content-first-wireframe/",
       "path": "src/assets/screenshots/content-first-wireframe.png",
@@ -34,12 +54,42 @@
       "skipReason": "Unchanged since last capture"
     },
     {
+      "repo": "gh-summary",
+      "url": "https://mgifford.github.io/gh-summary/",
+      "path": "src/assets/screenshots/gh-summary.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-15T05:37:08Z",
+      "capturedAt": "2026-11-16T15:52:32.194Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
       "repo": "ui-palette-generator",
       "url": "https://mgifford.github.io/ui-palette-generator/",
       "path": "src/assets/screenshots/ui-palette-generator.png",
       "ok": true,
       "repoPushedAt": "2026-04-17T13:16:06Z",
       "capturedAt": "2026-07-06T07:53:07.250Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "top-task-finder",
+      "url": "https://mgifford.github.io/top-task-finder/",
+      "path": "src/assets/screenshots/top-task-finder.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-13T16:37:35Z",
+      "capturedAt": "2026-11-16T15:52:32.735Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "wai-yaml-ld",
+      "url": "https://mgifford.github.io/wai-yaml-ld/",
+      "path": "src/assets/screenshots/wai-yaml-ld.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-15T22:00:05Z",
+      "capturedAt": "2026-11-16T15:52:32.879Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -60,6 +110,16 @@
       "ok": true,
       "repoPushedAt": "2026-06-01T14:42:21Z",
       "capturedAt": "2026-06-08T08:07:21.857Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "EchoLocate",
+      "url": "https://mgifford.github.io/EchoLocate/",
+      "path": "src/assets/screenshots/EchoLocate.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-11T23:34:06Z",
+      "capturedAt": "2026-11-16T15:52:33.317Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -164,23 +224,32 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "daily-dap",
-      "url": "https://mgifford.github.io/daily-dap/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-11-09T10:15:08Z",
-      "capturedAt": "2026-11-09T16:27:31.572Z",
-      "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
+      "repo": "We4Authors",
+      "url": "https://mgifford.github.io/We4Authors/",
+      "path": "src/assets/screenshots/We4Authors.png",
+      "ok": true,
+      "repoPushedAt": "2026-01-20T22:00:52Z",
+      "capturedAt": "2026-11-16T15:52:34.162Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "vital-core-lgd",
-      "url": "https://mgifford.github.io/vital-core-lgd/",
-      "path": "src/assets/screenshots/vital-core-lgd.png",
+      "repo": "open-susty-scans",
+      "url": "https://mgifford.github.io/open-susty-scans/",
+      "path": "src/assets/screenshots/open-susty-scans.png",
       "ok": true,
-      "repoPushedAt": "2026-11-05T19:42:22Z",
-      "capturedAt": "2026-11-09T16:27:32.224Z",
+      "repoPushedAt": "2026-11-15T22:00:51Z",
+      "capturedAt": "2026-11-16T15:52:34.888Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "dpg-dpi-govstack-map",
+      "url": "https://mgifford.github.io/dpg-dpi-govstack-map/",
+      "path": "src/assets/screenshots/dpg-dpi-govstack-map.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-13T07:39:37Z",
+      "capturedAt": "2026-11-16T15:52:35.179Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -211,46 +280,6 @@
       "ok": true,
       "repoPushedAt": "2026-11-02T18:10:14Z",
       "capturedAt": "2026-11-09T16:27:34.721Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "AirScript",
-      "url": "https://mgifford.github.io/AirScript/",
-      "path": "src/assets/screenshots/AirScript.png",
-      "ok": true,
-      "repoPushedAt": "2026-10-30T10:55:57Z",
-      "capturedAt": "2026-11-02T16:01:35.849Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "wsg-mooc",
-      "url": "https://mgifford.github.io/wsg-mooc/",
-      "path": "src/assets/screenshots/wsg-mooc.png",
-      "ok": true,
-      "repoPushedAt": "2026-10-24T11:17:39Z",
-      "capturedAt": "2026-10-26T13:09:33.686Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "bellwether",
-      "url": "https://mgifford.github.io/bellwether/",
-      "path": "src/assets/screenshots/bellwether.png",
-      "ok": true,
-      "repoPushedAt": "2026-09-15T12:27:45Z",
-      "capturedAt": "2026-09-21T12:53:20.565Z",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "inclusive-emergency-readiness",
-      "url": "https://mgifford.github.io/inclusive-emergency-readiness/",
-      "path": "src/assets/screenshots/inclusive-emergency-readiness.png",
-      "ok": true,
-      "repoPushedAt": "2026-10-11T16:12:56Z",
-      "capturedAt": "2026-10-12T15:32:08.551Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -345,17 +374,6 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "accessibility",
-      "url": "https://pages.18f.gov/accessibility/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-04-06T16:16:10Z",
-      "capturedAt": "2026-11-01T14:26:54.882Z",
-      "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://pages.18f.gov/accessibility/\nCall log:\n  - navigating to \"https://pages.18f.gov/accessibility/\", waiting until \"domcontentloaded\"\n",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
       "repo": "a11ywatch",
       "url": "https://a11ywatch.com",
       "path": "src/assets/screenshots/a11ywatch.png",
@@ -386,17 +404,6 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "a11y.reviews",
-      "url": "https://a11y.reviews",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2020-03-11T21:42:13Z",
-      "capturedAt": "2026-11-01T14:27:09.958Z",
-      "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://a11y.reviews/\nCall log:\n  - navigating to \"https://a11y.reviews/\", waiting until \"domcontentloaded\"\n",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
       "repo": "a11y-style-guide",
       "url": "http://a11y-style-guide.com/style-guide",
       "path": "src/assets/screenshots/a11y-style-guide.png",
@@ -417,23 +424,22 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "Drupal-CLF-2.0-Theme",
-      "url": "http://clf.openconcept.ca",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2009-08-19T00:34:11Z",
-      "capturedAt": "2026-11-01T14:27:09.995Z",
-      "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at http://clf.openconcept.ca/\nCall log:\n  - navigating to \"http://clf.openconcept.ca/\", waiting until \"domcontentloaded\"\n",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
       "repo": "html5demos",
       "url": "http://html5demos.com",
       "path": "src/assets/screenshots/html5demos.png",
       "ok": true,
       "repoPushedAt": "2011-06-28T11:46:38Z",
       "capturedAt": "2026-04-10T12:20:54.788Z",
+      "skipped": true,
+      "skipReason": "Unchanged since last capture"
+    },
+    {
+      "repo": "medblocks-ui",
+      "url": "https://www.npmjs.com/package/medblocks-ui",
+      "path": "src/assets/screenshots/medblocks-ui.png",
+      "ok": true,
+      "repoPushedAt": "2026-09-22T09:33:43Z",
+      "capturedAt": "2026-10-01T14:43:08.101Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -785,17 +791,6 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "record-a-goose-sighting",
-      "url": "https://record-a-goose-sighting.herokuapp.com/",
-      "path": "",
-      "ok": false,
-      "repoPushedAt": "2026-10-13T11:48:08Z",
-      "capturedAt": "2026-11-01T14:27:12.601Z",
-      "error": "page.goto: Navigation to \"https://record-a-goose-sighting.herokuapp.com/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://record-a-goose-sighting.herokuapp.com/\", waiting until \"domcontentloaded\"\n",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
       "repo": "wai-wcag-em-report-tool",
       "url": "https://w3.org/WAI/eval/report-tool",
       "path": "",
@@ -910,16 +905,6 @@
       "repoPushedAt": "2026-10-12T04:38:04Z",
       "capturedAt": "2026-10-12T15:32:30.954Z",
       "error": "page.goto: Navigation to \"https://mgifford.github.io/EchoDeMontolieu/\" is interrupted by another navigation to \"https://mgifford.github.io/tune-my-repos/\"\nCall log:\n  - navigating to \"https://mgifford.github.io/EchoDeMontolieu/\", waiting until \"domcontentloaded\"\n",
-      "skipped": true,
-      "skipReason": "Unchanged since last capture"
-    },
-    {
-      "repo": "medblocks-ui",
-      "url": "https://www.npmjs.com/package/medblocks-ui",
-      "path": "src/assets/screenshots/medblocks-ui.png",
-      "ok": true,
-      "repoPushedAt": "2026-09-22T09:33:43Z",
-      "capturedAt": "2026-10-01T14:43:08.101Z",
       "skipped": true,
       "skipReason": "Unchanged since last capture"
     },
@@ -1418,164 +1403,168 @@
       "skipReason": "Unchanged since last capture"
     },
     {
-      "repo": "ACCESSIBILITY.md",
-      "url": "https://mgifford.github.io/ACCESSIBILITY.md",
-      "path": "src/assets/screenshots/ACCESSIBILITY.md.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-15T21:00:37Z",
-      "capturedAt": "2026-11-16T15:52:30.322Z"
-    },
-    {
       "repo": "open-scans",
       "url": "https://mgifford.github.io/open-scans",
       "path": "src/assets/screenshots/open-scans.png",
       "ok": true,
-      "repoPushedAt": "2026-11-16T06:53:25Z",
-      "capturedAt": "2026-11-16T15:52:30.824Z"
-    },
-    {
-      "repo": "contrast-plus",
-      "url": "https://mgifford.github.io/contrast-plus/",
-      "path": "src/assets/screenshots/contrast-plus.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-16T12:37:49Z",
-      "capturedAt": "2026-11-16T15:52:31.208Z"
+      "repoPushedAt": "2026-11-23T17:31:10Z",
+      "capturedAt": "2026-11-23T18:15:54.638Z"
     },
     {
       "repo": "pdf-crawler",
       "url": "https://mgifford.github.io/pdf-crawler/",
       "path": "src/assets/screenshots/pdf-crawler.png",
       "ok": true,
-      "repoPushedAt": "2026-11-15T21:02:34Z",
-      "capturedAt": "2026-11-16T15:52:31.499Z"
+      "repoPushedAt": "2026-11-21T00:06:20Z",
+      "capturedAt": "2026-11-23T18:15:54.851Z"
     },
     {
       "repo": "Find-Overlays",
       "url": "https://mgifford.github.io/Find-Overlays/",
       "path": "src/assets/screenshots/Find-Overlays.png",
       "ok": true,
-      "repoPushedAt": "2026-11-16T13:50:16Z",
-      "capturedAt": "2026-11-16T15:52:31.726Z"
-    },
-    {
-      "repo": "vital-core",
-      "url": "https://mgifford.github.io/vital-core/",
-      "path": "src/assets/screenshots/vital-core.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-15T01:09:22Z",
-      "capturedAt": "2026-11-16T15:52:31.931Z"
-    },
-    {
-      "repo": "gh-summary",
-      "url": "https://mgifford.github.io/gh-summary/",
-      "path": "src/assets/screenshots/gh-summary.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-15T05:37:08Z",
-      "capturedAt": "2026-11-16T15:52:32.194Z"
-    },
-    {
-      "repo": "wcag-spine",
-      "url": "https://mgifford.github.io/wcag-spine/",
-      "path": "src/assets/screenshots/wcag-spine.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-16T08:58:04Z",
-      "capturedAt": "2026-11-16T15:52:32.460Z"
-    },
-    {
-      "repo": "top-task-finder",
-      "url": "https://mgifford.github.io/top-task-finder/",
-      "path": "src/assets/screenshots/top-task-finder.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-13T16:37:35Z",
-      "capturedAt": "2026-11-16T15:52:32.735Z"
-    },
-    {
-      "repo": "wai-yaml-ld",
-      "url": "https://mgifford.github.io/wai-yaml-ld/",
-      "path": "src/assets/screenshots/wai-yaml-ld.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-15T22:00:05Z",
-      "capturedAt": "2026-11-16T15:52:32.879Z"
-    },
-    {
-      "repo": "EchoLocate",
-      "url": "https://mgifford.github.io/EchoLocate/",
-      "path": "src/assets/screenshots/EchoLocate.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-11T23:34:06Z",
-      "capturedAt": "2026-11-16T15:52:33.317Z"
+      "repoPushedAt": "2026-11-23T16:13:26Z",
+      "capturedAt": "2026-11-23T18:15:55.173Z"
     },
     {
       "repo": "drupal-core-lab",
       "url": "https://mgifford.github.io/drupal-core-lab/",
       "path": "src/assets/screenshots/drupal-core-lab.png",
       "ok": true,
-      "repoPushedAt": "2026-11-15T21:00:01Z",
-      "capturedAt": "2026-11-16T15:52:33.596Z"
+      "repoPushedAt": "2026-11-23T15:38:28Z",
+      "capturedAt": "2026-11-23T18:15:55.544Z"
+    },
+    {
+      "repo": "vital-core",
+      "url": "https://mgifford.github.io/vital-core/",
+      "path": "src/assets/screenshots/vital-core.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-20T15:51:49Z",
+      "capturedAt": "2026-11-23T18:15:55.901Z"
+    },
+    {
+      "repo": "wcag-spine",
+      "url": "https://mgifford.github.io/wcag-spine/",
+      "path": "src/assets/screenshots/wcag-spine.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-23T10:15:11Z",
+      "capturedAt": "2026-11-23T18:15:56.202Z"
     },
     {
       "repo": "eu-plus-government-scans",
       "url": "https://mgifford.github.io/eu-plus-government-scans/",
       "path": "src/assets/screenshots/eu-plus-government-scans.png",
       "ok": true,
-      "repoPushedAt": "2026-11-16T15:42:54Z",
-      "capturedAt": "2026-11-16T15:52:33.979Z"
+      "repoPushedAt": "2026-11-23T09:44:29Z",
+      "capturedAt": "2026-11-23T18:15:56.775Z"
     },
     {
-      "repo": "We4Authors",
-      "url": "https://mgifford.github.io/We4Authors/",
-      "path": "src/assets/screenshots/We4Authors.png",
+      "repo": "record-a-goose-sighting",
+      "url": "https://mgifford.github.io/record-a-goose-sighting/",
+      "path": "src/assets/screenshots/record-a-goose-sighting.png",
       "ok": true,
-      "repoPushedAt": "2026-01-20T22:00:52Z",
-      "capturedAt": "2026-11-16T15:52:34.162Z"
+      "repoPushedAt": "2026-11-20T13:43:01Z",
+      "capturedAt": "2026-11-23T18:15:57.091Z"
     },
     {
       "repo": "openacr-release-evidence",
       "url": "https://mgifford.github.io/openacr-release-evidence/",
       "path": "src/assets/screenshots/openacr-release-evidence.png",
       "ok": true,
-      "repoPushedAt": "2026-11-13T18:59:00Z",
-      "capturedAt": "2026-11-16T15:52:34.580Z"
-    },
-    {
-      "repo": "open-susty-scans",
-      "url": "https://mgifford.github.io/open-susty-scans/",
-      "path": "src/assets/screenshots/open-susty-scans.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-15T22:00:51Z",
-      "capturedAt": "2026-11-16T15:52:34.888Z"
-    },
-    {
-      "repo": "dpg-dpi-govstack-map",
-      "url": "https://mgifford.github.io/dpg-dpi-govstack-map/",
-      "path": "src/assets/screenshots/dpg-dpi-govstack-map.png",
-      "ok": true,
-      "repoPushedAt": "2026-11-13T07:39:37Z",
-      "capturedAt": "2026-11-16T15:52:35.179Z"
+      "repoPushedAt": "2026-11-18T15:38:10Z",
+      "capturedAt": "2026-11-23T18:15:57.375Z"
     },
     {
       "repo": "dot-gov-scans",
       "url": "https://mgifford.github.io/dot-gov-scans/",
       "path": "src/assets/screenshots/dot-gov-scans.png",
       "ok": true,
-      "repoPushedAt": "2026-11-16T13:38:01Z",
-      "capturedAt": "2026-11-16T15:52:35.455Z"
+      "repoPushedAt": "2026-11-23T15:57:25Z",
+      "capturedAt": "2026-11-23T18:15:57.988Z"
     },
     {
       "repo": "tune-my-repos",
       "url": "https://mgifford.github.io/tune-my-repos/",
       "path": "src/assets/screenshots/tune-my-repos.png",
       "ok": true,
-      "repoPushedAt": "2026-11-16T15:51:35Z",
-      "capturedAt": "2026-11-16T15:52:35.656Z"
+      "repoPushedAt": "2026-11-22T16:53:02Z",
+      "capturedAt": "2026-11-23T18:15:58.268Z"
     },
     {
       "repo": "a11y-svg",
       "url": "https://mgifford.github.io/a11y-svg/",
       "path": "src/assets/screenshots/a11y-svg.png",
       "ok": true,
-      "repoPushedAt": "2026-11-16T01:38:38Z",
-      "capturedAt": "2026-11-16T15:52:36.035Z"
+      "repoPushedAt": "2026-11-20T17:48:14Z",
+      "capturedAt": "2026-11-23T18:15:59.037Z"
+    },
+    {
+      "repo": "daily-dap",
+      "url": "https://mgifford.github.io/daily-dap/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-11-23T10:20:50Z",
+      "capturedAt": "2026-11-23T18:15:59.262Z",
+      "error": "page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture screenshot\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n"
+    },
+    {
+      "repo": "AirScript",
+      "url": "https://mgifford.github.io/AirScript/",
+      "path": "src/assets/screenshots/AirScript.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-15T22:04:13Z",
+      "capturedAt": "2026-11-23T18:15:59.556Z"
+    },
+    {
+      "repo": "wsg-mooc",
+      "url": "https://mgifford.github.io/wsg-mooc/",
+      "path": "src/assets/screenshots/wsg-mooc.png",
+      "ok": true,
+      "repoPushedAt": "2026-10-30T10:45:59Z",
+      "capturedAt": "2026-11-23T18:15:59.873Z"
+    },
+    {
+      "repo": "bellwether",
+      "url": "https://mgifford.github.io/bellwether/",
+      "path": "src/assets/screenshots/bellwether.png",
+      "ok": true,
+      "repoPushedAt": "2026-10-30T10:38:45Z",
+      "capturedAt": "2026-11-23T18:16:00.208Z"
+    },
+    {
+      "repo": "inclusive-emergency-readiness",
+      "url": "https://mgifford.github.io/inclusive-emergency-readiness/",
+      "path": "src/assets/screenshots/inclusive-emergency-readiness.png",
+      "ok": true,
+      "repoPushedAt": "2026-11-15T21:04:21Z",
+      "capturedAt": "2026-11-23T18:16:00.533Z"
+    },
+    {
+      "repo": "accessibility",
+      "url": "https://pages.18f.gov/accessibility/",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2026-04-06T16:16:10Z",
+      "capturedAt": "2026-11-23T18:16:00.616Z",
+      "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://pages.18f.gov/accessibility/\nCall log:\n  - navigating to \"https://pages.18f.gov/accessibility/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "repo": "a11y.reviews",
+      "url": "https://a11y.reviews",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2020-03-11T21:42:13Z",
+      "capturedAt": "2026-11-23T18:16:01.323Z",
+      "error": "page.goto: Navigation to \"https://a11y.reviews/\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\nCall log:\n  - navigating to \"https://a11y.reviews/\", waiting until \"domcontentloaded\"\n"
+    },
+    {
+      "repo": "Drupal-CLF-2.0-Theme",
+      "url": "http://clf.openconcept.ca",
+      "path": "",
+      "ok": false,
+      "repoPushedAt": "2009-08-19T00:34:11Z",
+      "capturedAt": "2026-11-23T18:16:01.422Z",
+      "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at http://clf.openconcept.ca/\nCall log:\n  - navigating to \"http://clf.openconcept.ca/\", waiting until \"domcontentloaded\"\n"
     }
   ]
 }
