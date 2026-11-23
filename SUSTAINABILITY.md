@@ -16,11 +16,15 @@ For this repository, sustainability means:
 | Metric | Status / Value |
 | :--- | :--- |
 | Static site architecture | Yes (no always-on backend) |
-| Scheduled workflow frequency | Weekly sync, monthly screenshots |
+| Scheduled workflow frequency | Weekly sync, monthly screenshots. No daily jobs. |
 | Screenshot generation cap | Bounded by MAX_SCREENSHOTS |
+| Activity API budget | 1,200 requests per weekly run (measured: 579) |
+| Activity data retained | ~4.4 MB committed; recent payload ~1.1 MB / 120 KB gzip |
+| Browser payload split | 7-day payload on load; older events lazy-loaded on demand |
+| ETag cache | Conditional requests cached in GitHub Actions, never committed |
 | Image optimization policy | Required before adding large assets |
 | JS/CSS budget trend | Track and keep lean |
-| Last sustainability review date | 2026-04-02 |
+| Last sustainability review date | 2026-11-23 |
 
 ## 3. Contributor requirements (guardrails)
 
@@ -51,8 +55,10 @@ Principles:
 
 This project uses scheduled workflows designed to balance freshness and resource use:
 
-- Weekly repository sync to detect new, deleted, and archived repos.
+- Weekly repository sync to detect new, deleted, archived, and metadata-updated repos.
+- Weekly bounded activity collection for active public repositories only.
 - Monthly screenshot refresh for repos with pages/home URLs.
+- Static page generation at build time; no client-side data processing beyond filtering.
 
 Efficiency rules:
 
@@ -60,6 +66,11 @@ Efficiency rules:
 - Commit only changed generated files.
 - Use dependency caching where possible.
 - Limit screenshot capture volume with environment controls.
+- Bound activity collection by repository count, page caps, and a hard request budget.
+- Retain routine commit detail for 30 days; keep PRs, issues, reviews, and releases for
+  the full 90-day lookback.
+- Minify large generated event payloads and keep size budgets in the data validator.
+- Lazy-load older activity so the default page does not transfer the full lookback.
 
 ## 6. Asset and content sustainability
 
@@ -86,15 +97,18 @@ Sustainability and performance are linked. We aim to:
 
 ## 8. Known limitations
 
-- The repository currently stores generated metadata and screenshots in git history, which can grow over time.
+- The repository currently stores generated metadata, activity data, and screenshots in git history, which can grow over time.
+- Volume is bounded: routine commit detail is retained for 30 days, and payload size budgets fail validation if exceeded.
 - Screenshot automation may occasionally produce larger-than-needed images.
 - External GitHub API calls are required for synchronization and cannot be fully eliminated.
+- The extended activity payload (3.0 MB raw / ~333 KB gzip) is fetched only when a
+  visitor selects a range older than seven days.
 
 ## 9. Continuous improvement
 
 Planned sustainability improvements:
 
-- Add explicit size budgets for CSS, JS, and images.
+- Add explicit size budgets for CSS, JS, and images (activity payload budgets are already enforced).
 - Add optional image compression step in screenshot workflow.
 - Add periodic cleanup policy for stale or obsolete screenshot assets.
 - Add lightweight reporting in CI for changed asset weight.
@@ -113,4 +127,4 @@ Suggested labels:
 - automation
 - documentation
 
-Last updated: 2026-04-02
+Last updated: 2026-11-23

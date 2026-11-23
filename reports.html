@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reports | Project Atlas</title>
+  <meta name="description" content="Deterministic weekly and monthly activity reports for Mike Gifford&#39;s open-source projects, with source links and explicit coverage limitations." />
+  <link rel="canonical" href="https://mgifford.github.io/reports.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Reports | Project Atlas" />
+  <meta property="og:description" content="Deterministic weekly and monthly activity reports for Mike Gifford&#39;s open-source projects, with source links and explicit coverage limitations." />
+  <meta property="og:url" content="https://mgifford.github.io/reports.html" />
+  <meta name="color-scheme" content="light dark" />
+  <script>
+  (function () {
+    const storageKey = "mgiffordRepoCatalogTheme";
+    const savedTheme = window.localStorage.getItem(storageKey);
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-brand" href="index.html">Project Atlas <span class="site-brand__sub">by Mike Gifford</span></a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="activity.html">Recent Activity</a></li>
+        <li><a href="contributions.html">My Contributions</a></li>
+        <li><a href="workstreams.html">Workstreams</a></li>
+        <li><a href="reports.html" aria-current="page">Reports</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+  <svg aria-hidden="true" class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20">
+    <circle cx="12" cy="12" r="4.25" fill="currentColor"></circle>
+    <path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+  </svg>
+  <svg aria-hidden="true" class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20">
+    <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"></path>
+  </svg>
+</button>
+  </div>
+</header>
+  <main id="main" class="atlas-main">
+    <div class="atlas-intro">
+      <p class="eyebrow">Project Atlas</p>
+      <h1>Reports</h1>
+      <p class="lede">Deterministic summaries built from the same activity evidence as the dashboard. No model-generated claims, no invented next steps.</p>
+    </div>
+
+    <div id="atlas-results" data-view="reports">
+<section class="atlas-section" aria-labelledby="reports-intro-heading">
+  <h2 id="reports-intro-heading">Deterministic reports</h2>
+  <p>Reports are generated from the same activity records as the dashboard. They contain no AI-generated summaries and no inferred next steps. A weekly report covers the last completed Monday-to-Sunday period; a monthly report covers a rolling 30 days.</p>
+</section>
+<section class="atlas-section" aria-labelledby="report-week-heading">
+  <h2 id="report-week-heading">Latest completed week</h2>
+  <p class="range-summary"><strong>Last week</strong>: 16 November 2026, 00:00 – 22 November 2026, 23:59 (America/Toronto) <span class="muted">(calendar-aligned range)</span></p>
+  <p><strong>1055</strong> human events, <strong>326</strong> automated events, across <strong>34</strong> projects. <strong>130</strong> completed and merged items.</p>
+  <h3>Completed and merged</h3>
+  <ul class="activity-list">
+    <li class="activity-item"><p class="activity-item__meta">22 November 2026, 20:04</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/20" target="_blank" rel="noreferrer noopener">Phase 3: single-storey residences and interior spatial model<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">22 November 2026, 18:49</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/19" target="_blank" rel="noreferrer noopener">Add reproducible architectural illustration pipeline<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">22 November 2026, 18:18</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/18" target="_blank" rel="noreferrer noopener">Add Cabin A electrical, PV and battery architecture<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">22 November 2026, 18:06</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/17" target="_blank" rel="noreferrer noopener">Add Cabin A ventilation and wood-heat design studies<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">22 November 2026, 18:00</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/16" target="_blank" rel="noreferrer noopener">Phase 2: architectural diversity, stacked containers and integrated Design Lab<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 15:32</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/5" target="_blank" rel="noreferrer noopener">Refactor comparisons onto a shared content model<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 14:37</p><p class="activity-item__title"><a href="https://github.com/mgifford/drupal-core-lab/pull/92" target="_blank" rel="noreferrer noopener">Add a CSS build service: .pcss.css to .css with core&#39;s own build:css<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/drupal-core-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 14:35</p><p class="activity-item__title"><a href="https://github.com/mgifford/drupal-core-lab/pull/91" target="_blank" rel="noreferrer noopener">3637163: correct the run READMEs (titled as the navigation toggle)<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/drupal-core-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 14:29</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/4" target="_blank" rel="noreferrer noopener">Integrate licensed OGDS Elements hybrid into the landing comparison<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 14:27</p><p class="activity-item__title"><a href="https://github.com/mgifford/open-scans/pull/429" target="_blank" rel="noreferrer noopener">fix(report): continuous history across family renames and visible native warnings<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/open-scans · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 13:23</p><p class="activity-item__title"><a href="https://github.com/mgifford/open-scans/pull/428" target="_blank" rel="noreferrer noopener">feat(engine): add Sa11y as a headless scanning engine<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/open-scans · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 12:11</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/3" target="_blank" rel="noreferrer noopener">Add landing-page comparison demo with concept stand-in<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 11:37</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/2" target="_blank" rel="noreferrer noopener">Simplify experiment decisions to one human decision log<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 11:37</p><p class="activity-item__title"><a href="https://github.com/mgifford/open-scans/pull/427" target="_blank" rel="noreferrer noopener">fix(correlation): compare engines per ACT rule, not per union of ids<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/open-scans · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">20 November 2026, 11:29</p><p class="activity-item__title"><a href="https://github.com/mgifford/open-scans/pull/426" target="_blank" rel="noreferrer noopener">fix(report): remove QualWeb from Markdown table and execution summary<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/open-scans · mgifford</p></li>
+  </ul>
+  <p><a href="reports/activity/latest-week.md">Read the full report in Markdown</a> · <a href="https://github.com/mgifford/mgifford.github.io/blob/master/reports/activity/latest-week.md">View the report source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+</section>
+<section class="atlas-section" aria-labelledby="report-month-heading">
+  <h2 id="report-month-heading">Rolling 30 days</h2>
+  <p class="range-summary"><strong>Last 30 days</strong>: 24 October 2026, 16:14 – 23 November 2026, 15:14 (America/Toronto) <span class="muted">(720-hour rolling window)</span></p>
+  <p><strong>3408</strong> human events, <strong>1135</strong> automated events, across <strong>79</strong> projects. <strong>547</strong> completed and merged items.</p>
+  <h3>Completed and merged</h3>
+  <ul class="activity-list">
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 15:08</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/7" target="_blank" rel="noreferrer noopener">Add fixture performance evidence and budget checks<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 14:59</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/8" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 13:44</p><p class="activity-item__title"><a href="https://github.com/mgifford/open-scans/pull/432" target="_blank" rel="noreferrer noopener">fix(ci): keep slow Playwright installs from skipping scans<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/open-scans · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 13:39</p><p class="activity-item__title"><a href="https://github.com/mgifford/design-system-lab/pull/6" target="_blank" rel="noreferrer noopener">Add a preference-aware evaluation workspace with an Alert pilot<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/design-system-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 13:33</p><p class="activity-item__title"><a href="https://github.com/mgifford/drupal-core/pull/97" target="_blank" rel="noreferrer noopener">feat: Phase 2 upstream sources, pinned checkouts and provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/drupal-core · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 13:31</p><p class="activity-item__title"><a href="https://github.com/mgifford/blocknote-diff-lab/pull/2" target="_blank" rel="noreferrer noopener">Harden state handling and document live BlockNote validation<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/blocknote-diff-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 13:31</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/31" target="_blank" rel="noreferrer noopener">Define v2 image descriptions and complete the pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 13:27</p><p class="activity-item__title"><a href="https://github.com/mgifford/drupal-core/pull/96" target="_blank" rel="noreferrer noopener">Merge upstream Drupal core main (97c6ff8b25), replacing PR 94<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/drupal-core · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 12:51</p><p class="activity-item__title"><a href="https://github.com/mgifford/blocknote-diff-lab/pull/1" target="_blank" rel="noreferrer noopener">Add BlockNote Accessibility Diff Lab starter kit<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/blocknote-diff-lab · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 12:48</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/30" target="_blank" rel="noreferrer noopener">Consolidate Phases 4–5 into main<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 12:37</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/29" target="_blank" rel="noreferrer noopener">Pattern Language Phase 5: resident evaluation framework<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 12:37</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/28" target="_blank" rel="noreferrer noopener">Pattern Language Phase 4: initial pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 12:37</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/27" target="_blank" rel="noreferrer noopener">Bring Phase 3 scenario comparison to main<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 11:56</p><p class="activity-item__title"><a href="https://github.com/mgifford/open-scans/pull/431" target="_blank" rel="noreferrer noopener">feat(registry): make report-derived ACT mappings reproducible<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/open-scans · mgifford</p></li>
+    <li class="activity-item"><p class="activity-item__meta">23 November 2026, 11:52</p><p class="activity-item__title"><a href="https://github.com/mgifford/Containers-Hamlet/pull/26" target="_blank" rel="noreferrer noopener">Pattern Language Phase 3: baseline-preserving scenario comparison<span class="visually-hidden"> (opens in a new tab)</span></a></p><p class="activity-item__context">mgifford/Containers-Hamlet · mgifford</p></li>
+  </ul>
+  <p><a href="reports/activity/latest-month.md">Read the full report in Markdown</a> · <a href="https://github.com/mgifford/mgifford.github.io/blob/master/reports/activity/latest-month.md">View the report source on GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+</section>
+    </div>
+  </main>
+  <footer class="site-footer">
+  <p>Project Atlas is a static catalogue of public GitHub work. Activity is collected from public GitHub data; private repositories and authenticated-only signals are never published.</p>
+  <p class="muted">Activity data generated 23 November 2026, 15:14 · Reporting time zone: America/Toronto · <a href="https://github.com/mgifford/mgifford.github.io">Source repository<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+</footer>
+  <script type="module" src="src/activity-app.js"></script>
+</body>
+</html>

@@ -13,10 +13,11 @@ This repository is a curated catalog and maintenance dashboard for GitHub reposi
 | Metric | Status / Value |
 | :--- | :--- |
 | Open accessibility issues | View issues with accessibility label (create label if missing) |
-| Accessibility checks in CI | Automated axe scans for desktop/mobile and light/dark, plus validation workflow |
-| Keyboard navigation status | Required for primary controls and filters |
-| Contrast review status | Review required for each UI refresh |
-| Last accessibility review date | 2026-04-02 |
+| Accessibility checks in CI | Automated axe scans for the catalogue and four activity pages, light/dark, plus validation workflow |
+| Keyboard navigation status | Required for primary controls and activity filters; covered by tests |
+| Contrast review status | Reviewed for the activity views in light and dark mode |
+| No-JavaScript status | Activity pages ship a complete static snapshot; interactive controls appear only after enhancement |
+| Last accessibility review date | 2026-11-23 |
 
 ## 3. Contributor requirements (guardrails)
 
@@ -31,6 +32,12 @@ Contributors should follow these requirements for UI, docs, and automation chang
 - Use descriptive link text.
 - Avoid motion that cannot be reduced or disabled.
 - Keep language clear and avoid unnecessary jargon.
+- Meet WCAG 2.2 SC 2.5.8 Target Size (Minimum): at least 24×24 CSS pixels or
+  equivalent spacing for interactive targets.
+- Ensure activity status is communicated in text, not colour alone (automated,
+  human, completed, in progress, uncertain).
+- Ensure coverage and data limitations are always disclosed, not hidden in a
+  collapsed panel.
 
 When changing layout, styling, or interaction logic, include accessibility checks before merge.
 
@@ -56,8 +63,12 @@ Severity model:
 Current and planned checks for this repository:
 
 - HTML and content structure review during pull requests
-- Automated axe-core scans in CI for public pages across desktop/mobile and light/dark modes
-- Keyboard-only interaction pass for filter/search/sort controls
+- Automated axe-core scans in CI for the catalogue plus `activity.html`,
+  `contributions.html`, `workstreams.html`, and `reports.html` in light and dark modes
+- Static-content checks with JavaScript disabled for the activity pages
+- Keyboard-only interaction pass for filter/search/sort controls, including date range,
+  custom range, project, workstream, activity type, and automation toggle
+- Duplicate-id, heading, landmark, and table caption/scope checks in page tests
 - Contrast review for new visual styles
 - Link validation through scheduled workflows
 - Periodic screen reader spot checks for key flows
@@ -85,6 +96,12 @@ Assistive technology spot-check targets (when available):
 - This is a static GitHub Pages site and cannot directly read your signed-in GitHub browser session.
 - Owner mode is disabled in the public site until GitHub OAuth or a server-side owner data pipeline is added.
 - Some repository metadata, descriptions, and screenshots come from automated scripts and may be incomplete.
+- Activity data is collected for a bounded set of public repositories and may be
+  partial. Coverage and limitations are disclosed on every activity page.
+- Interactive activity filters require JavaScript. The default seven-day snapshot,
+  evidence links, project timelines, and coverage notes are available without it.
+- Wide activity tables scroll horizontally at narrow viewport widths; each table also
+  has a caption and scoped headers for assistive technology.
 - External linked project pages may not meet the same accessibility level as this repository.
 
 ## 8. Getting help
@@ -103,5 +120,6 @@ Planned improvements:
 - Add issue labeling conventions for accessibility defects
 - Track accessibility review dates and unresolved barriers
 - Improve screenshot and image text alternatives over time
+- Add a periodic screen-reader pass over the activity filters and project timelines
 
-Last updated: 2026-04-02
+Last updated: 2026-11-23

@@ -1,0 +1,1463 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Contributions | Project Atlas</title>
+  <meta name="description" content="Public GitHub contributions attributed to Mike Gifford over a selected date range, including work in repositories he does not own." />
+  <link rel="canonical" href="https://mgifford.github.io/contributions.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="My Contributions | Project Atlas" />
+  <meta property="og:description" content="Public GitHub contributions attributed to Mike Gifford over a selected date range, including work in repositories he does not own." />
+  <meta property="og:url" content="https://mgifford.github.io/contributions.html" />
+  <meta name="color-scheme" content="light dark" />
+  <script>
+  (function () {
+    const storageKey = "mgiffordRepoCatalogTheme";
+    const savedTheme = window.localStorage.getItem(storageKey);
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-brand" href="index.html">Project Atlas <span class="site-brand__sub">by Mike Gifford</span></a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="activity.html">Recent Activity</a></li>
+        <li><a href="contributions.html" aria-current="page">My Contributions</a></li>
+        <li><a href="workstreams.html">Workstreams</a></li>
+        <li><a href="reports.html">Reports</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+  <svg aria-hidden="true" class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20">
+    <circle cx="12" cy="12" r="4.25" fill="currentColor"></circle>
+    <path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+  </svg>
+  <svg aria-hidden="true" class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20">
+    <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"></path>
+  </svg>
+</button>
+  </div>
+</header>
+  <main id="main" class="atlas-main">
+    <div class="atlas-intro">
+      <p class="eyebrow">Project Atlas</p>
+      <h1>My contributions</h1>
+      <p class="lede">What have I actually worked on? Only public events attributed to the configured account or commit identities are counted, and authored, reviewed, commented, and merged work are distinguished.</p>
+    </div>
+<noscript>
+    <p class="notice">This page shows a fixed snapshot for the default date range. Interactive date filters require JavaScript. Every value below is also available in the page text and its source links.</p>
+  </noscript>
+<form id="atlas-filters" class="filters js-only" method="get" action="contributions.html" data-view="contributions">
+  <div class="filters__grid">
+    <div class="filters__field">
+      <label for="f-range">Date range</label>
+      <select id="f-range" name="range" aria-describedby="f-range-help">
+          <option value="today">Today</option>
+          <option value="yesterday">Yesterday</option>
+          <option value="this_week">This week (Monday to now)</option>
+          <option value="last_week">Last week (Monday to Sunday)</option>
+          <option value="last_7_days" selected>Last 7 days (rolling)</option>
+          <option value="last_14_days">Last 14 days</option>
+          <option value="last_30_days">Last 30 days</option>
+          <option value="last_90_days">Last 90 days</option>
+          <option value="custom">Custom range</option>
+      </select>
+      <p id="f-range-help" class="filters__help">Times use the configured reporting time zone. "This week" starts Monday 00:00.</p>
+    </div>
+    <div class="filters__field" data-custom-range hidden>
+      <label for="f-from">From date</label>
+      <input id="f-from" name="from" type="date" />
+    </div>
+    <div class="filters__field" data-custom-range hidden>
+      <label for="f-to">To date</label>
+      <input id="f-to" name="to" type="date" />
+    </div>
+    <div class="filters__field">
+      <label for="f-workstream">Workstream</label>
+      <select id="f-workstream" name="workstream">
+        <option value="all">All workstreams</option>
+      </select>
+    </div>
+    <div class="filters__field">
+      <label for="f-category">Activity type</label>
+      <select id="f-category" name="category">
+        <option value="all">All activity types</option>
+      </select>
+    </div>
+
+    <div class="filters__field">
+      <label for="f-search">Search</label>
+      <input id="f-search" name="q" type="search" placeholder="Title, project, or actor" />
+    </div>
+    <div class="filters__field filters__field--check">
+      <label><input id="f-exclude-automated" name="automation" type="checkbox" value="exclude" /> Exclude routine automation</label>
+    </div>
+  </div>
+  <div class="filters__actions">
+    <button class="btn btn--primary" type="submit">Apply filters</button>
+    <a class="btn btn--ghost" href="contributions.html" data-reset-link>Reset</a>
+  </div>
+</form>
+<div id="atlas-status" class="atlas-status" role="status" aria-live="polite"></div>
+    <div id="atlas-results" data-view="contributions">
+<section class="atlas-section" aria-labelledby="range-heading">
+  <h2 id="range-heading">Date range</h2>
+  <p class="range-summary"><strong>Last 7 days</strong>: 16 November 2026, 15:14 – 23 November 2026, 15:14 (America/Toronto) <span class="muted">(168-hour rolling window)</span></p>
+</section>
+<section class="atlas-section" aria-labelledby="identity-heading">
+  <h2 id="identity-heading">What counts as my contribution</h2>
+  <p>Only events whose actor is <strong>mgifford</strong> (or a configured commit identity) are counted. Activity by other people in repositories you maintain is excluded. Authored, reviewed, commented, merged, and committed work are labelled separately.</p>
+  <p class="muted">Configured identities: Mike Gifford, mike.gifford@civicactions.com, mike@ox.ca. Only public activity is collected; private work is never included.</p>
+</section>
+<section class="atlas-section" aria-labelledby="contribution-summary-heading">
+  <h2 id="contribution-summary-heading">Summary</h2>
+  <p><strong>885</strong> attributable contributions across <strong>19</strong> repositories and <strong>7</strong> contribution types. Roles represented: Author, Commenter, Committer, Creator.</p>
+  <div class="two-column">
+    <div class="table-wrap">
+  <table class="data-table data-table--compact">
+    <caption>Attributable contributions by type.</caption>
+    <thead><tr><th scope="col">Contribution type</th><th scope="col">Count</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Commit pushed</th><td>538</td></tr>
+      <tr><th scope="row">Pull request opened</th><td>153</td></tr>
+      <tr><th scope="row">Pull request merged</th><td>152</td></tr>
+      <tr><th scope="row">Issue opened</th><td>17</td></tr>
+      <tr><th scope="row">Issue comment</th><td>13</td></tr>
+      <tr><th scope="row">Issue closed</th><td>8</td></tr>
+      <tr><th scope="row">Repository created</th><td>4</td></tr>
+    </tbody>
+  </table>
+</div>
+    <div class="table-wrap">
+      <table class="data-table data-table--compact">
+        <caption>Attributable contributions by repository.</caption>
+        <thead><tr><th scope="col">Repository</th><th scope="col">Count</th><th scope="col">Roles</th><th scope="col">Most recent</th></tr></thead>
+        <tbody>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>18</td>
+        <td>Author, Creator</td>
+        <td>23 November 2026, 15:10</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>39</td>
+        <td>Author, Creator</td>
+        <td>23 November 2026, 15:08</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>225</td>
+        <td>Author, Commenter</td>
+        <td>23 November 2026, 15:07</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/mgifford.github.io" target="_blank" rel="noreferrer noopener">mgifford/mgifford.github.io<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>3</td>
+        <td>Author</td>
+        <td>23 November 2026, 13:57</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>61</td>
+        <td>Author</td>
+        <td>23 November 2026, 13:33</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/Containers-Hamlet" target="_blank" rel="noreferrer noopener">mgifford/Containers-Hamlet<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>86</td>
+        <td>Author, Commenter</td>
+        <td>23 November 2026, 13:31</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/drupal-core-lab" target="_blank" rel="noreferrer noopener">mgifford/drupal-core-lab<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>90</td>
+        <td>Author</td>
+        <td>23 November 2026, 10:44</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/smart-cookbook" target="_blank" rel="noreferrer noopener">mgifford/smart-cookbook<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>36</td>
+        <td>Author</td>
+        <td>23 November 2026, 09:47</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/localgovdrupal/vital-core-lgd-data" target="_blank" rel="noreferrer noopener">localgovdrupal/vital-core-lgd-data<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>33</td>
+        <td>Committer</td>
+        <td>23 November 2026, 07:31</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/vital-core-data" target="_blank" rel="noreferrer noopener">mgifford/vital-core-data<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>1</td>
+        <td>Author</td>
+        <td>20 November 2026, 11:35</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/eu-plus-government-scans" target="_blank" rel="noreferrer noopener">mgifford/eu-plus-government-scans<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>2</td>
+        <td>Author</td>
+        <td>20 November 2026, 11:35</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/vital-core" target="_blank" rel="noreferrer noopener">mgifford/vital-core<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>106</td>
+        <td>Author</td>
+        <td>20 November 2026, 10:51</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>29</td>
+        <td>Author, Creator</td>
+        <td>20 November 2026, 06:03</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/Find-Overlays" target="_blank" rel="noreferrer noopener">mgifford/Find-Overlays<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>7</td>
+        <td>Author</td>
+        <td>19 November 2026, 13:23</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/fast" target="_blank" rel="noreferrer noopener">mgifford/fast<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>1</td>
+        <td>Creator</td>
+        <td>19 November 2026, 13:07</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/localgovdrupal/vital-core-lgd" target="_blank" rel="noreferrer noopener">localgovdrupal/vital-core-lgd<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>54</td>
+        <td>Author, Committer</td>
+        <td>19 November 2026, 11:53</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>91</td>
+        <td>Author, Commenter</td>
+        <td>19 November 2026, 05:25</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/mgifford/openacr-release-evidence" target="_blank" rel="noreferrer noopener">mgifford/openacr-release-evidence<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>1</td>
+        <td>Author</td>
+        <td>18 November 2026, 10:38</td>
+      </tr>
+      <tr>
+        <th scope="row"><a href="https://github.com/w3c/wai-arrm" target="_blank" rel="noreferrer noopener">w3c/wai-arrm<span class="visually-hidden"> (opens in a new tab)</span></a></th>
+        <td>2</td>
+        <td>Author</td>
+        <td>18 November 2026, 09:03</td>
+      </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section class="atlas-section" aria-labelledby="contribution-timeline-heading">
+  <h2 id="contribution-timeline-heading">Contributions by date</h2>
+  <section class="activity-day" aria-labelledby="contrib-day-2026-11-23">
+  <h3 id="contrib-day-2026-11-23">Monday, 23 November 2026</h3>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-Containers-Hamlet">
+  <h4 id="contrib-2026-11-23-mgifford-Containers-Hamlet"><a href="https://github.com/mgifford/Containers-Hamlet" target="_blank" rel="noreferrer noopener">mgifford/Containers-Hamlet<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(39)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:32.000Z">13:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/bc2b9c061fe8badd925802e8fc6638569fc99a06" target="_blank" rel="noreferrer noopener">Merge pull request #31 from mgifford/v2-image-descriptions<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:32.000Z">13:31</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/31" target="_blank" rel="noreferrer noopener">Define v2 image descriptions and complete the pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+- Adds 16 per-image descriptions for the v2 set: one exterior and one interior hero per home, plus four Woodland Cottage fire/water/accessibility detail shots.
+- Adds a visible-services layer with modeled, inferred, conceptual a</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:26:38.000Z">13:26</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/31" target="_blank" rel="noreferrer noopener">Define v2 image descriptions and complete the pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+- Adds 16 per-image descriptions for the v2 set: one exterior and one interior hero per home, plus four Woodland Cottage fire/water/accessibility detail shots.
+- Adds a visible-services layer with modeled, inferred, conceptual a</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:26:26.000Z">13:26</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/264a00cd71189dcf5d530a1bf4fb9dbc36cbd232" target="_blank" rel="noreferrer noopener">Define v2 image descriptions and complete the pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:48:15.000Z">12:48</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/45b343b0f75653c66b34092aaa5b7c47d69ed62d" target="_blank" rel="noreferrer noopener">Merge pull request #30 from mgifford/pattern-language-phase-5<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:48:15.000Z">12:48</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/30" target="_blank" rel="noreferrer noopener">Consolidate Phases 4–5 into main<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Bring Phases 4–5 to `main`
+
+The Phase 4 and Phase 5 PRs were stacked and merged into their base branches after those bases had already merged to `main`. This consolidation PR carries the final Phase 4/5 work from `pattern-language-phase-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:39:43.000Z">12:39</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/30" target="_blank" rel="noreferrer noopener">Consolidate Phases 4–5 into main<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Bring Phases 4–5 to `main`
+
+The Phase 4 and Phase 5 PRs were stacked and merged into their base branches after those bases had already merged to `main`. This consolidation PR carries the final Phase 4/5 work from `pattern-language-phase-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:37:50.000Z">12:37</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/29" target="_blank" rel="noreferrer noopener">Pattern Language Phase 5: resident evaluation framework<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 5: resident evaluation framework
+
+&gt; Stacked on `pattern-language-phase-4` (which contains Phases 3–4). Merge #27, retarget #28, then retarget this PR.
+
+Adds `/design-lab/evaluation/` with six resident activity sequ</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:37:25.000Z">12:37</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/28" target="_blank" rel="noreferrer noopener">Pattern Language Phase 4: initial pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 4: initial pattern lens
+
+&gt; Stacked on `pattern-language-phase-2` (which now contains Phase 3). PR #27 brings Phase 3 to `main`.
+
+Adds an initial room-level pattern lens to three Design Lab architecture pages:
+
+- **</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:37:11.000Z">12:37</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/27" target="_blank" rel="noreferrer noopener">Bring Phase 3 scenario comparison to main<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Phase 3 was merged into the stacked Phase 2 branch after #25 had already merged to main. This PR brings the baseline-preserving scenario comparison into main. It contains the Phase 3 changes only relative to main.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:37:10.000Z">12:37</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/cc19a8fba278d3096ff5766dd6280b395b1be65a" target="_blank" rel="noreferrer noopener">Merge pull request #27 from mgifford/pattern-language-phase-2<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:27:00.000Z">12:27</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/29" target="_blank" rel="noreferrer noopener">Pattern Language Phase 5: resident evaluation framework<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 5: resident evaluation framework
+
+&gt; Stacked on `pattern-language-phase-4` (which contains Phases 3–4). Merge #27, retarget #28, then retarget this PR.
+
+Adds `/design-lab/evaluation/` with six resident activity sequ</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:26:46.000Z">12:26</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/e47e6aba2aaef203870f2455cb8f2361f314d266" target="_blank" rel="noreferrer noopener">Add Phase 5 resident evaluation records<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:02:14.000Z">12:02</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/28" target="_blank" rel="noreferrer noopener">Pattern Language Phase 4: initial pattern lens<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 4: initial pattern lens
+
+&gt; Stacked on `pattern-language-phase-2` (which now contains Phase 3). PR #27 brings Phase 3 to `main`.
+
+Adds an initial room-level pattern lens to three Design Lab architecture pages:
+
+- **</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:02:01.000Z">12:02</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/eb6b98109062c4554ab31e335b1bd62f52c82fa0" target="_blank" rel="noreferrer noopener">Add Phase 4 pattern lens annotations<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T16:57:36.000Z">11:57</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/27" target="_blank" rel="noreferrer noopener">Bring Phase 3 scenario comparison to main<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Phase 3 was merged into the stacked Phase 2 branch after #25 had already merged to main. This PR brings the baseline-preserving scenario comparison into main. It contains the Phase 3 changes only relative to main.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T16:52:14.000Z">11:52</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/b5fe3e73e914791ab7456d0dc35c8653c2a3f6d6" target="_blank" rel="noreferrer noopener">Merge pull request #26 from mgifford/pattern-language-phase-3<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T16:52:14.000Z">11:52</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/26" target="_blank" rel="noreferrer noopener">Pattern Language Phase 3: baseline-preserving scenario comparison<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 3: baseline-preserving scenario comparison
+
+&gt; Stacked on #25 (Phase 2). Review that PR first; this branch contains only the Phase 3 changes.
+
+Adds three conceptual site arrangements at `/design-lab/scenarios/` whil</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:59:32.000Z">10:59</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/26" target="_blank" rel="noreferrer noopener">Pattern Language Phase 3: baseline-preserving scenario comparison<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 3: baseline-preserving scenario comparison
+
+&gt; Stacked on #25 (Phase 2). Review that PR first; this branch contains only the Phase 3 changes.
+
+Adds three conceptual site arrangements at `/design-lab/scenarios/` whil</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:59:20.000Z">10:59</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/1f7a4920a95ba2767a07914ce466452b034771b5" target="_blank" rel="noreferrer noopener">Add Phase 3 baseline-preserving scenario comparison<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:50:13.000Z">10:50</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/25" target="_blank" rel="noreferrer noopener">Pattern Language Phase 2: site-plan highlighting<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 2: site-plan integration
+
+Connects the Pattern Language Explorer to the existing generated site plan, without duplicating coordinates or replacing the six-home baseline.
+
+### What’s included
+
+- `data/patterns/site-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:50:12.000Z">10:50</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/ddd6e132d2643cb5e4871461362d0153ddef5f68" target="_blank" rel="noreferrer noopener">Merge pull request #25 from mgifford/pattern-language-phase-2<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:58:55.000Z">09:58</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/25" target="_blank" rel="noreferrer noopener">Pattern Language Phase 2: site-plan highlighting<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Phase 2: site-plan integration
+
+Connects the Pattern Language Explorer to the existing generated site plan, without duplicating coordinates or replacing the six-home baseline.
+
+### What’s included
+
+- `data/patterns/site-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:58:43.000Z">09:58</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/dd577456d27c13d28b259cdf58a1eca421a698e8" target="_blank" rel="noreferrer noopener">Add Phase 2 pattern-to-site-plan highlighting<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:48:04.000Z">09:48</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/98ba8deee8ff6fbaef48f5d3c893226c7ced9aa4" target="_blank" rel="noreferrer noopener">Merge pull request #24 from mgifford/fire-water-service-layer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:48:04.000Z">09:48</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/24" target="_blank" rel="noreferrer noopener">Add fire and rainwater service transparency<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Add fire and rainwater service transparency
+
+Adds a conceptual water/fire-service layer to every selected home and exposes the unresolved fire and water assumptions in drawings and illustration prompts.
+
+### Water
+
+Every selected design </p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:31:29.000Z">09:31</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/24" target="_blank" rel="noreferrer noopener">Add fire and rainwater service transparency<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Add fire and rainwater service transparency
+
+Adds a conceptual water/fire-service layer to every selected home and exposes the unresolved fire and water assumptions in drawings and illustration prompts.
+
+### Water
+
+Every selected design </p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:29:29.000Z">09:29</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/cb1bbede4cb02d5c193bd313a8218596be77e1e5" target="_blank" rel="noreferrer noopener">Add fire and rainwater service transparency to scenes and drawings<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:15:00.000Z">09:15</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/0c8a36de8e3f75fc405bf068bd386549324d21ec" target="_blank" rel="noreferrer noopener">Merge pull request #23 from mgifford/pattern-language-explorer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:15:00.000Z">09:15</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/23" target="_blank" rel="noreferrer noopener">Add a source-verified Pattern Language Explorer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Explorer + fire/water service transparency
+
+Implements Phase 0/1 of the pattern-language work and adds a fire/rainwater service layer to the selected homes. The branch is merged with current `main` (including PR #22); co</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:59:15.000Z">08:59</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/e6c747adebcacd93bda0dcac368ef904bea601b3" target="_blank" rel="noreferrer noopener">Merge main into pattern-language branch<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:51:11.000Z">08:51</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/23" target="_blank" rel="noreferrer noopener">Add a source-verified Pattern Language Explorer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Pattern Language Explorer + fire/water service transparency
+
+Implements Phase 0/1 of the pattern-language work and adds a fire/rainwater service layer to the selected homes. The branch is merged with current `main` (including PR #22); co</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:50:58.000Z">08:50</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/0cd693a05f4244e4a95528cd75b7079a9a53182a" target="_blank" rel="noreferrer noopener">Add a source-verified Pattern Language Explorer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:36:25.000Z">08:36</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/926856ba99041cce906cea2c2ac7423232ae3585" target="_blank" rel="noreferrer noopener">Merge pull request #22 from mgifford/visualisation-v1-placeholders<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:36:25.000Z">08:36</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/22" target="_blank" rel="noreferrer noopener">Publish v1 concept visualisation placeholders and v2 brief<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Publish v1 concept visualisation placeholders
+
+Adds the three AI-assisted exterior/interior images as **clearly labelled v1 placeholders**, plus a public checklist for version 2.
+
+### Page
+
+`/design-lab/visualisations/` includes:
+
+- the </p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:27:41.000Z">08:27</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/22" target="_blank" rel="noreferrer noopener">Publish v1 concept visualisation placeholders and v2 brief<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Publish v1 concept visualisation placeholders
+
+Adds the three AI-assisted exterior/interior images as **clearly labelled v1 placeholders**, plus a public checklist for version 2.
+
+### Page
+
+`/design-lab/visualisations/` includes:
+
+- the </p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:27:30.000Z">08:27</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/9efaa67ac032318cb46b51e339522b82d9b2b869" target="_blank" rel="noreferrer noopener">Publish v1 concept visualisation placeholders<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:45:46.000Z">06:45</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/pull/21" target="_blank" rel="noreferrer noopener">Correct Phase 3 scope and reduce page weight<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Correct Phase 3 scope and reduce page weight
+
+Follow-up to merged PR #20. It restores the intended storey mix and two accessible demonstrations, then splits the heaviest pages and returns the site to the 6 MB budget.
+
+### Selected set
+
+|</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:45:45.000Z">06:45</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/dc8c8ff9db001a480100a202afd2b9e682c07d0f" target="_blank" rel="noreferrer noopener">Merge pull request #21 from mgifford/phase-3-storey-accessibility-correction<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-smart-cookbook">
+  <h4 id="contrib-2026-11-23-mgifford-smart-cookbook"><a href="https://github.com/mgifford/smart-cookbook" target="_blank" rel="noreferrer noopener">mgifford/smart-cookbook<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(35)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:47:33.000Z">09:47</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/06a17fcaf59e8265fe8d462ece96db7076b0215e" target="_blank" rel="noreferrer noopener">Merge pull request #14 from mgifford/fix/ci-policy-guard<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:47:33.000Z">09:47</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/14" target="_blank" rel="noreferrer noopener">Round nutrition sensibly and pair it with cooking science<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">- Place Cooking Science and Nutrition side by side on wide screens; stack them on mobile
+- Display grams rounded to 5-10 g and calories to 10 kcal instead of decimal lab-style values
+- Explain the rounding in the coverage text
+- Add display</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:47:21.000Z">09:47</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/14" target="_blank" rel="noreferrer noopener">Round nutrition sensibly and pair it with cooking science<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">- Place Cooking Science and Nutrition side by side on wide screens; stack them on mobile
+- Display grams rounded to 5-10 g and calories to 10 kcal instead of decimal lab-style values
+- Explain the rounding in the coverage text
+- Add display</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:14:48.000Z">09:14</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/13" target="_blank" rel="noreferrer noopener">Round nutrition sensibly and pair it with cooking science<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Follow-up to PR #12, which merged before this commit landed.
+
+- Cooking Science and Nutrition share a responsive two-column row on wide screens and stack on mobile.
+- Nutrition grams round to the nearest 10 g above 50 g, 5 g from 10–50 g, a</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:14:47.000Z">09:14</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/29180c42c8ab4f96da1ba02462921d29ae3b9b91" target="_blank" rel="noreferrer noopener">Merge pull request #13 from mgifford/fix/nutrition-rounding<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:53:50.000Z">08:53</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/13" target="_blank" rel="noreferrer noopener">Round nutrition sensibly and pair it with cooking science<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Follow-up to PR #12, which merged before this commit landed.
+
+- Cooking Science and Nutrition share a responsive two-column row on wide screens and stack on mobile.
+- Nutrition grams round to the nearest 10 g above 50 g, 5 g from 10–50 g, a</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:53:18.000Z">08:53</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/a7fe3639b845a7aeb78cb20b990bccd2b195038a" target="_blank" rel="noreferrer noopener">Round nutrition sensibly and pair it with cooking science<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:52:48.000Z">08:52</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/e31bda00e6710966dfc271497a172f7778ea2851" target="_blank" rel="noreferrer noopener">Round nutrition sensibly and pair it with cooking science<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:46:43.000Z">08:46</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/d6dff7452596ef0071b75ccf54afc37ee3053c96" target="_blank" rel="noreferrer noopener">Merge pull request #12 from mgifford/fix/ci-policy-guard<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:46:43.000Z">08:46</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/12" target="_blank" rel="noreferrer noopener">Add focused recipe pages, dietary clarity, rounded nutrition, and CI guard<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This follow-up now includes focused recipe pages, the vegetarian/vegan distinction, nutrition presentation, and the CI policy guard.
+
+### Focused recipe pages
+- Every recipe has a static, text-first page at `recipes/&lt;id&gt;.html`.
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:42:04.000Z">08:42</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/1dd5b31cf4517f27281df04dc62ccb25ff17873a" target="_blank" rel="noreferrer noopener">Add focused recipe pages and distinguish vegetarian from vegan<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:32:50.000Z">08:32</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/12" target="_blank" rel="noreferrer noopener">Add focused recipe pages, dietary clarity, rounded nutrition, and CI guard<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This follow-up now includes focused recipe pages, the vegetarian/vegan distinction, nutrition presentation, and the CI policy guard.
+
+### Focused recipe pages
+- Every recipe has a static, text-first page at `recipes/&lt;id&gt;.html`.
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:32:24.000Z">08:32</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/86467fc2a02eec63fd3eb20380f5355b2426d234" target="_blank" rel="noreferrer noopener">Prevent the quality gate from silently passing<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:31:32.000Z">08:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/12dc882f6b5e179d6233655f99a8fac0f74cece8" target="_blank" rel="noreferrer noopener">Merge pull request #11 from mgifford/feature/shareable-recipes<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:31:32.000Z">08:31</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/11" target="_blank" rel="noreferrer noopener">Make recipes shareable and add section anchors<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+The root URL is now the shareable home/library. One recipe can be opened and shared directly at `?recipe=&lt;id&gt;`, and a recipe section can be linked at `#ingredients`, `#steps`, `#science`, `#nutrition`, `#experiments`, or `#notes</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:26:54.000Z">08:26</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/709ca25131503432465e4146cf6a4b6e27d96083" target="_blank" rel="noreferrer noopener">Document CI runner pin<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:23:52.000Z">08:23</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/96bb0af020a08b54b089da1053bfaf250955b799" target="_blank" rel="noreferrer noopener">Pin CI runners to Ubuntu 24.04<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:23:25.000Z">08:23</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/ea3c2246a2e3cb0b81e785ebb8d6c2144e0f0604" target="_blank" rel="noreferrer noopener">Make recipes shareable and add section anchors<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:22:11.000Z">08:22</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/10" target="_blank" rel="noreferrer noopener">Consolidate bookmarklet into one tested source<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Follow-up to merged PR #9. The bookmarklet is now generated from `src/bookmarklet/recipe-scraper.js` instead of three divergent copies.
+
+- Supports JSON-LD `@graph`, nested `mainEntity`, multiple recipes, and HowToSection/HowToStep instruct</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:22:10.000Z">08:22</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/a96047e9a7162beb04c836228f05192c25c56381" target="_blank" rel="noreferrer noopener">Merge pull request #10 from mgifford/feature/bookmarklet-consolidation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:20:43.000Z">08:20</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/11" target="_blank" rel="noreferrer noopener">Make recipes shareable and add section anchors<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+The root URL is now the shareable home/library. One recipe can be opened and shared directly at `?recipe=&lt;id&gt;`, and a recipe section can be linked at `#ingredients`, `#steps`, `#science`, `#nutrition`, `#experiments`, or `#notes</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:09:18.000Z">08:09</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/569376e7486e4020c76d58e24bfe81f27eb25e5e" target="_blank" rel="noreferrer noopener">Do not invent missing recipe yield in bookmarklet import<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:08:40.000Z">08:08</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/4dafe99627478abe1443f984398000c8468f32e5" target="_blank" rel="noreferrer noopener">Correct bookmarklet quantity guidance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:08:26.000Z">08:08</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/10" target="_blank" rel="noreferrer noopener">Consolidate bookmarklet into one tested source<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Follow-up to merged PR #9. The bookmarklet is now generated from `src/bookmarklet/recipe-scraper.js` instead of three divergent copies.
+
+- Supports JSON-LD `@graph`, nested `mainEntity`, multiple recipes, and HowToSection/HowToStep instruct</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:08:07.000Z">08:08</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/f72aa446f27b2b94906768d295955385b554f0c0" target="_blank" rel="noreferrer noopener">Consolidate bookmarklet into one tested source<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:04:53.000Z">08:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/41b9def91e7e218a4061340a64b7194da339fe45" target="_blank" rel="noreferrer noopener">Merge pull request #9 from mgifford/feature/reliability-1-1<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:04:53.000Z">08:04</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/9" target="_blank" rel="noreferrer noopener">Finish reliability work and add local cooking experiments<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+Implements the reliability work (Release 1.1) and a modest local experiment workflow (Release 1.2).
+
+### Reliability
+- Shared schema-based validation for browser imports and Node checks; visible field-level errors; invalid impor</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:36:34.000Z">07:36</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/9" target="_blank" rel="noreferrer noopener">Finish reliability work and add local cooking experiments<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+Implements the reliability work (Release 1.1) and a modest local experiment workflow (Release 1.2).
+
+### Reliability
+- Shared schema-based validation for browser imports and Node checks; visible field-level errors; invalid impor</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:36:21.000Z">07:36</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/4c33b3b4b8833036330e85798889546a153a2768" target="_blank" rel="noreferrer noopener">Finish reliability work and add local cooking experiments<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:48:47.000Z">06:48</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/e6fdba76e5ab620293a11626ed17b046a1897365" target="_blank" rel="noreferrer noopener">Merge pull request #8 from mgifford/docs/milestone-1-report<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:48:47.000Z">06:48</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/8" target="_blank" rel="noreferrer noopener">Document Milestone 1 implementation and remaining work<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This is a documentation-only follow-up to the modernization work already on `main` (`0ecbce5`, `6cb1e29`, `e52bc27`).
+
+It adds `docs/IMPLEMENTATION-REPORT-MILESTONE-1.md`, recording:
+
+- what Milestone 1 completed
+- validation ev</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:48:07.000Z">06:48</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/pull/8" target="_blank" rel="noreferrer noopener">Document Milestone 1 implementation and remaining work<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This is a documentation-only follow-up to the modernization work already on `main` (`0ecbce5`, `6cb1e29`, `e52bc27`).
+
+It adds `docs/IMPLEMENTATION-REPORT-MILESTONE-1.md`, recording:
+
+- what Milestone 1 completed
+- validation ev</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:48:00.000Z">06:48</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/7041a18375cb0a667ad7080d367fdcc5b5d0650f" target="_blank" rel="noreferrer noopener">Document Milestone 1 implementation and remaining work<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:24:51.000Z">06:24</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/e52bc27346d9db0cb3a28157a7a11bfe4d741a01" target="_blank" rel="noreferrer noopener">Require confirmation before import overwrites an existing recipe<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T11:23:51.000Z">06:23</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/6cb1e296a6e64629a26134576351c5a945b6b8f5" target="_blank" rel="noreferrer noopener">Modernize data model, reliability, tests, and accessibility<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-blocknote-diff-lab">
+  <h4 id="contrib-2026-11-23-mgifford-blocknote-diff-lab"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(18)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:10:35.000Z">15:10</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/eee9ec98e48a0f5946cc15981ac905eb9d242d49" target="_blank" rel="noreferrer noopener">Add multi-issue catalog and validation checklists<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:01:55.000Z">15:01</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/71f79e187e55382e204a350ce6313c3dc810d67b" target="_blank" rel="noreferrer noopener">Add inert-only and activation-only comparator variants<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:46:54.000Z">14:46</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/744b843a771413a6a6a175307e484c5ed34929fd" target="_blank" rel="noreferrer noopener">Rebuild Pages as a static FOSDEM-style comparator<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:04:33.000Z">14:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/793b18beefd6f4f40a1e68654a7d94e8543ab42e" target="_blank" rel="noreferrer noopener">Add static #2854 evidence report and GitHub Pages workflow<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:53:51.000Z">13:53</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/0f38fa1385a5cee7cb93bc87ac29685a10d8608c" target="_blank" rel="noreferrer noopener">Document the local fixture commit boundary<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:53:40.000Z">13:53</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/c5e90eea19b662f274943c2c1b4e5660fd970673" target="_blank" rel="noreferrer noopener">Seed the #2854 comparison fixture and record provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:41:26.000Z">13:41</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/ea3f32ad26d4e4d317a3f1eda216c7107dcde610" target="_blank" rel="noreferrer noopener">Integrate #2854 side-menu focus comparison into the viewer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:38:33.000Z">13:38</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/69acb73dcf49f88b612f13e7e1a5565dba92dfe2" target="_blank" rel="noreferrer noopener">Add accessibility issue inventory and #2854 investigation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:46.000Z">13:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/cecb3303d1ff2ec300957bb20f43ca5febe560f0" target="_blank" rel="noreferrer noopener">Merge pull request #2 from mgifford/fix/live-validation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:46.000Z">13:31</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/pull/2" target="_blank" rel="noreferrer noopener">Harden state handling and document live BlockNote validation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Follow-up to #1, which imported the starter kit and is already merged. This PR contains the state-handling hardening and the live BlockNote validation follow-up.
+
+## What changed
+
+- The viewer returns a clear 500 instead of crashing when `.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:05:06.000Z">13:05</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/pull/2" target="_blank" rel="noreferrer noopener">Harden state handling and document live BlockNote validation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Follow-up to #1, which imported the starter kit and is already merged. This PR contains the state-handling hardening and the live BlockNote validation follow-up.
+
+## What changed
+
+- The viewer returns a clear 500 instead of crashing when `.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:04:22.000Z">13:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/cdc62b55d3f841426492fd8ee48511bd67538eb0" target="_blank" rel="noreferrer noopener">Harden state handling and surface live worktree changes<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:51:42.000Z">12:51</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/e705b1a1d3410a2bf298680dfb9072e747765e39" target="_blank" rel="noreferrer noopener">Merge pull request #1 from mgifford/review/starter-kit<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:51:42.000Z">12:51</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/pull/1" target="_blank" rel="noreferrer noopener">Add BlockNote Accessibility Diff Lab starter kit<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+Initial import of the BlockNote Accessibility Diff Lab starter kit: a local harness for comparing a pinned BlockNote Git revision with the same revision plus one patch.
+
+&gt; This is an initial import. `main` contains only an empty</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:42:18.000Z">12:42</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/pull/1" target="_blank" rel="noreferrer noopener">Add BlockNote Accessibility Diff Lab starter kit<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+Initial import of the BlockNote Accessibility Diff Lab starter kit: a local harness for comparing a pinned BlockNote Git revision with the same revision plus one patch.
+
+&gt; This is an initial import. `main` contains only an empty</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:42:09.000Z">12:42</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/74e37becada8500ac5c5b7fb99a04fe81e3f6c80" target="_blank" rel="noreferrer noopener">Add BlockNote Accessibility Diff Lab starter kit<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:42:03.000Z">12:42</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/04985c3069e1d2d210ecf26e0abc79937c72ee72" target="_blank" rel="noreferrer noopener">chore: initialize repository<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:37:37.000Z">12:37</time> <span class="badge">Repository created</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">Created repository blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Creator)</span> · Repository administration</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-design-system-lab">
+  <h4 id="contrib-2026-11-23-mgifford-design-system-lab"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(15)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:08:55.000Z">15:08</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/7" target="_blank" rel="noreferrer noopener">Add fixture performance evidence and budget checks<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What this adds
+
+Native performance evidence for the baseline/experiment fixture pairs, plus a **Cost and stability** panel in the evaluation workspace.
+
+- Three cold-context runs per fixture at **1280 × 850**, light colour scheme, localh</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:08:54.000Z">15:08</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/581876cdcd1e31cc3d74c36fca32ee957a6fb4e3" target="_blank" rel="noreferrer noopener">Merge pull request #7 from mgifford/feat/performance-evidence<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:04:13.000Z">15:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/578fbee8d03356c1c8a1bede6ee41bf79ed03f53" target="_blank" rel="noreferrer noopener">Update combined test counts after performance and layout merge<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:00:53.000Z">15:00</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/fce57b7bbdc8a0e7f2116d3bebb0178484deb040" target="_blank" rel="noreferrer noopener">Merge main into performance evidence branch<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:59:56.000Z">14:59</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/6cd9d44d53fbf87e6f6f06044bc79b3141214def" target="_blank" rel="noreferrer noopener">Merge pull request #8 from mgifford/fix/pane-layout<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:59:56.000Z">14:59</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/8" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Problem
+
+At a laptop width, the side-by-side comparison used a fixed 1280 CSS-pixel pane for each side. The stage scrolled horizontally, but the first view showed only the baseline. There was no visible cue that the experiment existed of</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:37:59.000Z">14:37</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/8" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Problem
+
+At a laptop width, the side-by-side comparison used a fixed 1280 CSS-pixel pane for each side. The stage scrolled horizontally, but the first view showed only the baseline. There was no visible cue that the experiment existed of</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:37:45.000Z">14:37</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/c7f117763150ae9ca23924cecbfbe937d1bb7dc2" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:19:31.000Z">14:19</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/7" target="_blank" rel="noreferrer noopener">Add fixture performance evidence and budget checks<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What this adds
+
+Native performance evidence for the baseline/experiment fixture pairs, plus a **Cost and stability** panel in the evaluation workspace.
+
+- Three cold-context runs per fixture at **1280 × 850**, light colour scheme, localh</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:19:16.000Z">14:19</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/80625a193105e4ec291cb5d9481d4d7a9b5caf1b" target="_blank" rel="noreferrer noopener">Add fixture performance evidence and budget checks<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:39:09.000Z">13:39</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/6" target="_blank" rel="noreferrer noopener">Add a preference-aware evaluation workspace with an Alert pilot<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What this adds
+
+`compare.html` becomes the lab&#39;s first-class **Evaluate** workspace, linked from the primary navigation, component pages, experiment pages, index, and evidence page.
+
+- **Four comparison modes:** side-by-side live iframes</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:39:08.000Z">13:39</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/e1ddf0e5d160d7ee1ab7ac1977c7d95ba2426284" target="_blank" rel="noreferrer noopener">Merge pull request #6 from mgifford/feat/evaluation-workspace<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:29.000Z">13:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/32fa30414ed09fa2df61eaaaff48cacdbbcbec59" target="_blank" rel="noreferrer noopener">Keep the experiment filter test independent of local evidence<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:30:47.000Z">13:30</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/6" target="_blank" rel="noreferrer noopener">Add a preference-aware evaluation workspace with an Alert pilot<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What this adds
+
+`compare.html` becomes the lab&#39;s first-class **Evaluate** workspace, linked from the primary navigation, component pages, experiment pages, index, and evidence page.
+
+- **Four comparison modes:** side-by-side live iframes</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:30:33.000Z">13:30</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/f1733e585d1b0820e68e2f95b97945ab87c55a37" target="_blank" rel="noreferrer noopener">Add a preference-aware evaluation workspace with an Alert pilot<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-drupal-core">
+  <h4 id="contrib-2026-11-23-mgifford-drupal-core"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(14)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:33:48.000Z">13:33</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/f58f464bb6ce49e226fe748c9ceaa30d6003342d" target="_blank" rel="noreferrer noopener">Merge pull request #97 from mgifford/phase-2-sources<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:33:48.000Z">13:33</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/97" target="_blank" rel="noreferrer noopener">feat: Phase 2 upstream sources, pinned checkouts and provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Objective
+
+Phase 2: follow the latest Drupal core `main`, and pin every test campaign to one exact commit. Upstream Drupal becomes a source the engine fetches, instead of history this repository&#39;s `main` has to track (spec section 8.7).
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:30:56.000Z">13:30</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/97" target="_blank" rel="noreferrer noopener">feat: Phase 2 upstream sources, pinned checkouts and provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Objective
+
+Phase 2: follow the latest Drupal core `main`, and pin every test campaign to one exact commit. Upstream Drupal becomes a source the engine fetches, instead of history this repository&#39;s `main` has to track (spec section 8.7).
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:29:59.000Z">13:29</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/86014b902dfd4e41e6b4c88dc93d9dd71497ca5d" target="_blank" rel="noreferrer noopener">Merge remote-tracking branch &#39;origin/main&#39; into phase-2-sources<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:27:39.000Z">13:27</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/6801c6b1d41812f062f00c4585e9d4c0452f598f" target="_blank" rel="noreferrer noopener">Merge pull request #96 from mgifford/sync/upstream-20261123<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:27:39.000Z">13:27</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/96" target="_blank" rel="noreferrer noopener">Merge upstream Drupal core main (97c6ff8b25), replacing PR 94<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This replaces #94, which can&#39;t merge. The weekly sync workflow opened #94 (5 upstream commits, up to `97c6ff8b25`), and it conflicts with the fork in two files. This branch merges `upstream-sync` into `main` with a merge commit,</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:21:21.000Z">12:21</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/96" target="_blank" rel="noreferrer noopener">Merge upstream Drupal core main (97c6ff8b25), replacing PR 94<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This replaces #94, which can&#39;t merge. The weekly sync workflow opened #94 (5 upstream commits, up to `97c6ff8b25`), and it conflicts with the fork in two files. This branch merges `upstream-sync` into `main` with a merge commit,</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T17:20:29.000Z">12:20</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/7f52b910fa0d7f1efec9b6d5ae71d21e873d92ea" target="_blank" rel="noreferrer noopener">Merge upstream Drupal core main (97c6ff8b25) into fork main<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:44:22.000Z">10:44</time> <span class="badge">Issue opened</span> <span class="badge badge--discussion">Discussion</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/issues/95" target="_blank" rel="noreferrer noopener">Explore OpenTelemetry and Rosetta integration for Drupal Core quality reporting<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">## Summary
+
+Investigate integrating OpenTelemetry and the emerging [Rosetta initiative](https://www.lakedrops.com/en/blog/one-trace-inside-and-outside-drupal-proposal-rosetta) into the Drupal Core quality-reporting infrastructure.
+
+The obje</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:44:21.000Z">10:44</time> <span class="badge">Issue opened</span> <span class="badge badge--discussion">Discussion</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/issues/95" target="_blank" rel="noreferrer noopener">Explore OpenTelemetry and Rosetta integration for Drupal Core quality reporting<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">## Summary
+
+Investigate integrating OpenTelemetry and the emerging [Rosetta initiative](https://www.lakedrops.com/en/blog/one-trace-inside-and-outside-drupal-proposal-rosetta) into the Drupal Core quality-reporting infrastructure.
+
+The obje</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:44:08.000Z">09:44</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/b6406e21b953b700b13af9babe08f956a4f0c3f6" target="_blank" rel="noreferrer noopener">Merge pull request #93 from mgifford/test/phase-1-smoke-verified<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:44:08.000Z">09:44</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/93" target="_blank" rel="noreferrer noopener">test: expect the by-design 403 on the home page and record the Phase 1 run<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+The Phase 1 smoke suite had never run against a site. Its first live run failed on the home page: an anonymous visitor to `/` gets HTTP 403.
+
+That is upstream&#39;s design. Since core commit `308cba9319` (drupal.org #3590882), the S</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:43:10.000Z">09:43</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/93" target="_blank" rel="noreferrer noopener">test: expect the by-design 403 on the home page and record the Phase 1 run<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+The Phase 1 smoke suite had never run against a site. Its first live run failed on the home page: an anonymous visitor to `/` gets HTTP 403.
+
+That is upstream&#39;s design. Since core commit `308cba9319` (drupal.org #3590882), the S</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:19:04.000Z">09:19</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/0b757b31898e15610c984c582175c77f5691261b" target="_blank" rel="noreferrer noopener">test: expect the by-design 403 on the home page and record Phase 1 run<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-open-scans">
+  <h4 id="contrib-2026-11-23-mgifford-open-scans"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(13)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:07:20.000Z">15:07</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/433" target="_blank" rel="noreferrer noopener">fix(scan): keep the Chromium Puppeteer path out of WebKit/Firefox<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Where axe-core went
+
+In [the 2026-11-23T19:01 report](https://github.com/mgifford/open-scans/issues/398#issuecomment-7111009365), axe-core did not run. The report says so explicitly:
+
+- `Engines executed: ALFA, Equal Access, AccessLint`
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:44:54.000Z">13:44</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/432" target="_blank" rel="noreferrer noopener">fix(ci): keep slow Playwright installs from skipping scans<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What changed
+
+- Raises the `Install Chromium for Playwright tests` step timeout from 10 to 20 minutes in the three workflows that install all three browsers:
+ - `.github/workflows/scan-request.yml`
+ - `.github/workflows/scan-issue-queue.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:44:53.000Z">13:44</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/eb1d857cacea98b8cf47ff672d2cc54200f5ceba" target="_blank" rel="noreferrer noopener">Merge pull request #432 from mgifford/ci/playwright-install-timeout<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:36:23.000Z">13:36</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/bf69b4423c5abd35ea1c8c3ef24509fbf0354cad" target="_blank" rel="noreferrer noopener">docs(handoff): record the merged mapping step and the install-timeout guardrail<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:33:11.000Z">13:33</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/432" target="_blank" rel="noreferrer noopener">fix(ci): keep slow Playwright installs from skipping scans<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What changed
+
+- Raises the `Install Chromium for Playwright tests` step timeout from 10 to 20 minutes in the three workflows that install all three browsers:
+ - `.github/workflows/scan-request.yml`
+ - `.github/workflows/scan-issue-queue.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:32:57.000Z">13:32</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/1856f04cf5f04c3a274545235f9e6fe190ee18c1" target="_blank" rel="noreferrer noopener">fix(ci): allow slow Playwright installs 20 minutes<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T16:56:24.000Z">11:56</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/3b664c94e9db85e7637d2f50cc1f99046f456282" target="_blank" rel="noreferrer noopener">Merge pull request #431 from mgifford/feat/act-mapping-build<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T16:56:24.000Z">11:56</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/431" target="_blank" rel="noreferrer noopener">feat(registry): make report-derived ACT mappings reproducible<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What changed
+
+- Adds `scanner/build-act-mappings-from-reports.mjs` (npm `build:act-mappings`): fetches the W3C ACT implementation reports for Alfa, AccessLint and Equal Access with a 30-second timeout and rewrites the report-derived `ver</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:07:28.000Z">09:07</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/a3f8954ba5238794e40f6f5ddb2115c1388083b2" target="_blank" rel="noreferrer noopener">docs(handoff): record the ACT mapping build step and PR #431<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:07:16.000Z">09:07</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/431" target="_blank" rel="noreferrer noopener">feat(registry): make report-derived ACT mappings reproducible<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What changed
+
+- Adds `scanner/build-act-mappings-from-reports.mjs` (npm `build:act-mappings`): fetches the W3C ACT implementation reports for Alfa, AccessLint and Equal Access with a 30-second timeout and rewrites the report-derived `ver</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T14:06:54.000Z">09:06</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/e814eb62ff8329e499c974a8b7e0eae6770847fa" target="_blank" rel="noreferrer noopener">feat(registry): rebuild W3C ACT mappings from the reports<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:42:21.000Z">08:42</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/ee75ff671ae64a060157f7189f6d4c3fb8b3828e" target="_blank" rel="noreferrer noopener">Merge pull request #430 from mgifford/feat/silence-highlights<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:42:21.000Z">08:42</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/430" target="_blank" rel="noreferrer noopener">feat(report): mapped-but-silent engines, single-engine findings and frame scope<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">&gt; &quot;Is there a chance we missed something?&quot; — now the report answers that per finding.
+
+## What the 18:55 run actually contains
+
+Seven single-engine findings, and they fall into three very different buckets:
+
+| Single-engine finding | Other </p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-drupal-core-lab">
+  <h4 id="contrib-2026-11-23-mgifford-drupal-core-lab"><a href="https://github.com/mgifford/drupal-core-lab" target="_blank" rel="noreferrer noopener">mgifford/drupal-core-lab<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(8)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:44:56.000Z">10:44</time> <span class="badge">Issue opened</span> <span class="badge badge--discussion">Discussion</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/issues/95" target="_blank" rel="noreferrer noopener">Explore OpenTelemetry and Rosetta integration for reproducible Drupal issue testing<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">## Summary
+
+Investigate how OpenTelemetry and the emerging [Rosetta initiative](https://www.lakedrops.com/en/blog/one-trace-inside-and-outside-drupal-proposal-rosetta) could improve [Drupal Core Lab](https://github.com/mgifford/drupal-core-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T15:44:54.000Z">10:44</time> <span class="badge">Issue opened</span> <span class="badge badge--discussion">Discussion</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/issues/95" target="_blank" rel="noreferrer noopener">Explore OpenTelemetry and Rosetta integration for reproducible Drupal issue testing<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">## Summary
+
+Investigate how OpenTelemetry and the emerging [Rosetta initiative](https://www.lakedrops.com/en/blog/one-trace-inside-and-outside-drupal-proposal-rosetta) could improve [Drupal Core Lab](https://github.com/mgifford/drupal-core-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:10:27.000Z">08:10</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/pull/94" target="_blank" rel="noreferrer noopener">Start #2942404: MR evaluation with interdiffs, three message-landmark variants, evaluator, handoff<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">AI-assisted. Evaluates MR !6058 and !6112 against main (both superseded; interdiffs verified), builds Variant B (region per type) with 7 scripted runs, registers and patches Variant C (one &#39;System messages&#39; region) but has NOT run it, exten</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T13:10:26.000Z">08:10</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/commit/e9e998a0365418be2dfea3b491b98e16c309c86a" target="_blank" rel="noreferrer noopener">Merge pull request #94 from mgifford/issue-2942404<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:54:55.000Z">07:54</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/pull/94" target="_blank" rel="noreferrer noopener">Start #2942404: MR evaluation with interdiffs, three message-landmark variants, evaluator, handoff<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">AI-assisted. Evaluates MR !6058 and !6112 against main (both superseded; interdiffs verified), builds Variant B (region per type) with 7 scripted runs, registers and patches Variant C (one &#39;System messages&#39; region) but has NOT run it, exten</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:54:50.000Z">07:54</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/commit/43c82a8a4405f17b9b134d4c6c079528ea695a0d" target="_blank" rel="noreferrer noopener">Merge remote-tracking branch &#39;origin/main&#39; into issue-2942404<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:54:48.000Z">07:54</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/commit/a666cc48e40ea6d1873f1c70accca2882ce47e38" target="_blank" rel="noreferrer noopener">Merge pull request #93 from mgifford/session-learnings<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:54:48.000Z">07:54</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/pull/93" target="_blank" rel="noreferrer noopener">AI-LEARNING: learnings from the 2026-11-19/20 session<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">AI-assisted. Documentation only.</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-mgifford-mgifford-github-io">
+  <h4 id="contrib-2026-11-23-mgifford-mgifford-github-io"><a href="https://github.com/mgifford/mgifford.github.io" target="_blank" rel="noreferrer noopener">mgifford/mgifford.github.io<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(3)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:57:58.000Z">13:57</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/mgifford.github.io/commit/c528d83c8ce02f2e079af4628f5cd33137241fe1" target="_blank" rel="noreferrer noopener">Enhance SEO with updated title and meta tags<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:55:00.000Z">13:55</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/mgifford.github.io/commit/2657c7db6f736a0af87c931a92e64000c31b20ec" target="_blank" rel="noreferrer noopener">Add robots.txt for site indexing instructions<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:53:06.000Z">13:53</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/mgifford.github.io/commit/2e8208bb5bf96b1038f5e19404b5e1ef6ed24bc8" target="_blank" rel="noreferrer noopener">Revise README for clarity and project emphasis<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-23-localgovdrupal-vital-core-lgd-data">
+  <h4 id="contrib-2026-11-23-localgovdrupal-vital-core-lgd-data"><a href="https://github.com/localgovdrupal/vital-core-lgd-data" target="_blank" rel="noreferrer noopener">localgovdrupal/vital-core-lgd-data<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(2)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:31:51.000Z">07:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/localgovdrupal/vital-core-lgd-data/commits/265551d4372c31face098e1bda8b2ef8d881c7cf" target="_blank" rel="noreferrer noopener">Pushed commits to main in localgovdrupal/vital-core-lgd-data<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Committer)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T12:25:03.000Z">07:25</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/localgovdrupal/vital-core-lgd-data/commits/be363d5fb6bff55a5243fce9b2b069ac877ca4d8" target="_blank" rel="noreferrer noopener">Pushed commits to main in localgovdrupal/vital-core-lgd-data<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Committer)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+</section>
+<section class="activity-day" aria-labelledby="contrib-day-2026-11-22">
+  <h3 id="contrib-day-2026-11-22">Sunday, 22 November 2026</h3>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-22-mgifford-Containers-Hamlet">
+  <h4 id="contrib-2026-11-22-mgifford-Containers-Hamlet"><a href="https://github.com/mgifford/Containers-Hamlet" target="_blank" rel="noreferrer noopener">mgifford/Containers-Hamlet<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(2)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T02:04:09.000Z">21:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/27d28917ae54dc7c198002cfcac741eb19d7b043" target="_blank" rel="noreferrer noopener">Make compressed downloads reproducible across build hosts<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T01:58:43.000Z">20:58</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/Containers-Hamlet/commit/9de98f48bb03cbdfa8f20dc50715ef0991670582" target="_blank" rel="noreferrer noopener">Split heavy pages and restore the 6 MB site budget<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+<section class="contribution-repo" aria-labelledby="contrib-2026-11-22-mgifford-smart-cookbook">
+  <h4 id="contrib-2026-11-22-mgifford-smart-cookbook"><a href="https://github.com/mgifford/smart-cookbook" target="_blank" rel="noreferrer noopener">mgifford/smart-cookbook<span class="visually-hidden"> (opens in a new tab)</span></a> <span class="muted">(1)</span></h4>
+  <ul class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T01:40:35.000Z">20:40</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/smart-cookbook/commit/0ecbce5c862507777cf8a28bf3ac1cc66a0f88f6" target="_blank" rel="noreferrer noopener">Add Crispy Mushroom Mac and Cheese adaptation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context">mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ul>
+</section>
+</section>
+  <p class="muted">Showing the 150 most recent of 885 contributions. Narrow the date range or activity type to see more.</p>
+</section>
+<section class="coverage" aria-labelledby="coverage-heading">
+  <h2 id="coverage-heading">Data coverage and limitations</h2>
+  <p>Activity is collected from public GitHub data for a bounded set of repositories. Missing events are not evidence that no work happened.</p>
+  <p><strong>Collected window:</strong> 25 August 2026, 16:14 – 23 November 2026, 15:14. <strong>Lookback:</strong> 90 days.</p>
+  <p><strong>API requests this run:</strong> 579 of 1200.</p>
+  <p class="notice">4 sources reported incomplete or unavailable coverage. Details are listed below and in the source table.</p>
+  <div class="table-wrap">
+    <table class="data-table data-table--compact">
+      <caption>Collection sources and their status.</caption>
+      <thead><tr><th scope="col">Source</th><th scope="col">Status</th><th scope="col">Records</th><th scope="col">Notes</th></tr></thead>
+      <tbody>
+      <tr>
+        <th scope="row">Commit history (owned repositories)</th>
+        <td>partial</td>
+        <td>4122</td>
+        <td>Up to two pages (200 commits) per repository. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Pull requests (owned repositories)</th>
+        <td>partial</td>
+        <td>2201</td>
+        <td>Latest page plus a separate open-PR query. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Issues (owned repositories)</th>
+        <td>partial</td>
+        <td>193</td>
+        <td>Latest page of updated issues in the lookback window. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Issue and review comments (owned repositories)</th>
+        <td>partial</td>
+        <td>400</td>
+        <td>Collected for the busiest bounded set of repositories. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Releases (owned repositories)</th>
+        <td>ok</td>
+        <td>2</td>
+        <td>Published releases in the lookback window.</td>
+      </tr>
+      <tr>
+        <th scope="row">Workflow runs (bounded set)</th>
+        <td>ok</td>
+        <td>0</td>
+        <td>Only the latest completed run for a bounded set of repositories.</td>
+      </tr>
+      <tr>
+        <th scope="row">Public contribution events</th>
+        <td>ok</td>
+        <td>51</td>
+        <td>At most 300 events and roughly 90 days. Payloads are truncated, so these events are coarse and marked as such.</td>
+      </tr>
+      <tr>
+        <th scope="row">Authored issues and pull requests outside owned repositories</th>
+        <td>ok</td>
+        <td>84</td>
+        <td>Search API is capped at 50 results per query.</td>
+      </tr>
+      <tr>
+        <th scope="row">Authored commits outside owned repositories</th>
+        <td>ok</td>
+        <td>50</td>
+        <td>Search API is capped at 50 results per query.</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>Known limitations</h3>
+  <ul class="limitations">
+    <li>GitHub&#39;s public event feed exposes at most 300 events and roughly 90 days of history; older activity is not claimed.</li>
+    <li>Repository metadata changes are detected by diffing weekly snapshots, so their exact time is unknown and they are marked &quot;observed-at&quot;.</li>
+    <li>Dependabot and security alerts are not public data and are excluded from the published dataset.</li>
+    <li>Pull request reviews are collected from the public event feed only; review history beyond the feed window is not claimed.</li>
+    <li>Activity is collected for a bounded set of active repositories, not every repository in the catalogue.</li>
+    <li>Repository activity is collected for the bounded candidate set only; absence of an event does not prove absence of work.</li>
+    <li>Routine commit detail is retained for 30 days; pull requests, issues, reviews, and releases are retained for the full lookback window.</li>
+  </ul>
+</section>
+    </div>
+  </main>
+  <footer class="site-footer">
+  <p>Project Atlas is a static catalogue of public GitHub work. Activity is collected from public GitHub data; private repositories and authenticated-only signals are never published.</p>
+  <p class="muted">Activity data generated 23 November 2026, 15:14 · Reporting time zone: America/Toronto · <a href="https://github.com/mgifford/mgifford.github.io">Source repository<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+</footer>
+  <script type="module" src="src/activity-app.js"></script>
+</body>
+</html>

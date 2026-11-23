@@ -1,0 +1,159 @@
+# Project Atlas configuration
+#
+# Human-maintained. Controls reporting time zone, activity collection scope,
+# workstream grouping, and the identities used to attribute public
+# contributions. Workstreams are explicit, not inferred from GitHub topics.
+
+schemaVersion: 1
+
+# All date ranges, "this week" boundaries, and displayed timestamps use this
+# IANA time zone. Change it in one place.
+timezone: America/Toronto
+
+reporting:
+  # Default range for the Recent Activity view and the weekly report.
+  defaultRange: last_7_days
+  # How far back detailed activity is collected and retained.
+  lookbackDays: 90
+  # Overlapping refresh window so late-arriving or edited events are picked up.
+  overlapDays: 7
+  # A project with no human activity for this long is a candidate for review.
+  staleDays: 120
+
+actor:
+  login: mgifford
+  # Additional identities that can appear as a commit author or committer.
+  # Matching is exact and case-insensitive.
+  aliases:
+    - Mike Gifford
+    - mike.gifford@civicactions.com
+    - mike@ox.ca
+
+collection:
+  # Maximum repositories given detailed collection per run.
+  maxRepositories: 120
+  # Maximum repositories whose latest workflow run is inspected.
+  maxWorkflowRepositories: 30
+  # Maximum repositories whose recent issue comments are collected.
+  maxCommentRepositories: 40
+  includeForks: false
+  includeArchived: false
+  # Hard cap on GitHub API requests per run.
+  maxRequests: 1200
+  # Stop before this many requests remain in the hourly allowance.
+  rateLimitReserve: 25
+  # Public event feeds expose at most 300 events / 90 days.
+  maxEventPages: 3
+  # Public repositories outside the account worth tracking explicitly.
+  externalRepositories:
+    - drupal/drupal
+    - drupal/drupal-core
+    - civicactions/drupal
+    - civicrm/civicrm-core
+    - w3c/wcag
+    - w3c/wai-website
+
+workstreams:
+  - id: drupal-accessibility
+    name: Drupal accessibility and quality
+    description: Drupal core accessibility evaluation, regression testing, and quality monitoring.
+    repositories:
+      - mgifford/drupal-core-lab
+      - mgifford/drupal-core
+      - mgifford/drupal-diff
+      - mgifford/Drupal-docs
+      - mgifford/drupal-open-dash
+      - mgifford/drupal-security
+      - mgifford/Drupal-Accessibility-Quicksheet
+
+  - id: government-monitoring
+    name: Government website monitoring
+    description: Continuous and comparative scanning of public-sector websites.
+    repositories:
+      - mgifford/vital-core
+      - mgifford/vital-core-data
+      - mgifford/vital-core-nsf
+      - mgifford/eu-plus-government-scans
+      - mgifford/dot-gov-scans
+      - mgifford/daily-dap
+      - mgifford/daily-hhs
+      - mgifford/daily-nsf
+      - mgifford/daily-cap
+      - mgifford/edu-scans
+      - mgifford/domain-scan
+      - mgifford/open-gsa-redesign
+
+  - id: accessibility-testing
+    name: Accessibility testing and evaluation
+    description: Scanners, rule coverage, contrast, alternative text, and evaluation tooling.
+    repositories:
+      - mgifford/open-scans
+      - mgifford/a11ywatch
+      - mgifford/accessibility-tools
+      - mgifford/alt-text-scan
+      - mgifford/contrast-plus
+      - mgifford/a11y-style-guide
+      - mgifford/a11y-maps
+      - mgifford/a11y-svg
+      - mgifford/a11y-mermaid-studio
+      - mgifford/accessibility-sandbox
+      - mgifford/o-hat-scanner
+      - mgifford/design-system-scan
+      - mgifford/github-a11y-scanner
+      - mgifford/print-css-bookmarklet
+      - mgifford/apca-wcag2
+
+  - id: open-standards
+    name: Open standards and structured policy
+    description: WCAG relationships, machine-readable standards, and open policy evidence.
+    repositories:
+      - mgifford/wcag-spine
+      - mgifford/wai-yaml-ld
+      - mgifford/publiccode-editor
+      - mgifford/openacr-release-evidence
+      - mgifford/open-data-guide
+      - mgifford/open-source-policy
+      - mgifford/mena-policy-observatory
+      - mgifford/FASTER
+
+  - id: web-sustainability
+    name: Web sustainability
+    description: Energy, resource efficiency, and sustainable web practice.
+    repositories:
+      - mgifford/firefox-energy-scanner
+      - mgifford/open-susty-scans
+      - mgifford/susty-house
+      - mgifford/wsg-mooc
+      - mgifford/wsg-webmcp-experiment
+      - mgifford/SUSTAINABILITY.md
+      - mgifford/sustainability-contracting
+      - mgifford/w3c-tpac-susty-breakout
+
+  - id: design-systems
+    name: Design systems and component practice
+    description: Design-system evaluation, component accessibility, and user preferences.
+    repositories:
+      - mgifford/design-system-lab
+      - mgifford/design-system
+      - mgifford/design-system-scan
+      - mgifford/opendesign.guide
+      - mgifford/uswds-sandbox
+      - mgifford/ACCESSIBILITY.md
+
+  - id: research-experiments
+    name: Experimental research
+    description: Bounded experiments where findings may not yet be validated.
+    repositories:
+      - mgifford/aedesproject-uif
+      - mgifford/blocknote-diff-lab
+      - mgifford/neighbourhood-solar
+      - mgifford/risky-weather
+      - mgifford/timezone-helper
+
+# Known limitations to repeat in the UI and reports. Keep factual.
+limitations:
+  - GitHub's public event feed exposes at most 300 events and roughly 90 days of history; older activity is not claimed.
+  - Repository metadata changes are detected by diffing weekly snapshots, so their exact time is unknown and they are marked "observed-at".
+  - Dependabot and security alerts are not public data and are excluded from the published dataset.
+  - Pull request reviews are collected from the public event feed only; review history beyond the feed window is not claimed.
+  - Activity is collected for a bounded set of active repositories, not every repository in the catalogue.
