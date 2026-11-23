@@ -1,16 +1,26 @@
-name: Weekly Repository Sync
+name: Weekly Repository and Activity Sync
 
 on:
   schedule:
     - cron: "15 6 * * 1"
   workflow_dispatch:
+    inputs:
+      activity_only:
+        description: "Refresh activity only (skip repository metadata sync)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write
 
+concurrency:
+  group: weekly-sync
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,42 +34,80 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Sync repositories
+      # ETag cache makes repeated weekly requests conditional (304), which
+      # lowers API usage without storing any extra data in the repository.
+      - name: Restore API conditional-request cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/github
+          key: activity-cache-${{ github.run_id }}
+          restore-keys: |
+            activity-cache-
+
+      - name: Sync repository metadata
+        if: ${{ github.event.inputs.activity_only != 'true' }}
         env:
           GH_OWNER: mgifford
           GH_TOKEN: ${{ secrets.MGIFFORD_TOKEN || secrets.GITHUB_TOKEN }}
-        run: npm run sync:all
+        run: npm run sync:repos
 
-      - name: Install browser dependencies (changed/new screenshots)
-        run: npx playwright install --with-deps chromium
-
-      - name: Capture screenshots for changed or new repos
+      - name: Collect bounded public activity
         env:
-          MAX_SCREENSHOTS: "20"
-        run: npm run screenshot:pages
+          GH_TOKEN: ${{ secrets.MGIFFORD_TOKEN || secrets.GITHUB_TOKEN }}
+          ACTIVITY_CACHE_DIR: .cache/github
+        run: npm run sync:activity
 
-      - name: Rebuild site data after screenshots
-        run: npm run build:data
+      - name: Build site and activity data
+        run: npm run build:all
 
       - name: Validate generated data and curation
         run: |
           npm run validate:data
           npm run validate:curation
 
-      - name: Commit updates
-        run: |
-          meaningful_changes=$(node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync('data/generated/changes.json','utf8')).counts;process.stdout.write(String((c.added+c.deleted+c.archivedNow+c.unarchivedNow)>0));")
-          screenshots_changed=false
-          if ! git diff --quiet -- data/generated/screenshots.json src/assets/screenshots; then
-            screenshots_changed=true
-          fi
+      - name: Install browser dependencies (changed/new screenshots)
+        if: ${{ github.event.inputs.activity_only != 'true' }}
+        run: npx playwright install --with-deps chromium
 
-          if [[ "$meaningful_changes" == "true" || "$screenshots_changed" == "true" ]]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/generated data/site-data.json reports/changes-latest.md src/assets/screenshots
-            git commit -m "chore: weekly repo sync"
-            git push
+      - name: Capture screenshots for changed or new repos
+        if: ${{ github.event.inputs.activity_only != 'true' }}
+        env:
+          MAX_SCREENSHOTS: "20"
+        run: npm run screenshot:pages
+
+      - name: Rebuild site data after screenshots
+        if: ${{ github.event.inputs.activity_only != 'true' }}
+        run: npm run build:all
+
+      - name: Summarize run
+        run: |
+          node -e "
+            const fs=require('fs');
+            const a=JSON.parse(fs.readFileSync('data/generated/activity/recent.json','utf8'));
+            const c=a.coverage;
+            const lines=[
+              '### Activity collection',
+              '',
+              '- Events retained: ' + a.counts.events + ' (' + a.counts.human + ' human, ' + a.counts.automated + ' automated)',
+              '- Projects with activity: ' + a.counts.repositories,
+              '- API requests: ' + (c.requests?.used ?? 'n/a') + ' / ' + (c.requests?.budgetMax ?? 'n/a'),
+              '- Incomplete sources: ' + (c.sources.filter(s=>s.status!=='ok').map(s=>s.id+':'+s.status).join(', ') || 'none')
+            ];
+            fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join('\n')+'\n');
+          "
+
+      # Commit whenever generated output changed. The previous condition only
+      # counted add/delete/archive events, which silently discarded ordinary
+      # metadata and push updates and made "updated this week" unreliable.
+      - name: Commit generated updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet -- data reports activity.html contributions.html workstreams.html sitemap.xml; then
+            echo "No generated changes to commit"
           else
-            echo "No meaningful changes to commit"
+            git add data reports activity.html contributions.html workstreams.html sitemap.xml
+            git commit -m "chore: weekly activity and catalogue sync"
+            git push
           fi

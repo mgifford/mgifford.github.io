@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T18:16:01.617Z",
+  "generatedAt": "2026-11-23T20:12:39.879Z",
   "sourceGeneratedAt": "2026-11-23T18:15:11.144Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -30,7 +30,219 @@
     "repoSnapshotGeneratedAt": "2026-11-23T18:15:11.144Z",
     "changesGeneratedAt": "2026-11-23T18:15:11.144Z",
     "screenshotsGeneratedAt": "2026-11-23T18:16:01.458Z",
+    "activityGeneratedAt": "2026-11-23T20:08:03.742Z",
     "repoCountDelta": 2
+  },
+  "activity": {
+    "available": true,
+    "generatedAt": "2026-11-23T20:08:03.742Z",
+    "timezone": "America/Toronto",
+    "defaultRange": "last_7_days",
+    "summary": {
+      "events": 5611,
+      "human": 3867,
+      "automated": 1744,
+      "repositories": 92,
+      "byCategory": {
+        "pull_request": 2214,
+        "code_development": 2780,
+        "issue": 611,
+        "repository_administration": 4,
+        "release": 2
+      },
+      "byEventType": {
+        "pull_request_opened": 1093,
+        "commit_pushed": 2780,
+        "pull_request_merged": 1099,
+        "issue_opened": 117,
+        "issue_closed": 94,
+        "issue_commented": 400,
+        "repository_created": 4,
+        "pull_request_closed": 22,
+        "release_published": 2
+      }
+    },
+    "coverage": {
+      "lookbackDays": 90,
+      "window": {
+        "start": "2026-08-25T20:08:03.742Z",
+        "end": "2026-11-23T20:08:03.742Z"
+      },
+      "requests": {
+        "budgetMax": 1200,
+        "used": 579,
+        "exhausted": false,
+        "budgetReason": null,
+        "requests": 579,
+        "cacheHits": 0,
+        "notModified": 0,
+        "retries": 0,
+        "failures": 0,
+        "rateLimited": 0,
+        "unauthorized": 0,
+        "notFound": 0
+      },
+      "sources": [
+        {
+          "id": "commits",
+          "label": "Commit history (owned repositories)",
+          "status": "partial",
+          "note": "Up to two pages (200 commits) per repository."
+        },
+        {
+          "id": "pull-requests",
+          "label": "Pull requests (owned repositories)",
+          "status": "partial",
+          "note": "Latest page plus a separate open-PR query."
+        },
+        {
+          "id": "issues",
+          "label": "Issues (owned repositories)",
+          "status": "partial",
+          "note": "Latest page of updated issues in the lookback window."
+        },
+        {
+          "id": "issue-comments",
+          "label": "Issue and review comments (owned repositories)",
+          "status": "partial",
+          "note": "Collected for the busiest bounded set of repositories."
+        },
+        {
+          "id": "releases",
+          "label": "Releases (owned repositories)",
+          "status": "ok",
+          "note": "Published releases in the lookback window."
+        },
+        {
+          "id": "workflows",
+          "label": "Workflow runs (bounded set)",
+          "status": "ok",
+          "note": "Only the latest completed run for a bounded set of repositories."
+        },
+        {
+          "id": "public-events",
+          "label": "Public contribution events",
+          "status": "ok",
+          "note": "At most 300 events and roughly 90 days. Payloads are truncated, so these events are coarse and marked as such."
+        },
+        {
+          "id": "external-search",
+          "label": "Authored issues and pull requests outside owned repositories",
+          "status": "ok",
+          "note": "Search API is capped at 50 results per query."
+        },
+        {
+          "id": "external-search-commits",
+          "label": "Authored commits outside owned repositories",
+          "status": "ok",
+          "note": "Search API is capped at 50 results per query."
+        }
+      ],
+      "limitations": [
+        "GitHub's public event feed exposes at most 300 events and roughly 90 days of history; older activity is not claimed.",
+        "Repository metadata changes are detected by diffing weekly snapshots, so their exact time is unknown and they are marked \"observed-at\".",
+        "Dependabot and security alerts are not public data and are excluded from the published dataset.",
+        "Pull request reviews are collected from the public event feed only; review history beyond the feed window is not claimed.",
+        "Activity is collected for a bounded set of active repositories, not every repository in the catalogue.",
+        "Repository activity is collected for the bounded candidate set only; absence of an event does not prove absence of work.",
+        "Routine commit detail is retained for 30 days; pull requests, issues, reviews, and releases are retained for the full lookback window."
+      ]
+    },
+    "workstreams": [
+      {
+        "id": "drupal-accessibility",
+        "name": "Drupal accessibility and quality",
+        "description": "Drupal core accessibility evaluation, regression testing, and quality monitoring.",
+        "humanEventCount": 463,
+        "lastActivityAt": "2026-11-23T19:16:04.000Z"
+      },
+      {
+        "id": "government-monitoring",
+        "name": "Government website monitoring",
+        "description": "Continuous and comparative scanning of public-sector websites.",
+        "humanEventCount": 938,
+        "lastActivityAt": "2026-11-23T19:52:55.000Z"
+      },
+      {
+        "id": "accessibility-testing",
+        "name": "Accessibility testing and evaluation",
+        "description": "Scanners, rule coverage, contrast, alternative text, and evaluation tooling.",
+        "humanEventCount": 254,
+        "lastActivityAt": "2026-11-23T20:07:20.000Z"
+      },
+      {
+        "id": "open-standards",
+        "name": "Open standards and structured policy",
+        "description": "WCAG relationships, machine-readable standards, and open policy evidence.",
+        "humanEventCount": 427,
+        "lastActivityAt": "2026-11-23T10:15:09.000Z"
+      },
+      {
+        "id": "web-sustainability",
+        "name": "Web sustainability",
+        "description": "Energy, resource efficiency, and sustainable web practice.",
+        "humanEventCount": 223,
+        "lastActivityAt": "2026-11-19T10:25:56.000Z"
+      },
+      {
+        "id": "design-systems",
+        "name": "Design systems and component practice",
+        "description": "Design-system evaluation, component accessibility, and user preferences.",
+        "humanEventCount": 63,
+        "lastActivityAt": "2026-11-23T19:59:56.000Z"
+      },
+      {
+        "id": "research-experiments",
+        "name": "Experimental research",
+        "description": "Bounded experiments where findings may not yet be validated.",
+        "humanEventCount": 20,
+        "lastActivityAt": "2026-11-23T20:01:55.000Z"
+      }
+    ],
+    "latestProjects": [
+      {
+        "repository": "mgifford/open-scans",
+        "repositoryUrl": "https://github.com/mgifford/open-scans",
+        "lastHumanActivityAt": "2026-11-23T20:07:20.000Z",
+        "lastHumanActivityType": "pull_request_opened",
+        "title": "fix(scan): keep the Chromium Puppeteer path out of WebKit/Firefox"
+      },
+      {
+        "repository": "mgifford/blocknote-diff-lab",
+        "repositoryUrl": "https://github.com/mgifford/blocknote-diff-lab",
+        "lastHumanActivityAt": "2026-11-23T20:01:55.000Z",
+        "lastHumanActivityType": "commit_pushed",
+        "title": "Add inert-only and activation-only comparator variants"
+      },
+      {
+        "repository": "mgifford/design-system-lab",
+        "repositoryUrl": "https://github.com/mgifford/design-system-lab",
+        "lastHumanActivityAt": "2026-11-23T19:59:56.000Z",
+        "lastHumanActivityType": "commit_pushed",
+        "title": "Merge pull request #8 from mgifford/fix/pane-layout"
+      },
+      {
+        "repository": "mgifford/vital-core-data",
+        "repositoryUrl": "https://github.com/mgifford/vital-core-data",
+        "lastHumanActivityAt": "2026-11-23T19:52:55.000Z",
+        "lastHumanActivityType": "commit_pushed",
+        "title": "scan(www.healthcare.gov): 2026-11-23T19:52Z"
+      },
+      {
+        "repository": "mgifford/vital-core-nsf-data",
+        "repositoryUrl": "https://github.com/mgifford/vital-core-nsf-data",
+        "lastHumanActivityAt": "2026-11-23T19:22:20.000Z",
+        "lastHumanActivityType": "commit_pushed",
+        "title": "scan(www.nsf.gov): 2026-11-23T19:22Z"
+      },
+      {
+        "repository": "mgifford/mgifford.github.io",
+        "repositoryUrl": "https://github.com/mgifford/mgifford.github.io",
+        "lastHumanActivityAt": "2026-11-23T18:57:58.000Z",
+        "lastHumanActivityType": "commit_pushed",
+        "title": "Enhance SEO with updated title and meta tags"
+      }
+    ]
   },
   "changes": {
     "generatedAt": "2026-11-23T18:15:11.144Z",

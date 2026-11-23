@@ -2,6 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { dirname } from "node:path";
 
+import { describeSnapshotChanges } from "./lib/activity-mappers.mjs";
+
 const API_BASE = "https://api.github.com";
 const OWNER = process.env.GH_OWNER || "mgifford";
 const TOKEN = process.env.GH_TOKEN || "";
@@ -317,6 +319,29 @@ export function buildChanges(previousRepos, currentRepos) {
     .map((repo) => repo.fullName)
     .sort();
 
+  // Metadata and push-timestamp changes used to be discarded by the weekly
+  // commit condition, which made "updated this week" depend on a lucky
+  // add/delete. They are now recorded explicitly so the activity collector can
+  // emit evidence and the report can explain what changed.
+  const updated = currentRepos
+    .filter((repo) => {
+      const previous = prevMap.get(repo.fullName);
+      if (!previous) return false;
+      return previous.updatedAt !== repo.updatedAt || previous.pushedAt !== repo.pushedAt;
+    })
+    .map((repo) => {
+      const previous = prevMap.get(repo.fullName);
+      return {
+        fullName: repo.fullName,
+        previousUpdatedAt: previous.updatedAt || null,
+        updatedAt: repo.updatedAt || null,
+        previousPushedAt: previous.pushedAt || null,
+        pushedAt: repo.pushedAt || null,
+        changes: describeSnapshotChanges(previous, repo)
+      };
+    })
+    .sort((a, b) => a.fullName.localeCompare(b.fullName));
+
   return {
     generatedAt: NOW,
     owner: OWNER,
@@ -326,12 +351,14 @@ export function buildChanges(previousRepos, currentRepos) {
       added: added.length,
       deleted: deleted.length,
       archivedNow: archivedNow.length,
-      unarchivedNow: unarchivedNow.length
+      unarchivedNow: unarchivedNow.length,
+      updated: updated.length
     },
     added,
     deleted,
     archivedNow,
-    unarchivedNow
+    unarchivedNow,
+    updated
   };
 }
 
@@ -354,7 +381,7 @@ async function writeJson(path, value) {
   await writeFile(path, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-export async function writeMarkdownReport(changes) {
+export async function writeMarkdownReport(changes, outputPath = OUTPUT_REPORT) {
   const lines = [
     "# Repository Sync Report",
     "",
@@ -367,6 +394,10 @@ export async function writeMarkdownReport(changes) {
     `- Deleted: ${changes.counts.deleted}`,
     `- Newly archived: ${changes.counts.archivedNow}`,
     `- Unarchived: ${changes.counts.unarchivedNow}`,
+    `- Updated (metadata or push): ${changes.counts.updated ?? 0}`,
+    "",
+    "`updatedAt` is GitHub's repository metadata timestamp. `pushedAt` is the last code push.",
+    "An entry can appear under Updated without any new commits.",
     ""
   ];
 
@@ -388,8 +419,20 @@ export async function writeMarkdownReport(changes) {
     lines.push("");
   }
 
-  await ensureParent(OUTPUT_REPORT);
-  await writeFile(OUTPUT_REPORT, lines.join("\n"), "utf8");
+  lines.push("## Updated");
+  lines.push("");
+  if (!changes.updated?.length) {
+    lines.push("- None");
+  } else {
+    for (const entry of changes.updated) {
+      const details = entry.changes.length ? ` (${entry.changes.join("; ")})` : " (push or unreported metadata change)";
+      lines.push(`- ${entry.fullName}${details}`);
+    }
+  }
+  lines.push("");
+
+  await ensureParent(outputPath);
+  await writeFile(outputPath, lines.join("\n"), "utf8");
 }
 
 export async function main() {

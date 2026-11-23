@@ -3,11 +3,67 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 import yaml from "js-yaml";
 
+import { summarizeWorkstreams } from "../src/queries.mjs";
+
 const INPUT_REPOS = "data/generated/repos.json";
 const INPUT_CHANGES = "data/generated/changes.json";
 const INPUT_SCREENSHOTS = "data/generated/screenshots.json";
 const INPUT_CURATION = "data/curation.yml";
+const INPUT_WORKSTREAMS = "data/workstreams.yml";
+const INPUT_ACTIVITY = "data/activity-data.json";
+const INPUT_ACTIVITY_EXTENDED = "data/activity-extended.json";
+const INPUT_ACTIVITY_INDEX = "data/generated/activity/repository-index.json";
 const OUTPUT_SITE_DATA = "data/site-data.json";
+
+/** Small summary embedded in the catalogue dataset for cross-linking. */
+export function buildActivitySummary(activity, index, workstreamsConfig) {
+  if (!activity) {
+    return { available: false, generatedAt: null, summary: null, coverage: null, workstreams: [] };
+  }
+
+  const events = activity.events || [];
+  const repositoryIndex = index?.repositories || [];
+  const workstreams = summarizeWorkstreams(events, workstreamsConfig, { repositoryIndex });
+  const latestProjects = [...repositoryIndex]
+    .filter((row) => row.lastHumanActivityAt)
+    .sort((a, b) => String(b.lastHumanActivityAt).localeCompare(String(a.lastHumanActivityAt)))
+    .slice(0, 6)
+    .map((row) => ({
+      repository: row.repository,
+      repositoryUrl: row.repositoryUrl,
+      lastHumanActivityAt: row.lastHumanActivityAt,
+      lastHumanActivityType: row.lastHumanActivityType,
+      title: row.lastTitle
+    }));
+
+  return {
+    available: true,
+    generatedAt: activity.generatedAt,
+    timezone: activity.timezone,
+    defaultRange: workstreamsConfig?.reporting?.defaultRange || "last_7_days",
+    summary: activity.summary || activity.counts,
+    coverage: {
+      lookbackDays: activity.coverage?.lookbackDays,
+      window: activity.coverage?.window,
+      requests: activity.coverage?.requests,
+      sources: (activity.coverage?.sources || []).map((source) => ({
+        id: source.id,
+        label: source.label,
+        status: source.status,
+        note: source.note || ""
+      })),
+      limitations: activity.coverage?.limitations || []
+    },
+    workstreams: workstreams.map((workstream) => ({
+      id: workstream.id,
+      name: workstream.name,
+      description: workstream.description,
+      humanEventCount: workstream.humanEventCount,
+      lastActivityAt: workstream.lastActivityAt
+    })),
+    latestProjects
+  };
+}
 
 /**
  * Map of GitHub topic slugs to curated theme names.
@@ -170,6 +226,13 @@ export async function main() {
   const changes = await readJson(INPUT_CHANGES, null);
   const screenshots = await readJson(INPUT_SCREENSHOTS, { captures: [] });
   const curation = await readYaml(INPUT_CURATION, {});
+  const workstreamsConfig = await readYaml(INPUT_WORKSTREAMS, {});
+  const recentActivity = await readJson(INPUT_ACTIVITY, null);
+  const olderActivity = await readJson(INPUT_ACTIVITY_EXTENDED, { events: [] });
+  const activity = recentActivity
+    ? { ...recentActivity, events: [...(recentActivity.events || []), ...(olderActivity.events || [])] }
+    : null;
+  const activityIndex = await readJson(INPUT_ACTIVITY_INDEX, { repositories: [] });
 
   const pinnedRepoNames = new Set(Array.isArray(repoData.pinnedRepos) ? repoData.pinnedRepos : []);
 
@@ -209,14 +272,24 @@ export async function main() {
       repoSnapshotGeneratedAt: repoData.generatedAt || null,
       changesGeneratedAt: changes?.generatedAt || null,
       screenshotsGeneratedAt: screenshots?.generatedAt || null,
+      activityGeneratedAt: activity?.generatedAt || null,
       repoCountDelta: (changes?.counts?.current || 0) - (changes?.counts?.previous || 0)
     },
+    activity: buildActivitySummary(activity, activityIndex, workstreamsConfig),
     changes,
     repos: curatedRepos
   };
 
   await ensureParent(OUTPUT_SITE_DATA);
   await writeFile(OUTPUT_SITE_DATA, `${JSON.stringify(result, null, 2)}\n`, "utf8");
+
+  if (activity) {
+    console.log(
+      `Site data includes ${activity.events.length} activity events across ${activityIndex.repositories.length} indexed repositories.`
+    );
+  } else {
+    console.warn(`No activity data found at ${INPUT_ACTIVITY}; activity views will be empty until collection runs.`);
+  }
 
   console.log(`Site data written to ${OUTPUT_SITE_DATA} with ${curatedRepos.length} repos.`);
 }

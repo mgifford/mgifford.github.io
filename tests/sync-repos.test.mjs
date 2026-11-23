@@ -51,6 +51,56 @@ test("buildChanges computes added/deleted/archive transitions", () => {
   assert.deepEqual(changes.unarchivedNow, ["owner/c"]);
 });
 
+test("buildChanges records metadata-only updates without a push", () => {
+  const previous = [
+    {
+      fullName: "owner/a",
+      description: "Old description",
+      updatedAt: "2026-11-01T00:00:00Z",
+      pushedAt: "2026-11-01T00:00:00Z",
+      archived: false
+    }
+  ];
+  const current = [
+    {
+      fullName: "owner/a",
+      description: "New description",
+      updatedAt: "2026-11-20T00:00:00Z",
+      pushedAt: "2026-11-01T00:00:00Z",
+      archived: false
+    }
+  ];
+
+  const changes = buildChanges(previous, current);
+  assert.equal(changes.counts.updated, 1);
+  assert.deepEqual(changes.updated[0], {
+    fullName: "owner/a",
+    previousUpdatedAt: "2026-11-01T00:00:00Z",
+    updatedAt: "2026-11-20T00:00:00Z",
+    previousPushedAt: "2026-11-01T00:00:00Z",
+    pushedAt: "2026-11-01T00:00:00Z",
+    changes: ["Description changed"]
+  });
+});
+
+test("buildChanges records a push even when no metadata field changed", () => {
+  const previous = [{ fullName: "owner/a", updatedAt: "2026-11-01T00:00:00Z", pushedAt: "2026-11-01T00:00:00Z" }];
+  const current = [{ fullName: "owner/a", updatedAt: "2026-11-20T00:00:00Z", pushedAt: "2026-11-20T00:00:00Z" }];
+  const changes = buildChanges(previous, current);
+  assert.equal(changes.counts.updated, 1);
+  assert.deepEqual(changes.updated[0].changes, []);
+  assert.equal(changes.updated[0].pushedAt, "2026-11-20T00:00:00Z");
+});
+
+test("buildChanges treats a renamed or transferred repository as added and deleted", () => {
+  const previous = [{ fullName: "old-owner/project", updatedAt: "2026-11-01T00:00:00Z", pushedAt: "2026-11-01T00:00:00Z" }];
+  const current = [{ fullName: "new-owner/project", updatedAt: "2026-11-02T00:00:00Z", pushedAt: "2026-11-02T00:00:00Z" }];
+  const changes = buildChanges(previous, current);
+  assert.deepEqual(changes.added, ["new-owner/project"]);
+  assert.deepEqual(changes.deleted, ["old-owner/project"]);
+  assert.equal(changes.updated.length, 0, "a rename is not a same-name update");
+});
+
 test("mapRepo normalizes a GitHub API repo shape", () => {
   const mapped = mapRepo(
     {
@@ -257,7 +307,7 @@ test("writeMarkdownReport writes a readable markdown file", async (t) => {
   const dir = await mkdtemp(join(tmpdir(), "mgifford-test-"));
   t.after(() => rm(dir, { recursive: true }));
 
-  // writeMarkdownReport writes to a fixed path, so we verify indirectly via the return value
+  const reportPath = join(dir, "changes-latest.md");
   const changes = {
     generatedAt: "2025-01-01T00:00:00Z",
     owner: "testowner",
@@ -268,17 +318,16 @@ test("writeMarkdownReport writes a readable markdown file", async (t) => {
     unarchivedNow: []
   };
 
-  // writeMarkdownReport returns undefined but we verify it doesn't throw
-  await assert.doesNotReject(() => writeMarkdownReport(changes));
+  await assert.doesNotReject(() => writeMarkdownReport(changes, reportPath));
 
-  // Verify the actual report file was written with expected content
-  const content = await readFile("reports/changes-latest.md", "utf8");
+  const content = await readFile(reportPath, "utf8");
   assert.ok(content.includes("# Repository Sync Report"));
   assert.ok(content.includes("testowner"));
   assert.ok(content.includes("testowner/new-repo"));
   assert.ok(content.includes("testowner/old-repo"));
   assert.ok(content.includes("## Added"));
   assert.ok(content.includes("## Deleted"));
+  assert.ok(content.includes("## Updated"));
   assert.ok(content.includes("- None"));
 });
 
