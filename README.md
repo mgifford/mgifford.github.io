@@ -1,14 +1,35 @@
-# Mike Gifford's Open Source Projects
+# Project Atlas: Open-Source Work, Activity, and Knowledge
 
-**A curated catalogue of open-source projects exploring digital accessibility, public-interest technology, open standards, sustainability, and responsible AI.**
+**A curated catalogue of open-source projects, extended with an evidence-backed activity dashboard for understanding recent work.**
 
-**[Explore the projects](https://mgifford.github.io/)** | [GitHub profile](https://github.com/mgifford) | [Personal website](https://ox.ca/)
+**[Explore the projects](https://mgifford.github.io/)** · [Recent activity](https://mgifford.github.io/activity.html) · [My contributions](https://mgifford.github.io/contributions.html) · [Workstreams](https://mgifford.github.io/workstreams.html) · [Reports](https://mgifford.github.io/reports.html)
 
 This repository powers [mgifford.github.io](https://mgifford.github.io/), a public catalogue of projects developed, maintained, or contributed to by Mike Gifford.
 
 The catalogue makes it easier to discover the purpose of individual projects, explore related work, and find their source code, demonstrations, documentation, and ongoing development.
 
-It also provides automated repository maintenance information and a foundation for identifying opportunities to improve project documentation, accessibility, sustainability, and discoverability.
+Project Atlas adds a second question: **what changed recently, who did it, and what still needs attention?** It combines the curated catalogue with a normalized, public, evidence-linked activity index. Every activity row points back to the commit, pull request, issue, review, release, or metadata change that supports it.
+
+## What you can ask
+
+| Question | Where |
+|---|---|
+| Which projects were updated this week? | [Recent Activity](https://mgifford.github.io/activity.html) |
+| Which projects had commits, pull requests, issues, or releases in a date range? | Recent Activity, with saved questions and shareable filter URLs |
+| What has `mgifford` worked on recently, including projects he does not own? | [My Contributions](https://mgifford.github.io/contributions.html) |
+| Where did I leave off on a specific project? | Project timelines on Recent Activity, with open-work signals |
+| Which workstreams moved forward? | [Workstreams](https://mgifford.github.io/workstreams.html) |
+| What was completed or still in progress over the last week or month? | [Reports](https://mgifford.github.io/reports.html) |
+
+The activity views are deterministic. They do not require an AI model, and they work
+without JavaScript: each page contains a complete static snapshot for its default date
+range, with links to the original evidence. Interactive filters are a progressive
+enhancement.
+
+Reporting dates use `America/Toronto` and are configurable in
+[`data/workstreams.yml`](data/workstreams.yml). "This week" means Monday 00:00 local
+time to now. "Last 7 days" is a rolling 168-hour window. The resolved range is always
+shown in the interface.
 
 ## Why this project exists
 
@@ -99,7 +120,27 @@ A scheduled GitHub Actions workflow retrieves public repository information, inc
 - README quality indicators.
 - Availability of selected project governance and AI instruction files.
 
-The catalogue also detects changes such as newly discovered, removed, archived, and unarchived repositories.
+The catalogue also detects changes such as newly discovered, removed, archived, and unarchived repositories, and records timestamp and metadata changes that were previously discarded.
+
+### Activity evidence
+
+A bounded weekly collection adds normalized events from public GitHub data:
+
+- Commits, pull requests, issues, comments, releases, and workflow results in
+  repositories owned by the account.
+- Public contribution events and authored work in repositories outside the account.
+- Repository metadata changes detected by diffing weekly snapshots.
+
+Events record the actor, role, timestamp, source URL, automation status, and outcome.
+Automated maintenance is labelled and never counted as personal work. An opened pull
+request is not treated as shipped; a merged pull request is not treated as a
+deployment.
+
+Collection is capped by repository count, page count, and a hard API-request budget.
+Coverage is published with the data, including unavailable or partial sources, so a
+gap is never presented as inactivity. See
+[`docs/data-provenance.md`](docs/data-provenance.md) and
+[`docs/activity-schema.md`](docs/activity-schema.md).
 
 The resulting data is stored in version-controlled JSON files.
 
@@ -134,11 +175,13 @@ The public view presents the curated project catalogue.
 
 The codebase also contains an owner-maintenance interface intended to help identify work requiring attention, including open pull requests, stale issues, repository quality signals, and other maintenance tasks.
 
-**Owner mode is not currently available in the public deployment.**
+The activity views are public-only. They use public GitHub data, never notifications,
+private repositories, or authenticated-only signals. Owner mode remains disabled.
 
-It requires an appropriate authentication or server-side reporting mechanism.
+It would require an appropriate authentication or server-side reporting mechanism.
 
-GitHub Actions secrets must never be exposed to client-side JavaScript.
+GitHub Actions secrets must never be exposed to client-side JavaScript, and private
+API results must never be written into GitHub Pages files.
 
 ## Search and AI discoverability
 
@@ -247,16 +290,30 @@ The project is a static website with a Node.js data pipeline.
 
 | Location | Purpose |
 |---|---|
-| `index.html` | Public page structure |
+| `index.html` | Public catalogue page |
+| `activity.html`, `contributions.html`, `workstreams.html`, `reports.html` | Generated activity pages with static default content |
 | `src/app.js` | Catalogue filtering, sorting, project cards, and owner-mode logic |
+| `src/activity-app.js` | Progressive enhancement for activity filters and URLs |
+| `src/time.mjs` | Timezone and date-range engine |
+| `src/activity.mjs` | Activity taxonomy, validation, attribution, automation, dedupe |
+| `src/queries.mjs` | Deterministic activity questions |
+| `src/activity-filters.mjs` | Filter state and shareable URL serialization |
+| `src/render.mjs`, `src/views.mjs` | Shared accessible rendering for static and browser views |
 | `src/styles.css` | Presentation and responsive styling |
 | `data/curation.yml` | Human-maintained project descriptions and presentation settings |
-| `data/generated/` | Automatically collected GitHub repository information |
-| `data/site-data.json` | Consolidated dataset used by the frontend |
+| `data/workstreams.yml` | Timezone, collection scope, identities, workstreams, limitations |
+| `data/generated/` | Automatically collected repository and activity information |
+| `data/activity-data.json` | Recent activity payload, coverage, workstreams, repository index |
+| `data/activity-extended.json` | Older activity events, loaded on demand |
+| `data/site-data.json` | Consolidated catalogue dataset used by the frontend |
 | `scripts/sync-repos.mjs` | GitHub repository synchronization |
+| `scripts/collect-activity.mjs` | Bounded public activity collection |
+| `scripts/lib/github-api.mjs` | Request budget, retries, pagination, conditional cache |
+| `scripts/lib/activity-mappers.mjs` | GitHub payload to normalized event mapping |
 | `scripts/build-site-data.mjs` | Merges generated metadata with manual curation |
+| `scripts/build-pages.mjs` | Generates activity pages, sitemap, and reports |
 | `scripts/capture-pages-screenshots.mjs` | Project screenshot capture |
-| `.github/workflows/weekly-sync.yml` | Scheduled repository metadata updates |
+| `.github/workflows/weekly-sync.yml` | Scheduled repository and activity updates |
 | `.github/workflows/monthly-screenshots.yml` | Scheduled screenshot updates |
 
 Generated datasets should normally be updated through their build scripts rather than edited manually.
@@ -285,28 +342,56 @@ npm run start
 
 Open `http://localhost:3000`.
 
-### Refresh repository information
+### Refresh repository and activity information
 
 ```bash
-npm run sync:all
+GH_TOKEN=… npm run sync:all
 ```
 
-This retrieves repository information from GitHub and rebuilds the local site dataset.
+`sync:all` runs the repository sync, the bounded activity collection, and both builds.
+Requires a GitHub token for API collection. If no token is present, stored activity
+data is left untouched rather than replaced with an empty snapshot.
 
-A GitHub token can be provided through the appropriate environment configuration for higher API limits.
+Individual steps:
+
+```bash
+npm run sync:repos     # repository metadata and change log
+npm run sync:activity  # bounded public activity collection
+npm run build:data     # catalogue dataset + activity summary
+npm run build:pages    # static activity pages, sitemap, reports
+```
+
+Useful environment overrides:
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `ACTIVITY_LOOKBACK_DAYS` | 90 | Collection lookback |
+| `ACTIVITY_MAX_REPOS` | 120 | Candidate repository cap |
+| `ACTIVITY_MAX_REQUESTS` | 1200 | Hard API request budget |
+| `ACTIVITY_MAX_EVENTS` | 9000 | Retained event cap |
+| `ACTIVITY_FULL_COMMIT_DAYS` | 30 | Routine commit detail retention |
+| `ACTIVITY_BROWSER_DAYS` | 7 | Recent browser payload window |
+| `ACTIVITY_OFFLINE` | unset | Set to `1` to rebuild without network |
+
+A GitHub token can be provided through the environment for higher API limits.
 
 Never place personal access tokens in publicly served website files or browser code.
 
 ### Validate the project
 
 ```bash
+npm run build:all
 npm test
 npm run validate:data
 npm run validate:curation
 npm run test:a11y
 ```
 
-The accessibility test suite uses Playwright and axe-core.
+`npm test` expects the generated pages to exist. `npm run build:all` rebuilds them from
+the committed data.
+
+The accessibility test suite uses Playwright and axe-core and scans the catalogue plus
+the four activity pages in light and dark modes.
 
 ### Capture screenshots
 
@@ -346,6 +431,13 @@ Changes to project descriptions should remain factual and traceable to the corre
 - [Sustainability Commitment](SUSTAINABILITY.md).
 - [Agent Instructions](AGENTS.md).
 - [Project Curation](data/curation.yml).
+- [Workstreams and collection configuration](data/workstreams.yml).
+- [Architecture audit](docs/audit.md).
+- [Technical strategy](docs/strategy.md).
+- [Activity schema](docs/activity-schema.md).
+- [Data provenance and limitations](docs/data-provenance.md).
+- [Implementation plan](docs/implementation-plan.md).
+- [Change summary](docs/change-summary.md).
 - [GitHub Actions](.github/workflows/).
 
 ## License
@@ -360,8 +452,19 @@ The catalogue links to independently maintained projects. Their software and con
 
 The public catalogue is operational and updated through scheduled GitHub workflows.
 
-Owner-mode functionality remains disabled in the public site pending an appropriate authentication or reporting mechanism.
+The activity layer is implemented: date-ranged activity, personal contributions,
+workstreams, project timelines, coverage disclosure, and deterministic weekly/monthly
+reports. The initial question — **which projects were updated this week?** — is
+answered from committed evidence, including commits, pull requests, issues, releases,
+and metadata changes.
 
-Improved search indexing, pre-rendered project content, structured data, and project-level SEO and AI-search auditing are proposed enhancements.
+Owner-mode functionality remains disabled in the public site pending an appropriate
+authentication or reporting mechanism.
 
-The aim is to make this catalogue a useful starting point for discovering open-source work and understanding how its projects relate to one another.
+Optional AI-assisted summaries over verified evidence are intentionally deferred until
+the deterministic model is reliable and a review/disclosure workflow exists. Improved
+search indexing, structured data, and project-level SEO and accessibility auditing of
+linked sites remain proposed enhancements.
+
+The aim is to make this catalogue a useful starting point for discovering open-source
+work, understanding recent activity, and deciding what to work on next.
