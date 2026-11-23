@@ -250,6 +250,20 @@ test("custom range controls appear only for the custom preset", async () => {
   });
 });
 
+test("contributions status counts attributable work, not repository activity", async () => {
+  await withPage({}, async (page) => {
+    await page.goto(`${baseUrl}/contributions.html`, { waitUntil: "networkidle" });
+    await page.waitForFunction(() => document.documentElement.classList.contains("atlas-js"));
+
+    const status = await page.locator("#atlas-status").innerText();
+    const summary = await page.locator("#contribution-summary-heading + p").innerText();
+    const statusCount = Number(status.match(/Showing (\d+) attributable contributions/)[1]);
+    const summaryCount = Number(summary.match(/(\d+) attributable contributions/)[1]);
+    assert.equal(statusCount, summaryCount);
+    assert.ok(statusCount > 0);
+  });
+});
+
 test("project timeline anchors exist for project table links", async () => {
   await withPage({}, async (page) => {
     await page.goto(`${baseUrl}/activity.html`, { waitUntil: "networkidle" });

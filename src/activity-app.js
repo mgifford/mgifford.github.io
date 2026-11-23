@@ -12,6 +12,7 @@ import {
   buildActivitySearch,
   buildFilterOptions,
   filterActivityEvents,
+  isUserEvent,
   parseActivityFilters,
   resolveFiltersRange
 } from "./activity-filters.mjs";
@@ -235,8 +236,12 @@ async function render() {
     syncUrl();
 
     const automationNote = filters.excludeAutomated ? " Routine automation is excluded." : "";
+    const attributable =
+      view === "contributions"
+        ? events.filter((event) => isUserEvent(event, data.identity) && !event.automated)
+        : events;
     const label = view === "contributions" ? "attributable contributions" : "events";
-    setStatus(`Showing ${events.length} ${label}. ${range.summary}.${automationNote}`);
+    setStatus(`Showing ${attributable.length} ${label}. ${range.summary}.${automationNote}`);
   } catch (error) {
     console.error(error);
     setStatus("The interactive view could not be updated. The static snapshot remains available.");
