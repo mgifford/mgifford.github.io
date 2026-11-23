@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T20:12:39.879Z",
+  "generatedAt": "2026-11-23T20:15:47.058Z",
   "sourceGeneratedAt": "2026-11-23T18:15:11.144Z",
   "owner": "mgifford",
   "sortingDefaults": {
@@ -30,30 +30,30 @@
     "repoSnapshotGeneratedAt": "2026-11-23T18:15:11.144Z",
     "changesGeneratedAt": "2026-11-23T18:15:11.144Z",
     "screenshotsGeneratedAt": "2026-11-23T18:16:01.458Z",
-    "activityGeneratedAt": "2026-11-23T20:08:03.742Z",
+    "activityGeneratedAt": "2026-11-23T20:14:51.558Z",
     "repoCountDelta": 2
   },
   "activity": {
     "available": true,
-    "generatedAt": "2026-11-23T20:08:03.742Z",
+    "generatedAt": "2026-11-23T20:14:51.558Z",
     "timezone": "America/Toronto",
     "defaultRange": "last_7_days",
     "summary": {
-      "events": 5611,
-      "human": 3867,
+      "events": 5618,
+      "human": 3874,
       "automated": 1744,
       "repositories": 92,
       "byCategory": {
-        "pull_request": 2214,
-        "code_development": 2780,
+        "code_development": 2786,
+        "pull_request": 2215,
         "issue": 611,
         "repository_administration": 4,
         "release": 2
       },
       "byEventType": {
+        "commit_pushed": 2786,
+        "pull_request_merged": 1100,
         "pull_request_opened": 1093,
-        "commit_pushed": 2780,
-        "pull_request_merged": 1099,
         "issue_opened": 117,
         "issue_closed": 94,
         "issue_commented": 400,
@@ -65,8 +65,8 @@
     "coverage": {
       "lookbackDays": 90,
       "window": {
-        "start": "2026-08-25T20:08:03.742Z",
-        "end": "2026-11-23T20:08:03.742Z"
+        "start": "2026-08-25T20:14:51.558Z",
+        "end": "2026-11-23T20:14:51.558Z"
       },
       "requests": {
         "budgetMax": 1200,
@@ -75,7 +75,7 @@
         "budgetReason": null,
         "requests": 579,
         "cacheHits": 0,
-        "notModified": 0,
+        "notModified": 312,
         "retries": 0,
         "failures": 0,
         "rateLimited": 0,
@@ -188,38 +188,38 @@
         "id": "design-systems",
         "name": "Design systems and component practice",
         "description": "Design-system evaluation, component accessibility, and user preferences.",
-        "humanEventCount": 63,
-        "lastActivityAt": "2026-11-23T19:59:56.000Z"
+        "humanEventCount": 68,
+        "lastActivityAt": "2026-11-23T20:08:55.000Z"
       },
       {
         "id": "research-experiments",
         "name": "Experimental research",
         "description": "Bounded experiments where findings may not yet be validated.",
-        "humanEventCount": 20,
-        "lastActivityAt": "2026-11-23T20:01:55.000Z"
+        "humanEventCount": 21,
+        "lastActivityAt": "2026-11-23T20:10:35.000Z"
       }
     ],
     "latestProjects": [
+      {
+        "repository": "mgifford/blocknote-diff-lab",
+        "repositoryUrl": "https://github.com/mgifford/blocknote-diff-lab",
+        "lastHumanActivityAt": "2026-11-23T20:10:35.000Z",
+        "lastHumanActivityType": "commit_pushed",
+        "title": "Add multi-issue catalog and validation checklists"
+      },
+      {
+        "repository": "mgifford/design-system-lab",
+        "repositoryUrl": "https://github.com/mgifford/design-system-lab",
+        "lastHumanActivityAt": "2026-11-23T20:08:55.000Z",
+        "lastHumanActivityType": "pull_request_merged",
+        "title": "Add fixture performance evidence and budget checks"
+      },
       {
         "repository": "mgifford/open-scans",
         "repositoryUrl": "https://github.com/mgifford/open-scans",
         "lastHumanActivityAt": "2026-11-23T20:07:20.000Z",
         "lastHumanActivityType": "pull_request_opened",
         "title": "fix(scan): keep the Chromium Puppeteer path out of WebKit/Firefox"
-      },
-      {
-        "repository": "mgifford/blocknote-diff-lab",
-        "repositoryUrl": "https://github.com/mgifford/blocknote-diff-lab",
-        "lastHumanActivityAt": "2026-11-23T20:01:55.000Z",
-        "lastHumanActivityType": "commit_pushed",
-        "title": "Add inert-only and activation-only comparator variants"
-      },
-      {
-        "repository": "mgifford/design-system-lab",
-        "repositoryUrl": "https://github.com/mgifford/design-system-lab",
-        "lastHumanActivityAt": "2026-11-23T19:59:56.000Z",
-        "lastHumanActivityType": "commit_pushed",
-        "title": "Merge pull request #8 from mgifford/fix/pane-layout"
       },
       {
         "repository": "mgifford/vital-core-data",

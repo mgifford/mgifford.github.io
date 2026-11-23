@@ -830,6 +830,7 @@ export function buildRepositoryIndexRows(events, candidateRows, allRepos, reposi
         openPullRequests: Number(work.openPullRequests || 0),
         awaitingReview: Number(work.awaitingReview || 0),
         failingWorkflows: Number(work.failingWorkflows || 0),
+        readmeNeedsAttention: Boolean(meta.readme?.needsAttention),
         workstreams: workstreamsFor(repository, repositoryWorkstreams)
       };
     })

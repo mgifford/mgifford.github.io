@@ -109,6 +109,7 @@ test("activity.html contains the initial answer, evidence links, and coverage di
   assert.match(html, /Projects updated in this range/);
   assert.match(html, /<caption>/);
   assert.match(html, /Activity by date/);
+  assert.match(html, /Where you left off/);
   assert.match(html, /Data coverage and limitations/);
   assert.match(html, /America\/Toronto/);
   assert.match(html, /<noscript>/);

@@ -11,6 +11,7 @@ import {
   groupContributionsByType,
   getOpenWork,
   getProjectActivity,
+  getProjectContinuity,
   getRecentlyActiveProjects,
   getUserContributions,
   getWorkstreamActivity,
@@ -77,6 +78,8 @@ export function renderActivityView(input) {
 
   const timelines = projects.slice(0, projectLimit).map((project) => {
     const timeline = getProjectActivity(events, project.repository, range, { timeZone });
+    const indexRow = indexByRepo.get(project.repository) || { repository: project.repository };
+    const continuity = getProjectContinuity(events, indexRow, { range, timeZone });
     const anchor = repositoryAnchor(project.repository);
     const shown = timeline.events.slice(0, 10);
     return `<section class="project-timeline" id="${escapeHtml(anchor)}" aria-labelledby="${escapeHtml(`${anchor}-heading`)}">
@@ -85,6 +88,19 @@ export function renderActivityView(input) {
     project.lastHumanActivityAt ? escapeHtml(formatLocalDateTime(project.lastHumanActivityAt, timeZone)) : "not recorded"
   }</p>
   ${openWorkBlock(getOpenWork(indexByRepo.get(project.repository)))}
+  <div class="continuity">
+    <h3>Where you left off</h3>
+    ${
+      continuity.lastHumanActivity
+        ? `<p>Last human activity: ${externalLink(continuity.lastHumanActivity.url, continuity.lastHumanActivity.title || continuity.lastHumanActivity.eventType)} <span class="muted">(${escapeHtml(formatLocalDateTime(continuity.lastHumanActivity.timestamp, timeZone))}, ${escapeHtml(continuity.lastHumanActivity.actor)})</span></p>`
+        : '<p class="muted">No human activity recorded in this range.</p>'
+    }
+    ${
+      continuity.nextAction.text
+        ? `<p><strong>Recorded next action:</strong> ${externalLink(continuity.nextAction.source, continuity.nextAction.text)}</p>`
+        : `<p class="muted">${escapeHtml(continuity.nextAction.basis)}</p>`
+    }
+  </div>
   ${renderActivityByDay(shown, {
     timeZone,
     showRepository: false,
@@ -99,6 +115,7 @@ export function renderActivityView(input) {
   return `<section class="atlas-section" aria-labelledby="range-summary-heading">
   <h2 id="range-summary-heading">Date range</h2>
   ${renderRangeSummary(range)}
+  <p class="muted">Repository <code>updatedAt</code> timestamps are never used as activity timestamps. Metadata-only changes appear as events marked &ldquo;Observed date&rdquo;, because GitHub does not expose the exact edit time.</p>
 </section>
 <section class="atlas-section" aria-labelledby="activity-summary-heading">
   <h2 id="activity-summary-heading">What changed</h2>

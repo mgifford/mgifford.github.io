@@ -212,9 +212,21 @@ test("getOpenWork reports explicit criteria without an urgency score", () => {
     archived: false
   });
   assert.equal(openWork.needingReview, true);
-  assert.equal(openWork.criteria.length, 4);
+  assert.equal(openWork.criteria.length, 5);
   assert.ok(!("score" in openWork));
   assert.match(openWork.note, /not a priority score/i);
+});
+
+test("getOpenWork accepts openIssuesRaw and surfaces README quality as a candidate", () => {
+  const openWork = getOpenWork({
+    repository: "mgifford/drupal-core-lab",
+    openIssuesRaw: 7,
+    readmeNeedsAttention: true
+  });
+  assert.equal(openWork.criteria.find((criterion) => criterion.id === "open_issues").count, 7);
+  const readme = openWork.criteria.find((criterion) => criterion.id === "readme_quality");
+  assert.equal(readme.count, 1);
+  assert.match(readme.basis, /Review before treating this as a defect/);
 });
 
 test("getOpenWork treats an archived repository as having no active work", () => {

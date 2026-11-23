@@ -1,21 +1,22 @@
 # Project Atlas monthly activity report
 
-Generated: 2026-11-23T20:08:03.742Z
-Range: 24 October 2026, 16:08 – 23 November 2026, 15:08 (America/Toronto)
+Generated: 2026-11-23T20:14:51.558Z
+Range: 24 October 2026, 16:14 – 23 November 2026, 15:14 (America/Toronto)
 Time zone: America/Toronto
 
 ## Summary
 
-- Human events: 3401
+- Human events: 3408
 - Automated events: 1135
 - Projects with activity: 79
-- Completed or merged: 546
-- In progress: 2128
+- Completed or merged: 547
+- In progress: 2133
 - Discussions and reviews: 119
-- Attributable contributions by mgifford: 2707
+- Attributable contributions by mgifford: 2714
 
 ## Completed and merged work
 
+- 23 November 2026, 15:08 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/pull/7) · mgifford · Add fixture performance evidence and budget checks
 - 23 November 2026, 14:59 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/pull/8) · mgifford · Make side-by-side panes share the available width
 - 23 November 2026, 13:44 · [mgifford/open-scans](https://github.com/mgifford/open-scans/pull/432) · mgifford · fix(ci): keep slow Playwright installs from skipping scans
 - 23 November 2026, 13:39 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/pull/6) · mgifford · Add a preference-aware evaluation workspace with an Alert pilot
@@ -55,12 +56,14 @@ Time zone: America/Toronto
 - 20 November 2026, 14:37 · [mgifford/drupal-core-lab](https://github.com/mgifford/drupal-core-lab/pull/92) · mgifford · Add a CSS build service: .pcss.css to .css with core's own build:css
 - 20 November 2026, 14:35 · [mgifford/drupal-core-lab](https://github.com/mgifford/drupal-core-lab/pull/91) · mgifford · 3637163: correct the run READMEs (titled as the navigation toggle)
 - 20 November 2026, 14:29 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/pull/4) · mgifford · Integrate licensed OGDS Elements hybrid into the landing comparison
-- 20 November 2026, 14:27 · [mgifford/open-scans](https://github.com/mgifford/open-scans/pull/429) · mgifford · fix(report): continuous history across family renames and visible native warnings
 
 ## Work in progress
 
+- 23 November 2026, 15:10 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/commit/eee9ec98e48a0f5946cc15981ac905eb9d242d49) · mgifford · Add multi-issue catalog and validation checklists
 - 23 November 2026, 15:07 · [mgifford/open-scans](https://github.com/mgifford/open-scans/pull/433) · mgifford · fix(scan): keep the Chromium Puppeteer path out of WebKit/Firefox
+- 23 November 2026, 15:04 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/commit/578fbee8d03356c1c8a1bede6ee41bf79ed03f53) · mgifford · Update combined test counts after performance and layout merge
 - 23 November 2026, 15:01 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/commit/71f79e187e55382e204a350ce6313c3dc810d67b) · mgifford · Add inert-only and activation-only comparator variants
+- 23 November 2026, 15:00 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/commit/fce57b7bbdc8a0e7f2116d3bebb0178484deb040) · mgifford · Merge main into performance evidence branch
 - 23 November 2026, 14:52 · [mgifford/vital-core-data](https://github.com/mgifford/vital-core-data/commit/26403ac83d80997670c4236d1fa6d627dc2d81e4) · vital-scans@users.noreply.github.com · scan(www.healthcare.gov): 2026-11-23T19:52Z
 - 23 November 2026, 14:46 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/commit/744b843a771413a6a6a175307e484c5ed34929fd) · mgifford · Rebuild Pages as a static FOSDEM-style comparator
 - 23 November 2026, 14:45 · [mgifford/vital-core-data](https://github.com/mgifford/vital-core-data/commit/a05b6b551ecd4900b843cad058b2491720992195) · vital-scans@users.noreply.github.com · scan(www.medicare.gov): 2026-11-23T19:45Z
@@ -70,6 +73,7 @@ Time zone: America/Toronto
 - 23 November 2026, 14:26 · [mgifford/vital-core-data](https://github.com/mgifford/vital-core-data/commit/09e88003a4c53aeaa779a7554b0c6d53f6023b71) · vital-scans@users.noreply.github.com · scan(data.healthcare.gov): 2026-11-23T19:26Z
 - 23 November 2026, 14:22 · [mgifford/vital-core-nsf-data](https://github.com/mgifford/vital-core-nsf-data/commit/8f80040f103593b128624dc75c7786f20948d195) · vital-scans@users.noreply.github.com · scan(www.nsf.gov): 2026-11-23T19:22Z
 - 23 November 2026, 14:19 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/pull/7) · mgifford · Add fixture performance evidence and budget checks
+- 23 November 2026, 14:19 · [mgifford/design-system-lab](https://github.com/mgifford/design-system-lab/commit/80625a193105e4ec291cb5d9481d4d7a9b5caf1b) · mgifford · Add fixture performance evidence and budget checks
 - 23 November 2026, 14:17 · [mgifford/vital-core-nsf-data](https://github.com/mgifford/vital-core-nsf-data/commit/631ffb25d33d717ce594e63b8b035267ebefa4cd) · vital-scans@users.noreply.github.com · scan(ncses.nsf.gov): 2026-11-23T19:17Z
 - 23 November 2026, 14:16 · [mgifford/vital-core-nsf-data](https://github.com/mgifford/vital-core-nsf-data/commit/472a0f1dd17714b233534502d929f49d52b1c68d) · vital-scans@users.noreply.github.com · scan(iucrc.nsf.gov): 2026-11-23T19:16Z
 - 23 November 2026, 14:14 · [mgifford/vital-core-nsf-data](https://github.com/mgifford/vital-core-nsf-data/commit/84ba655f79dfc1d48f2f437b60bac223285b5eb7) · vital-scans@users.noreply.github.com · scan(seedfund.nsf.gov): 2026-11-23T19:14Z
@@ -95,10 +99,6 @@ Time zone: America/Toronto
 - 23 November 2026, 13:04 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/commit/cdc62b55d3f841426492fd8ee48511bd67538eb0) · mgifford · Harden state handling and surface live worktree changes
 - 23 November 2026, 12:42 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/pull/1) · mgifford · Add BlockNote Accessibility Diff Lab starter kit
 - 23 November 2026, 12:42 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/commit/74e37becada8500ac5c5b7fb99a04fe81e3f6c80) · mgifford · Add BlockNote Accessibility Diff Lab starter kit
-- 23 November 2026, 12:42 · [mgifford/blocknote-diff-lab](https://github.com/mgifford/blocknote-diff-lab/commit/04985c3069e1d2d210ecf26e0abc79937c72ee72) · mgifford · chore: initialize repository
-- 23 November 2026, 12:39 · [mgifford/Containers-Hamlet](https://github.com/mgifford/Containers-Hamlet/pull/30) · mgifford · Consolidate Phases 4–5 into main
-- 23 November 2026, 12:38 · [mgifford/vital-core-data](https://github.com/mgifford/vital-core-data/commit/04471969f02c73fd520cd4a273155b44e012546e) · vital-scans@users.noreply.github.com · scan(www.healthcare.gov): 2026-11-23T17:38Z
-- 23 November 2026, 12:27 · [mgifford/Containers-Hamlet](https://github.com/mgifford/Containers-Hamlet/pull/29) · mgifford · Pattern Language Phase 5: resident evaluation framework
 
 ## Discussions and reviews
 
@@ -147,9 +147,9 @@ Time zone: America/Toronto
 
 | Project | Human events | Automated | Last human activity |
 | --- | --- | --- | --- |
+| mgifford/blocknote-diff-lab | 18 | 0 | 23 November 2026, 15:10 |
+| mgifford/design-system-lab | 39 | 0 | 23 November 2026, 15:08 |
 | mgifford/open-scans | 232 | 153 | 23 November 2026, 15:07 |
-| mgifford/blocknote-diff-lab | 17 | 0 | 23 November 2026, 15:01 |
-| mgifford/design-system-lab | 34 | 0 | 23 November 2026, 14:59 |
 | mgifford/vital-core-data | 200 | 0 | 23 November 2026, 14:52 |
 | mgifford/eu-plus-government-scans | 23 | 203 | 20 November 2026, 11:35 |
 | mgifford/vital-core-nsf-data | 200 | 0 | 23 November 2026, 14:22 |
@@ -162,7 +162,7 @@ Time zone: America/Toronto
 | mgifford/edu-scans | 1 | 38 | 15 November 2026, 16:59 |
 | mgifford/FOSDEM-website | 81 | 3 | 15 November 2026, 11:15 |
 | mgifford/smart-cookbook | 38 | 6 | 23 November 2026, 09:47 |
-| localgovdrupal/vital-core-lgd-data | 32 | 0 | 23 November 2026, 07:31 |
+| localgovdrupal/vital-core-lgd-data | 33 | 0 | 23 November 2026, 07:31 |
 | mgifford/daily-dap | 5 | 44 | 15 November 2026, 16:01 |
 | mgifford/wcag-spine | 1 | 33 | 15 November 2026, 16:00 |
 | mgifford/vital-core | 444 | 50 | 20 November 2026, 10:51 |
@@ -231,8 +231,8 @@ Time zone: America/Toronto
 
 | Type | Count |
 | --- | --- |
-| commit_pushed | 1521 |
-| pull_request_merged | 546 |
+| commit_pushed | 1527 |
+| pull_request_merged | 547 |
 | pull_request_opened | 519 |
 | issue_commented | 58 |
 | issue_opened | 29 |
@@ -265,7 +265,7 @@ Time zone: America/Toronto
 
 ## Coverage and limitations
 
-- Collection window: 2026-08-25T20:08:03.742Z to 2026-11-23T20:08:03.742Z (90 day lookback).
+- Collection window: 2026-08-25T20:14:51.558Z to 2026-11-23T20:14:51.558Z (90 day lookback).
 - Commit history (owned repositories): partial (page-cap).
 - Pull requests (owned repositories): partial (page-cap).
 - Issues (owned repositories): partial (page-cap).

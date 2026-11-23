@@ -1,18 +1,18 @@
 # Project Atlas weekly activity report
 
-Generated: 2026-11-23T20:08:03.742Z
+Generated: 2026-11-23T20:14:51.558Z
 Range: 16 November 2026, 00:00 – 22 November 2026, 23:59 (America/Toronto)
 Time zone: America/Toronto
 
 ## Summary
 
-- Human events: 1054
+- Human events: 1055
 - Automated events: 326
 - Projects with activity: 34
 - Completed or merged: 130
-- In progress: 737
+- In progress: 738
 - Discussions and reviews: 37
-- Attributable contributions by mgifford: 774
+- Attributable contributions by mgifford: 775
 
 ## Completed and merged work
 
@@ -156,7 +156,7 @@ Time zone: America/Toronto
 | mgifford/open-scans | 213 | 66 | 20 November 2026, 15:24 |
 | mgifford/dot-gov-scans | 0 | 7 | not recorded |
 | mgifford/edu-scans | 0 | 8 | not recorded |
-| localgovdrupal/vital-core-lgd-data | 30 | 0 | 22 November 2026, 07:06 |
+| localgovdrupal/vital-core-lgd-data | 31 | 0 | 22 November 2026, 07:06 |
 | mgifford/wcag-spine | 0 | 7 | not recorded |
 | mgifford/drupal-open-dash | 1 | 0 | 21 November 2026, 23:23 |
 | mgifford/pdf-crawler | 0 | 45 | not recorded |
@@ -183,7 +183,7 @@ Time zone: America/Toronto
 
 | Type | Count |
 | --- | --- |
-| commit_pushed | 473 |
+| commit_pushed | 474 |
 | pull_request_opened | 132 |
 | pull_request_merged | 130 |
 | issue_commented | 13 |
@@ -216,7 +216,7 @@ Time zone: America/Toronto
 
 ## Coverage and limitations
 
-- Collection window: 2026-08-25T20:08:03.742Z to 2026-11-23T20:08:03.742Z (90 day lookback).
+- Collection window: 2026-08-25T20:14:51.558Z to 2026-11-23T20:14:51.558Z (90 day lookback).
 - Commit history (owned repositories): partial (page-cap).
 - Pull requests (owned repositories): partial (page-cap).
 - Issues (owned repositories): partial (page-cap).

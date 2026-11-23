@@ -1,8 +1,62 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T20:08:03.742Z",
+  "generatedAt": "2026-11-23T20:14:51.558Z",
   "timezone": "America/Toronto",
   "repositories": [
+    {
+      "repository": "mgifford/blocknote-diff-lab",
+      "repositoryUrl": "https://github.com/mgifford/blocknote-diff-lab",
+      "archived": false,
+      "updatedAt": "2026-11-23T17:52:16Z",
+      "pushedAt": "2026-11-23T18:04:57Z",
+      "eventCount": 18,
+      "humanEventCount": 18,
+      "automatedEventCount": 0,
+      "lastActivityAt": "2026-11-23T20:10:35.000Z",
+      "lastHumanActivityAt": "2026-11-23T20:10:35.000Z",
+      "lastCompletedAt": "2026-11-23T18:31:46.000Z",
+      "lastActivityType": "commit_pushed",
+      "lastHumanActivityType": "commit_pushed",
+      "lastActor": "mgifford",
+      "lastTitle": "Add multi-issue catalog and validation checklists",
+      "lastUrl": "https://github.com/mgifford/blocknote-diff-lab/commit/eee9ec98e48a0f5946cc15981ac905eb9d242d49",
+      "automationOnly": false,
+      "openIssuesRaw": 0,
+      "openPullRequests": 0,
+      "awaitingReview": 0,
+      "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
+      "workstreams": [
+        "research-experiments"
+      ]
+    },
+    {
+      "repository": "mgifford/design-system-lab",
+      "repositoryUrl": "https://github.com/mgifford/design-system-lab",
+      "archived": false,
+      "updatedAt": "2026-11-23T17:00:50Z",
+      "pushedAt": "2026-11-20T20:32:53Z",
+      "eventCount": 39,
+      "humanEventCount": 39,
+      "automatedEventCount": 0,
+      "lastActivityAt": "2026-11-23T20:08:55.000Z",
+      "lastHumanActivityAt": "2026-11-23T20:08:55.000Z",
+      "lastCompletedAt": "2026-11-23T20:08:55.000Z",
+      "lastActivityType": "pull_request_merged",
+      "lastHumanActivityType": "pull_request_merged",
+      "lastActor": "mgifford",
+      "lastTitle": "Add fixture performance evidence and budget checks",
+      "lastUrl": "https://github.com/mgifford/design-system-lab/pull/7",
+      "automationOnly": false,
+      "openIssuesRaw": 0,
+      "openPullRequests": 0,
+      "awaitingReview": 0,
+      "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
+      "workstreams": [
+        "design-systems"
+      ]
+    },
     {
       "repository": "mgifford/open-scans",
       "repositoryUrl": "https://github.com/mgifford/open-scans",
@@ -25,60 +79,9 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
-      ]
-    },
-    {
-      "repository": "mgifford/blocknote-diff-lab",
-      "repositoryUrl": "https://github.com/mgifford/blocknote-diff-lab",
-      "archived": false,
-      "updatedAt": "2026-11-23T17:52:16Z",
-      "pushedAt": "2026-11-23T18:04:57Z",
-      "eventCount": 17,
-      "humanEventCount": 17,
-      "automatedEventCount": 0,
-      "lastActivityAt": "2026-11-23T20:01:55.000Z",
-      "lastHumanActivityAt": "2026-11-23T20:01:55.000Z",
-      "lastCompletedAt": "2026-11-23T18:31:46.000Z",
-      "lastActivityType": "commit_pushed",
-      "lastHumanActivityType": "commit_pushed",
-      "lastActor": "mgifford",
-      "lastTitle": "Add inert-only and activation-only comparator variants",
-      "lastUrl": "https://github.com/mgifford/blocknote-diff-lab/commit/71f79e187e55382e204a350ce6313c3dc810d67b",
-      "automationOnly": false,
-      "openIssuesRaw": 0,
-      "openPullRequests": 0,
-      "awaitingReview": 0,
-      "failingWorkflows": 0,
-      "workstreams": [
-        "research-experiments"
-      ]
-    },
-    {
-      "repository": "mgifford/design-system-lab",
-      "repositoryUrl": "https://github.com/mgifford/design-system-lab",
-      "archived": false,
-      "updatedAt": "2026-11-23T17:00:50Z",
-      "pushedAt": "2026-11-20T20:32:53Z",
-      "eventCount": 34,
-      "humanEventCount": 34,
-      "automatedEventCount": 0,
-      "lastActivityAt": "2026-11-23T19:59:56.000Z",
-      "lastHumanActivityAt": "2026-11-23T19:59:56.000Z",
-      "lastCompletedAt": "2026-11-23T19:59:56.000Z",
-      "lastActivityType": "commit_pushed",
-      "lastHumanActivityType": "commit_pushed",
-      "lastActor": "mgifford",
-      "lastTitle": "Merge pull request #8 from mgifford/fix/pane-layout",
-      "lastUrl": "https://github.com/mgifford/design-system-lab/commit/6cd9d44d53fbf87e6f6f06044bc79b3141214def",
-      "automationOnly": false,
-      "openIssuesRaw": 0,
-      "openPullRequests": 1,
-      "awaitingReview": 0,
-      "failingWorkflows": 0,
-      "workstreams": [
-        "design-systems"
       ]
     },
     {
@@ -103,6 +106,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -129,6 +133,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -155,6 +160,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -179,6 +185,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "drupal-accessibility"
       ]
@@ -205,6 +212,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -229,6 +237,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "drupal-accessibility"
       ]
@@ -255,6 +264,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -279,6 +289,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -303,6 +314,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -329,6 +341,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -355,6 +368,7 @@
       "openPullRequests": 7,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -379,6 +393,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -387,8 +402,8 @@
       "archived": false,
       "updatedAt": null,
       "pushedAt": null,
-      "eventCount": 32,
-      "humanEventCount": 32,
+      "eventCount": 33,
+      "humanEventCount": 33,
       "automatedEventCount": 0,
       "lastActivityAt": "2026-11-23T12:31:51.000Z",
       "lastHumanActivityAt": "2026-11-23T12:31:51.000Z",
@@ -403,6 +418,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -427,6 +443,7 @@
       "openPullRequests": 2,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -453,6 +470,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "open-standards"
       ]
@@ -479,6 +497,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -505,6 +524,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -529,6 +549,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "drupal-accessibility"
       ]
@@ -555,6 +576,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -579,6 +601,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -605,6 +628,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "open-standards"
       ]
@@ -631,6 +655,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -655,6 +680,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -679,6 +705,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "web-sustainability"
       ]
@@ -705,6 +732,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "open-standards"
       ]
@@ -731,6 +759,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -755,6 +784,7 @@
       "openPullRequests": 4,
       "awaitingReview": 1,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -779,6 +809,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -805,6 +836,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -829,6 +861,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -853,6 +886,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -877,6 +911,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -903,6 +938,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -927,6 +963,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -951,6 +988,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "web-sustainability"
       ]
@@ -977,6 +1015,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "open-standards"
       ]
@@ -1003,6 +1042,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1027,6 +1067,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "design-systems"
       ]
@@ -1053,6 +1094,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1077,6 +1119,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1101,6 +1144,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -1127,6 +1171,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1151,6 +1196,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1175,6 +1221,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": [
         "drupal-accessibility"
       ]
@@ -1201,6 +1248,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1225,6 +1273,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1249,6 +1298,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1273,6 +1323,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1297,6 +1348,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1321,6 +1373,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1345,6 +1398,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1369,6 +1423,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -1393,6 +1448,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "open-standards"
       ]
@@ -1419,6 +1475,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1443,6 +1500,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1467,6 +1525,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1491,6 +1550,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "web-sustainability"
       ]
@@ -1517,6 +1577,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1541,6 +1602,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1565,6 +1627,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1589,6 +1652,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "government-monitoring"
       ]
@@ -1615,6 +1679,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1639,6 +1704,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -1665,6 +1731,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1689,6 +1756,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1713,6 +1781,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -1739,6 +1808,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1763,6 +1833,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1787,6 +1858,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "web-sustainability"
       ]
@@ -1813,6 +1885,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1837,6 +1910,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1861,6 +1935,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1885,6 +1960,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1909,6 +1985,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1933,6 +2010,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -1957,6 +2035,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -1981,6 +2060,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2005,6 +2085,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -2031,6 +2112,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "open-standards"
       ]
@@ -2057,6 +2139,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2081,6 +2164,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2105,6 +2189,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2129,6 +2214,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     },
     {
@@ -2153,6 +2239,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2177,6 +2264,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2201,6 +2289,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2225,6 +2314,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2249,6 +2339,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "research-experiments"
       ]
@@ -2275,6 +2366,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "research-experiments"
       ]
@@ -2301,6 +2393,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2325,6 +2418,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -2351,6 +2445,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -2377,6 +2472,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2401,6 +2497,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing",
         "design-systems"
@@ -2428,6 +2525,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2452,6 +2550,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2476,6 +2575,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "accessibility-testing"
       ]
@@ -2502,6 +2602,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2526,6 +2627,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2550,6 +2652,7 @@
       "openPullRequests": 1,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2574,6 +2677,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2598,6 +2702,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": []
     },
     {
@@ -2622,6 +2727,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "research-experiments"
       ]
@@ -2648,6 +2754,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": false,
       "workstreams": [
         "web-sustainability"
       ]
@@ -2674,6 +2781,7 @@
       "openPullRequests": 0,
       "awaitingReview": 0,
       "failingWorkflows": 0,
+      "readmeNeedsAttention": true,
       "workstreams": []
     }
   ]

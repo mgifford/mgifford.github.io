@@ -204,7 +204,7 @@ export function getOpenWork(repositoryEntry) {
     {
       id: "open_issues",
       label: "Open issues",
-      count: Number(entry.openIssues || 0),
+      count: Number(entry.openIssues ?? entry.openIssuesRaw ?? 0),
       basis: "Open issue count reported by GitHub; not every issue needs a reply."
     },
     {
@@ -212,6 +212,12 @@ export function getOpenWork(repositoryEntry) {
       label: "Most recent workflow run failed",
       count: Number(entry.failingWorkflows || 0),
       basis: "Latest completed run of a selected workflow on the default branch."
+    },
+    {
+      id: "readme_quality",
+      label: "README may need improvement",
+      count: entry.readmeNeedsAttention ? 1 : 0,
+      basis: "README heuristic score is low. Review before treating this as a defect."
     }
   ];
 
