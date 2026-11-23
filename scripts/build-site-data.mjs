@@ -255,7 +255,9 @@ export async function main() {
   };
 
   const result = {
-    generatedAt: new Date().toISOString(),
+    // Derive from the source snapshot so rebuilding unchanged inputs produces
+    // an identical file (deterministic output, clean CI diffs).
+    generatedAt: repoData.generatedAt || new Date().toISOString(),
     sourceGeneratedAt: repoData.generatedAt,
     owner: repoData.owner || "mgifford",
     sortingDefaults: curation.sortingDefaults || {
