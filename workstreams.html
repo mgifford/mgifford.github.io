@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workstreams | Project Atlas</title>
+  <meta name="description" content="Configurable workstreams that group related repositories, with recent activity and open work for each research or development area." />
+  <link rel="canonical" href="https://mgifford.github.io/workstreams.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Workstreams | Project Atlas" />
+  <meta property="og:description" content="Configurable workstreams that group related repositories, with recent activity and open work for each research or development area." />
+  <meta property="og:url" content="https://mgifford.github.io/workstreams.html" />
+  <meta name="color-scheme" content="light dark" />
+  <script>
+  (function () {
+    const storageKey = "mgiffordRepoCatalogTheme";
+    const savedTheme = window.localStorage.getItem(storageKey);
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = savedTheme || (prefersDark ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-brand" href="index.html">Project Atlas <span class="site-brand__sub">by Mike Gifford</span></a>
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="activity.html">Recent Activity</a></li>
+        <li><a href="contributions.html">My Contributions</a></li>
+        <li><a href="workstreams.html" aria-current="page">Workstreams</a></li>
+        <li><a href="reports.html">Reports</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+  <svg aria-hidden="true" class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20">
+    <circle cx="12" cy="12" r="4.25" fill="currentColor"></circle>
+    <path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"></path>
+  </svg>
+  <svg aria-hidden="true" class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20">
+    <path fill="currentColor" d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"></path>
+  </svg>
+</button>
+  </div>
+</header>
+  <main id="main" class="atlas-main">
+    <div class="atlas-intro">
+      <p class="eyebrow">Project Atlas</p>
+      <h1>Workstreams</h1>
+      <p class="lede">Projects grouped by the questions they answer. Workstreams are configured explicitly so a project can belong to more than one area of work.</p>
+    </div>
+
+    <div id="atlas-results" data-view="workstreams">
+<section class="atlas-section" aria-labelledby="workstreams-heading">
+  <h2 id="workstreams-heading">Workstreams</h2>
+  <p>Workstreams group related repositories under a research or development area. A project can belong to more than one workstream. Membership is configured explicitly in <code>data/workstreams.yml</code>; it is not inferred from repository topics.</p>
+  <ul class="workstream-grid">
+  <li class="workstream-card" id="drupal-accessibility">
+    <h3><a href="#workstream-drupal-accessibility">Drupal accessibility and quality</a></h3>
+    <p>Drupal core accessibility evaluation, regression testing, and quality monitoring.</p>
+    <p class="workstream-card__stats"><strong>164</strong> human events in the lookback window · <strong>3</strong> active projects</p>
+    <p class="muted">Last activity: 23 November 2026, 14:16</p>
+    <p class="workstream-card__links"><a href="#workstream-drupal-accessibility">See Drupal accessibility and quality activity</a></p>
+  </li>
+  <li class="workstream-card" id="government-monitoring">
+    <h3><a href="#workstream-government-monitoring">Government website monitoring</a></h3>
+    <p>Continuous and comparative scanning of public-sector websites.</p>
+    <p class="workstream-card__stats"><strong>252</strong> human events in the lookback window · <strong>7</strong> active projects</p>
+    <p class="muted">Last activity: 23 November 2026, 14:52</p>
+    <p class="workstream-card__links"><a href="#workstream-government-monitoring">See Government website monitoring activity</a></p>
+  </li>
+  <li class="workstream-card" id="accessibility-testing">
+    <h3><a href="#workstream-accessibility-testing">Accessibility testing and evaluation</a></h3>
+    <p>Scanners, rule coverage, contrast, alternative text, and evaluation tooling.</p>
+    <p class="workstream-card__stats"><strong>226</strong> human events in the lookback window · <strong>2</strong> active projects</p>
+    <p class="muted">Last activity: 23 November 2026, 15:07</p>
+    <p class="workstream-card__links"><a href="#workstream-accessibility-testing">See Accessibility testing and evaluation activity</a></p>
+  </li>
+  <li class="workstream-card" id="open-standards">
+    <h3><a href="#workstream-open-standards">Open standards and structured policy</a></h3>
+    <p>WCAG relationships, machine-readable standards, and open policy evidence.</p>
+    <p class="workstream-card__stats"><strong>30</strong> human events in the lookback window · <strong>3</strong> active projects</p>
+    <p class="muted">Last activity: 23 November 2026, 05:15</p>
+    <p class="workstream-card__links"><a href="#workstream-open-standards">See Open standards and structured policy activity</a></p>
+  </li>
+  <li class="workstream-card" id="web-sustainability">
+    <h3><a href="#workstream-web-sustainability">Web sustainability</a></h3>
+    <p>Energy, resource efficiency, and sustainable web practice.</p>
+    <p class="workstream-card__stats"><strong>95</strong> human events in the lookback window · <strong>1</strong> active project</p>
+    <p class="muted">Last activity: 19 November 2026, 05:25</p>
+    <p class="workstream-card__links"><a href="#workstream-web-sustainability">See Web sustainability activity</a></p>
+  </li>
+  <li class="workstream-card" id="design-systems">
+    <h3><a href="#workstream-design-systems">Design systems and component practice</a></h3>
+    <p>Design-system evaluation, component accessibility, and user preferences.</p>
+    <p class="workstream-card__stats"><strong>34</strong> human events in the lookback window · <strong>1</strong> active project</p>
+    <p class="muted">Last activity: 23 November 2026, 14:59</p>
+    <p class="workstream-card__links"><a href="#workstream-design-systems">See Design systems and component practice activity</a></p>
+  </li>
+  <li class="workstream-card" id="research-experiments">
+    <h3><a href="#workstream-research-experiments">Experimental research</a></h3>
+    <p>Bounded experiments where findings may not yet be validated.</p>
+    <p class="workstream-card__stats"><strong>17</strong> human events in the lookback window · <strong>1</strong> active project</p>
+    <p class="muted">Last activity: 23 November 2026, 15:01</p>
+    <p class="workstream-card__links"><a href="#workstream-research-experiments">See Experimental research activity</a></p>
+  </li>
+</ul>
+</section>
+<section class="atlas-section workstream-section" id="workstream-drupal-accessibility" aria-labelledby="workstream-drupal-accessibility-heading">
+  <h2 id="workstream-drupal-accessibility-heading">Drupal accessibility and quality</h2>
+  <p>Drupal core accessibility evaluation, regression testing, and quality monitoring.</p>
+  <p class="muted">164 human events across 3 active projects in this range. 7 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/Drupal-Accessibility-Quicksheet" target="_blank" rel="noreferrer noopener">mgifford/Drupal-Accessibility-Quicksheet<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/Drupal-docs" target="_blank" rel="noreferrer noopener">mgifford/Drupal-docs<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/drupal-core-lab" target="_blank" rel="noreferrer noopener">mgifford/drupal-core-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/drupal-diff" target="_blank" rel="noreferrer noopener">mgifford/drupal-diff<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/drupal-open-dash" target="_blank" rel="noreferrer noopener">mgifford/drupal-open-dash<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/drupal-security" target="_blank" rel="noreferrer noopener">mgifford/drupal-security<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-drupal-accessibility-day-2026-11-23">
+  <h3 class="day-heading" id="workstream-drupal-accessibility-day-2026-11-23">Monday, 23 November 2026 <span class="muted">(8 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:16:04.000Z">14:16</time> <span class="badge">Pull request opened</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core-lab/pull/96" target="_blank" rel="noreferrer noopener">Issue status: weekly check 2026-11-23<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core-lab" target="_blank" rel="noreferrer noopener">mgifford/drupal-core-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Weekly read-only check of every issue that is not archived (`node scripts/issue-status.mjs --all --write`), then `node scripts/index-issues.mjs`. Nothing was posted anywhere.
+
+Start with **Needs attention** in [reports/issues/README.md](htt</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:33:48.000Z">13:33</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/f58f464bb6ce49e226fe748c9ceaa30d6003342d" target="_blank" rel="noreferrer noopener">Merge pull request #97 from mgifford/phase-2-sources<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:33:48.000Z">13:33</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/97" target="_blank" rel="noreferrer noopener">feat: Phase 2 upstream sources, pinned checkouts and provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Objective
+
+Phase 2: follow the latest Drupal core `main`, and pin every test campaign to one exact commit. Upstream Drupal becomes a source the engine fetches, instead of history this repository&#39;s `main` has to track (spec section 8.7).
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:30:56.000Z">13:30</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/97" target="_blank" rel="noreferrer noopener">feat: Phase 2 upstream sources, pinned checkouts and provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Objective
+
+Phase 2: follow the latest Drupal core `main`, and pin every test campaign to one exact commit. Upstream Drupal becomes a source the engine fetches, instead of history this repository&#39;s `main` has to track (spec section 8.7).
+</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:29:59.000Z">13:29</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/86014b902dfd4e41e6b4c88dc93d9dd71497ca5d" target="_blank" rel="noreferrer noopener">Merge remote-tracking branch &#39;origin/main&#39; into phase-2-sources<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:27:41.000Z">13:27</time> <span class="badge">Pull request merged</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/94" target="_blank" rel="noreferrer noopener">Merge upstream Drupal core main<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Upstream Drupal core `main` has 5 commit(s) that are not in this fork&#39;s `main`.
+
+`upstream-sync` mirrors upstream main (`97c6ff8b2534b242c0f1df3e4ba2493e56aebcec`). The weekly workflow force-updates it and refreshes this description.
+
+A tri</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:27:39.000Z">13:27</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/commit/6801c6b1d41812f062f00c4585e9d4c0452f598f" target="_blank" rel="noreferrer noopener">Merge pull request #96 from mgifford/sync/upstream-20261123<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:27:39.000Z">13:27</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/drupal-core/pull/96" target="_blank" rel="noreferrer noopener">Merge upstream Drupal core main (97c6ff8b25), replacing PR 94<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/drupal-core" target="_blank" rel="noreferrer noopener">mgifford/drupal-core<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+
+This replaces #94, which can&#39;t merge. The weekly sync workflow opened #94 (5 upstream commits, up to `97c6ff8b25`), and it conflicts with the fork in two files. This branch merges `upstream-sync` into `main` with a merge commit,</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 187 collected events in this workstream.</p>
+</section>
+<section class="atlas-section workstream-section" id="workstream-government-monitoring" aria-labelledby="workstream-government-monitoring-heading">
+  <h2 id="workstream-government-monitoring-heading">Government website monitoring</h2>
+  <p>Continuous and comparative scanning of public-sector websites.</p>
+  <p class="muted">252 human events across 7 active projects in this range. 12 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/daily-cap" target="_blank" rel="noreferrer noopener">mgifford/daily-cap<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/daily-dap" target="_blank" rel="noreferrer noopener">mgifford/daily-dap<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/daily-hhs" target="_blank" rel="noreferrer noopener">mgifford/daily-hhs<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/daily-nsf" target="_blank" rel="noreferrer noopener">mgifford/daily-nsf<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/domain-scan" target="_blank" rel="noreferrer noopener">mgifford/domain-scan<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/dot-gov-scans" target="_blank" rel="noreferrer noopener">mgifford/dot-gov-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/edu-scans" target="_blank" rel="noreferrer noopener">mgifford/edu-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/eu-plus-government-scans" target="_blank" rel="noreferrer noopener">mgifford/eu-plus-government-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/open-gsa-redesign" target="_blank" rel="noreferrer noopener">mgifford/open-gsa-redesign<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/vital-core" target="_blank" rel="noreferrer noopener">mgifford/vital-core<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/vital-core-data" target="_blank" rel="noreferrer noopener">mgifford/vital-core-data<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/vital-core-nsf" target="_blank" rel="noreferrer noopener">mgifford/vital-core-nsf<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-government-monitoring-day-2026-11-23">
+  <h3 class="day-heading" id="workstream-government-monitoring-day-2026-11-23">Monday, 23 November 2026 <span class="muted">(8 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:52:55.000Z">14:52</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/vital-core-data/commit/26403ac83d80997670c4236d1fa6d627dc2d81e4" target="_blank" rel="noreferrer noopener">scan(www.healthcare.gov): 2026-11-23T19:52Z<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/vital-core-data" target="_blank" rel="noreferrer noopener">mgifford/vital-core-data<span class="visually-hidden"> (opens in a new tab)</span></a> · vital-scans@users.noreply.github.com <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:45:33.000Z">14:45</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/vital-core-data/commit/a05b6b551ecd4900b843cad058b2491720992195" target="_blank" rel="noreferrer noopener">scan(www.medicare.gov): 2026-11-23T19:45Z<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/vital-core-data" target="_blank" rel="noreferrer noopener">mgifford/vital-core-data<span class="visually-hidden"> (opens in a new tab)</span></a> · vital-scans@users.noreply.github.com <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:33:01.000Z">14:33</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/vital-core-data/commit/10b1a1f26e004fa3e873b3926c15cb2d674cb059" target="_blank" rel="noreferrer noopener">scan(data.medicaid.gov): 2026-11-23T19:32Z<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/vital-core-data" target="_blank" rel="noreferrer noopener">mgifford/vital-core-data<span class="visually-hidden"> (opens in a new tab)</span></a> · vital-scans@users.noreply.github.com <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:28:33.000Z">14:28</time> <span class="badge">Issue opened</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/eu-plus-government-scans/issues/161" target="_blank" rel="noreferrer noopener">Weekly digest drafts: week ending 2026-11-22<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/eu-plus-government-scans" target="_blank" rel="noreferrer noopener">mgifford/eu-plus-government-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">Weekly digest drafts for **16 to 22 November 2026**. Nothing here has been posted.
+
+Before posting a draft:
+
+- [ ] Open its evidence file and check that every number in the text matches it.
+- [ ] Open three of the listed pages and confirm w</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:28:28.000Z">14:28</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/eu-plus-government-scans/commit/39d1371d06ee6809aa072791a0c729c7870eb22c" target="_blank" rel="noreferrer noopener">data: weekly digest evidence for week ending 2026-11-22 [skip ci]<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/eu-plus-government-scans" target="_blank" rel="noreferrer noopener">mgifford/eu-plus-government-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:26:24.000Z">14:26</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/vital-core-data/commit/09e88003a4c53aeaa779a7554b0c6d53f6023b71" target="_blank" rel="noreferrer noopener">scan(data.healthcare.gov): 2026-11-23T19:26Z<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/vital-core-data" target="_blank" rel="noreferrer noopener">mgifford/vital-core-data<span class="visually-hidden"> (opens in a new tab)</span></a> · vital-scans@users.noreply.github.com <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:04:00.000Z">14:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/eu-plus-government-scans/commit/e594a7934c459933c702ba2689917019217c0908" target="_blank" rel="noreferrer noopener">docs: update scan reports and generated site pages [skip ci]<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/eu-plus-government-scans" target="_blank" rel="noreferrer noopener">mgifford/eu-plus-government-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:18:17.000Z">13:18</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/eu-plus-government-scans/commit/a8ca8cbe546a6296d59d0371075a56167e2a5185" target="_blank" rel="noreferrer noopener">data: Progressive relationship scan update [skip ci]<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/eu-plus-government-scans" target="_blank" rel="noreferrer noopener">mgifford/eu-plus-government-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 389 collected events in this workstream.</p>
+</section>
+<section class="atlas-section workstream-section" id="workstream-accessibility-testing" aria-labelledby="workstream-accessibility-testing-heading">
+  <h2 id="workstream-accessibility-testing-heading">Accessibility testing and evaluation</h2>
+  <p>Scanners, rule coverage, contrast, alternative text, and evaluation tooling.</p>
+  <p class="muted">226 human events across 2 active projects in this range. 15 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/a11y-maps" target="_blank" rel="noreferrer noopener">mgifford/a11y-maps<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/a11y-mermaid-studio" target="_blank" rel="noreferrer noopener">mgifford/a11y-mermaid-studio<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/a11y-style-guide" target="_blank" rel="noreferrer noopener">mgifford/a11y-style-guide<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/a11y-svg" target="_blank" rel="noreferrer noopener">mgifford/a11y-svg<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/a11ywatch" target="_blank" rel="noreferrer noopener">mgifford/a11ywatch<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/accessibility-sandbox" target="_blank" rel="noreferrer noopener">mgifford/accessibility-sandbox<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/accessibility-tools" target="_blank" rel="noreferrer noopener">mgifford/accessibility-tools<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/alt-text-scan" target="_blank" rel="noreferrer noopener">mgifford/alt-text-scan<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/apca-wcag2" target="_blank" rel="noreferrer noopener">mgifford/apca-wcag2<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/contrast-plus" target="_blank" rel="noreferrer noopener">mgifford/contrast-plus<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/design-system-scan" target="_blank" rel="noreferrer noopener">mgifford/design-system-scan<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/github-a11y-scanner" target="_blank" rel="noreferrer noopener">mgifford/github-a11y-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/o-hat-scanner" target="_blank" rel="noreferrer noopener">mgifford/o-hat-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/print-css-bookmarklet" target="_blank" rel="noreferrer noopener">mgifford/print-css-bookmarklet<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-accessibility-testing-day-2026-11-23">
+  <h3 class="day-heading" id="workstream-accessibility-testing-day-2026-11-23">Monday, 23 November 2026 <span class="muted">(8 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:07:20.000Z">15:07</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/433" target="_blank" rel="noreferrer noopener">fix(scan): keep the Chromium Puppeteer path out of WebKit/Firefox<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Where axe-core went
+
+In [the 2026-11-23T19:01 report](https://github.com/mgifford/open-scans/issues/398#issuecomment-7111009365), axe-core did not run. The report says so explicitly:
+
+- `Engines executed: ALFA, Equal Access, AccessLint`
+</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:02:32.000Z">14:02</time> <span class="badge">Issue closed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/issues/398" target="_blank" rel="noreferrer noopener">SCAN: ALL Complete Audit - Record a Goose<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">### URLs
+
+https://mgifford.github.io/record-a-goose-sighting/
+
+### Accessibility engines
+
+ALL
+
+### Viewport
+
+Default (1280×800 desktop)
+
+### Color scheme
+
+Auto-detect (run both if page supports dark mode)
+
+### Browser
+
+Random browser (one p</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:02:31.000Z">14:02</time> <span class="badge">Issue comment</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/issues/398#issuecomment-7111009365" target="_blank" rel="noreferrer noopener">Scan complete for **Complete Audit - Record a Goose**.<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Commenter)</span> · Issue activity</p>
+  <p class="activity-item__summary">Scan complete for **Complete Audit - Record a Goose**.
+
+- Accepted URLs: 49
+- Scanned URLs: 49
+- Rejected URLs: 0
+
+Report (Pages): https://mgifford.github.io/open-scans/reports/issues/issue-398/2026-11-23T19-01-49-647Z/report.html
+Fallback </p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:02:27.000Z">14:02</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/87af43d95a8a9aa3307a3b8f1efb67ed80faf692" target="_blank" rel="noreferrer noopener">chore(scan): issue #398 Complete Audit - Record a Goose<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · github-actions[bot] <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:45:32.000Z">13:45</time> <span class="badge">Issue opened</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/issues/398" target="_blank" rel="noreferrer noopener">SCAN: ALL Complete Audit - Record a Goose<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Issue activity</p>
+  <p class="activity-item__summary">### URLs
+
+https://mgifford.github.io/record-a-goose-sighting/
+
+### Accessibility engines
+
+ALL
+
+### Viewport
+
+Default (1280×800 desktop)
+
+### Color scheme
+
+Auto-detect (run both if page supports dark mode)
+
+### Browser
+
+Random browser (one p</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:44:54.000Z">13:44</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/pull/432" target="_blank" rel="noreferrer noopener">fix(ci): keep slow Playwright installs from skipping scans<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What changed
+
+- Raises the `Install Chromium for Playwright tests` step timeout from 10 to 20 minutes in the three workflows that install all three browsers:
+ - `.github/workflows/scan-request.yml`
+ - `.github/workflows/scan-issue-queue.</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:44:53.000Z">13:44</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/eb1d857cacea98b8cf47ff672d2cc54200f5ceba" target="_blank" rel="noreferrer noopener">Merge pull request #432 from mgifford/ci/playwright-install-timeout<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:36:23.000Z">13:36</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/open-scans/commit/bf69b4423c5abd35ea1c8c3ef24509fbf0354cad" target="_blank" rel="noreferrer noopener">docs(handoff): record the merged mapping step and the install-timeout guardrail<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/open-scans" target="_blank" rel="noreferrer noopener">mgifford/open-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 298 collected events in this workstream.</p>
+</section>
+<section class="atlas-section workstream-section" id="workstream-open-standards" aria-labelledby="workstream-open-standards-heading">
+  <h2 id="workstream-open-standards-heading">Open standards and structured policy</h2>
+  <p>WCAG relationships, machine-readable standards, and open policy evidence.</p>
+  <p class="muted">30 human events across 3 active projects in this range. 8 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/mena-policy-observatory" target="_blank" rel="noreferrer noopener">mgifford/mena-policy-observatory<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/open-data-guide" target="_blank" rel="noreferrer noopener">mgifford/open-data-guide<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/open-source-policy" target="_blank" rel="noreferrer noopener">mgifford/open-source-policy<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/openacr-release-evidence" target="_blank" rel="noreferrer noopener">mgifford/openacr-release-evidence<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/publiccode-editor" target="_blank" rel="noreferrer noopener">mgifford/publiccode-editor<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/wai-yaml-ld" target="_blank" rel="noreferrer noopener">mgifford/wai-yaml-ld<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/wcag-spine" target="_blank" rel="noreferrer noopener">mgifford/wcag-spine<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-open-standards-day-2026-11-23">
+  <h3 class="day-heading" id="workstream-open-standards-day-2026-11-23">Monday, 23 November 2026 <span class="muted">(1 item)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-23T10:15:09.000Z">05:15</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/wcag-spine/commit/4b3a9ce3b9b83ad25d48dd11075e752a7faee420" target="_blank" rel="noreferrer noopener">chore: auto-sync accessibility data [skip ci]<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/wcag-spine" target="_blank" rel="noreferrer noopener">mgifford/wcag-spine<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+<section class="activity-day" aria-labelledby="workstream-open-standards-day-2026-11-22">
+  <h3 class="day-heading" id="workstream-open-standards-day-2026-11-22">Sunday, 22 November 2026 <span class="muted">(1 item)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-22T09:18:09.000Z">04:18</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/wcag-spine/commit/b7122bef9fc2d0f370b40228a365e4ea7c3c5855" target="_blank" rel="noreferrer noopener">chore: auto-sync accessibility data [skip ci]<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/wcag-spine" target="_blank" rel="noreferrer noopener">mgifford/wcag-spine<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+<section class="activity-day" aria-labelledby="workstream-open-standards-day-2026-11-21">
+  <h3 class="day-heading" id="workstream-open-standards-day-2026-11-21">Saturday, 21 November 2026 <span class="muted">(1 item)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item activity-item--automated">
+  <p class="activity-item__meta"><time datetime="2026-11-21T09:09:32.000Z">04:09</time> <span class="badge">Commit pushed</span> <span class="badge badge--automated">Automated</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/wcag-spine/commit/427b75150316a148332a043d38a0e8de7a57801c" target="_blank" rel="noreferrer noopener">chore: auto-sync accessibility data [skip ci]<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/wcag-spine" target="_blank" rel="noreferrer noopener">mgifford/wcag-spine<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+<section class="activity-day" aria-labelledby="workstream-open-standards-day-2026-11-20">
+  <h3 class="day-heading" id="workstream-open-standards-day-2026-11-20">Friday, 20 November 2026 <span class="muted">(5 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-20T11:03:27.000Z">06:03</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/FASTER/commit/b51b477f2682b0fd889614ea9bf39bed185fc963" target="_blank" rel="noreferrer noopener">Record build learnings and release v0.3.0<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-20T11:01:37.000Z">06:01</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/FASTER/pull/7" target="_blank" rel="noreferrer noopener">Expand and surface browser WebMCP tools<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+Improves Browser WebMCP support and discoverability.
+
+- **Eight read-only tools:** adds `get_repository_inventory`, `get_questionnaire_provenance`, `get_counterevidence` and `prepare_export_preview`; enriches overview/evidence/un</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-20T11:01:36.000Z">06:01</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/FASTER/commit/09a90a4eb4e15a9eb29036eba632f396962e7073" target="_blank" rel="noreferrer noopener">Expand and surface browser WebMCP tools (#7)<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-20T10:57:58.000Z">05:57</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/FASTER/pull/7" target="_blank" rel="noreferrer noopener">Expand and surface browser WebMCP tools<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Summary
+Improves Browser WebMCP support and discoverability.
+
+- **Eight read-only tools:** adds `get_repository_inventory`, `get_questionnaire_provenance`, `get_counterevidence` and `prepare_export_preview`; enriches overview/evidence/un</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-20T10:56:07.000Z">05:56</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/FASTER/commit/0cc846ad89dae66544765816bd20b60b4c3b53ca" target="_blank" rel="noreferrer noopener">Extract candidate published documentation links (#6)<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/FASTER" target="_blank" rel="noreferrer noopener">mgifford/FASTER<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 40 collected events in this workstream.</p>
+</section>
+<section class="atlas-section workstream-section" id="workstream-web-sustainability" aria-labelledby="workstream-web-sustainability-heading">
+  <h2 id="workstream-web-sustainability-heading">Web sustainability</h2>
+  <p>Energy, resource efficiency, and sustainable web practice.</p>
+  <p class="muted">95 human events across 1 active projects in this range. 8 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/SUSTAINABILITY.md" target="_blank" rel="noreferrer noopener">mgifford/SUSTAINABILITY.md<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/open-susty-scans" target="_blank" rel="noreferrer noopener">mgifford/open-susty-scans<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/sustainability-contracting" target="_blank" rel="noreferrer noopener">mgifford/sustainability-contracting<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/susty-house" target="_blank" rel="noreferrer noopener">mgifford/susty-house<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/w3c-tpac-susty-breakout" target="_blank" rel="noreferrer noopener">mgifford/w3c-tpac-susty-breakout<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/wsg-mooc" target="_blank" rel="noreferrer noopener">mgifford/wsg-mooc<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/wsg-webmcp-experiment" target="_blank" rel="noreferrer noopener">mgifford/wsg-webmcp-experiment<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-web-sustainability-day-2026-11-19">
+  <h3 class="day-heading" id="workstream-web-sustainability-day-2026-11-19">Thursday, 19 November 2026 <span class="muted">(5 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T10:25:56.000Z">05:25</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/pull/67" target="_blank" rel="noreferrer noopener">Record the clean Bluebird null result<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Documents the first clean full Vital Core → Firefox experiment: 10 runs per side, AC power, Low Power Mode off, 108 jsdelivr requests refused. Load and idle differences were within spread; no difference shown. Records the result hash, the 3</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T10:25:55.000Z">05:25</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/commit/6aa9291824d330834cdf5d5a79938c637160b6b4" target="_blank" rel="noreferrer noopener">Merge pull request #67 from mgifford/docs/vital-bluebird-null-run<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T10:16:39.000Z">05:16</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/commit/fc42e778de30896f24a75093e12682f46152cd83" target="_blank" rel="noreferrer noopener">Record the second clean Bluebird null session<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T09:34:37.000Z">04:34</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/pull/67" target="_blank" rel="noreferrer noopener">Record the clean Bluebird null result<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">Documents the first clean full Vital Core → Firefox experiment: 10 runs per side, AC power, Low Power Mode off, 108 jsdelivr requests refused. Load and idle differences were within spread; no difference shown. Records the result hash, the 3</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T09:34:19.000Z">04:34</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/commit/4fed7e53264533eb441e6d3aad858bf92786e12b" target="_blank" rel="noreferrer noopener">Record the clean Bluebird null result<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+<section class="activity-day" aria-labelledby="workstream-web-sustainability-day-2026-11-18">
+  <h3 class="day-heading" id="workstream-web-sustainability-day-2026-11-18">Wednesday, 18 November 2026 <span class="muted">(3 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T01:38:34.000Z">20:38</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/commit/41f1b921376121d406558ccb506e8bc823fe5c65" target="_blank" rel="noreferrer noopener">Merge pull request #66 from mgifford/claude/vital-medicaid-bluebird<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T01:38:34.000Z">20:38</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/pull/66" target="_blank" rel="noreferrer noopener">Add the Medicaid bluebird Vital candidates<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Add the Medicaid bluebird Vital candidates
+
+Preserves the remaining generated specs from the same medicaid.gov snapshot:
+
+- **full** 10-run / 2-warm-up block of `jsdelivr.net` for
+ `bluebird/3.5.0/bluebird.min.js`;
+- **smoke** 1-run / 0-</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-19T01:35:47.000Z">20:35</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/firefox-energy-scanner/pull/66" target="_blank" rel="noreferrer noopener">Add the Medicaid bluebird Vital candidates<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/firefox-energy-scanner" target="_blank" rel="noreferrer noopener">mgifford/firefox-energy-scanner<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Add the Medicaid bluebird Vital candidates
+
+Preserves the remaining generated specs from the same medicaid.gov snapshot:
+
+- **full** 10-run / 2-warm-up block of `jsdelivr.net` for
+ `bluebird/3.5.0/bluebird.min.js`;
+- **smoke** 1-run / 0-</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 95 collected events in this workstream.</p>
+</section>
+<section class="atlas-section workstream-section" id="workstream-design-systems" aria-labelledby="workstream-design-systems-heading">
+  <h2 id="workstream-design-systems-heading">Design systems and component practice</h2>
+  <p>Design-system evaluation, component accessibility, and user preferences.</p>
+  <p class="muted">34 human events across 1 active projects in this range. 6 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/ACCESSIBILITY.md" target="_blank" rel="noreferrer noopener">mgifford/ACCESSIBILITY.md<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/design-system" target="_blank" rel="noreferrer noopener">mgifford/design-system<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/design-system-scan" target="_blank" rel="noreferrer noopener">mgifford/design-system-scan<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/opendesign.guide" target="_blank" rel="noreferrer noopener">mgifford/opendesign.guide<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/uswds-sandbox" target="_blank" rel="noreferrer noopener">mgifford/uswds-sandbox<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-design-systems-day-2026-11-23">
+  <h3 class="day-heading" id="workstream-design-systems-day-2026-11-23">Monday, 23 November 2026 <span class="muted">(8 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:59:56.000Z">14:59</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/6cd9d44d53fbf87e6f6f06044bc79b3141214def" target="_blank" rel="noreferrer noopener">Merge pull request #8 from mgifford/fix/pane-layout<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:59:56.000Z">14:59</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/8" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Problem
+
+At a laptop width, the side-by-side comparison used a fixed 1280 CSS-pixel pane for each side. The stage scrolled horizontally, but the first view showed only the baseline. There was no visible cue that the experiment existed of</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:37:59.000Z">14:37</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/8" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## Problem
+
+At a laptop width, the side-by-side comparison used a fixed 1280 CSS-pixel pane for each side. The stage scrolled horizontally, but the first view showed only the baseline. There was no visible cue that the experiment existed of</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:37:45.000Z">14:37</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/c7f117763150ae9ca23924cecbfbe937d1bb7dc2" target="_blank" rel="noreferrer noopener">Make side-by-side panes share the available width<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:19:31.000Z">14:19</time> <span class="badge">Pull request opened</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/7" target="_blank" rel="noreferrer noopener">Add fixture performance evidence and budget checks<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What this adds
+
+Native performance evidence for the baseline/experiment fixture pairs, plus a **Cost and stability** panel in the evaluation workspace.
+
+- Three cold-context runs per fixture at **1280 × 850**, light colour scheme, localh</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:39:09.000Z">13:39</time> <span class="badge">Pull request merged</span> <span class="badge badge--completed">Completed</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/pull/6" target="_blank" rel="noreferrer noopener">Add a preference-aware evaluation workspace with an Alert pilot<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Pull request activity</p>
+  <p class="activity-item__summary">## What this adds
+
+`compare.html` becomes the lab&#39;s first-class **Evaluate** workspace, linked from the primary navigation, component pages, experiment pages, index, and evidence page.
+
+- **Four comparison modes:** side-by-side live iframes</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:39:08.000Z">13:39</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/e1ddf0e5d160d7ee1ab7ac1977c7d95ba2426284" target="_blank" rel="noreferrer noopener">Merge pull request #6 from mgifford/feat/evaluation-workspace<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:29.000Z">13:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/design-system-lab/commit/32fa30414ed09fa2df61eaaaff48cacdbbcbec59" target="_blank" rel="noreferrer noopener">Keep the experiment filter test independent of local evidence<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/design-system-lab" target="_blank" rel="noreferrer noopener">mgifford/design-system-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 34 collected events in this workstream.</p>
+</section>
+<section class="atlas-section workstream-section" id="workstream-research-experiments" aria-labelledby="workstream-research-experiments-heading">
+  <h2 id="workstream-research-experiments-heading">Experimental research</h2>
+  <p>Bounded experiments where findings may not yet be validated.</p>
+  <p class="muted">17 human events across 1 active projects in this range. 5 configured repositories.</p>
+  <p class="workstream-repos"><strong>Configured projects:</strong> <a href="https://github.com/mgifford/aedesproject-uif" target="_blank" rel="noreferrer noopener">mgifford/aedesproject-uif<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/neighbourhood-solar" target="_blank" rel="noreferrer noopener">mgifford/neighbourhood-solar<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/risky-weather" target="_blank" rel="noreferrer noopener">mgifford/risky-weather<span class="visually-hidden"> (opens in a new tab)</span></a> · <a href="https://github.com/mgifford/timezone-helper" target="_blank" rel="noreferrer noopener">mgifford/timezone-helper<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <section class="activity-day" aria-labelledby="workstream-research-experiments-day-2026-11-23">
+  <h3 class="day-heading" id="workstream-research-experiments-day-2026-11-23">Monday, 23 November 2026 <span class="muted">(8 items)</span></h3>
+  <ol class="activity-list">
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T20:01:55.000Z">15:01</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/71f79e187e55382e204a350ce6313c3dc810d67b" target="_blank" rel="noreferrer noopener">Add inert-only and activation-only comparator variants<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:46:54.000Z">14:46</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/744b843a771413a6a6a175307e484c5ed34929fd" target="_blank" rel="noreferrer noopener">Rebuild Pages as a static FOSDEM-style comparator<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T19:04:33.000Z">14:04</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/793b18beefd6f4f40a1e68654a7d94e8543ab42e" target="_blank" rel="noreferrer noopener">Add static #2854 evidence report and GitHub Pages workflow<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:53:51.000Z">13:53</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/0f38fa1385a5cee7cb93bc87ac29685a10d8608c" target="_blank" rel="noreferrer noopener">Document the local fixture commit boundary<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:53:40.000Z">13:53</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/c5e90eea19b662f274943c2c1b4e5660fd970673" target="_blank" rel="noreferrer noopener">Seed the #2854 comparison fixture and record provenance<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:41:26.000Z">13:41</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/ea3f32ad26d4e4d317a3f1eda216c7107dcde610" target="_blank" rel="noreferrer noopener">Integrate #2854 side-menu focus comparison into the viewer<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:38:33.000Z">13:38</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/69acb73dcf49f88b612f13e7e1a5565dba92dfe2" target="_blank" rel="noreferrer noopener">Add accessibility issue inventory and #2854 investigation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+    <li class="activity-item">
+  <p class="activity-item__meta"><time datetime="2026-11-23T18:31:46.000Z">13:31</time> <span class="badge">Commit pushed</span> <span class="badge badge--progress">In progress</span></p>
+  <p class="activity-item__title"><a class="activity-item__link" href="https://github.com/mgifford/blocknote-diff-lab/commit/cecb3303d1ff2ec300957bb20f43ca5febe560f0" target="_blank" rel="noreferrer noopener">Merge pull request #2 from mgifford/fix/live-validation<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+  <p class="activity-item__context"><a href="https://github.com/mgifford/blocknote-diff-lab" target="_blank" rel="noreferrer noopener">mgifford/blocknote-diff-lab<span class="visually-hidden"> (opens in a new tab)</span></a> · mgifford <span class="muted">(Author)</span> · Code development</p>
+</li>
+  </ol>
+</section>
+  <p class="muted">Showing the 8 most recent of 17 collected events in this workstream.</p>
+</section>
+<section class="coverage" aria-labelledby="coverage-heading">
+  <h2 id="coverage-heading">Data coverage and limitations</h2>
+  <p>Activity is collected from public GitHub data for a bounded set of repositories. Missing events are not evidence that no work happened.</p>
+  <p><strong>Collected window:</strong> 25 August 2026, 16:08 – 23 November 2026, 15:08. <strong>Lookback:</strong> 90 days.</p>
+  <p><strong>API requests this run:</strong> 579 of 1200.</p>
+  <p class="notice">4 sources reported incomplete or unavailable coverage. Details are listed below and in the source table.</p>
+  <div class="table-wrap">
+    <table class="data-table data-table--compact">
+      <caption>Collection sources and their status.</caption>
+      <thead><tr><th scope="col">Source</th><th scope="col">Status</th><th scope="col">Records</th><th scope="col">Notes</th></tr></thead>
+      <tbody>
+      <tr>
+        <th scope="row">Commit history (owned repositories)</th>
+        <td>partial</td>
+        <td>4117</td>
+        <td>Up to two pages (200 commits) per repository. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Pull requests (owned repositories)</th>
+        <td>partial</td>
+        <td>2201</td>
+        <td>Latest page plus a separate open-PR query. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Issues (owned repositories)</th>
+        <td>partial</td>
+        <td>193</td>
+        <td>Latest page of updated issues in the lookback window. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Issue and review comments (owned repositories)</th>
+        <td>partial</td>
+        <td>400</td>
+        <td>Collected for the busiest bounded set of repositories. (page-cap)</td>
+      </tr>
+      <tr>
+        <th scope="row">Releases (owned repositories)</th>
+        <td>ok</td>
+        <td>2</td>
+        <td>Published releases in the lookback window.</td>
+      </tr>
+      <tr>
+        <th scope="row">Workflow runs (bounded set)</th>
+        <td>ok</td>
+        <td>0</td>
+        <td>Only the latest completed run for a bounded set of repositories.</td>
+      </tr>
+      <tr>
+        <th scope="row">Public contribution events</th>
+        <td>ok</td>
+        <td>50</td>
+        <td>At most 300 events and roughly 90 days. Payloads are truncated, so these events are coarse and marked as such.</td>
+      </tr>
+      <tr>
+        <th scope="row">Authored issues and pull requests outside owned repositories</th>
+        <td>ok</td>
+        <td>84</td>
+        <td>Search API is capped at 50 results per query.</td>
+      </tr>
+      <tr>
+        <th scope="row">Authored commits outside owned repositories</th>
+        <td>ok</td>
+        <td>50</td>
+        <td>Search API is capped at 50 results per query.</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <h3>Known limitations</h3>
+  <ul class="limitations">
+    <li>GitHub&#39;s public event feed exposes at most 300 events and roughly 90 days of history; older activity is not claimed.</li>
+    <li>Repository metadata changes are detected by diffing weekly snapshots, so their exact time is unknown and they are marked &quot;observed-at&quot;.</li>
+    <li>Dependabot and security alerts are not public data and are excluded from the published dataset.</li>
+    <li>Pull request reviews are collected from the public event feed only; review history beyond the feed window is not claimed.</li>
+    <li>Activity is collected for a bounded set of active repositories, not every repository in the catalogue.</li>
+    <li>Repository activity is collected for the bounded candidate set only; absence of an event does not prove absence of work.</li>
+    <li>Routine commit detail is retained for 30 days; pull requests, issues, reviews, and releases are retained for the full lookback window.</li>
+  </ul>
+</section>
+    </div>
+  </main>
+  <footer class="site-footer">
+  <p>Project Atlas is a static catalogue of public GitHub work. Activity is collected from public GitHub data; private repositories and authenticated-only signals are never published.</p>
+  <p class="muted">Activity data generated 23 November 2026, 15:08 · Reporting time zone: America/Toronto · <a href="https://github.com/mgifford/mgifford.github.io">Source repository<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+</footer>
+  <script type="module" src="src/activity-app.js"></script>
+</body>
+</html>

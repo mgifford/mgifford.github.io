@@ -153,3 +153,40 @@ for (const scenario of scenarios) {
     }
   });
 }
+
+// The activity views are scanned in light and dark mode after the enhancement
+// script has run. resultTypes limits axe's work on these larger pages.
+const atlasPages = ["activity.html", "contributions.html", "workstreams.html", "reports.html"];
+
+for (const pageName of atlasPages) {
+  for (const colorScheme of ["light", "dark"]) {
+    test(`axe scan passes for ${pageName} (${colorScheme})`, async () => {
+      const browser = await chromium.launch();
+      const context = await browser.newContext({
+        colorScheme,
+        viewport: { width: 1280, height: 900 }
+      });
+      const page = await context.newPage();
+
+      try {
+        await page.goto(`${baseUrl}/${pageName}`, { waitUntil: "domcontentloaded" });
+        if (pageName === "activity.html" || pageName === "contributions.html") {
+          await page.waitForFunction(() => document.documentElement.classList.contains("atlas-js"));
+        }
+
+        const results = await new AxeBuilder({ page })
+          .withTags(["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"])
+          .analyze({ resultTypes: ["violations"] });
+
+        assert.equal(
+          results.violations.length,
+          0,
+          `Axe violations found for ${pageName} (${colorScheme}):\n\n${formatViolations(results.violations)}`
+        );
+      } finally {
+        await context.close();
+        await browser.close();
+      }
+    });
+  }
+}
