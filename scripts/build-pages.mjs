@@ -238,7 +238,7 @@ ${
 }
 
 function savedQuestionsSection() {
-  return `<section class="atlas-section" aria-labelledby="saved-questions-heading" id="saved-questions">
+  return `<section class="atlas-section js-only" aria-labelledby="saved-questions-heading" id="saved-questions">
   <h2 id="saved-questions-heading">Common questions</h2>
   <p class="muted">Each link applies filters to this page. The same filters power the deterministic reports.</p>
   ${renderSavedQuestions(SAVED_QUESTIONS)}

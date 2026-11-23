@@ -162,6 +162,7 @@ test("activity page is meaningful with JavaScript disabled and hides nonfunction
     await page.goto(`${baseUrl}/activity.html`, { waitUntil: "load" });
 
     assert.equal(await page.locator("#atlas-filters").isVisible(), false, "filters must not appear without JS");
+    assert.equal(await page.locator("#saved-questions").isVisible(), false, "saved-question links need JS to apply filters");
     assert.equal(await page.locator("#atlas-results").isVisible(), true);
 
     const text = await page.locator("#atlas-results").innerText();
