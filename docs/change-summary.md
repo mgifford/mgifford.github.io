@@ -61,7 +61,7 @@
 
 ### Tests (new)
 
-331 tests total (was 131), including:
+333 tests total (was 131), including:
 
 - `tests/time.test.mjs` — DST transitions, week boundaries, rolling windows, custom
   ranges, inclusive ends, grouping, URL round-trips.
@@ -86,9 +86,9 @@
 | Candidate repositories | 97 of 350 (archived and forks skipped) |
 | API requests | 579 of 1,200 |
 | Collection runtime | ~55 s |
-| Events retained | 5,611 (3,867 human, 1,744 automated) |
+| Events retained | 5,618 (3,874 human, 1,744 automated) |
 | Projects with activity | 92 |
-| Attributable contributions | 3,163 |
+| Attributable contributions | 3,170 |
 | External repositories represented | 9 |
 | Recent payload | 1.1 MB raw / ~120 KB gzip |
 | Extended payload | 3.0 MB raw / ~333 KB gzip (lazy) |

@@ -34,7 +34,7 @@ Three principles drive the design:
 | Reports | repository add/delete/archive only | Weekly + monthly activity, completed/in-progress/discussion split |
 | Rendering | client-only cards | Static activity HTML + progressive filtering |
 | Workflow commit rule | add/delete/archive counts only | any generated diff, including metadata and pushes |
-| Tests | 131 | 331, including DST, bots, dedupe, pagination, no-JS, axe |
+| Tests | 131 | 333, including DST, bots, dedupe, pagination, no-JS, axe |
 
 ## 3. Data flow
 
@@ -121,7 +121,7 @@ Measured on 2026-11-23 for 97 candidate repositories over a 90-day lookback:
 |---|---|
 | API requests | 579 of a 1,200 budget |
 | Runtime | about 55 seconds |
-| Events retained | 5,611 (3,867 human, 1,744 automated) |
+| Events retained | 5,618 (3,874 human, 1,744 automated) |
 | Projects with activity | 92 |
 | Browser payload (7 days) | 1.1 MB raw / ~120 KB gzip |
 | Extended payload (8–90 days) | 3.0 MB raw / ~333 KB gzip, loaded on demand |
